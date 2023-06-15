@@ -1,7 +1,6 @@
 ---
 title: 第一个 Python 程序
-icon: info
-time: 2020-6-7
+date: 2020-06-07
 category: Python
 tag: Python
 ---

@@ -4,72 +4,15 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-06-15T10:29:20.532Z</updated>
+  <updated>2023-06-15T14:01:13.946Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/en/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/en/"/>
   <entry>
-    <title type="text">Code Note</title>
-    <id>https://harryxiong24.github.io/en/code/</id>
-    <link href="https://harryxiong24.github.io/en/code/"/>
-    <updated>2023-06-15T10:29:22.556Z</updated>
-  </entry>
-  <entry>
     <title type="text">Intro</title>
-    <id>https://harryxiong24.github.io/en/about/</id>
-    <link href="https://harryxiong24.github.io/en/about/"/>
-    <updated>2023-06-15T10:29:22.556Z</updated>
-  </entry>
-  <entry>
-    <title type="text">About me</title>
-    <id>https://harryxiong24.github.io/en/about/site.html</id>
-    <link href="https://harryxiong24.github.io/en/about/site.html"/>
-    <updated>2023-06-15T10:29:22.556Z</updated>
-    <summary type="html"><![CDATA[<h1> About me</h1>
-]]></summary>
-    <content type="html"><![CDATA[<h1> About me</h1>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">Notes</title>
-    <id>https://harryxiong24.github.io/en/note/</id>
-    <link href="https://harryxiong24.github.io/en/note/"/>
-    <updated>2023-06-15T10:29:22.557Z</updated>
-    <summary type="html"><![CDATA[<div class="hint-container tip">
-<p class="hint-container-title">Tips</p>
-<p>Note, all the notes only contains <strong>Chinese</strong> version.</p>
-</div>
-]]></summary>
-    <content type="html"><![CDATA[<div class="hint-container tip">
-<p class="hint-container-title">Tips</p>
-<p>Note, all the notes only contains <strong>Chinese</strong> version.</p>
-</div>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">Software</title>
-    <id>https://harryxiong24.github.io/en/software/</id>
-    <link href="https://harryxiong24.github.io/en/software/"/>
-    <updated>2023-06-15T10:29:22.557Z</updated>
-    <summary type="html"><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<p>Most of the software guide only contains <strong>Chinese</strong> version.</p>
-</div>
-]]></summary>
-    <content type="html"><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<p>Most of the software guide only contains <strong>Chinese</strong> version.</p>
-</div>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">Nginx</title>
-    <id>https://harryxiong24.github.io/en/software/nginx.html</id>
-    <link href="https://harryxiong24.github.io/en/software/nginx.html"/>
-    <updated>2023-06-15T10:29:22.557Z</updated>
-    <summary type="html"><![CDATA[<h1> Nginx</h1>
-]]></summary>
-    <content type="html"><![CDATA[<h1> Nginx</h1>
-]]></content>
+    <id>https://harryxiong24.github.io/en/about-me/</id>
+    <link href="https://harryxiong24.github.io/en/about-me/"/>
+    <updated>2023-06-15T14:01:16.276Z</updated>
+    <published>2023-06-15T00:00:00.000Z</published>
   </entry>
 </feed>

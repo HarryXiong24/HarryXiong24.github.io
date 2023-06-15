@@ -1,9 +1,8 @@
 ---
 title: 基础知识
-icon: windows
 category: Windows
 tag: Windows
-time: 2020-6-1
+date: 2020-06-01
 ---
 
 以下是有关于 Windows 10 系统的一些基础知识。

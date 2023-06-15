@@ -1,8 +1,8 @@
 ---
-icon: git
 category: Git
-tags: Git
-time: 2020-6-5
+tag:
+  - Git
+date: 2020-06-05
 ---
 
 # Git

@@ -1,66 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://harryxiong24.github.io/en/rss.xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <atom:link href="https://harryxiong24.github.io/en/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Harry Xiong</title>
     <link>https://harryxiong24.github.io/en/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Thu, 15 Jun 2023 10:29:20 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Jun 2023 10:29:20 GMT</lastBuildDate>
+    <pubDate>Thu, 15 Jun 2023 14:01:13 GMT</pubDate>
+    <lastBuildDate>Thu, 15 Jun 2023 14:01:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
-      <title>Code Note</title>
-      <link>https://harryxiong24.github.io/en/code/</link>
-      <guid>https://harryxiong24.github.io/en/code/</guid>
-      <source url="https://harryxiong24.github.io/en/rss.xml">Code Note</source>
-    </item>
-    <item>
       <title>Intro</title>
-      <link>https://harryxiong24.github.io/en/about/</link>
-      <guid>https://harryxiong24.github.io/en/about/</guid>
+      <link>https://harryxiong24.github.io/en/about-me/</link>
+      <guid>https://harryxiong24.github.io/en/about-me/</guid>
       <source url="https://harryxiong24.github.io/en/rss.xml">Intro</source>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>https://harryxiong24.github.io/en/about/site.html</link>
-      <guid>https://harryxiong24.github.io/en/about/site.html</guid>
-      <source url="https://harryxiong24.github.io/en/rss.xml">About me</source>
-      <content:encoded><![CDATA[<h1> About me</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Notes</title>
-      <link>https://harryxiong24.github.io/en/note/</link>
-      <guid>https://harryxiong24.github.io/en/note/</guid>
-      <source url="https://harryxiong24.github.io/en/rss.xml">Notes</source>
-      <description>::: tip Note, all the notes only contains Chinese version. :::</description>
-      <content:encoded><![CDATA[<div class="hint-container tip">
-<p class="hint-container-title">Tips</p>
-<p>Note, all the notes only contains <strong>Chinese</strong> version.</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://harryxiong24.github.io/en/software/</link>
-      <guid>https://harryxiong24.github.io/en/software/</guid>
-      <source url="https://harryxiong24.github.io/en/rss.xml">Software</source>
-      <description>::: info Most of the software guide only contains Chinese version. :::</description>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<p>Most of the software guide only contains <strong>Chinese</strong> version.</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Nginx</title>
-      <link>https://harryxiong24.github.io/en/software/nginx.html</link>
-      <guid>https://harryxiong24.github.io/en/software/nginx.html</guid>
-      <source url="https://harryxiong24.github.io/en/rss.xml">Nginx</source>
-      <content:encoded><![CDATA[<h1> Nginx</h1>
-]]></content:encoded>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

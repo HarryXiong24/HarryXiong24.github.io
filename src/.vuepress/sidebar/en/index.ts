@@ -6,7 +6,4 @@ export const enSidebarConfig = sidebar({
   "/en/code/": [""],
 
   "/en/about/": ["", "site"],
-
-  // fallback
-  "/en/": ["", "code/", "about/"],
 });

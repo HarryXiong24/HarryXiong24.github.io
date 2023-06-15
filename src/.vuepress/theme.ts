@@ -36,7 +36,7 @@ export default hopeTheme(
         copyright: "",
 
         blog: {
-          description: "前端开发者",
+          description: "A piano player playing on the keyboard",
           intro: "/zh/about-me/info",
           medias: {
             GitHub: "https://github.com/HarryXiong24",
@@ -57,7 +57,7 @@ export default hopeTheme(
         copyright: "",
 
         blog: {
-          description: "Front-end Developer",
+          description: "A piano player playing on the keyboard",
           intro: "/en/about-me/info",
           medias: {
             GitHub: "https://github.com/HarryXiong24",

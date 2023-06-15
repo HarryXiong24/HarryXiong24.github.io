@@ -1,7 +1,6 @@
 ---
 title: WSL
-icon: api
-time: 2020-6-5
+date: 2020-06-05
 category: Linux
 tag: Linux
 ---

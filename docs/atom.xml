@@ -4,7 +4,7 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-06-15T10:29:20.532Z</updated>
+  <updated>2023-06-15T14:01:13.946Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/"/>
@@ -14,18 +14,19 @@
   <category term="Python"/>
   <category term="VS Code"/>
   <category term="服务器"/>
-  <category term="Web后台"/>
+  <category term="Nodejs"/>
+  <category term="Web 后台"/>
   <category term="计算机基础"/>
   <category term="信息安全理论与技术"/>
-  <category term="Windows"/>
   <category term="Linux"/>
-  <category term="GitHub"/>
+  <category term="Windows"/>
+  <category term="Web 前端"/>
   <category term="Web前端"/>
   <entry>
     <title type="text">联系Harry</title>
     <id>https://harryxiong24.github.io/zh/about-me/contact.html</id>
     <link href="https://harryxiong24.github.io/zh/about-me/contact.html"/>
-    <updated>2023-06-15T10:29:20.554Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 联系Harry</h1>
 <p>欢迎各位大佬中佬小佬们和我一起交流！</p>
 <h2> QQ</h2>
@@ -50,12 +51,13 @@
 <p>Gmail: <a href="mailto:haoweixiong@gamil.com">haoweixiong@gamil.com</a>
 QQmail: <a href="mailto:1291192015@qq.com">1291192015@qq.com</a></p>
 ]]></content>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">来自Harry的自述</title>
     <id>https://harryxiong24.github.io/zh/about-me/info.html</id>
     <link href="https://harryxiong24.github.io/zh/about-me/info.html"/>
-    <updated>2023-06-15T10:29:20.558Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 来自Harry的自述</h1>
 <p>不想自我介绍。。。。来搞个表格吧</p>
 <table>
@@ -121,22 +123,35 @@ QQmail: <a href="mailto:1291192015@qq.com">1291192015@qq.com</a></p>
 </tbody>
 </table>
 ]]></content>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Web Backend</title>
     <id>https://harryxiong24.github.io/zh/back-end/</id>
     <link href="https://harryxiong24.github.io/zh/back-end/"/>
-    <updated>2023-06-15T10:29:20.567Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Web Backend</h1>
 ]]></summary>
     <content type="html"><![CDATA[<h1> Web Backend</h1>
 ]]></content>
+    <published>2020-06-05T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Web Frontend</title>
+    <id>https://harryxiong24.github.io/zh/front-end/</id>
+    <link href="https://harryxiong24.github.io/zh/front-end/"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Web Frontend</h1>
+]]></summary>
+    <content type="html"><![CDATA[<h1> Web Frontend</h1>
+]]></content>
+    <published>2020-06-03T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Git</title>
     <id>https://harryxiong24.github.io/zh/git/</id>
     <link href="https://harryxiong24.github.io/zh/git/"/>
-    <updated>2023-06-15T10:29:20.572Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Git</h1>
 <p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。在开发中分布式文件管理系统，可以便于多人协作开发。</p>
 <h2> Git 安装</h2>
@@ -227,12 +242,13 @@ QQmail: <a href="mailto:1291192015@qq.com">1291192015@qq.com</a></p>
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">版本回退</title>
     <id>https://harryxiong24.github.io/zh/git/backRoll.html</id>
     <link href="https://harryxiong24.github.io/zh/git/backRoll.html"/>
-    <updated>2023-06-15T10:29:20.591Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 版本回退</h1>
 <p>修改 readme.txt 文件如下:</p>
 <div class="language-markdown" data-ext="md"><pre class="language-markdown"><code>Git is a distributed version control system.
@@ -300,12 +316,13 @@ $ <span class="token function">git</span> commit <span class="token parameter va
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">分支管理</title>
     <id>https://harryxiong24.github.io/zh/git/branch.html</id>
     <link href="https://harryxiong24.github.io/zh/git/branch.html"/>
-    <updated>2023-06-15T10:29:20.642Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 分支管理</h1>
 <h2> 概述</h2>
 <p>分支就是科幻电影里面的平行宇宙，当您正在电脑前努力学习 Git 的时候，另一个您正在另一个平行宇宙里努力学习 SVN。</p>
@@ -571,12 +588,13 @@ $ <span class="token function">git</span> commit <span class="token parameter va
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">修改管理</title>
     <id>https://harryxiong24.github.io/zh/git/change.html</id>
     <link href="https://harryxiong24.github.io/zh/git/change.html"/>
-    <updated>2023-06-15T10:29:20.648Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 修改管理</h1>
 <h2> 管理修改</h2>
 <p>Git 比其他版本控制系统设计得优秀，因为 Git 跟踪并管理的是修改，而非文件。</p>
@@ -647,12 +665,13 @@ Git tracks changes.
 <p>命令 <code>git rm</code> 用于删除一个文件。如果一个文件已经被提交到版本库，那么您永远不用担心误删，但是要小心，您只能恢复文件到最新版本，您会丢失最近一次提交后您修改的内容。</p>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Git 版本库</title>
     <id>https://harryxiong24.github.io/zh/git/createRepository.html</id>
     <link href="https://harryxiong24.github.io/zh/git/createRepository.html"/>
-    <updated>2023-06-15T10:29:20.651Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Git 版本库</h1>
 <p>什么是版本库呢？版本库又名仓库，英文名<strong>repository</strong>，您可以简单理解成一个目录，这个目录里面的所有文件都可以被 Git 管理起来，每个文件的修改、删除， Git 都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。</p>
 <h2> 初始化版本库</h2>
@@ -709,12 +728,13 @@ Git tracks changes.
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">自定义 Git</title>
     <id>https://harryxiong24.github.io/zh/git/customGit.html</id>
     <link href="https://harryxiong24.github.io/zh/git/customGit.html"/>
-    <updated>2023-06-15T10:29:20.656Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 自定义 Git</h1>
 <p>在安装 Git 一节中，我们已经配置了<code>user.name</code>和<code>user.email</code>，实际上，Git 还有很多可配置项。</p>
 <p>比如，让 Git 显示颜色，会让命令输出看起来更醒目:</p>
@@ -816,12 +836,13 @@ Git tracks changes.
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Git Large File Storage</title>
     <id>https://harryxiong24.github.io/zh/git/gitLFS.html</id>
     <link href="https://harryxiong24.github.io/zh/git/gitLFS.html"/>
-    <updated>2023-06-15T10:29:20.657Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Git Large File Storage</h1>
 <p>Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.</p>
 <h2> Getting Started</h2>
@@ -853,12 +874,13 @@ Git tracks changes.
 </ol>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Git 安装与配置</title>
     <id>https://harryxiong24.github.io/zh/git/install.html</id>
     <link href="https://harryxiong24.github.io/zh/git/install.html"/>
-    <updated>2023-06-15T10:29:20.660Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Git 安装与配置</h1>
 <h2> Git 下载</h2>
 <p>由于官网在国外，网速较慢，可以查看功能部群文件找到安装包下载安装。在安装 Git 前推荐安装好 VSCode。</p>
@@ -965,12 +987,13 @@ Git tracks changes.
 </ol>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">远程仓库</title>
     <id>https://harryxiong24.github.io/zh/git/remote.html</id>
     <link href="https://harryxiong24.github.io/zh/git/remote.html"/>
-    <updated>2023-06-15T10:29:20.663Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 远程仓库</h1>
 <h2> 什么是远程仓库</h2>
 <p>Git 是分布式版本控制系统，同一个 Git 仓库，可以分布到不同的机器上。怎么分布呢？最早，肯定只有一台机器有一个原始版本库，此后，别的机器可以“克隆”这个原始版本库，而且每台机器的版本库其实都是一样的，并没有主次之分。</p>
@@ -1039,12 +1062,13 @@ Git tracks changes.
 <p>Git 支持多种协议，包括 https，但通过 ssh 支持的原生 git 协议速度最快。</p>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">纵向查看</title>
     <id>https://harryxiong24.github.io/zh/git/statusView.html</id>
     <link href="https://harryxiong24.github.io/zh/git/statusView.html"/>
-    <updated>2023-06-15T10:29:20.668Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 纵向查看</h1>
 <p>我们已经成功地添加并提交了一个 readme.txt 文件，继续修改 readme.txt 文件，改成如下内容:</p>
 <div class="language-markdown" data-ext="md"><pre class="language-markdown"><code>Git is a distributed version control system.
@@ -1082,12 +1106,13 @@ no changes added to commit <span class="token punctuation">(</span>use <span cla
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">标签管理</title>
     <id>https://harryxiong24.github.io/zh/git/tag.html</id>
     <link href="https://harryxiong24.github.io/zh/git/tag.html"/>
-    <updated>2023-06-15T10:29:20.673Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 标签管理</h1>
 <h2> 为什么要有 tag</h2>
 <p>发布一个版本时，我们通常先在版本库中打一个标签(<code>tag</code>)，这样，就唯一确定了打标签时刻的版本。将来无论什么时候，取某个标签的版本，就是把那个打标签的时刻的历史版本取出来。所以，标签也是版本库的一个快照。</p>
@@ -1150,12 +1175,13 @@ no changes added to commit <span class="token punctuation">(</span>use <span cla
 </ul>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Git 总体介绍</title>
     <id>https://harryxiong24.github.io/zh/git/whatIsGit.html</id>
     <link href="https://harryxiong24.github.io/zh/git/whatIsGit.html"/>
-    <updated>2023-06-15T10:29:20.676Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Git 总体介绍</h1>
 <h2> 什么是 Git</h2>
 <p>Git 是什么？</p>
@@ -1234,12 +1260,13 @@ no changes added to commit <span class="token punctuation">(</span>use <span cla
 <p>CVS 作为最早的开源而且免费的集中式版本控制系统，直到现在还有不少人在用。由于 CVS 自身设计的问题，会造成提交文件不完整，版本库莫名其妙损坏的情况。同样是开源而且免费的 SVN 修正了 CVS 的一些稳定性问题，是目前用得最多的集中式版本库控制系统。</p>
 ]]></content>
     <category term="Git"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">工作区和暂存区</title>
     <id>https://harryxiong24.github.io/zh/git/workingDirectory.html</id>
     <link href="https://harryxiong24.github.io/zh/git/workingDirectory.html"/>
-    <updated>2023-06-15T10:29:20.677Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 工作区和暂存区</h1>
 <p>Git 和其他版本控制系统如 SVN 的一个不同之处就是有暂存区的概念。</p>
 <h2> 工作区(Working Directory)</h2>
@@ -1268,22 +1295,13 @@ no changes added to commit <span class="token punctuation">(</span>use <span cla
 <div class="language-bash" data-ext="sh"></div><p>一旦提交后，如果您又没有对工作区做任何修改，那么工作区就是“干净”的:</p>
 <div class="language-bash" data-ext="sh"></div>]]></content>
     <category term="Git"/>
-  </entry>
-  <entry>
-    <title type="text">Web Frontend</title>
-    <id>https://harryxiong24.github.io/zh/front-end/</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/"/>
-    <updated>2023-06-15T10:29:20.678Z</updated>
-    <summary type="html"><![CDATA[<h1> Web Frontend</h1>
-]]></summary>
-    <content type="html"><![CDATA[<h1> Web Frontend</h1>
-]]></content>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Markdown基本语法</title>
     <id>https://harryxiong24.github.io/zh/markdown/markdown.html</id>
     <link href="https://harryxiong24.github.io/zh/markdown/markdown.html"/>
-    <updated>2023-06-15T10:29:20.685Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Markdown基本语法</h1>
 
 <hr>
@@ -1342,19 +1360,33 @@ GOOGLE.COM
 <p>无序列表使用星号(<em><strong><strong>)、加号(</strong>+</strong>)或是减号(</em><em>-</em>*)作为列表标记：</p>
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果如下：</p>
 <ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
+<li>
+<p>第一项</p>
+</li>
+<li>
+<p>第二项</p>
+</li>
+<li>
+<p>第三项</p>
+</li>
+<li>
+<p>第一项</p>
+</li>
+<li>
+<p>第二项</p>
+</li>
+<li>
+<p>第三项</p>
+</li>
+<li>
+<p>第一项</p>
+</li>
+<li>
+<p>第二项</p>
+</li>
+<li>
+<p>第三项</p>
+</li>
 </ul>
 <h3> 3.2 有序列表</h3>
 <p>有序列表使用数字并加上 <strong>.</strong> 号来表示，如：</p>
@@ -1398,7 +1430,7 @@ GOOGLE.COM
 </blockquote>
 </blockquote>
 </blockquote>
-<p>###4.2  区块中使用列表</p>
+<h3> 4.2  区块中使用列表</h3>
 <p>区块中使用列表实例如下：</p>
 <div class="language-text" data-ext="text"></div><p>显示结果如下：</p>
 <blockquote>
@@ -1452,23 +1484,25 @@ GOOGLE.COM
 </section>
 ]]></content>
     <category term="Markdown"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">写在前面</title>
     <id>https://harryxiong24.github.io/zh/poem/</id>
     <link href="https://harryxiong24.github.io/zh/poem/"/>
-    <updated>2023-06-15T10:29:20.686Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 写在前面</h1>
 ]]></summary>
     <content type="html"><![CDATA[<h1> 写在前面</h1>
 ]]></content>
     <category term="诗集"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">Python 安装</title>
     <id>https://harryxiong24.github.io/zh/python/install.html</id>
     <link href="https://harryxiong24.github.io/zh/python/install.html"/>
-    <updated>2023-06-15T10:29:20.688Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>要开始学习 Python 编程，首先就得把 Python 安装到您的电脑里。安装后，您会得到 Python 解释器(就是负责运行 Python 程序的)，一个命令行交互环境，还有一个简单的集成开发环境。本节将指导您如何安装 Python。</p>
 <h2> 在 Mac 上安装 Python</h2>
 <p>如果您正在使用 Mac，系统是 OS X&gt;=10.9，那么系统自带的 Python 版本是 2.7。要安装最新的 Python 3.8，有两个方法:</p>
@@ -1510,12 +1544,13 @@ GOOGLE.COM
 </div>
 ]]></content>
     <category term="Python"/>
+    <published>2020-06-07T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Python 解释器</title>
     <id>https://harryxiong24.github.io/zh/python/interpreter.html</id>
     <link href="https://harryxiong24.github.io/zh/python/interpreter.html"/>
-    <updated>2023-06-15T10:29:20.693Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>当我们编写 Python 代码时，我们得到的是一个包含 Python 代码的以 <code>.py</code> 为扩展名的文本文件。要运行代码，就需要 Python 解释器去执行 <code>.py</code> 文件。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>当我们编写 Python 代码时，我们得到的是一个包含 Python 代码的以 <code>.py</code> 为扩展名的文本文件。要运行代码，就需要 Python 解释器去执行 <code>.py</code> 文件。</p>
@@ -1539,12 +1574,13 @@ GOOGLE.COM
 <p>本教程的所有代码只确保在 CPython 3.x 版本下运行。请务必在本地安装 CPython(也就是从 Python 官方网站下载的安装程序)。</p>
 ]]></content>
     <category term="Python"/>
+    <published>2020-06-07T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Python 简介</title>
     <id>https://harryxiong24.github.io/zh/python/intro.html</id>
     <link href="https://harryxiong24.github.io/zh/python/intro.html"/>
-    <updated>2023-06-15T10:29:20.695Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>本节将简单介绍 Python 的历史。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>本节将简单介绍 Python 的历史。</p>
@@ -1570,12 +1606,13 @@ GOOGLE.COM
 <p>再说了，现在如火如荼的开源运动和互联网自由开放的精神是一致的，互联网上有无数非常优秀的像 Linux 一样的开源代码，我们千万不要高估自己写的代码真的有非常大的“商业价值”。那些大公司的代码不愿意开放的更重要的原因是代码写得太烂了，一旦开源，就没人敢用他们的产品了。</p>
 ]]></content>
     <category term="Python"/>
+    <published>2020-06-07T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Python</title>
     <id>https://harryxiong24.github.io/zh/python/</id>
     <link href="https://harryxiong24.github.io/zh/python/"/>
-    <updated>2023-06-15T10:29:20.699Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<ul>
 <li>优点: Python 是一种高级语言，它可以用更少的代码量完成相同工作。</li>
 <li>缺点: Python 是一种脚本语言，它的执行效率不是很高。</li>
@@ -1671,12 +1708,13 @@ GOOGLE.COM
 </ul>
 ]]></content>
     <category term="Python"/>
+    <published>2020-06-07T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">VSCode 安装</title>
     <id>https://harryxiong24.github.io/zh/vscode/install.html</id>
     <link href="https://harryxiong24.github.io/zh/vscode/install.html"/>
-    <updated>2023-06-15T10:29:20.702Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> VSCode 安装</h1>
 <h2> 下载</h2>
 <p>在 <a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener noreferrer">官网下载地址</a> 或群内下载最新版 Win64User 安装包。</p>
@@ -1717,12 +1755,13 @@ GOOGLE.COM
 <p></p>
 ]]></content>
     <category term="VS Code"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">VSCode</title>
     <id>https://harryxiong24.github.io/zh/vscode/</id>
     <link href="https://harryxiong24.github.io/zh/vscode/"/>
-    <updated>2023-06-15T10:29:20.706Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> VSCode</h1>
 <h2> 简介</h2>
 <p>Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，可在您的桌面上运行，并且可用于 Windows，macOS 和 Linux。 它具有对 JavaScript，TypeScript 和 Node.js 的内置支持，并具有丰富的其他语言 (例如 C ++，C＃，Java，Python，PHP，Go) 和运行时 (例如 .NET 和 Unity) 扩展的生态系统。由微软出品，因其开源，可扩展和众多插件成为全球最受欢迎的代码编辑器。</p>
@@ -1812,12 +1851,13 @@ GOOGLE.COM
 </ul>
 ]]></content>
     <category term="VS Code"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">VSCode 快捷键说明</title>
     <id>https://harryxiong24.github.io/zh/vscode/shortcutKey.html</id>
     <link href="https://harryxiong24.github.io/zh/vscode/shortcutKey.html"/>
-    <updated>2023-06-15T10:29:20.711Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> VSCode 快捷键说明</h1>
 <h2> 鼠标操作</h2>
 <ul>
@@ -1997,18 +2037,18 @@ GOOGLE.COM
 <p class="hint-container-title">提示</p>
 <p>更多请见</p>
 <ul>
-<li><a href="/windows/shortCutKey.html" target="blank">Windows 快捷键介绍</a></li>
 <li><a href="https://nenuyouth.com/Res/doc/private/software/vscode/vscodeKeyboardShortcutsWindows.pdf" target="_blank" rel="noopener noreferrer">VScode 快捷键介绍</a></li>
 </ul>
 </div>
 ]]></content>
     <category term="VS Code"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">VSCode 扩展使用说明</title>
     <id>https://harryxiong24.github.io/zh/vscode/vscodeExtension.html</id>
     <link href="https://harryxiong24.github.io/zh/vscode/vscodeExtension.html"/>
-    <updated>2023-06-15T10:29:20.720Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> VSCode 扩展使用说明</h1>
 <p>以下是推荐的 VSCode 扩展:</p>
 <h2> 语言包</h2>
@@ -2124,12 +2164,13 @@ GOOGLE.COM
 <p>代码学习练习软件</p>
 ]]></content>
     <category term="VS Code"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">VSCode 推荐配置</title>
     <id>https://harryxiong24.github.io/zh/vscode/vscodeSettings.html</id>
     <link href="https://harryxiong24.github.io/zh/vscode/vscodeSettings.html"/>
-    <updated>2023-06-15T10:29:20.738Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> VSCode 推荐配置</h1>
 <p>部分设置是<a href="/zh/vscode/vscodeExtension.html" target="blank">这里</a>的插件配置</p>
 <p>将下面内容拷贝至 setting.json 以更改 VSCode 设置</p>
@@ -2443,12 +2484,13 @@ GOOGLE.COM
 <div class="language-json line-numbers-mode" data-ext="json"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>用鼠标在对应属性值上悬停时，Vscode 会自动给出属性的说明。</p>
 ]]></content>
     <category term="VS Code"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">VSCode 的简单介绍</title>
     <id>https://harryxiong24.github.io/zh/vscode/vscodeSimple.html</id>
     <link href="https://harryxiong24.github.io/zh/vscode/vscodeSimple.html"/>
-    <updated>2023-06-15T10:29:20.741Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> VSCode 的简单介绍</h1>
 <h2> 简介</h2>
 <p>这是一款微软的代码编辑器，因其开源，可扩展和众多插件成为全球最受欢迎的代码编辑器。</p>
@@ -2501,12 +2543,13 @@ GOOGLE.COM
 <p><code>Ctrl + H</code>: 替换。</p>
 ]]></content>
     <category term="VS Code"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Apache</title>
     <id>https://harryxiong24.github.io/zh/back-end/apache/apache.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/apache/apache.html"/>
-    <updated>2023-06-15T10:29:20.745Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>Apache 是世界使用排名第一的 Web 服务器软件。它可以运行在几乎所有广泛使用的计算机平台上，由于其跨平台和安全性被广泛使用，是最流行的 Web 服务器端软件之一。它快速、可靠并且可通过简单的 API 扩充，将 Perl/Python 等解释器编译到服务器中。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Apache 是世界使用排名第一的 Web 服务器软件。它可以运行在几乎所有广泛使用的计算机平台上，由于其跨平台和安全性被广泛使用，是最流行的 Web 服务器端软件之一。它快速、可靠并且可通过简单的 API 扩充，将 Perl/Python 等解释器编译到服务器中。</p>
@@ -2555,12 +2598,13 @@ GOOGLE.COM
 </ul>
 ]]></content>
     <category term="服务器"/>
+    <published>2020-06-07T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Express</title>
     <id>https://harryxiong24.github.io/zh/back-end/express/express.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/express/express.html"/>
-    <updated>2023-06-15T10:29:20.758Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Express</h1>
 
 <h2> 1.引入express</h2>
@@ -2718,13 +2762,34 @@ app.listen(3000);
 <div class="language-text" data-ext="text"></div><div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>当然，我们可以自定义错误处理的中间件，比如使用一个函数来进行包装（比如使用promise时）</p>
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-text" data-ext="text"></div><p><strong>当然，这样每次调用还是很麻烦，最后的方法是使用<code>express-async-errors</code>来帮忙处理异常。</strong></p>
 <div class="language-text" data-ext="text"></div>]]></content>
-    <category term="Web后台"/>
+    <category term="Nodejs"/>
+    <published>2020-06-09T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">大后端学习路线</title>
+    <id>https://harryxiong24.github.io/zh/back-end/preface/</id>
+    <link href="https://harryxiong24.github.io/zh/back-end/preface/"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 大后端学习路线</h1>
+<p>展示一下大后端学习路线</p>
+<p>路漫漫其修远兮, 不要害怕</p>
+<p></p>
+<p>!</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 大后端学习路线</h1>
+<p>展示一下大后端学习路线</p>
+<p>路漫漫其修远兮, 不要害怕</p>
+<p></p>
+<p>!</p>
+]]></content>
+    <category term="Web 后台"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Nginx</title>
     <id>https://harryxiong24.github.io/zh/back-end/nginx/nginx.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/nginx/nginx.html"/>
-    <updated>2023-06-15T10:29:20.761Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>Nginx 是一个高性能的 HTTP 和反向代理服务器，也是一个 IMAP / POP3 / SMTP 代理服务器。 其特点是占有内存少，并发能力强，稳定性高，并且 Nginx 也拥有友好灵活的配置。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Nginx 是一个高性能的 HTTP 和反向代理服务器，也是一个 IMAP / POP3 / SMTP 代理服务器。 其特点是占有内存少，并发能力强，稳定性高，并且 Nginx 也拥有友好灵活的配置。</p>
@@ -2778,31 +2843,13 @@ app.listen(3000);
 </ul>
 ]]></content>
     <category term="服务器"/>
-  </entry>
-  <entry>
-    <title type="text">大后端学习路线</title>
-    <id>https://harryxiong24.github.io/zh/back-end/preface/</id>
-    <link href="https://harryxiong24.github.io/zh/back-end/preface/"/>
-    <updated>2023-06-15T10:29:20.762Z</updated>
-    <summary type="html"><![CDATA[<h1> 大后端学习路线</h1>
-<p>展示一下大后端学习路线</p>
-<p>路漫漫其修远兮, 不要害怕</p>
-<p></p>
-<p>!</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> 大后端学习路线</h1>
-<p>展示一下大后端学习路线</p>
-<p>路漫漫其修远兮, 不要害怕</p>
-<p></p>
-<p>!</p>
-]]></content>
-    <category term="Web后台"/>
+    <published>2020-06-07T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Servlet &amp; JSP</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/"/>
-    <updated>2023-06-15T10:29:20.762Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Servlet &amp; JSP</h1>
 <p>Servlet（Server Applet）是Java Servlet的简称，称为小服务程序或服务连接器，用Java编写的服务器端程序，具有独立于平台和协议的特性，主要功能在于交互式地浏览和生成数据，生成动态Web内容。</p>
 <p>狭义的Servlet是指Java语言实现的一个接口，广义的Servlet是指任何实现了这个Servlet接口的类，一般情况下，人们将Servlet理解为后者。Servlet运行于支持Java的应用服务器中。从原理上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。</p>]]></summary>
@@ -2811,13 +2858,14 @@ app.listen(3000);
 <p>狭义的Servlet是指Java语言实现的一个接口，广义的Servlet是指任何实现了这个Servlet接口的类，一般情况下，人们将Servlet理解为后者。Servlet运行于支持Java的应用服务器中。从原理上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。</p>
 <p>最早支持Servlet标准的是JavaSoft的Java Web Server，此后，一些其它的基于Java的Web服务器开始支持标准的Servlet。</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">1.Servlet简介</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s1.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s1.html"/>
-    <updated>2023-06-15T10:29:20.763Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> Servlet简介</h2>
 <h3> 1.1 认识Servlet</h3>
 <p>Java Servlet 是运行在 Web 服务器或应用服务器上的程序，它是作为来自 Web 浏览器或其他 HTTP 客户端的请求和 HTTP 服务器上的数据库或应用程序之间的中间层。</p>
@@ -2847,13 +2895,14 @@ app.listen(3000);
 <h3> 1.3 Servlet架构</h3>
 <p></p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">10.JSP</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s10.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s10.html"/>
-    <updated>2023-06-15T10:29:20.780Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> JSP</h2>
 <h3> 10.1 JSP生命周期</h3>
 <p>理解JSP底层功能的关键就是去理解它们所遵守的生命周期。</p>
@@ -3373,13 +3422,14 @@ app.listen(3000);
 <code>&lt;c:redirect&gt;</code>	重定向至一个新的URL.
 <code>&lt;c:url&gt;</code>	使用可选的查询参数来创造一个URL</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">11.JDBC</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s11.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s11.html"/>
-    <updated>2023-06-15T10:29:20.787Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> JDBC</h2>
 <h3> 11.1 注册Driver类实现对象</h3>
 <p>加载实现了java.sql.Driver接口的类的实例对象</p>
@@ -3418,13 +3468,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <p>Connection对象close方法，注意处理异常</p>
 <h3> 11.4 使用步骤</h3>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">2.Servlet生命周期</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s2.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s2.html"/>
-    <updated>2023-06-15T10:29:20.791Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> Servlet生命周期</h2>
 <p>Servlet 生命周期可被定义为从创建直到毁灭的整个过程。以下是 Servlet 遵循的过程：</p>
 <ul>
@@ -3486,13 +3537,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <p>destroy() 方法可以让您的 Servlet 关闭数据库连接、停止后台线程、把 Cookie 列表或点击计数器写入到磁盘，并执行其他类似的清理活动。</p>
 <p>在调用 destroy() 方法之后，servlet 对象被标记为垃圾回收。destroy 方法定义如下所示：</p>
 <div class="language-java" data-ext="java"></div>]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">3.表单提交数据</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s3.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s3.html"/>
-    <updated>2023-06-15T10:29:20.806Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 表单提交数据</h2>
 <h3> 3.1 使用表单的 GET 方法实例</h3>
 <p>下面是一个简单的实例，使用 HTML 表单和提交按钮传递两个值。我们将使用相同的 Servlet HelloForm 来处理输入。</p>
@@ -3556,13 +3608,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </table>
 <p>您可以尝试使用上面的 Servlet 来读取其他的表单数据，比如文本框、单选按钮或下拉框等。</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">4.请求与响应</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s4.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s4.html"/>
-    <updated>2023-06-15T10:29:20.818Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 请求与响应</h2>
 <h3> 4.1 理解</h3>
 <p></p>
@@ -4187,13 +4240,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>现在，调用上面的 Servlet 将显示以下结果：</p>
 <p>HTTP Status 407 - Need authentication!!!<strong>type</strong> Status report<strong>message</strong> Need authentication!!!<strong>description</strong> The client must first authenticate itself with the proxy (Need authentication!!!).Apache Tomcat/5.5.29</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">5.文件上传</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s5.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s5.html"/>
-    <updated>2023-06-15T10:29:20.827Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 文件上传</h2>
 <h3> 5.1 创建一个文件上传表单</h3>
 <p>下面的 HTML 代码创建了一个文件上传表单。以下几点需要注意：</p>
@@ -4311,13 +4365,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </table>
 <p>FileSize表示上传的单个文件的大小，RequestSize表示一次上传的总的数据量，所以可以在一个表单中一次上传多个文件。</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">6.网页跳转与重定向</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s6.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s6.html"/>
-    <updated>2023-06-15T10:29:20.829Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 网页跳转与重定向</h2>
 <h3> 6.1 跳转</h3>
 <p><code>request.getRequestDispatcher("你要跳转的页面").forward(request, response)</code></p>
@@ -4374,13 +4429,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </ol>
 <p>特殊的应用：对数据进行修改、删除、添加操作的时候，应该用response.sendRedirect()。如果是采用了request.getRequestDispatcher().forward(request,response)，那么操作前后的地址栏都不会发生改变，仍然是修改的控制器，如果此时再对当前页面刷新的话，就会重新发送一次请求对数据进行修改，这也就是有的人在刷新一次页面就增加一条数据的原因。</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">7.会话管理</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s7.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s7.html"/>
-    <updated>2023-06-15T10:29:20.835Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 会话管理</h2>
 <h3> 7.1 Cookie</h3>
 <h4> 7.1.1 Servlet Cookie 方法</h4>
@@ -4594,13 +4650,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <div class="language-xml" data-ext="xml"></div><p>上面实例中的超时时间是以分钟为单位，将覆盖 Tomcat 中默认的 30 分钟超时时间。</p>
 <p>在一个 Servlet 中的 getMaxInactiveInterval() 方法会返回 session 会话的超时时间，以秒为单位。所以，如果在 web.xml 中配置 session 会话超时时间为 15 分钟，那么 getMaxInactiveInterval() 会返回 900。</p>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">8.ServletContext</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s8.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s8.html"/>
-    <updated>2023-06-15T10:29:20.836Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> ServletContext</h2>
 <h3> 8.1 概念</h3>
 <p>抽象表示Servlet的上下文环境，即当前Web应用，一个JVM中的每个Web应用都只有一个ServletContext对象与之对应</p>
@@ -4656,13 +4713,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </tbody>
 </table>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">9.过滤器</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/s9.html</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/s9.html"/>
-    <updated>2023-06-15T10:29:20.837Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 过滤器</h2>
 <h3> 9.1 概念</h3>
 <p>Servlet 过滤器可以动态地拦截请求和响应，以变换或使用包含在请求或响应中的信息。</p>
@@ -4727,13 +4785,14 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </tbody>
 </table>
 ]]></content>
-    <category term="Web后台"/>
+    <category term="Web 后台"/>
+    <published>2020-06-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">操作系统</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/basic/OS.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/basic/OS.html"/>
-    <updated>2023-06-15T10:29:20.840Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
@@ -4762,12 +4821,13 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
 ]]></content>
     <category term="计算机基础"/>
+    <published>2020-06-10T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">计算机编码介绍</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/basic/encoding.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/basic/encoding.html"/>
-    <updated>2023-06-15T10:29:20.849Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>计算机，不能直接存储文字，存储的是编码。</p>
 <p>计算机只能处理二进制的数据，也就是说计算机只能处理数字。如果要处理文本，比如: <code>0-9</code>、<code>a-z</code>、<code>A-Z</code>，我们就必须先把文本转换为数字才能处理。对于这些字符，我们可以定义一套规则来显示，比如如:<code>A</code> 用 <code>110</code> 表示，<code>B</code> 用 <code>111</code> 表示等。</p>
 ]]></summary>
@@ -4859,12 +4919,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 </div>
 ]]></content>
     <category term="计算机基础"/>
+    <published>2020-06-10T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">文件名与文件扩展名</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/basic/file-extension.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/basic/file-extension.html"/>
-    <updated>2023-06-15T10:29:20.850Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 文件名</h2>
 <p>文件名就是文件的名称，是为了方便人们区分计算机中的不同文件，而给每个文件设定一个指定的名称。</p>
 <p>文件名不能包含控制字符: <code>&lt;</code> <code>&gt;</code> <code>/</code> <code>\</code> <code>|</code> <code>:</code> <code>"</code> <code>*</code> <code>?</code></p>
@@ -4891,12 +4952,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 </div>
 ]]></content>
     <category term="计算机基础"/>
+    <published>2020-06-10T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">基础介绍</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/basic/</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/basic/"/>
-    <updated>2023-06-15T10:29:20.851Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>目录</p>
 <ul>
 <li>
@@ -4924,12 +4986,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 </ul>
 ]]></content>
     <category term="计算机基础"/>
+    <published>2020-06-10T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">信息安全理论与技术</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/information-security/information-security.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/information-security/information-security.html"/>
-    <updated>2023-06-15T10:29:20.860Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 信息安全理论与技术</h1>
 <h2> 1. 信息安全基础知识</h2>
 <p><strong>信息安全特征</strong>：保密性、完整性、可用性、可控性、可审查性</p>
@@ -5202,209 +5265,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p><strong>安全审计概念</strong>：安全审计是指按照一定的安全策略，利用记录系统活动和用户活动等信息，检查、审查和检验操作事件的环境及活动，从而发现漏洞、入侵行为或者改善系统性能的过程。审计是记录与审查用户操作计算机及网络系统活动的过程，是提高系统安全性的重要举措。</p>
 ]]></content>
     <category term="信息安全理论与技术"/>
-  </entry>
-  <entry>
-    <title type="text">环境变量的添加</title>
-    <id>https://harryxiong24.github.io/zh/computer-basic/windows/addPath.html</id>
-    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/addPath.html"/>
-    <updated>2023-06-15T10:29:20.864Z</updated>
-    <summary type="html"><![CDATA[<p>以 Windows10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<p></p>
-<p>在弹出的框中点击环境变量</p>
-<p></p>
-<p>在弹出的新窗口中找到 path，选中并点击编辑</p>
-<p></p>
-<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
-<p></p>
-]]></summary>
-    <content type="html"><![CDATA[<p>以 Windows10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<p></p>
-<p>在弹出的框中点击环境变量</p>
-<p></p>
-<p>在弹出的新窗口中找到 path，选中并点击编辑</p>
-<p></p>
-<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
-<p></p>
-]]></content>
-    <category term="Windows"/>
-  </entry>
-  <entry>
-    <title type="text">打开命令行</title>
-    <id>https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html</id>
-    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html"/>
-    <updated>2023-06-15T10:29:20.865Z</updated>
-    <summary type="html"><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
-<ol>
-<li>运行 - cmd: <code>Win + R</code> 打开运行，然后敲入 <code>cmd</code> 后回车。</li>
-<li>搜索 - cmd: 点击左下角搜索，输入 cmd，然后单击命令提示符。</li>
-<li>开始菜单 - Windows 系统 - 命令提示符。</li>
-</ol>
-<p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
-<ol>
-<li>运行 - cmd: <code>Win + R</code> 打开运行，然后敲入 <code>cmd</code> 后回车。</li>
-<li>搜索 - cmd: 点击左下角搜索，输入 cmd，然后单击命令提示符。</li>
-<li>开始菜单 - Windows 系统 - 命令提示符。</li>
-</ol>
-<p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
-<!-- more -->
-<p></p>
-<p>这样就会快速打开一个路径为当前文件夹的命令提示符窗口。</p>
-]]></content>
-    <category term="Windows"/>
-  </entry>
-  <entry>
-    <title type="text">基础知识</title>
-    <id>https://harryxiong24.github.io/zh/computer-basic/windows/</id>
-    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/"/>
-    <updated>2023-06-15T10:29:20.866Z</updated>
-    <summary type="html"><![CDATA[<p>以下是有关于 Windows 10 系统的一些基础知识。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>以下是有关于 Windows 10 系统的一些基础知识。</p>
-<!-- more -->
-<ul>
-<li>
-<p><a href="/zh/computer-basic/windows/addPath.html" target="blank">添加到 path</a></p>
-</li>
-<li>
-<p><a href="/zh/computer-basic/windows/shortcutKey.html" target="blank">Windows 快捷键</a></p>
-</li>
-</ul>
-]]></content>
-    <category term="Windows"/>
-  </entry>
-  <entry>
-    <title type="text">常用快捷键</title>
-    <id>https://harryxiong24.github.io/zh/computer-basic/windows/shortcutKey.html</id>
-    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/shortcutKey.html"/>
-    <updated>2023-06-15T10:29:20.873Z</updated>
-    <summary type="html"><![CDATA[<p>熟练掌握各种 Windows 快捷键，能够更加高效的使用 Windows。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>熟练掌握各种 Windows 快捷键，能够更加高效的使用 Windows。</p>
-<!-- more -->
-<h2> 最常用且最有用的</h2>
-<ul>
-<li><code>F2</code>: 重命名文件；</li>
-<li><code>F5</code>: 刷新；</li>
-<li><code>PRINT SCREEN</code>: 将当前屏幕截图拷贝到剪贴板；</li>
-<li><code>Windows</code> + <code>Shift</code> + <code>S</code>: 打开截图工具；(仅在 Windows10 1809 及以上系统可用)</li>
-<li><code>ALT</code> + <code>TAB</code> 切换当前程序(加 Shift 反向)；</li>
-<li><code>ALT</code> + <code>F4</code>: 关闭当前应用程序；</li>
-<li><code>Ctrl</code> + <code>Tab</code>: 在选项卡上向后移动(加 Shift 反向)；</li>
-<li><code>CTRL</code> + <code>F4</code> 或 <code>CTRL</code> + <code>W</code>: 关闭当前选项卡；</li>
-<li><code>CTRL</code> + <code>A</code>: 全选；</li>
-<li><code>CTRL</code> + <code>X</code>: 剪切；</li>
-<li><code>CTRL</code> + <code>C</code>: 复制；</li>
-<li><code>CTRL</code> + <code>V</code>: 粘贴；</li>
-<li><code>Ctrl</code> + <code>F</code>: 查找；</li>
-<li><code>Ctrl</code> + <code>H</code>: 替换。</li>
-<li><code>CTRL</code> + <code>Shift</code> + <code>N</code>: 新建文件夹或窗口</li>
-</ul>
-<h2> 通用键</h2>
-<ul>
-<li><code>F1</code>: 显示帮助；</li>
-<li><code>F2</code>: 重命名文件；</li>
-<li><code>F5</code>: 刷新；</li>
-<li><code>F11</code>: 全屏；</li>
-<li><code>Shift</code> + <code>F10</code>: 打开当前活动项目的快捷菜单(相当于鼠标右键)；</li>
-<li><code>ALT</code> 激活当前程序的菜单栏(使用对应字母选择)；</li>
-<li><code>Backspace</code>: 退格——删除前一个字符、文件视图下——返回上一级；</li>
-<li><code>Enter</code>: 执行或进入；</li>
-<li><code>Win</code> 或 <code>CTRL</code> + <code>ESC</code>: 打开开始菜单；</li>
-<li><code>DELETE</code>: 删除被选中的项目，如果是文件，将被放入回收站；</li>
-<li><code>PRINT SCREEN</code>: 将当前屏幕截图拷贝到剪贴板；</li>
-</ul>
-<h2> 程序窗口</h2>
-<ul>
-<li><code>Win</code> + <code>Tab</code>: 最近任务和多桌面视图；</li>
-<li><code>ALT</code> + <code>TAB</code> 切换当前程序(加 Shift 反向)；</li>
-<li><code>ALT</code> + <code>F4</code>: 关闭当前应用程序；</li>
-<li><code>Ctrl</code> + <code>Tab</code>: 在选项卡上向后移动(加 Shift 反向)；</li>
-<li><code>CTRL</code> + <code>F4</code> 或 <code>CTRL</code> + <code>W</code>: 关闭当前选项卡；</li>
-<li><code>Alt</code> + <code>加下划线的字母</code> 执行与该字母匹配的命令(或选择选项)；</li>
-<li><code>Win</code> + <code>↑</code>: 显示最小化的窗口 → 最大化窗口；</li>
-<li><code>Win</code> + <code>←</code>: 将窗口最大化到屏幕的左侧；</li>
-<li><code>Win</code> + <code>→</code>: 将窗口最大化到屏幕的右侧；</li>
-<li><code>Win</code> + <code>↓</code>: 缩小窗口 → 最小化窗口；</li>
-<li><code>Win</code> + <code>Home</code>: 最小化除活动窗口之外的所有窗口；</li>
-<li><code>ALT</code> + <code>SPACEBAR</code>: 打开程序最左上角的菜单；</li>
-<li><code>Win</code> + <code>Shift</code> + <code>↑</code>: 将窗口拉伸到屏幕的顶部和底部；</li>
-<li><code>Win</code> + <code>Shift</code> + <code>←</code> 或 <code>Win</code> + <code>Shift</code> + <code>→</code>: 将窗口从一个监视器移动到另一个监视器；</li>
-</ul>
-<h2> 文件浏览</h2>
-<ul>
-<li><code>F2</code>: 重命名文件；</li>
-<li><code>Shift</code> + <code>DELETE</code>: 删除被选中的项目，如果是文件，将被直接删除而不是放入回收站；</li>
-<li><code>CTRL</code> + <code>X</code>: 剪切；</li>
-<li><code>CTRL</code> + <code>C</code>: 复制；</li>
-<li><code>CTRL</code> + <code>V</code>: 粘贴；</li>
-<li><code>CTRL</code> + <code>Shift</code> + <code>N</code>: 新建文件夹或窗口</li>
-</ul>
-<h2> 编辑模式</h2>
-<ul>
-<li><code>CTRL</code> + <code>O</code>: 打开文件；</li>
-<li><code>CTRL</code> + <code>S</code>: 保存；</li>
-<li><code>CTRL</code> + <code>方向键</code>: 滚动屏幕；</li>
-<li><code>CTRL</code> + <code>A</code>: 全选；</li>
-<li><code>CTRL</code> + <code>X</code>: 剪切；</li>
-<li><code>CTRL</code> + <code>C</code>: 复制；</li>
-<li><code>CTRL</code> + <code>V</code>: 粘贴；</li>
-<li><code>CTRL</code> + <code>Z</code>: 撤销；</li>
-<li><code>CTRL</code> + <code>Y</code>: 重做；</li>
-<li><code>Ctrl</code> + <code>F</code>: 查找；</li>
-<li><code>Ctrl</code> + <code>H</code>: 替换。</li>
-<li><code>CTRL</code> + <code>E</code>: 搜索/助理；</li>
-<li><code>Ctrl</code> + <code>Tab</code>: 在选项卡上向后移动(加 Shift 反向)；</li>
-<li><code>CTRL</code> + <code>F4</code> 或 <code>CTRL</code> + <code>W</code>: 关闭当前选项卡；</li>
-<li><code>CTRL</code> + <code>P</code>: 打印；</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>单击鼠标左键选择光标位置，按住 <code>Shift</code> 再次在另一处单击鼠标左键，即可选中两光标间的所有文字。鼠标左键单击拖动选中内容即可移动选中内容在文档中的位置。</p>
-</div>
-<h2> 系统</h2>
-<ul>
-<li><code>CTRL</code> + <code>Shift</code> + <code>ESC</code>: 打开任务管理器;</li>
-<li><code>CTRL</code> + <code>ALT</code> + <code>DELETE</code>: 进入安全选项；</li>
-<li><code>Win</code> + <code>D</code>: 显示桌面；</li>
-<li><code>Win</code> + <code>E</code>: 打开资源管理器；</li>
-<li><code>Win</code> + <code>L</code>: 锁定计算机或切换用户；</li>
-<li><code>Win</code> + <code>M</code>: 最小化所有窗口(和显示桌面不同，自行感受)；</li>
-<li><code>Win</code> + <code>Shift</code> + <code>M</code>: 将最小化的窗口还原到桌面；</li>
-<li><code>Win</code> + <code>R</code>: 打开“运行”对话框；</li>
-<li><code>Win</code> + <code>A</code>: 打开通知中心；</li>
-<li><code>Win</code> + <code>I</code>: 打开系统设置；</li>
-<li><code>Win</code> + <code>X</code>: 打开 Windows 主选项菜单；</li>
-<li><code>Win</code> + <code>P</code>: 选择投影模式；</li>
-<li><code>Win</code> + <code>数字</code>: 启动任务栏上快捷启动项数字位置处的程序；</li>
-<li><code>Win</code> + <code>B</code> 选中桌面右下方工具栏；</li>
-<li><code>Win</code> + <code>BREAK</code>: 打开“系统属性”对话框</li>
-<li><code>Win</code> + <code>T</code>: 循环切换任务栏上的程序；</li>
-<li><code>Shift</code> + <code>Win</code> + <code>数字</code>: 打开任务栏上快捷启动项数字位置处程序的新实例；</li>
-<li><code>Alt</code> + <code>Win</code> + <code>数字</code>: 显示任务栏上快捷启动项数字位置处程序的跳转列表；</li>
-<li><code>ALT</code> + <code>ESC</code>: 保留程序的显示状态切换当前程序(最小化状态将被保留)(加 Shift 反向)；</li>
-</ul>
-<h2> 输入法</h2>
-<ul>
-<li><code>CTRL</code> + <code>Space</code>: 切换中英文输入法；</li>
-<li><code>Win</code> + <code>Space</code>: 切换输入法；</li>
-</ul>
-<h2> 屏幕截图</h2>
-<ul>
-<li><code>PRINT SCREEN</code>: 将当前屏幕截图拷贝到剪贴板；</li>
-<li><code>Win</code> + <code>PRINT SCREEN</code>: 将当前屏幕截图保存在图片文件夹中；</li>
-<li><code>ALT</code> + <code>PRINT SCREEN</code>: 将当前活动程序窗口以图像方式拷贝到剪贴板；</li>
-<li><code>Windows</code> + <code>Shift</code> + <code>S</code>: 打开截图工具；(仅在 Windows10 1809 及以上系统可用)</li>
-</ul>
-]]></content>
-    <category term="Windows"/>
+    <published>2020-06-26T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">WSL</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/linux/WSL.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/linux/WSL.html"/>
-    <updated>2023-06-15T10:29:20.874Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<p>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。</p>
@@ -5417,12 +5284,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 <div class="language-bash" data-ext="sh"></div><p>和</p>
 <div class="language-bash" data-ext="sh"></div>]]></content>
     <category term="Linux"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">CentOS 教程</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/linux/centos.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/linux/centos.html"/>
-    <updated>2023-06-15T10:29:20.876Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 管理工具</h2>
 <ul>
 <li>yum (Centos 7)</li>
@@ -5444,12 +5312,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 <div class="language-bash" data-ext="sh"></div><p>测试是否安装成功:</p>
 <div class="language-bash" data-ext="sh"></div>]]></content>
     <category term="Linux"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Linux</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/linux/</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/linux/"/>
-    <updated>2023-06-15T10:29:20.882Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> Linux 教程</h2>
 <ul>
 <li>
@@ -5596,12 +5465,13 @@ st2=&gt;subroutine: Unicode 编码</p>
 </ul>
 ]]></content>
     <category term="Linux"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">ssh</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/linux/ssh.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/linux/ssh.html"/>
-    <updated>2023-06-15T10:29:20.884Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 使用密码登录</h2>
 <ol>
 <li>
@@ -5647,579 +5517,214 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p><code>Ctrl+D</code> 或 输入 <code>logout</code>.</p>
 ]]></content>
     <category term="Linux"/>
+    <published>2020-06-05T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">Github Pages</title>
-    <id>https://harryxiong24.github.io/zh/git/github/github-pages.html</id>
-    <link href="https://harryxiong24.github.io/zh/git/github/github-pages.html"/>
-    <updated>2023-06-15T10:29:20.886Z</updated>
-    <summary type="html"><![CDATA[<h1> Github Pages</h1>
-<p>本教程将指导您开启 Github Pages。</p>
+    <title type="text">环境变量的添加</title>
+    <id>https://harryxiong24.github.io/zh/computer-basic/windows/addPath.html</id>
+    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/addPath.html"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<p>以 Windows10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
+<p></p>
+<p>在弹出的框中点击环境变量</p>
+<p></p>
+<p>在弹出的新窗口中找到 path，选中并点击编辑</p>
+<p></p>
+<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
+<p></p>
+]]></summary>
+    <content type="html"><![CDATA[<p>以 Windows10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
+<p></p>
+<p>在弹出的框中点击环境变量</p>
+<p></p>
+<p>在弹出的新窗口中找到 path，选中并点击编辑</p>
+<p></p>
+<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
+<p></p>
+]]></content>
+    <category term="Windows"/>
+    <published>2020-06-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">打开命令行</title>
+    <id>https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html</id>
+    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
+<ol>
+<li>运行 - cmd: <code>Win + R</code> 打开运行，然后敲入 <code>cmd</code> 后回车。</li>
+<li>搜索 - cmd: 点击左下角搜索，输入 cmd，然后单击命令提示符。</li>
+<li>开始菜单 - Windows 系统 - 命令提示符。</li>
+</ol>
+<p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
+<ol>
+<li>运行 - cmd: <code>Win + R</code> 打开运行，然后敲入 <code>cmd</code> 后回车。</li>
+<li>搜索 - cmd: 点击左下角搜索，输入 cmd，然后单击命令提示符。</li>
+<li>开始菜单 - Windows 系统 - 命令提示符。</li>
+</ol>
+<p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
+<!-- more -->
+<p></p>
+<p>这样就会快速打开一个路径为当前文件夹的命令提示符窗口。</p>
+]]></content>
+    <category term="Windows"/>
+    <published>2020-06-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">基础知识</title>
+    <id>https://harryxiong24.github.io/zh/computer-basic/windows/</id>
+    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<p>以下是有关于 Windows 10 系统的一些基础知识。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>以下是有关于 Windows 10 系统的一些基础知识。</p>
+<!-- more -->
+<ul>
+<li>
+<p><a href="/zh/computer-basic/windows/addPath.html" target="blank">添加到 path</a></p>
+</li>
+<li>
+<p><a href="/zh/computer-basic/windows/shortcutKey.html" target="blank">Windows 快捷键</a></p>
+</li>
+</ul>
+]]></content>
+    <category term="Windows"/>
+    <published>2020-06-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">常用快捷键</title>
+    <id>https://harryxiong24.github.io/zh/computer-basic/windows/shortcutKey.html</id>
+    <link href="https://harryxiong24.github.io/zh/computer-basic/windows/shortcutKey.html"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<p>熟练掌握各种 Windows 快捷键，能够更加高效的使用 Windows。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>熟练掌握各种 Windows 快捷键，能够更加高效的使用 Windows。</p>
+<!-- more -->
+<h2> 最常用且最有用的</h2>
+<ul>
+<li><code>F2</code>: 重命名文件；</li>
+<li><code>F5</code>: 刷新；</li>
+<li><code>PRINT SCREEN</code>: 将当前屏幕截图拷贝到剪贴板；</li>
+<li><code>Windows</code> + <code>Shift</code> + <code>S</code>: 打开截图工具；(仅在 Windows10 1809 及以上系统可用)</li>
+<li><code>ALT</code> + <code>TAB</code> 切换当前程序(加 Shift 反向)；</li>
+<li><code>ALT</code> + <code>F4</code>: 关闭当前应用程序；</li>
+<li><code>Ctrl</code> + <code>Tab</code>: 在选项卡上向后移动(加 Shift 反向)；</li>
+<li><code>CTRL</code> + <code>F4</code> 或 <code>CTRL</code> + <code>W</code>: 关闭当前选项卡；</li>
+<li><code>CTRL</code> + <code>A</code>: 全选；</li>
+<li><code>CTRL</code> + <code>X</code>: 剪切；</li>
+<li><code>CTRL</code> + <code>C</code>: 复制；</li>
+<li><code>CTRL</code> + <code>V</code>: 粘贴；</li>
+<li><code>Ctrl</code> + <code>F</code>: 查找；</li>
+<li><code>Ctrl</code> + <code>H</code>: 替换。</li>
+<li><code>CTRL</code> + <code>Shift</code> + <code>N</code>: 新建文件夹或窗口</li>
+</ul>
+<h2> 通用键</h2>
+<ul>
+<li><code>F1</code>: 显示帮助；</li>
+<li><code>F2</code>: 重命名文件；</li>
+<li><code>F5</code>: 刷新；</li>
+<li><code>F11</code>: 全屏；</li>
+<li><code>Shift</code> + <code>F10</code>: 打开当前活动项目的快捷菜单(相当于鼠标右键)；</li>
+<li><code>ALT</code> 激活当前程序的菜单栏(使用对应字母选择)；</li>
+<li><code>Backspace</code>: 退格——删除前一个字符、文件视图下——返回上一级；</li>
+<li><code>Enter</code>: 执行或进入；</li>
+<li><code>Win</code> 或 <code>CTRL</code> + <code>ESC</code>: 打开开始菜单；</li>
+<li><code>DELETE</code>: 删除被选中的项目，如果是文件，将被放入回收站；</li>
+<li><code>PRINT SCREEN</code>: 将当前屏幕截图拷贝到剪贴板；</li>
+</ul>
+<h2> 程序窗口</h2>
+<ul>
+<li><code>Win</code> + <code>Tab</code>: 最近任务和多桌面视图；</li>
+<li><code>ALT</code> + <code>TAB</code> 切换当前程序(加 Shift 反向)；</li>
+<li><code>ALT</code> + <code>F4</code>: 关闭当前应用程序；</li>
+<li><code>Ctrl</code> + <code>Tab</code>: 在选项卡上向后移动(加 Shift 反向)；</li>
+<li><code>CTRL</code> + <code>F4</code> 或 <code>CTRL</code> + <code>W</code>: 关闭当前选项卡；</li>
+<li><code>Alt</code> + <code>加下划线的字母</code> 执行与该字母匹配的命令(或选择选项)；</li>
+<li><code>Win</code> + <code>↑</code>: 显示最小化的窗口 → 最大化窗口；</li>
+<li><code>Win</code> + <code>←</code>: 将窗口最大化到屏幕的左侧；</li>
+<li><code>Win</code> + <code>→</code>: 将窗口最大化到屏幕的右侧；</li>
+<li><code>Win</code> + <code>↓</code>: 缩小窗口 → 最小化窗口；</li>
+<li><code>Win</code> + <code>Home</code>: 最小化除活动窗口之外的所有窗口；</li>
+<li><code>ALT</code> + <code>SPACEBAR</code>: 打开程序最左上角的菜单；</li>
+<li><code>Win</code> + <code>Shift</code> + <code>↑</code>: 将窗口拉伸到屏幕的顶部和底部；</li>
+<li><code>Win</code> + <code>Shift</code> + <code>←</code> 或 <code>Win</code> + <code>Shift</code> + <code>→</code>: 将窗口从一个监视器移动到另一个监视器；</li>
+</ul>
+<h2> 文件浏览</h2>
+<ul>
+<li><code>F2</code>: 重命名文件；</li>
+<li><code>Shift</code> + <code>DELETE</code>: 删除被选中的项目，如果是文件，将被直接删除而不是放入回收站；</li>
+<li><code>CTRL</code> + <code>X</code>: 剪切；</li>
+<li><code>CTRL</code> + <code>C</code>: 复制；</li>
+<li><code>CTRL</code> + <code>V</code>: 粘贴；</li>
+<li><code>CTRL</code> + <code>Shift</code> + <code>N</code>: 新建文件夹或窗口</li>
+</ul>
+<h2> 编辑模式</h2>
+<ul>
+<li><code>CTRL</code> + <code>O</code>: 打开文件；</li>
+<li><code>CTRL</code> + <code>S</code>: 保存；</li>
+<li><code>CTRL</code> + <code>方向键</code>: 滚动屏幕；</li>
+<li><code>CTRL</code> + <code>A</code>: 全选；</li>
+<li><code>CTRL</code> + <code>X</code>: 剪切；</li>
+<li><code>CTRL</code> + <code>C</code>: 复制；</li>
+<li><code>CTRL</code> + <code>V</code>: 粘贴；</li>
+<li><code>CTRL</code> + <code>Z</code>: 撤销；</li>
+<li><code>CTRL</code> + <code>Y</code>: 重做；</li>
+<li><code>Ctrl</code> + <code>F</code>: 查找；</li>
+<li><code>Ctrl</code> + <code>H</code>: 替换。</li>
+<li><code>CTRL</code> + <code>E</code>: 搜索/助理；</li>
+<li><code>Ctrl</code> + <code>Tab</code>: 在选项卡上向后移动(加 Shift 反向)；</li>
+<li><code>CTRL</code> + <code>F4</code> 或 <code>CTRL</code> + <code>W</code>: 关闭当前选项卡；</li>
+<li><code>CTRL</code> + <code>P</code>: 打印；</li>
+</ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>需要重构</p>
+<p>单击鼠标左键选择光标位置，按住 <code>Shift</code> 再次在另一处单击鼠标左键，即可选中两光标间的所有文字。鼠标左键单击拖动选中内容即可移动选中内容在文档中的位置。</p>
 </div>
-<h2> 前置工作</h2>
-<p>完成 git 软件的安装与配置。</p>
-<h2> 配置过程</h2>
-<ol>
-<li>
-<p>创建仓库</p>
-<p>新建一个 repository，名字随意。将 clone or download 按钮(图中绿 色键)里面的地址复制下来。</p>
-</li>
-<li>
-<p>创建并推送 index.html 文件</p>
-<p>在本地创建一个空的文件夹，依次执行:</p>
+<h2> 系统</h2>
 <ul>
-<li>先创建 index.html(可以新建一个 xx.txt，并改名 index.html)。</li>
-<li>开启命令行工具</li>
-<li>git init</li>
-<li>git remote add 自己用英文起个短小的名字 "刚刚复制的网址"</li>
-<li>git add .</li>
-<li>git commit -m"自己任意写的注释"</li>
-<li>git push 自己用英文起的那个短小的名字 master</li>
-<li>如果成功，刷新 Github 仓库(repository)，可以看到 index.html 已经存在于仓库里</li>
+<li><code>CTRL</code> + <code>Shift</code> + <code>ESC</code>: 打开任务管理器;</li>
+<li><code>CTRL</code> + <code>ALT</code> + <code>DELETE</code>: 进入安全选项；</li>
+<li><code>Win</code> + <code>D</code>: 显示桌面；</li>
+<li><code>Win</code> + <code>E</code>: 打开资源管理器；</li>
+<li><code>Win</code> + <code>L</code>: 锁定计算机或切换用户；</li>
+<li><code>Win</code> + <code>M</code>: 最小化所有窗口(和显示桌面不同，自行感受)；</li>
+<li><code>Win</code> + <code>Shift</code> + <code>M</code>: 将最小化的窗口还原到桌面；</li>
+<li><code>Win</code> + <code>R</code>: 打开“运行”对话框；</li>
+<li><code>Win</code> + <code>A</code>: 打开通知中心；</li>
+<li><code>Win</code> + <code>I</code>: 打开系统设置；</li>
+<li><code>Win</code> + <code>X</code>: 打开 Windows 主选项菜单；</li>
+<li><code>Win</code> + <code>P</code>: 选择投影模式；</li>
+<li><code>Win</code> + <code>数字</code>: 启动任务栏上快捷启动项数字位置处的程序；</li>
+<li><code>Win</code> + <code>B</code> 选中桌面右下方工具栏；</li>
+<li><code>Win</code> + <code>BREAK</code>: 打开“系统属性”对话框</li>
+<li><code>Win</code> + <code>T</code>: 循环切换任务栏上的程序；</li>
+<li><code>Shift</code> + <code>Win</code> + <code>数字</code>: 打开任务栏上快捷启动项数字位置处程序的新实例；</li>
+<li><code>Alt</code> + <code>Win</code> + <code>数字</code>: 显示任务栏上快捷启动项数字位置处程序的跳转列表；</li>
+<li><code>ALT</code> + <code>ESC</code>: 保留程序的显示状态切换当前程序(最小化状态将被保留)(加 Shift 反向)；</li>
 </ul>
-</li>
-<li>
-<p>开启 Github Pages 功能</p>
-<p>在 repository 的 settings 部分开启 Github Pages 功能。</p>
-</li>
-</ol>]]></summary>
-    <content type="html"><![CDATA[<h1> Github Pages</h1>
-<p>本教程将指导您开启 Github Pages。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>需要重构</p>
-</div>
-<h2> 前置工作</h2>
-<p>完成 git 软件的安装与配置。</p>
-<h2> 配置过程</h2>
-<ol>
-<li>
-<p>创建仓库</p>
-<p>新建一个 repository，名字随意。将 clone or download 按钮(图中绿 色键)里面的地址复制下来。</p>
-</li>
-<li>
-<p>创建并推送 index.html 文件</p>
-<p>在本地创建一个空的文件夹，依次执行:</p>
+<h2> 输入法</h2>
 <ul>
-<li>先创建 index.html(可以新建一个 xx.txt，并改名 index.html)。</li>
-<li>开启命令行工具</li>
-<li>git init</li>
-<li>git remote add 自己用英文起个短小的名字 "刚刚复制的网址"</li>
-<li>git add .</li>
-<li>git commit -m"自己任意写的注释"</li>
-<li>git push 自己用英文起的那个短小的名字 master</li>
-<li>如果成功，刷新 Github 仓库(repository)，可以看到 index.html 已经存在于仓库里</li>
+<li><code>CTRL</code> + <code>Space</code>: 切换中英文输入法；</li>
+<li><code>Win</code> + <code>Space</code>: 切换输入法；</li>
 </ul>
-</li>
-<li>
-<p>开启 Github Pages 功能</p>
-<p>在 repository 的 settings 部分开启 Github Pages 功能。</p>
-</li>
-</ol>
-]]></content>
-    <category term="GitHub"/>
-  </entry>
-  <entry>
-    <title type="text">Github 教程</title>
-    <id>https://harryxiong24.github.io/zh/git/github/</id>
-    <link href="https://harryxiong24.github.io/zh/git/github/"/>
-    <updated>2023-06-15T10:29:20.893Z</updated>
-    <summary type="html"><![CDATA[<h1> Github 教程</h1>
-<h2> 简介</h2>
-<h3> <s>Github 是世界上最大的同性交友网站😋</s></h3>
-<h3> 哦不，错了。Github 是世界上最大的代码托管网站</h3>
-<p>当然在上面交友也是极好的(这是重点，圈起来要考的😎)。</p>
-<h2> 基本概念</h2>
-<h3> repository</h3>
-<p>仓库，简称 <strong>Repo</strong>。一个仓库即是一个项目。仓库是 Github 上的主要内容。每当您新建一个项目并想要在 Github。</p>
-<h3> Star</h3>
-<p>收藏，在每一个仓库主页的上方可以看到 star 按钮。其上的数值为收藏该项目的人数。点击星星即可将当前 repo 收藏到您的账号上。您可以收藏一些您比较喜欢，或者项目对您来说有很大价值的项目。同时，点击数字可以看到哪些人收藏了这个项目。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Github 教程</h1>
-<h2> 简介</h2>
-<h3> <s>Github 是世界上最大的同性交友网站😋</s></h3>
-<h3> 哦不，错了。Github 是世界上最大的代码托管网站</h3>
-<p>当然在上面交友也是极好的(这是重点，圈起来要考的😎)。</p>
-<h2> 基本概念</h2>
-<h3> repository</h3>
-<p>仓库，简称 <strong>Repo</strong>。一个仓库即是一个项目。仓库是 Github 上的主要内容。每当您新建一个项目并想要在 Github。</p>
-<h3> Star</h3>
-<p>收藏，在每一个仓库主页的上方可以看到 star 按钮。其上的数值为收藏该项目的人数。点击星星即可将当前 repo 收藏到您的账号上。您可以收藏一些您比较喜欢，或者项目对您来说有很大价值的项目。同时，点击数字可以看到哪些人收藏了这个项目。</p>
-<h3> fork</h3>
-<p>复制仓库，在每一个仓库主页的上方可以看到 Fork 按钮。点击该按钮的作用是将当前项目复制一份到自己的仓库中，这样，您就可以在此仓库仓库上查看当前、历史的版本，切换分支、或者是随心所欲的进行修改。原项目的新的推送、对历史版本的修改、甚至原作者删除了他的 repo，都不会对您 fork 的项目产生任何影响。</p>
-<h3> issue</h3>
-<p>问题。这是一个类似讨论区的地方。如果您在使用该项目的过程中遇到了问题，可以在相应项目的 Issue 板块按照项目的要求提出 Issue。在 Issue 中可以汇报一个 bug，或者是提出一个 Feature Request (功能请求)。项目的拥有者会针对您汇报的情况对您做出回复。同时，项目拥有者还可以为此 issue 增加 label (标签)，以帮助项目成员或是项目的其他使用者更好的理解您提出 issue。也可以将您的 issue assign (分派) 给特定的项目成员解决。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>为了 Github 的友好交流环境，请在汇报 bug 时永远带上 bug 的一个简易的复现流程，可以直接建立一个简单的 bug repo 并把链接放置在您提出的 issue 中。</p>
-</div>
-<h3> pull request</h3>
-<p>发起推送请求，简称 <strong>PR</strong>。如果是您自己的项目，您可以从一个分支向另一个分支发起推送请求。如果您想对别人的(您无权进行推送)项目进行代码的推送请求的化，需要先 fork 这个仓库。在自己 fork 的项目上进行修改，然后提交到自己的项目上，之后，建立一个从自己 repo 到对方 repo 的 PR。如果对方觉得您的新改动很不错，在经过测试或者 review 后就会接受它，这样原有项目就可拥有这些新的代码了.</p>
-<h3> watch</h3>
-<p>关注，在每一个仓库主页的上方可以看到 Watch 按钮。如果您关注了某个项目,那么这个项目有了变化的时候,您就会得到通知.在您点击关注后，您还可以点击下拉列表进一步设置关注级别。您可以选择接受 Release (新发布) 通知，也可以选择 Watching 来监听所有的通知。当您选择 Ignore 的话，即使有人在这个 repo 中 metion (提到) 了您，您也不会得到通知。</p>
-<h3> review</h3>
-<p>代码确认。当项目收到 PR 时，项目的拥有成员可以对这份 PR 的代码改动进行代码确认，在 Review 的过程中，可以对代码的特定行或特定几行通过 comment(评论) 的方式来提出自己对代码改动的意见。</p>
-<h2> 主页</h2>
-<p></p>
-<p><a href="https://github.com" target="_blank" rel="noopener noreferrer">https://github.com</a></p>
-<p>主页，在您登陆后，屏幕的左侧会展示您和您加入团队的项目，以及您的团队详情。中部会显示您关注的项目、人的动态，右侧会根据算法展示一些您可能会感兴趣的 repo。</p>
-<h2> 个人主页</h2>
-<p></p>
-<p><strong><code>https://github.com/&lt;您的用户名&gt;</code></strong></p>
-<p>个人主页会有几个主要面板:</p>
-<h3> Overview</h3>
-<p>个人概览，您可以在上方 pin(固定) 最多六个您想要展示给他人的仓库。</p>
-<p>下方就是您过去一年里向 github 的提交数量分布图，以及您在 github 上的活动比例。</p>
-<p>最下方是近几年您在 Github 上的活动记录。</p>
-<h3> Repositories</h3>
-<p></p>
-<p>仓库列表，该面板会按照最后更新时间的倒序，展示该用户拥有的所有 reo，同时也会在面板上展示项目的 Descript(描述)、Star 数、Fork 数、语言、协议、标签，以及过去一年内项目的 commit 分布数量。这些都能够帮助浏览者在不进入具体仓库页面的情况下大致了解每一个仓库的内容、欢迎程度与维护情况。</p>
-<h3> Projects</h3>
-<p>个人拥有的项目，在管理自己与团队跨 repo 的活动日程时很有用。可以设置涉及到的 repo，提出任务、代办、时间表等。</p>
-<h3> Packages</h3>
-<p>个人在 Github 上拥有的包。目前较少人在 Github 上发布相关的包。</p>
-<h3> Stars</h3>
-<p>和仓库列表完全相同，只不过展示该用户收藏的 repo。</p>
-<h3> Followers / Following</h3>
-<p>关注您的人 / 关注的人。在个人主页的左侧就有 follow 按钮，follow 一个人意味着这个人在 Github 的的活动会出现在 Github 主页的 Activity List 上。</p>
-<h2> 仓库主页</h2>
-<p></p>
-<p>仓库主页主要显示项目的信息。从左到右的面板依次是: Code(代码)，Issues (问题)、Pull Requests (提交请求)、Actions (自动流程)、 Projects (项目)、 Wiki (项目介绍)、 Security (项目安全)、 Insights (项目数据统计) 与 Settings (项目设置)。</p>
-<p>在下方会展示代码文件以及项目说明 README.md 文件。</p>
-]]></content>
-    <category term="GitHub"/>
-  </entry>
-  <entry>
-    <title type="text">Ajax</title>
-    <id>https://harryxiong24.github.io/zh/front-end/ajax/ajax.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/ajax/ajax.html"/>
-    <updated>2023-06-15T10:29:20.948Z</updated>
-    <summary type="html"><![CDATA[<h1> Ajax</h1>
-<p><strong>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式</strong></p>
-<p>AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Ajax 的网页如果需要更新内容,必需重载整个网页面。</p>
-
-<h2> 1. 原生 Ajax</h2>
-<h3> 1.1 用法</h3>
-<h4> 1.1.1 创建 Ajax 对象</h4>]]></summary>
-    <content type="html"><![CDATA[<h1> Ajax</h1>
-<p><strong>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式</strong></p>
-<p>AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Ajax 的网页如果需要更新内容,必需重载整个网页面。</p>
-
-<h2> 1. 原生 Ajax</h2>
-<h3> 1.1 用法</h3>
-<h4> 1.1.1 创建 Ajax 对象</h4>
+<h2> 屏幕截图</h2>
 <ul>
-<li><strong>通过 XMLHttpRequest()类创建一个 Ajax 对象(此方法不兼容 IE6 以下浏览器)</strong><br>
-var Ajax=new XMLHttpRequest();</li>
-<li><strong>在 IE6 以下浏览器通过 ActiveXObject("Microsoft.XMLHTTP")创建一个 Ajax 对象</strong><br>
-var Ajax=new ActiveXObject("Microsoft.XMLHTTP")</li>
-</ul>
-<h4> 1.1.2 连接服务器</h4>
-<p><strong>通过 open()方法,可以设置跟后台交互的一些行为,该方法有三个参数</strong></p>
-<p>参数</p>
-<p>• 请求方式,一个包含具体请求方式的字符串</p>
-<p><strong>主要请求方式：</strong></p>
-<p>​ <strong>• POST,建议在添加数据时使用</strong></p>
-<p>​ <strong>• GET,建议在查询数据时使用</strong></p>
-<p>​ <strong>• PUT,建议在修改数据时使用</strong></p>
-<p>​ <strong>• DELETE,建议在删除数据时使用</strong></p>
-<p><strong>• url,要请求数据的具体地址</strong></p>
-<p><strong>• bool,进行同步或异步传输,true 为异步,false 为同步</strong></p>
-<div class="language-javascript" data-ext="js"></div><p>注意:在 IE 浏览器中,如果通过 Ajax 发生 GET 请求,那么 IE 浏览器认为同一个 url 只有一个结果，修改文件内容浏览器中显示的值也不会发生改变</p>
-<div class="language-javascript" data-ext="js"></div><p><strong>设置需求</strong></p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Tip：GET 还是 POST？</strong></p>
-<p>与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。</p>
-<p>然而，在以下情况中，请使用 POST 请求：</p>
-<p>​ • 无法使用缓存文件（更新服务器上的文件或数据库）</p>
-<p>​ • 向服务器发送大量数据（POST 没有数据量限制）</p>
-<p>​ • 发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠</p>
-<h4> 1.1.3 发送请求</h4>
-<p><strong>通过 send()方法正式发送请求</strong></p>
-<div class="language-javascript" data-ext="js"></div><p><strong>注:</strong> 如果请求方式是 POST 方式,添加的需求作为参数写入 send()方法中</p>
-<h4> 1.1.4 返回请求结果</h4>
-<ul>
-<li><strong>通过 readyState(Ajax 自身的状态码)属性来返回请求进行到了某一步,该属性存有请求的状态</strong>
-<strong>请求状态</strong></li>
-<li>0: 请求未初始化</li>
-<li>1: 服务器连接已建立</li>
-<li>2: 请求已接收</li>
-<li>3: 请求处理中</li>
-<li>4: 请求已完成，且响应已就绪</li>
-<li><strong>通过 onreadystatechange 事件(在状态码发生改变时就会执行此事件)或 onload 事件来对状态码发生改变时进行操作</strong></li>
-<li><strong>通过 status(http 的状态码)属性的值判断请求后的结果从而得到请求信息,一般该值为 200 到 300 直接和等于 304 时代表请求成功,值为 404 代表请求失败</strong></li>
-<li><strong>response 属性保留着后台返回到前端的数据</strong></li>
-</ul>
-<div class="language-javascript" data-ext="js"></div><p><strong>解释为什么 Ajax.readyState === 4</strong></p>
-<ol>
-<li>服务器通知客户端当前的通信状态，并不是直接通知的，而是服务器通过修改 readyState 属性值。</li>
-<li>一旦 readyState 属性值发生改变，浏览器里的 Ajax 引擎就会触发 onreadyStatechang 事件，我们就可以通过该事件完成一些动作。</li>
-<li>有的说 onreadyStatechang 事件是由服务器触发的，其实应该是浏览器里的 Ajax 引擎触发的</li>
-</ol>
-<h4> 1.1.5 返回结果演示</h4>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 1.2 超时请求</h3>
-<p>如果请求事件太长就是请求超时,如果事件过长则可能内部出现了错了,可以设置超过一定时间结束请求</p>
-<div class="language-javascript" data-ext="js"></div><h3> 1.3 跨域请求</h3>
-<p>如果通过 Ajax 跨域传输一个请求,浏览器会自动将该请求阻止并返回报错信息。如果要进行跨域就要进行特殊方法进行实现</p>
-<p><strong>实现跨域</strong></p>
-<ul>
-<li>JOSNP 方式,通过 script 标签中的 src 属性传输请求</li>
-<li>CORS 方式,在后台中设置可以让对应的域进行访问</li>
-<li>通过信任服务器代理请求进入(翻墙)</li>
-</ul>
-<h3> 1.4 XmlHttpRequest 对象的主要方法与属性</h3>
-<p><strong>XmlHttpRequest 对象的主要方法</strong></p>
-<ol>
-<li>void open(String method,String url,Boolen async)
-用于创建请求
-参数：
-method： 请求方式（字符串类型），如：POST、GET、DELETE...
-url： 要请求的地址（字符串类型）
-async： 是否异步（布尔类型）</li>
-<li>void send(String body)
-用于发送请求
-参数：
-body： 要发送的数据（字符串类型）</li>
-<li>void setRequestHeader(String header,String value)
-用于设置请求头
-参数：
-header： 请求头的 key（字符串类型）
-vlaue： 请求头的 value（字符串类型）</li>
-<li>String getAllResponseHeaders()
-获取所有响应头
-返回值：
-响应头数据（字符串类型）</li>
-<li>String getResponseHeader(String header)
-获取响应头中指定 header 的值
-参数：
-header： 响应头的 key（字符串类型）
-返回值：
-响应头中指定的 header 对应的值</li>
-<li>void abort()
-终止请求</li>
-</ol>
-<p><strong>XmlHttpRequest 对象的主要属性</strong></p>
-<ol>
-<li>Number readyState
-状态值（整数）
-详细：
-0-未初始化，尚未调用 open()方法；
-1-启动，调用了 open()方法，未调用 send()方法；
-2-发送，已经调用了 send()方法，未接收到响应；
-3-接收，已经接收到部分响应数据；
-4-完成，已经接收到全部响应数据；</li>
-<li>Function onreadystatechange
-当 readyState 的值改变时自动触发执行其对应的函数（回调函数）</li>
-<li>String responseText
-服务器返回的数据（字符串类型）</li>
-<li>XmlDocument responseXML
-服务器返回的数据（Xml 对象）</li>
-<li>Number states
-状态码（整数），如：200、404...</li>
-<li>String statesText
-状态文本（字符串），如：OK、NotFound...</li>
-</ol>
-<h3> 1.5 封装 Ajax</h3>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 1.6 总结</h3>
-<p>使用步骤</p>
-<ol>
-<li>创建 XmlHttpRequest 对象</li>
-<li>调用 open 方法设置基本请求信息</li>
-<li>设置发送的数据，发送请求</li>
-<li>注册监听的回调函数</li>
-<li>拿到返回值，对页面进行更新</li>
-</ol>
-<h2> 2. Fetch</h2>
-<p>fetch 是一种 HTTP 数据请求的方式，是 XMLHttpRequest 的一种替代方案。fetch 不是 ajax 的进一步封装，而是原生 js。Fetch 函数就是原生 js，没有使用 XMLHttpRequest 对象。</p>
-<h3> 2.1 用法</h3>
-<h4> 2.1.1 Fetch 的参数</h4>
-<ul>
-<li>
-<p><strong>url,该参数定义要获取的资源,可以是一个 url 字符串,也可以是一个 Request 对象</strong></p>
-</li>
-<li>
-<p><strong>options,该参数可选,为一个对象,内部含有一些对请求的设置属性</strong>
-<strong>内部属性：</strong></p>
-</li>
-<li>
-<ul>
-<li>**method:**请求使用的方法。如:GET、POST 等</li>
-<li>**headers:**请求头信息。形式为 Headers 对象或 ByteString</li>
-<li>**body:**请求的 body 信息,可能是一个 Blob、BufferSource、FormData、URLSearchParams 或者 USVString 对象。注意 GET 或 HEAD 方法的请求不能包含 body 信息</li>
-<li>**mode:**请求的模式。如 cors、no-cors 或者 same-origin</li>
-<li>**credentiala:**请求的 credentials。如 omit、same-origin 或者 include</li>
-<li>**cache:**请求的 cache 模式:default,no-store,reload,no-cache 或者 only-if-cached</li>
-</ul>
-</li>
-</ul>
-<h4> 2.1.2 response 对象</h4>
-<p><strong>response 为一个 Promise 对象成功时传回的对象,该属性含有对应返回数据的属性和方法</strong></p>
-<ul>
-<li><strong>属性</strong></li>
-<li><strong>status (number),HTTP 请求结果参数,在 100-599 范围</strong></li>
-<li><strong>statusText (string),服务器返回的状态报告</strong></li>
-<li><strong>ok (boolean),如果返回 200 表示请求成功则为 true</strong></li>
-<li><strong>headers (Headers),返回头部信息,该属性后面也有对应的方法</strong></li>
-<li>has(name) (boolean),判断是否存在该信息头</li>
-<li>get(name) (string),获取信息头的数据</li>
-<li>getAll(name) (Array),获取所有头部数据</li>
-<li>set(name,value),设置请求头信息</li>
-<li>append(name,value),添加 header 的内容</li>
-<li>delete(name),删除 header 的信息</li>
-<li>forEach(function(value,name){...},[thisContext]),循环读取 header 的信息</li>
-<li><strong>url (string),详细的地址</strong></li>
-</ul>
-<ul>
-<li><strong>方法</strong></li>
-<li><strong>text(),以 string 的形式生成请求 text</strong></li>
-<li><strong>json(),生成 JSON.parse(responseText)的结果</strong></li>
-<li><strong>blob(),生成一个 Blob</strong></li>
-<li><strong>arrayBuffer(),生成一个 ArrayBuffer</strong></li>
-<li><strong>formData(),生成格式化数据,可用于其它的请求</strong></li>
-<li><strong>其他方法</strong></li>
-<li><strong>clone(),创建一个 Response 对象的克隆</strong></li>
-<li><strong>Response.error(),返回一个绑定了网络错误的新的 Response 对象</strong></li>
-<li><strong>Response.redirect(),用另一个 URL 创建一个新的 Resonse 对象</strong></li>
-</ul>
-<h4> 2.1.3 使用</h4>
-<p><strong>引入 npm install whatwg-fetch --save</strong></p>
-<ul>
-<li><strong>get</strong></li>
-</ul>
-<div class="language-javascript" data-ext="js"></div><ul>
-<li><strong>post</strong></li>
-</ul>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.2 与原生 Ajax 的比较</h3>
-<ul>
-<li>原生 Ajax</li>
-</ul>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li>Fetch</li>
-</ul>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.3 封装 fetch</h3>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3. Axios</h2>
-<h3> 3.1 安装</h3>
-<p>使用 npm:</p>
-<div class="language-bash" data-ext="sh"></div><p>使用 bower:</p>
-<div class="language-bash" data-ext="sh"></div><p>使用 cdn:</p>
-<div class="language-html" data-ext="html"></div><p>###3.2 用法</p>
-<p>执行 GET 请求</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行 POST 请求</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行多个并发请求</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.3 Axios API</h3>
-<p>可以通过向 axios 传递相关配置来创建请求</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>请求方法的别名</p>
-<p>为方便起见，为所有支持的请求方法提供了别名</p>
-<p>axios.request(config)</p>
-<p>axios.get(url[, config])</p>
-<p>axios.delete(url[, config])</p>
-<p>axios.head(url[, config])</p>
-<p>axios.post(url[, data[, config]])</p>
-<p>axios.put(url[, data[, config]])</p>
-<p>axios.patch(url[, data[, config]])</p>
-<p>在使用别名方法时， url、method、data 这些属性都不必在配置中指定。</p>
-<h4> 处理并发</h4>
-<p>处理并发请求的助手函数</p>
-<div class="language-javascript" data-ext="js"></div><h4> 创建实例</h4>
-<p>可以使用自定义配置新建一个 axios 实例</p>
-<div class="language-javascript" data-ext="js"></div><p>实例方法</p>
-<p>以下是可用的实例方法。指定的配置将与实例的配置合并</p>
-<p>axios#request(config)</p>
-<p>axios#get(url[, config])</p>
-<p>axios#delete(url[, config])</p>
-<p>axios#head(url[, config])</p>
-<p>axios#post(url[, data[, config]])</p>
-<p>axios#put(url[, data[, config]])</p>
-<p>axios#patch(url[, data[, config]])</p>
-<h4> 请求配置</h4>
-<p>这些是创建请求时可以用的配置选项。只有 url 是必需的。如果没有指定 method，请求将默认使用 get 方法。</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.4 响应结果</h3>
-<p>响应结构</p>
-<p>某个请求的响应包含以下信息</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用 then 时，你将接收下面这样的响应：</p>
-<div class="language-javascript" data-ext="js"></div><p>在使用 catch 时，或传递 rejection callback 作为 then 的第二个参数时，响应可以通过 error 对象可被使用。</p>
-<h3> 3.5 封装 Axios</h3>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 4 原生 Ajax, Axios, Fetch 的区别</h2>
-<h3> 原生 Ajax</h3>
-<p>传统 Ajax 指的是 XMLHttpRequest（XHR）， 最早出现的发送后端请求技术，隶属于原始 js 中，核心使用 XMLHttpRequest 对象，多个请求之间如果有先后关系的话，就会出现<strong>回调地狱</strong>。</p>
-<p>JQuery ajax 是对原生 XHR 的封装，除此以外还增添了对<strong>JSONP</strong>的支持。经过多年的更新维护，真的已经是非常的方便了，优点无需多言；如果是硬要举出几个缺点，那可能只有：</p>
-<ol>
-<li>本身是针对 MVC 的编程,不符合现在前端<strong>MVVM</strong>的浪潮</li>
-<li>基于原生的 XHR 开发，XHR 本身的架构不清晰。</li>
-<li>JQuery 整个项目太大，单纯使用 ajax 却要引入整个 JQuery 非常的不合理（采取个性化打包的方案又不能享受 CDN 服务）</li>
-<li>不符合关注分离（Separation of Concerns）的原则</li>
-<li>配置和调用方式非常混乱，而且基于事件的异步模型不友好。</li>
-</ol>
-<h3> Axios</h3>
-<p>Axios 是一个基于 Promise 用于浏览器和 nodejs 的 HTTP 客户端，本质上也是对原生 XHR 的封装，只不过它是 Promise 的实现版本，符合最新的 ES 规范，它本身具有以下特征：</p>
-<ol>
-<li>从浏览器中创建 XMLHttpRequest</li>
-<li>支持 Promise API</li>
-<li>.客户端支持防止 CSRF</li>
-<li>提供了一些并发请求的接口（重要，方便了很多的操作）</li>
-<li>从 node.js 创建 http 请求</li>
-<li>拦截请求和响应</li>
-<li>转换请求和响应数据</li>
-<li>取消请求</li>
-<li>自动转换 JSON 数据</li>
-</ol>
-<p><strong>PS:防止 CSRF:就是让你的每个请求都带一个从 cookie 中拿到的 key, 根据浏览器同源策略，假冒的网站是拿不到你 cookie 中得 key 的，这样，后台就可以轻松辨别出这个请求是否是用户在假冒网站上的误导输入，从而采取正确的策略。</strong></p>
-<h3> Fetch</h3>
-<p>fetch 号称是 AJAX 的替代品，是在 ES6 出现的，使用了 ES6 中的 promise 对象。</p>
-<p>Fetch 是基于 promise 设计的。Fetch 的代码结构比起 ajax 简单多了，参数有点像 jQuery ajax。</p>
-<p>但是，一定记住<strong>fetch 不是 ajax 的进一步封装，而是原生 js，没有使用 XMLHttpRequest 对象</strong>。</p>
-<p><strong>fetch 的优点：</strong></p>
-<ol>
-<li>符合关注分离，没有将输入、输出和用事件来跟踪的状态混杂在一个对象里</li>
-<li>更好更方便的写法</li>
-<li>语法简洁，更加语义化</li>
-<li>基于标准 Promise 实现，支持 async/await</li>
-<li>同构方便使用</li>
-<li>加底层，提供的 API 丰富（request, response）</li>
-<li>脱离了 XHR，是 ES 规范里新的实现方式</li>
-</ol>
-<p><strong>使用 fetch 的时候，也遇到了不少的问题：</strong></p>
-<ol>
-<li>fetch 是一个低层次的 API，你可以把它考虑成原生的 XHR，所以使用起来并不是那么舒服，需要进行封装。1）fetch 只对网络请求报错，对 400，500 都当做成功的请求，服务器返回 400，500 错误码时并不会 reject，只有网络错误这些导致请求不能完成时，fetch 才会被 reject。
-2）fetch 默认不会带 cookie，需要添加配置项： fetch(url, {credentials: 'include'})
-3）fetch 不支持 abort，不支持超时控制，使用 setTimeout 及 Promise.reject 的实现的超时控制并不能阻止请求过程继续在后台运行，造成了流量的浪费
-4）fetch 没有办法原生监测请求的进度，而 XHR 可以</li>
-</ol>
-]]></content>
-    <category term="Web前端"/>
-  </entry>
-  <entry>
-    <title type="text">Data Storage</title>
-    <id>https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html"/>
-    <updated>2023-06-15T10:29:20.954Z</updated>
-    <summary type="html"><![CDATA[<h1> Data Storage</h1>
-
-<h2> 1. Cookie</h2>
-<p><strong>cookie 用于存储数据,当用户访问了某个网站(网页)的时候,可以通过 cookie 来访问客户端上存储的数据</strong></p>
-<p><strong>注意:</strong></p>
-<ul>
-<li>
-<p>不同的浏览器存放的 cookie 位置不一样，也是不能通用的</p>
-</li>
-<li>
-<p>cookie 的存储是以域名形式进行区分的</p>
-</li>
-<li>
-<p>cookie 的数据可以设置名字的</p>
-</li>
-<li>
-<p>一个域名下存放的 cookie 的个数是有限制的，不同的浏览器存放的个数不一样</p>
-</li>
-<li>
-<p>每个 cookie 存放的内容大小也是有限制的，不同的浏览器存放大小不一样</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> Data Storage</h1>
-
-<h2> 1. Cookie</h2>
-<p><strong>cookie 用于存储数据,当用户访问了某个网站(网页)的时候,可以通过 cookie 来访问客户端上存储的数据</strong></p>
-<p><strong>注意:</strong></p>
-<ul>
-<li>
-<p>不同的浏览器存放的 cookie 位置不一样，也是不能通用的</p>
-</li>
-<li>
-<p>cookie 的存储是以域名形式进行区分的</p>
-</li>
-<li>
-<p>cookie 的数据可以设置名字的</p>
-</li>
-<li>
-<p>一个域名下存放的 cookie 的个数是有限制的，不同的浏览器存放的个数不一样</p>
-</li>
-<li>
-<p>每个 cookie 存放的内容大小也是有限制的，不同的浏览器存放大小不一样</p>
-</li>
-</ul>
-<h3> 1.1 访问 cookie</h3>
-<p><strong>通过 document.cookie 属性可以获取当前网站下的所有 cookie,得到字符串形式的值,<strong>该返回值会将所有的 cookie 通过</strong>分号+空格</strong>的形式串联起来</p>
-<div class="language-javascript" data-ext="js"></div><h3> 1.2 存储 cookie</h3>
-<div class="language-javascript" data-ext="js"></div><p><strong>注意:</strong></p>
-<ul>
-<li>
-<p>如果设置不同的 cookie 值,则用 document.cookie 再次赋值不会将原来设置的 cookie 覆盖掉,而是再加上一条 cookie</p>
-</li>
-<li>
-<p>如果设置相同的 cookie 值,则再次用 document.coolkie 设置 cookie 值时会将原来的 cookie 值覆盖掉</p>
-</li>
-</ul>
-<h3> 1.3 设置 cookie 过期时间</h3>
-<p>cookie 默认是临时存储的,当浏览器关闭进程的时候自动销毁 ,如果想长时间存放一个 cookie。需要在设置这个 cookie 的时候设置一个过期的时间</p>
-<p>**注意:**过期时间必须是一个日期对象转换成的字符串</p>
-<p><strong>document.cookie = "数据名=值; expires=过期时间"</strong>;</p>
-<div class="language-javascript" data-ext="js"></div><p>`</p>
-<h3> 1.4 cookie 封装</h3>
-<ul>
-<li>
-<p>设置 cookie 封装</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>获取 cookie 封装</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>移除 cookie</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<h2> 2. 本地存储</h2>
-<h3> 2.1 sessionStorage</h3>
-<p><strong>sessionStorage 属性允许用户访问一个 session Storage 对象,存储在 sessionStorage 中的数据在页面会话结束时被清除</strong></p>
-<p><strong>注意:</strong></p>
-<ul>
-<li>
-<p>页面会话在浏览器打开期间一直保持，并且重新加载或恢复页面仍会保持原来的页面会话。</p>
-</li>
-<li>
-<p>在新标签或窗口打开一个页面时会在顶级浏览上下文中初始化一个新的会话,这点和 cookies 的运行方式不同</p>
-</li>
-</ul>
-<p><strong>方法</strong></p>
-<ul>
-<li>
-<p>setItem("对象名","对象值"),增加一个数据项目</p>
-</li>
-<li>
-<p>getItem("对象名"),获取一个数据项目</p>
-</li>
-<li>
-<p>removeItem("对象名"),移除一个数据项目</p>
-</li>
-<li>
-<p>clear(),不传参数,移除所有的数据项目</p>
-</li>
-</ul>
-<h3> 2.2 localStorage</h3>
-<p>localStorage 属性允许用户访问一个了 local Storage 对象,存储在 localStorage 中的数据能在跨浏览器会话保留,也就是说该属性中存入的值会在本地存储中永久保存</p>
-<p>**注意:**localStorage 中的键值对总是以字符串的形式存储,所有如果传入的是非字符串参数会自动转换为字符串,最好手动转化</p>
-<p><strong>方法</strong></p>
-<ul>
-<li>
-<p>setItem("对象名","对象值"),增加一个数据项目</p>
-</li>
-<li>
-<p>getItem("对象名"),获取一个数据项目</p>
-</li>
-<li>
-<p>removeItem("对象名"),移除一个数据项目</p>
-</li>
-<li>
-<p>clear(),不传参数,移除所有的数据项目</p>
-</li>
+<li><code>PRINT SCREEN</code>: 将当前屏幕截图拷贝到剪贴板；</li>
+<li><code>Win</code> + <code>PRINT SCREEN</code>: 将当前屏幕截图保存在图片文件夹中；</li>
+<li><code>ALT</code> + <code>PRINT SCREEN</code>: 将当前活动程序窗口以图像方式拷贝到剪贴板；</li>
+<li><code>Windows</code> + <code>Shift</code> + <code>S</code>: 打开截图工具；(仅在 Windows10 1809 及以上系统可用)</li>
 </ul>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Windows"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">1.序言</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/"/>
-    <updated>2023-06-15T10:29:20.957Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> JavaScript 和 ECMAScript 进阶教程</h1>
 <h2> 简介</h2>
 <p>本教程系统的归纳和总结了从 JavaScript 到 ECMAScript 的重难点以及高阶使用方法。</p>
@@ -6313,13 +5818,14 @@ header： 响应头的 key（字符串类型）
 <p>Copyright © 2021 <a href="https://github.com/HarryXiong24" target="_blank" rel="noopener noreferrer">Harry Xiong</a>.</p>
 <p>This project is <a href="https://github.com/HarryXiong24/JavaScript-ECMAScript-Advanced-Guidebook/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a> licensed.</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">10.解构赋值</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses10.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses10.html"/>
-    <updated>2023-06-15T10:29:20.988Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 解构赋值</h1>
 <h2> 数组的解构赋值</h2>
 <h3> 基本用法</h3>
@@ -6439,13 +5945,14 @@ header： 响应头的 key（字符串类型）
 <div class="language-javascript" data-ext="js"></div><h3> 输入模块的指定方法</h3>
 <p>加载模块时，往往需要指定输入哪些方法。解构赋值使得输入语句非常清晰。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">11.新增运算符</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses11.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses11.html"/>
-    <updated>2023-06-15T10:29:21.020Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 新增运算符</h1>
 <h2> 数组的扩展运算符</h2>
 <h3> 理解</h3>
@@ -6614,13 +6121,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <p><strong><code>??</code>有一个运算优先级问题，它与<code>&amp;&amp;</code>和<code>||</code>的优先级孰高孰低。现在的规则是，如果多个逻辑运算符一起使用，必须用括号表明优先级，否则会报错。</strong></p>
 <div class="language-javascript" data-ext="js"></div><p>上面四个表达式都会报错，必须加入表明优先级的括号。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">12.异步编程</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses12.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses12.html"/>
-    <updated>2023-06-15T10:29:21.198Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 异步编程</h1>
 <h2> 异步编程存在的意义</h2>
 <h3> JS是单线程模型</h3>
@@ -7359,13 +6867,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码有三个模块，最后的<code>z.js</code>加载<code>x.js</code>和<code>y.js</code>，打印结果是<code>X1</code>、<code>Y</code>、<code>X2</code>、<code>Z</code>。这说明，<code>z.js</code>并没有等待<code>x.js</code>加载完成，再去加载<code>y.js</code>。</p>
 <p>顶层的<code>await</code>命令有点像，交出代码的执行权给其他的模块加载，等异步操作完成后，再拿回执行权，继续向下执行。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">13.Set</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses13.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses13.html"/>
-    <updated>2023-06-15T10:29:21.213Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Set</h1>
 <h2> 概念</h2>
 <p>ES6 提供了新的数据结构 Set。它类似于数组，但是成员的值都是唯一的，没有重复的值。</p>
@@ -7471,13 +6980,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <p>下面是 WeakSet 的另一个例子。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码保证了<code>Foo</code>的实例方法，只能在<code>Foo</code>的实例上调用。这里使用 WeakSet 的好处是，<code>foos</code>对实例的引用，不会被计入内存回收机制，所以删除实例的时候，不用考虑<code>foos</code>，也不会出现内存泄漏。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">14.Map</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses14.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses14.html"/>
-    <updated>2023-06-15T10:29:21.241Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Map</h1>
 <h2> 概念</h2>
 <p>JavaScript 的对象（Object），本质上是键值对的集合（Hash 结构），但是传统上只能用字符串当作键。这给它的使用带来了很大的限制。</p>
@@ -7595,13 +7105,14 @@ data<span class="token punctuation">[</span><span class="token string">'[object 
 <p>WeakMap 的另一个用处是部署私有属性。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>Countdown</code>类的两个内部属性<code>_counter</code>和<code>_action</code>，是实例的弱引用，所以如果删除实例，它们也就随之消失，不会造成内存泄漏。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">15.Iterator</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses15.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses15.html"/>
-    <updated>2023-06-15T10:29:21.275Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Iterator</h1>
 <h2> 设计目的</h2>
 <p>JavaScript 原有的表示“集合”的数据结构，主要是数组（<code>Array</code>）和对象（<code>Object</code>），ES6 又添加了<code>Map</code>和<code>Set</code>。这样就有了四种数据集合，用户还可以组合使用它们，定义自己的数据结构，比如数组的成员是<code>Map</code>，<code>Map</code>的成员是对象。<strong>这样就需要一种统一的接口机制，来处理所有不同的数据结构。</strong></p>
@@ -7766,13 +7277,14 @@ data<span class="token punctuation">[</span><span class="token string">'[object 
 <p>下面是一个使用 break 语句，跳出<code>for...of</code>循环的例子。</p>
 <div class="language-javascript" data-ext="js"></div><p>上面的例子，会输出斐波纳契数列小于等于 1000 的项。如果当前项大于 1000，就会使用<code>break</code>语句跳出<code>for...of</code>循环。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">16.异步遍历器</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses16.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses16.html"/>
-    <updated>2023-06-15T10:29:21.298Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 异步遍历器</h1>
 <h2> 同步遍历器的问题</h2>
 <p>Iterator 接口是一种数据遍历的协议，只要调用遍历器对象的<code>next</code>方法，就会得到一个对象，表示当前遍历指针所在的那个位置的信息。<code>next</code>方法返回的对象的结构是<code>{value, done}</code>，其中<code>value</code>表示当前的数据的值，<code>done</code>是一个布尔值，表示遍历是否结束。</p>
@@ -7856,13 +7368,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>gen2</code>函数里面的<code>result</code>变量，最后的值是<code>2</code>。</p>
 <p>与同步 Generator 函数一样，<code>for await...of</code>循环会展开<code>yield*</code>。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">17.Proxy</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses17.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses17.html"/>
-    <updated>2023-06-15T10:29:21.348Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Proxy</h1>
 <h2> 设计意义</h2>
 <p>Proxy 用于修改某些操作的默认行为，等同于在语言层面做出修改，所以属于一种“元编程”（meta programming），即对编程语言进行编程。</p>
@@ -8069,13 +7582,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <div class="language-javascript" data-ext="js"></div><p>上面代码新建了一个 Web 服务的接口，这个接口返回各种数据。Proxy 可以拦截这个对象的任意属性，所以不用为每一种数据写一个适配方法，只要写一个 Proxy 拦截就可以了。</p>
 <div class="language-javascript" data-ext="js"></div><p>同理，Proxy 也可以用来实现数据库的 ORM 层。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">18.Reflect</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses18.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses18.html"/>
-    <updated>2023-06-15T10:29:21.368Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Reflect</h1>
 <h2> 设计目的</h2>
 <p><code>Reflect</code>对象与<code>Proxy</code>对象一样，也是 ES6 为了操作对象而提供的新 API。<code>Reflect</code>对象的设计目的有这样几个：</p>
@@ -8159,13 +7673,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <p><code>Reflect.ownKeys</code>方法用于返回对象的所有属性，基本等同于<code>Object.getOwnPropertyNames</code>与<code>Object.getOwnPropertySymbols</code>之和。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果<code>Reflect.ownKeys()</code>方法的第一个参数不是对象，会报错。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">19.Module模块化</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses19.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses19.html"/>
-    <updated>2023-06-15T10:29:21.395Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Module 模块化</h1>
 <h2> 设计原因</h2>
 <p>历史上，JavaScript 一直没有模块（module）体系，无法将一个大程序拆分成互相依赖的小文件，再用简单的方法拼装起来。其他语言都有这项功能，比如 Ruby 的<code>require</code>、Python 的<code>import</code>，甚至就连 CSS 都有<code>@import</code>，但是 JavaScript 任何这方面的支持都没有，这对开发大型的、复杂的项目形成了巨大障碍。</p>
@@ -8336,13 +7851,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <div class="language-javascript" data-ext="js"></div><p>如果想同时加载多个模块，可以采用下面的写法。</p>
 <div class="language-javascript" data-ext="js"></div><p><code>import()</code>也可以用在 async 函数之中。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">2.基础关注点</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses2.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses2.html"/>
-    <updated>2023-06-15T10:29:21.422Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 基础关注点</h1>
 <h2> 几个概念</h2>
 <h3> 语句</h3>
@@ -8543,13 +8059,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <h4> 保留字</h4>
 <p>为了向将来 JavaScript 的新版本过渡，严格模式新增了一些保留字（implements、interface、let、package、private、protected、public、static、yield等）。使用这些词作为变量名将会报错。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">20.模块加载的实现</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses20.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses20.html"/>
-    <updated>2023-06-15T10:29:21.448Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 模块加载的实现</h1>
 <h2> ESM VS CJS</h2>
 <p>它们有三个重大差异。</p>
@@ -8729,13 +8246,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <p>这个例子要是改写成 CommonJS，就根本无法执行，会报错。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>even.js</code>加载<code>odd.js</code>，而<code>odd.js</code>又去加载<code>even.js</code>，形成“循环加载”。这时，执行引擎就会输出<code>even.js</code>已经执行的部分（不存在任何结果），所以在<code>odd.js</code>之中，变量<code>even</code>等于<code>undefined</code>，等到后面调用<code>even(n - 1)</code>就会报错。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">21.DOM</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses21.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses21.html"/>
-    <updated>2023-06-15T10:29:21.588Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> DOM</h1>
 <h2> 基本概念</h2>
 <h3> DOM 理解</h3>
@@ -10062,13 +9580,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <p>MediaQueryList 实例有两个方法<code>MediaQueryList.addListener()</code>和<code>MediaQueryList.removeListener()</code>，用来为<code>change</code>事件添加或撤销监听函数。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意，<code>MediaQueryList.removeListener()</code>方法不能撤销<code>MediaQueryList.onchange</code>属性指定的监听函数。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">22.DOM事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses22.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses22.html"/>
-    <updated>2023-06-15T10:29:21.613Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> DOM 事件</h1>
 <h2> EventTarget 接口</h2>
 <h3> 概述</h3>
@@ -10258,13 +9777,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <p><code>Event.composedPath()</code>返回一个数组，成员是事件的最底层节点和依次冒泡经过的所有上层节点。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>click</code>事件的最底层节点是<code>p</code>，向上依次是<code>div</code>、<code>body</code>、<code>html</code>、<code>document</code>、<code>Window</code>。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">23.BOM</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses23.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses23.html"/>
-    <updated>2023-06-15T10:29:21.671Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> BOM</h1>
 <h2> 浏览器环境概述</h2>
 <h3> 代码嵌入网页的方法</h3>
@@ -11092,13 +10612,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <div class="language-javascript" data-ext="js"></div><h4> CORS</h4>
 <p>CORS 是跨源资源分享（Cross-Origin Resource Sharing）的缩写。它是 W3C 标准，属于跨源 AJAX 请求的根本解决方法。相比 JSONP 只能发<code>GET</code>请求，CORS 允许任何类型的请求。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">24.编程风格</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses24.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses24.html"/>
-    <updated>2023-06-15T10:29:21.705Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 编程风格</h1>
 <h2> 概述</h2>
 <p>“编程风格”（programming style）指的是编写代码的样式规则。不同的程序员，往往有不同的编程风格。</p>
@@ -11250,13 +10771,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <div class="language-javascript" data-ext="js"></div><p>使用 ESLint 检查这个文件，就会报出错误。</p>
 <div class="language-bash" data-ext="sh"></div><p>上面代码说明，原文件有五个错误，其中两个是不应该使用<code>var</code>命令，而要使用<code>let</code>或<code>const</code>；一个是定义了变量，却没有使用；另外两个是行首缩进为 4 个空格，而不是规定的 2 个空格。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">25.正则表达式</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses25.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses25.html"/>
-    <updated>2023-06-15T10:29:21.754Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 正则表达式</h1>
 <h2> 概述</h2>
 <p>正则表达式（regular expression）是一种表达文本模式（即字符串结构）的方法，有点像字符串的模板，常常用来按照“给定模式”匹配文本。比如，正则表达式给出一个 Email 地址的模式，然后用它来确定一个字符串是否为 Email 地址。JavaScript 的正则表达式体系是参照 Perl 5 建立的。</p>
@@ -11886,13 +11408,14 @@ it<span class="token punctuation">.</span><span class="token function">next</spa
 <div class="language-javascript" data-ext="js"></div><p>上面代码中，由于<code>string.matchAll(regex)</code>返回的是遍历器，所以可以用<code>for...of</code>循环取出。相对于返回数组，返回遍历器的好处在于，如果匹配结果是一个很大的数组，那么遍历器比较节省资源。</p>
 <p>遍历器转为数组是非常简单的，使用<code>...</code>运算符和<code>Array.from()</code>方法就可以了。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">26.标准对象库</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses26.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses26.html"/>
-    <updated>2023-06-15T10:29:21.860Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 标准对象库</h1>
 <h2> console 对象与控制台</h2>
 <h3> console 对象的静态方法</h3>
@@ -12745,13 +12268,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 </ul>
 <p><code>Atomics.compareExchange</code>的一个用途是，从 SharedArrayBuffer 读取一个值，然后对该值进行某个操作，操作结束以后，检查一下 SharedArrayBuffer 里面原来那个值是否发生变化（即被其他线程改写过）。如果没有改写过，就将它写回原来的位置，否则读取新的值，再重头进行一次操作。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">3.数据类型的检验和转换</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses3.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses3.html"/>
-    <updated>2023-06-15T10:29:21.897Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 数据类型的检验和转换</h1>
 <h2> 数据类型的检验</h2>
 <h3> 概述</h3>
@@ -13008,13 +12532,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 </blockquote>
 <p>一元运算符也会把运算子转成数值。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">4.错误处理机制</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses4.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses4.html"/>
-    <updated>2023-06-15T10:29:21.909Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 错误处理机制</h1>
 <h2> Error 实例对象</h2>
 <p>JavaScript 解析或运行时，一旦发生错误，引擎就会抛出一个错误对象。JavaScript 原生提供<code>Error</code>构造函数，所有抛出的错误都是这个构造函数的实例。</p>
@@ -13091,13 +12616,14 @@ err<span class="token punctuation">.</span>message <span class="token comment">/
 <p><code>try</code>代码块内部，还可以再使用<code>try</code>代码块。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>try</code>里面还有一个<code>try</code>。内层的<code>try</code>报错（<code>console</code>拼错了），这时会执行内层的<code>finally</code>代码块，然后抛出错误，被外层的<code>catch</code>捕获。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">5.Array</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses5.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses5.html"/>
-    <updated>2023-06-15T10:29:21.979Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Array</h1>
 <h2> 数组的本质</h2>
 <p>本质上，数组属于一种特殊的对象。<code>typeof</code>运算符会返回数组的类型是<code>object</code>。</p>
@@ -13442,13 +12968,14 @@ err<span class="token punctuation">.</span>message <span class="token comment">/
 <p><code>for...of</code>循环调用遍历器接口，数组的遍历器接口只返回具有数字索引的属性。这一点跟<code>for...in</code>循环也不一样。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>for...of</code>循环不会返回数组<code>arr</code>的<code>foo</code>属性。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">6.String</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses6.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses6.html"/>
-    <updated>2023-06-15T10:29:22.027Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> String</h1>
 <h2> 字符串的几个关注点</h2>
 <h3> 字符串与数组</h3>
@@ -13763,13 +13290,14 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </li>
 </ol>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">7.Object</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses7.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses7.html"/>
-    <updated>2023-06-15T10:29:22.294Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Object</h1>
 <h2> 几个基础关注点</h2>
 <h3> 表达式还是语句？</h3>
@@ -14386,13 +13914,14 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </ul>
 <div class="language-javascript" data-ext="js"></div><p>上面代码中，<code>Reflect.ownKeys</code>方法返回一个数组，包含了参数对象的所有属性。这个数组的属性次序是这样的，首先是数值属性<code>2</code>和<code>10</code>，其次是字符串属性<code>b</code>和<code>a</code>，最后是 Symbol 属性。</p>
 ]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">8.Class</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses8.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses8.html"/>
-    <updated>2023-06-15T10:29:22.455Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Class</h1>
 <h2> Class 的由来</h2>
 <p>JavaScript 语言中，生成实例对象的传统方法是通过构造函数。下面是一个例子。</p>
@@ -14663,13 +14192,14 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <p>下面是一个更完备的实现，将多个类的接口“混入”（mix in）另一个类。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码的<code>mix</code>函数，可以将多个对象合成为一个类。使用的时候，只要继承这个类即可。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">9.Symbol</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses9.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses9.html"/>
-    <updated>2023-06-15T10:29:22.490Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> Symbol</h1>
 <h2> 设计原理</h2>
 <p>ES5 的对象属性名都是字符串，这容易造成属性名的冲突。比如，你使用了一个他人提供的对象，但又想为这个对象添加新的方法（mixin 模式），新方法的名字就有可能与现有方法产生冲突。如果有一种机制，保证每个属性的名字都是独一无二的就好了，这样就从根本上防止属性名的冲突。这就是 ES6 引入<code>Symbol</code>的原因。</p>
@@ -14823,13 +14353,440 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码说明，数组有 7 个属性，会被<code>with</code>命令排除。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码通过指定<code>Symbol.unscopables</code>属性，使得<code>with</code>语法块不会在当前作用域寻找<code>foo</code>属性，即<code>foo</code>将指向外层作用域的变量。</p>
 ]]></content>
+    <category term="Web 前端"/>
+    <published>2021-08-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Ajax</title>
+    <id>https://harryxiong24.github.io/zh/front-end/ajax/ajax.html</id>
+    <link href="https://harryxiong24.github.io/zh/front-end/ajax/ajax.html"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Ajax</h1>
+<p><strong>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式</strong></p>
+<p>AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Ajax 的网页如果需要更新内容,必需重载整个网页面。</p>
+
+<h2> 1. 原生 Ajax</h2>
+<h3> 1.1 用法</h3>
+<h4> 1.1.1 创建 Ajax 对象</h4>]]></summary>
+    <content type="html"><![CDATA[<h1> Ajax</h1>
+<p><strong>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式</strong></p>
+<p>AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Ajax 的网页如果需要更新内容,必需重载整个网页面。</p>
+
+<h2> 1. 原生 Ajax</h2>
+<h3> 1.1 用法</h3>
+<h4> 1.1.1 创建 Ajax 对象</h4>
+<ul>
+<li><strong>通过 XMLHttpRequest()类创建一个 Ajax 对象(此方法不兼容 IE6 以下浏览器)</strong><br>
+var Ajax=new XMLHttpRequest();</li>
+<li><strong>在 IE6 以下浏览器通过 ActiveXObject("Microsoft.XMLHTTP")创建一个 Ajax 对象</strong><br>
+var Ajax=new ActiveXObject("Microsoft.XMLHTTP")</li>
+</ul>
+<h4> 1.1.2 连接服务器</h4>
+<p><strong>通过 open()方法,可以设置跟后台交互的一些行为,该方法有三个参数</strong></p>
+<p>参数</p>
+<p>• 请求方式,一个包含具体请求方式的字符串</p>
+<p><strong>主要请求方式：</strong></p>
+<p>​ <strong>• POST,建议在添加数据时使用</strong></p>
+<p>​ <strong>• GET,建议在查询数据时使用</strong></p>
+<p>​ <strong>• PUT,建议在修改数据时使用</strong></p>
+<p>​ <strong>• DELETE,建议在删除数据时使用</strong></p>
+<p><strong>• url,要请求数据的具体地址</strong></p>
+<p><strong>• bool,进行同步或异步传输,true 为异步,false 为同步</strong></p>
+<div class="language-javascript" data-ext="js"></div><p>注意:在 IE 浏览器中,如果通过 Ajax 发生 GET 请求,那么 IE 浏览器认为同一个 url 只有一个结果，修改文件内容浏览器中显示的值也不会发生改变</p>
+<div class="language-javascript" data-ext="js"></div><p><strong>设置需求</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Tip：GET 还是 POST？</strong></p>
+<p>与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。</p>
+<p>然而，在以下情况中，请使用 POST 请求：</p>
+<p>​ • 无法使用缓存文件（更新服务器上的文件或数据库）</p>
+<p>​ • 向服务器发送大量数据（POST 没有数据量限制）</p>
+<p>​ • 发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠</p>
+<h4> 1.1.3 发送请求</h4>
+<p><strong>通过 send()方法正式发送请求</strong></p>
+<div class="language-javascript" data-ext="js"></div><p><strong>注:</strong> 如果请求方式是 POST 方式,添加的需求作为参数写入 send()方法中</p>
+<h4> 1.1.4 返回请求结果</h4>
+<ul>
+<li><strong>通过 readyState(Ajax 自身的状态码)属性来返回请求进行到了某一步,该属性存有请求的状态</strong>
+<strong>请求状态</strong></li>
+<li>0: 请求未初始化</li>
+<li>1: 服务器连接已建立</li>
+<li>2: 请求已接收</li>
+<li>3: 请求处理中</li>
+<li>4: 请求已完成，且响应已就绪</li>
+<li><strong>通过 onreadystatechange 事件(在状态码发生改变时就会执行此事件)或 onload 事件来对状态码发生改变时进行操作</strong></li>
+<li><strong>通过 status(http 的状态码)属性的值判断请求后的结果从而得到请求信息,一般该值为 200 到 300 直接和等于 304 时代表请求成功,值为 404 代表请求失败</strong></li>
+<li><strong>response 属性保留着后台返回到前端的数据</strong></li>
+</ul>
+<div class="language-javascript" data-ext="js"></div><p><strong>解释为什么 Ajax.readyState === 4</strong></p>
+<ol>
+<li>服务器通知客户端当前的通信状态，并不是直接通知的，而是服务器通过修改 readyState 属性值。</li>
+<li>一旦 readyState 属性值发生改变，浏览器里的 Ajax 引擎就会触发 onreadyStatechang 事件，我们就可以通过该事件完成一些动作。</li>
+<li>有的说 onreadyStatechang 事件是由服务器触发的，其实应该是浏览器里的 Ajax 引擎触发的</li>
+</ol>
+<h4> 1.1.5 返回结果演示</h4>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 1.2 超时请求</h3>
+<p>如果请求事件太长就是请求超时,如果事件过长则可能内部出现了错了,可以设置超过一定时间结束请求</p>
+<div class="language-javascript" data-ext="js"></div><h3> 1.3 跨域请求</h3>
+<p>如果通过 Ajax 跨域传输一个请求,浏览器会自动将该请求阻止并返回报错信息。如果要进行跨域就要进行特殊方法进行实现</p>
+<p><strong>实现跨域</strong></p>
+<ul>
+<li>JOSNP 方式,通过 script 标签中的 src 属性传输请求</li>
+<li>CORS 方式,在后台中设置可以让对应的域进行访问</li>
+<li>通过信任服务器代理请求进入(翻墙)</li>
+</ul>
+<h3> 1.4 XmlHttpRequest 对象的主要方法与属性</h3>
+<p><strong>XmlHttpRequest 对象的主要方法</strong></p>
+<ol>
+<li>void open(String method,String url,Boolen async)
+用于创建请求
+参数：
+method： 请求方式（字符串类型），如：POST、GET、DELETE...
+url： 要请求的地址（字符串类型）
+async： 是否异步（布尔类型）</li>
+<li>void send(String body)
+用于发送请求
+参数：
+body： 要发送的数据（字符串类型）</li>
+<li>void setRequestHeader(String header,String value)
+用于设置请求头
+参数：
+header： 请求头的 key（字符串类型）
+vlaue： 请求头的 value（字符串类型）</li>
+<li>String getAllResponseHeaders()
+获取所有响应头
+返回值：
+响应头数据（字符串类型）</li>
+<li>String getResponseHeader(String header)
+获取响应头中指定 header 的值
+参数：
+header： 响应头的 key（字符串类型）
+返回值：
+响应头中指定的 header 对应的值</li>
+<li>void abort()
+终止请求</li>
+</ol>
+<p><strong>XmlHttpRequest 对象的主要属性</strong></p>
+<ol>
+<li>Number readyState
+状态值（整数）
+详细：
+0-未初始化，尚未调用 open()方法；
+1-启动，调用了 open()方法，未调用 send()方法；
+2-发送，已经调用了 send()方法，未接收到响应；
+3-接收，已经接收到部分响应数据；
+4-完成，已经接收到全部响应数据；</li>
+<li>Function onreadystatechange
+当 readyState 的值改变时自动触发执行其对应的函数（回调函数）</li>
+<li>String responseText
+服务器返回的数据（字符串类型）</li>
+<li>XmlDocument responseXML
+服务器返回的数据（Xml 对象）</li>
+<li>Number states
+状态码（整数），如：200、404...</li>
+<li>String statesText
+状态文本（字符串），如：OK、NotFound...</li>
+</ol>
+<h3> 1.5 封装 Ajax</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 1.6 总结</h3>
+<p>使用步骤</p>
+<ol>
+<li>创建 XmlHttpRequest 对象</li>
+<li>调用 open 方法设置基本请求信息</li>
+<li>设置发送的数据，发送请求</li>
+<li>注册监听的回调函数</li>
+<li>拿到返回值，对页面进行更新</li>
+</ol>
+<h2> 2. Fetch</h2>
+<p>fetch 是一种 HTTP 数据请求的方式，是 XMLHttpRequest 的一种替代方案。fetch 不是 ajax 的进一步封装，而是原生 js。Fetch 函数就是原生 js，没有使用 XMLHttpRequest 对象。</p>
+<h3> 2.1 用法</h3>
+<h4> 2.1.1 Fetch 的参数</h4>
+<ul>
+<li>
+<p><strong>url,该参数定义要获取的资源,可以是一个 url 字符串,也可以是一个 Request 对象</strong></p>
+</li>
+<li>
+<p><strong>options,该参数可选,为一个对象,内部含有一些对请求的设置属性</strong>
+<strong>内部属性：</strong></p>
+</li>
+<li>
+<ul>
+<li>**method:**请求使用的方法。如:GET、POST 等</li>
+<li>**headers:**请求头信息。形式为 Headers 对象或 ByteString</li>
+<li>**body:**请求的 body 信息,可能是一个 Blob、BufferSource、FormData、URLSearchParams 或者 USVString 对象。注意 GET 或 HEAD 方法的请求不能包含 body 信息</li>
+<li>**mode:**请求的模式。如 cors、no-cors 或者 same-origin</li>
+<li>**credentiala:**请求的 credentials。如 omit、same-origin 或者 include</li>
+<li>**cache:**请求的 cache 模式:default,no-store,reload,no-cache 或者 only-if-cached</li>
+</ul>
+</li>
+</ul>
+<h4> 2.1.2 response 对象</h4>
+<p><strong>response 为一个 Promise 对象成功时传回的对象,该属性含有对应返回数据的属性和方法</strong></p>
+<ul>
+<li><strong>属性</strong></li>
+<li><strong>status (number),HTTP 请求结果参数,在 100-599 范围</strong></li>
+<li><strong>statusText (string),服务器返回的状态报告</strong></li>
+<li><strong>ok (boolean),如果返回 200 表示请求成功则为 true</strong></li>
+<li><strong>headers (Headers),返回头部信息,该属性后面也有对应的方法</strong></li>
+<li>has(name) (boolean),判断是否存在该信息头</li>
+<li>get(name) (string),获取信息头的数据</li>
+<li>getAll(name) (Array),获取所有头部数据</li>
+<li>set(name,value),设置请求头信息</li>
+<li>append(name,value),添加 header 的内容</li>
+<li>delete(name),删除 header 的信息</li>
+<li>forEach(function(value,name){...},[thisContext]),循环读取 header 的信息</li>
+<li><strong>url (string),详细的地址</strong></li>
+</ul>
+<ul>
+<li><strong>方法</strong></li>
+<li><strong>text(),以 string 的形式生成请求 text</strong></li>
+<li><strong>json(),生成 JSON.parse(responseText)的结果</strong></li>
+<li><strong>blob(),生成一个 Blob</strong></li>
+<li><strong>arrayBuffer(),生成一个 ArrayBuffer</strong></li>
+<li><strong>formData(),生成格式化数据,可用于其它的请求</strong></li>
+<li><strong>其他方法</strong></li>
+<li><strong>clone(),创建一个 Response 对象的克隆</strong></li>
+<li><strong>Response.error(),返回一个绑定了网络错误的新的 Response 对象</strong></li>
+<li><strong>Response.redirect(),用另一个 URL 创建一个新的 Resonse 对象</strong></li>
+</ul>
+<h4> 2.1.3 使用</h4>
+<p><strong>引入 npm install whatwg-fetch --save</strong></p>
+<ul>
+<li><strong>get</strong></li>
+</ul>
+<div class="language-javascript" data-ext="js"></div><ul>
+<li><strong>post</strong></li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.2 与原生 Ajax 的比较</h3>
+<ul>
+<li>原生 Ajax</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>Fetch</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.3 封装 fetch</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3. Axios</h2>
+<h3> 3.1 安装</h3>
+<p>使用 npm:</p>
+<div class="language-bash" data-ext="sh"></div><p>使用 bower:</p>
+<div class="language-bash" data-ext="sh"></div><p>使用 cdn:</p>
+<div class="language-html" data-ext="html"></div><p>###3.2 用法</p>
+<p>执行 GET 请求</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行 POST 请求</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行多个并发请求</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.3 Axios API</h3>
+<p>可以通过向 axios 传递相关配置来创建请求</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>请求方法的别名</p>
+<p>为方便起见，为所有支持的请求方法提供了别名</p>
+<p>axios.request(config)</p>
+<p>axios.get(url[, config])</p>
+<p>axios.delete(url[, config])</p>
+<p>axios.head(url[, config])</p>
+<p>axios.post(url[, data[, config]])</p>
+<p>axios.put(url[, data[, config]])</p>
+<p>axios.patch(url[, data[, config]])</p>
+<p>在使用别名方法时， url、method、data 这些属性都不必在配置中指定。</p>
+<h4> 处理并发</h4>
+<p>处理并发请求的助手函数</p>
+<div class="language-javascript" data-ext="js"></div><h4> 创建实例</h4>
+<p>可以使用自定义配置新建一个 axios 实例</p>
+<div class="language-javascript" data-ext="js"></div><p>实例方法</p>
+<p>以下是可用的实例方法。指定的配置将与实例的配置合并</p>
+<p>axios#request(config)</p>
+<p>axios#get(url[, config])</p>
+<p>axios#delete(url[, config])</p>
+<p>axios#head(url[, config])</p>
+<p>axios#post(url[, data[, config]])</p>
+<p>axios#put(url[, data[, config]])</p>
+<p>axios#patch(url[, data[, config]])</p>
+<h4> 请求配置</h4>
+<p>这些是创建请求时可以用的配置选项。只有 url 是必需的。如果没有指定 method，请求将默认使用 get 方法。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.4 响应结果</h3>
+<p>响应结构</p>
+<p>某个请求的响应包含以下信息</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用 then 时，你将接收下面这样的响应：</p>
+<div class="language-javascript" data-ext="js"></div><p>在使用 catch 时，或传递 rejection callback 作为 then 的第二个参数时，响应可以通过 error 对象可被使用。</p>
+<h3> 3.5 封装 Axios</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 4 原生 Ajax, Axios, Fetch 的区别</h2>
+<h3> 原生 Ajax</h3>
+<p>传统 Ajax 指的是 XMLHttpRequest（XHR）， 最早出现的发送后端请求技术，隶属于原始 js 中，核心使用 XMLHttpRequest 对象，多个请求之间如果有先后关系的话，就会出现<strong>回调地狱</strong>。</p>
+<p>JQuery ajax 是对原生 XHR 的封装，除此以外还增添了对<strong>JSONP</strong>的支持。经过多年的更新维护，真的已经是非常的方便了，优点无需多言；如果是硬要举出几个缺点，那可能只有：</p>
+<ol>
+<li>本身是针对 MVC 的编程,不符合现在前端<strong>MVVM</strong>的浪潮</li>
+<li>基于原生的 XHR 开发，XHR 本身的架构不清晰。</li>
+<li>JQuery 整个项目太大，单纯使用 ajax 却要引入整个 JQuery 非常的不合理（采取个性化打包的方案又不能享受 CDN 服务）</li>
+<li>不符合关注分离（Separation of Concerns）的原则</li>
+<li>配置和调用方式非常混乱，而且基于事件的异步模型不友好。</li>
+</ol>
+<h3> Axios</h3>
+<p>Axios 是一个基于 Promise 用于浏览器和 nodejs 的 HTTP 客户端，本质上也是对原生 XHR 的封装，只不过它是 Promise 的实现版本，符合最新的 ES 规范，它本身具有以下特征：</p>
+<ol>
+<li>从浏览器中创建 XMLHttpRequest</li>
+<li>支持 Promise API</li>
+<li>.客户端支持防止 CSRF</li>
+<li>提供了一些并发请求的接口（重要，方便了很多的操作）</li>
+<li>从 node.js 创建 http 请求</li>
+<li>拦截请求和响应</li>
+<li>转换请求和响应数据</li>
+<li>取消请求</li>
+<li>自动转换 JSON 数据</li>
+</ol>
+<p><strong>PS:防止 CSRF:就是让你的每个请求都带一个从 cookie 中拿到的 key, 根据浏览器同源策略，假冒的网站是拿不到你 cookie 中得 key 的，这样，后台就可以轻松辨别出这个请求是否是用户在假冒网站上的误导输入，从而采取正确的策略。</strong></p>
+<h3> Fetch</h3>
+<p>fetch 号称是 AJAX 的替代品，是在 ES6 出现的，使用了 ES6 中的 promise 对象。</p>
+<p>Fetch 是基于 promise 设计的。Fetch 的代码结构比起 ajax 简单多了，参数有点像 jQuery ajax。</p>
+<p>但是，一定记住<strong>fetch 不是 ajax 的进一步封装，而是原生 js，没有使用 XMLHttpRequest 对象</strong>。</p>
+<p><strong>fetch 的优点：</strong></p>
+<ol>
+<li>符合关注分离，没有将输入、输出和用事件来跟踪的状态混杂在一个对象里</li>
+<li>更好更方便的写法</li>
+<li>语法简洁，更加语义化</li>
+<li>基于标准 Promise 实现，支持 async/await</li>
+<li>同构方便使用</li>
+<li>加底层，提供的 API 丰富（request, response）</li>
+<li>脱离了 XHR，是 ES 规范里新的实现方式</li>
+</ol>
+<p><strong>使用 fetch 的时候，也遇到了不少的问题：</strong></p>
+<ol>
+<li>fetch 是一个低层次的 API，你可以把它考虑成原生的 XHR，所以使用起来并不是那么舒服，需要进行封装。1）fetch 只对网络请求报错，对 400，500 都当做成功的请求，服务器返回 400，500 错误码时并不会 reject，只有网络错误这些导致请求不能完成时，fetch 才会被 reject。
+2）fetch 默认不会带 cookie，需要添加配置项： fetch(url, {credentials: 'include'})
+3）fetch 不支持 abort，不支持超时控制，使用 setTimeout 及 Promise.reject 的实现的超时控制并不能阻止请求过程继续在后台运行，造成了流量的浪费
+4）fetch 没有办法原生监测请求的进度，而 XHR 可以</li>
+</ol>
+]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Data Storage</title>
+    <id>https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html</id>
+    <link href="https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Data Storage</h1>
+
+<h2> 1. Cookie</h2>
+<p><strong>cookie 用于存储数据,当用户访问了某个网站(网页)的时候,可以通过 cookie 来访问客户端上存储的数据</strong></p>
+<p><strong>注意:</strong></p>
+<ul>
+<li>
+<p>不同的浏览器存放的 cookie 位置不一样，也是不能通用的</p>
+</li>
+<li>
+<p>cookie 的存储是以域名形式进行区分的</p>
+</li>
+<li>
+<p>cookie 的数据可以设置名字的</p>
+</li>
+<li>
+<p>一个域名下存放的 cookie 的个数是有限制的，不同的浏览器存放的个数不一样</p>
+</li>
+<li>
+<p>每个 cookie 存放的内容大小也是有限制的，不同的浏览器存放大小不一样</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> Data Storage</h1>
+
+<h2> 1. Cookie</h2>
+<p><strong>cookie 用于存储数据,当用户访问了某个网站(网页)的时候,可以通过 cookie 来访问客户端上存储的数据</strong></p>
+<p><strong>注意:</strong></p>
+<ul>
+<li>
+<p>不同的浏览器存放的 cookie 位置不一样，也是不能通用的</p>
+</li>
+<li>
+<p>cookie 的存储是以域名形式进行区分的</p>
+</li>
+<li>
+<p>cookie 的数据可以设置名字的</p>
+</li>
+<li>
+<p>一个域名下存放的 cookie 的个数是有限制的，不同的浏览器存放的个数不一样</p>
+</li>
+<li>
+<p>每个 cookie 存放的内容大小也是有限制的，不同的浏览器存放大小不一样</p>
+</li>
+</ul>
+<h3> 1.1 访问 cookie</h3>
+<p><strong>通过 document.cookie 属性可以获取当前网站下的所有 cookie,得到字符串形式的值,<strong>该返回值会将所有的 cookie 通过</strong>分号+空格</strong>的形式串联起来</p>
+<div class="language-javascript" data-ext="js"></div><h3> 1.2 存储 cookie</h3>
+<div class="language-javascript" data-ext="js"></div><p><strong>注意:</strong></p>
+<ul>
+<li>
+<p>如果设置不同的 cookie 值,则用 document.cookie 再次赋值不会将原来设置的 cookie 覆盖掉,而是再加上一条 cookie</p>
+</li>
+<li>
+<p>如果设置相同的 cookie 值,则再次用 document.coolkie 设置 cookie 值时会将原来的 cookie 值覆盖掉</p>
+</li>
+</ul>
+<h3> 1.3 设置 cookie 过期时间</h3>
+<p>cookie 默认是临时存储的,当浏览器关闭进程的时候自动销毁 ,如果想长时间存放一个 cookie。需要在设置这个 cookie 的时候设置一个过期的时间</p>
+<p>**注意:**过期时间必须是一个日期对象转换成的字符串</p>
+<p><strong>document.cookie = "数据名=值; expires=过期时间"</strong>;</p>
+<div class="language-javascript" data-ext="js"></div><p>`</p>
+<h3> 1.4 cookie 封装</h3>
+<ul>
+<li>
+<p>设置 cookie 封装</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>获取 cookie 封装</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>移除 cookie</p>
+<div class="language-javascript" data-ext="js"></div></li>
+</ul>
+<h2> 2. 本地存储</h2>
+<h3> 2.1 sessionStorage</h3>
+<p><strong>sessionStorage 属性允许用户访问一个 session Storage 对象,存储在 sessionStorage 中的数据在页面会话结束时被清除</strong></p>
+<p><strong>注意:</strong></p>
+<ul>
+<li>
+<p>页面会话在浏览器打开期间一直保持，并且重新加载或恢复页面仍会保持原来的页面会话。</p>
+</li>
+<li>
+<p>在新标签或窗口打开一个页面时会在顶级浏览上下文中初始化一个新的会话,这点和 cookies 的运行方式不同</p>
+</li>
+</ul>
+<p><strong>方法</strong></p>
+<ul>
+<li>
+<p>setItem("对象名","对象值"),增加一个数据项目</p>
+</li>
+<li>
+<p>getItem("对象名"),获取一个数据项目</p>
+</li>
+<li>
+<p>removeItem("对象名"),移除一个数据项目</p>
+</li>
+<li>
+<p>clear(),不传参数,移除所有的数据项目</p>
+</li>
+</ul>
+<h3> 2.2 localStorage</h3>
+<p>localStorage 属性允许用户访问一个了 local Storage 对象,存储在 localStorage 中的数据能在跨浏览器会话保留,也就是说该属性中存入的值会在本地存储中永久保存</p>
+<p>**注意:**localStorage 中的键值对总是以字符串的形式存储,所有如果传入的是非字符串参数会自动转换为字符串,最好手动转化</p>
+<p><strong>方法</strong></p>
+<ul>
+<li>
+<p>setItem("对象名","对象值"),增加一个数据项目</p>
+</li>
+<li>
+<p>getItem("对象名"),获取一个数据项目</p>
+</li>
+<li>
+<p>removeItem("对象名"),移除一个数据项目</p>
+</li>
+<li>
+<p>clear(),不传参数,移除所有的数据项目</p>
+</li>
+</ul>
+]]></content>
+    <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">1.节点</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html"/>
-    <updated>2023-06-15T10:29:22.491Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 节点</h2>
 <p><strong>Node(节点)是构成HTML5的基本单元</strong>,DOM节点主要分为四类</p>
 <ul>
@@ -14954,12 +14911,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </ul>
 ]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">10.拖拽事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html"/>
-    <updated>2023-06-15T10:29:22.492Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 拖拽事件</h2>
 <p>当我们拖拽一个网页中的内容时，浏览器会默认去搜索引擎中搜索内容，此时会导致拖拽功能的异常，这个是浏览器提供的默认行为,如果不希望发生这个行为，可以通过return false来取消默认行为，但是对IE8及以下浏览器不起作用(并不是说IE8不支持使用return false来取消默认效果，只是不支持在拖拽时取消默认效果)</p>
 <p><strong>注意:</strong></p>
@@ -14995,12 +14953,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </ul>
 ]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">11.滚轮事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html"/>
-    <updated>2023-06-15T10:29:22.497Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 滚轮事件</h2>
 <ul>
 <li>
@@ -15038,12 +14997,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>兼容写法(包括控制滚动的方向)</strong></p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">12.键盘事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html"/>
-    <updated>2023-06-15T10:29:22.499Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 键盘事件</h2>
 <h3> 12.1 事件触发</h3>
 <ul>
@@ -15085,12 +15045,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <div class="language-javascript" data-ext="js"></div><p><strong>注意:在文本框中输入内容，属于onkeydown的默认行为，如果在onkeydown中取消了默认行为return false，则输入的内容不会出现在文本框中</strong></p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">13.BOM</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html"/>
-    <updated>2023-06-15T10:29:22.503Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> BOM</h2>
 <p>**BOM全称Browser Object Model(浏览器对象模型),**是用于描述这种对象与对象之间层次关系的模型，浏览器对象模型提供了独立于内容的、可以与浏览器窗口进行互动的对象结构，BOM可以使我们通过JS来操作浏览器</p>
 <p><strong>BOM由多个对象组成，其中代表浏览器窗口的Window对象是BOM的顶层对象，其他对象都是该对象的子对象</strong></p>
@@ -15272,12 +15233,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </ul>
 ]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">2.DOM事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html"/>
-    <updated>2023-06-15T10:29:22.509Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> DOM事件</h2>
 <p><strong>事件是用户和浏览器之间的交互行为</strong></p>
 <h3> 2.1 鼠标事件</h3>
@@ -15784,12 +15746,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </table>
 ]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">3.DOM查询</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html"/>
-    <updated>2023-06-15T10:29:22.528Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> DOM查询</h2>
 <h3> 3.1 获取DOM节点</h3>
 <h4> 3.1.1 获取元素节点</h4>
@@ -16084,12 +16047,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <h3> 3.4 遍历DOM元素</h3>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">4.元素样式</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db4.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db4.html"/>
-    <updated>2023-06-15T10:29:22.547Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 元素样式</h2>
 <h3> 4.1 修改元素CSS样式</h3>
 <h4> 4.1.1 通过style属性修改元素样式</h4>
@@ -16260,12 +16224,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </ul>
 ]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">5.事件对象</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db5.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db5.html"/>
-    <updated>2023-06-15T10:29:22.551Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 事件对象</h2>
 <p>当事件的响应函数被触发时，浏览器每次都会将一个事件对象作为默认实参(如果没有传入参数位置为arguments[0])传递进响应函数，在事件对象中封装了当前事件相关的一些信息，比如:鼠标的坐标，键盘哪个按键被按下 ，鼠标滚轮滚动的方向</p>
 <p><strong>注:</strong></p>
@@ -16533,12 +16498,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 </table>
 ]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">6.事件的冒泡(Bubble)</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db6.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db6.html"/>
-    <updated>2023-06-15T10:29:22.551Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 事件的冒泡(Bubble)</h2>
 <p>所谓的冒泡指的就是事件的向上传导，当后代元素上的事件被触发时，其祖先元素的相同事件也会被触发，在开发中大部分情况冒泡都是有用的，如果不希望发生事件冒泡，可以通过事件对象来取消冒泡，可以通过设置<code>event.cancelBubble=true</code>来取消冒泡，这个需要<strong>设置在子元素的事件中</strong>，并且大多数都是设置的可以冒泡，除了某些函数默认不冒泡</p>
 <p><strong>如果在父元素里面设置了一个事件,而在子元素中也有相同的事件,不想要父元素的事件在子元素的范围内出现时，可以通过多种方式设置取消冒泡</strong></p>]]></summary>
@@ -16553,12 +16519,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <p><strong>兼容写法</strong></p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">7.事件的委派</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db7.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db7.html"/>
-    <updated>2023-06-15T10:29:22.553Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 事件的委派</h2>
 <p>事件的委派指将事件统一绑定给元素的共同的祖先元素，这样当后代元素上的事件触发时，会一直冒泡到祖先元素，从而通过祖先元素的响应函数来处理事件,事件委派是利用了冒泡，通过委派可以事件绑定的次数，提高程序的性能</p>
 <p><strong>例子:</strong></p>
@@ -16578,12 +16545,13 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <div class="language-javascript" data-ext="js"></div><p>但是这个例子需要判断如果触发的对象是我们期望的元素,就执行该代码,否则不执行,因为如果点击的是a元素之外的其它地方就不触发弹窗效果,这个时候需要使用target 事件对象中的event中的target表示的触发事件的对象</p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
   <entry>
     <title type="text">8.事件的绑定</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db8.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db8.html"/>
-    <updated>2023-06-15T10:29:22.555Z</updated>
+    <updated>2023-06-15T10:30:18.000Z</updated>
     <summary type="html"><![CDATA[<h2> 事件的绑定</h2>
 <h3> 8.1 绑定事件</h3>
 <p>通过 <strong>对象.事件=函数</strong> 的形式绑定的响应函数，只能同时为一个元素的一个事件绑定一个响应函数，不能够绑定多个，如果绑定了多个，则后边绑定的响应函数会覆盖掉前边的</p>
@@ -16713,5 +16681,88 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <p><strong>兼容写法</strong></p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">9.事件的传播</title>
+    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db9.html</id>
+    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db9.html"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<h2> 事件的传播</h2>
+<p><strong>关于事件的传播网景公司和微软公司有不同的看法</strong></p>
+<ul>
+<li>
+<p>微软公司认为事件应该是由内向外传播，也就是当事件触发时，应该先触发当前元素上的事件，然后再向当前元素的祖先元素上传播，也就是说事件应该在冒泡阶段执行</p>
+</li>
+<li>
+<p>网景公司认为事件应该是由外向内传播，也就是当前事件被触发时，应该先触发当前元素的最外层的祖先元素的事件，然后再向内传播给后代元素，这个阶段叫做捕获阶段</p>
+</li>
+</ul>
+<p><strong>最后，W3C综合了两个公司的方案，将事件传播分成了三个阶段</strong></p>]]></summary>
+    <content type="html"><![CDATA[<h2> 事件的传播</h2>
+<p><strong>关于事件的传播网景公司和微软公司有不同的看法</strong></p>
+<ul>
+<li>
+<p>微软公司认为事件应该是由内向外传播，也就是当事件触发时，应该先触发当前元素上的事件，然后再向当前元素的祖先元素上传播，也就是说事件应该在冒泡阶段执行</p>
+</li>
+<li>
+<p>网景公司认为事件应该是由外向内传播，也就是当前事件被触发时，应该先触发当前元素的最外层的祖先元素的事件，然后再向内传播给后代元素，这个阶段叫做捕获阶段</p>
+</li>
+</ul>
+<p><strong>最后，W3C综合了两个公司的方案，将事件传播分成了三个阶段</strong></p>
+<p><strong>1.捕获阶段</strong></p>
+<p>在捕获阶段时从最外层的祖先元素，向目标元素进行进行事件的捕获，但是默认此时不会触发事件</p>
+<p><strong>2.目标阶段</strong></p>
+<p>事件捕获到目标元素，捕获结束开始在目标元素上触发事件</p>
+<p><strong>3.冒泡阶段</strong></p>
+<p>事件从目标元素向它的祖先元素传递，依次触发祖先元素上的事件</p>
+<p><strong>注意:</strong></p>
+<ul>
+<li>
+<p>如果希望在捕获阶段就触发事件，可以将addEventListener()的第三个参数设置为true,一般情况下我们不会希望在捕获阶段触发事件，所以这个事件一般都是false</p>
+</li>
+<li>
+<p>IE8及以下没有捕获阶段</p>
+</li>
+</ul>
+]]></content>
+    <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">DOM&amp;BOM</title>
+    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/</id>
+    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/"/>
+    <updated>2023-06-15T10:30:18.000Z</updated>
+    <summary type="html"><![CDATA[<h1> DOM&amp;BOM</h1>
+<p><strong>DOM全称Document Object Model(文档对象模型)</strong></p>
+<ul>
+<li>
+<p><strong>文档</strong>:整个HTML网页文档对象</p>
+</li>
+<li>
+<p><strong>对象</strong>:网页中的每一个部分都被转换为了一个对象</p>
+</li>
+<li>
+<p><strong>模型</strong>:使用模型表示对象之间的关系，方便我们获取对象</p>
+</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[<h1> DOM&amp;BOM</h1>
+<p><strong>DOM全称Document Object Model(文档对象模型)</strong></p>
+<ul>
+<li>
+<p><strong>文档</strong>:整个HTML网页文档对象</p>
+</li>
+<li>
+<p><strong>对象</strong>:网页中的每一个部分都被转换为了一个对象</p>
+</li>
+<li>
+<p><strong>模型</strong>:使用模型表示对象之间的关系，方便我们获取对象</p>
+</li>
+</ul>
+]]></content>
+    <category term="Web前端"/>
+    <published>2023-06-15T10:30:18.000Z</published>
   </entry>
 </feed>

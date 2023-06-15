@@ -1,7 +1,6 @@
 ---
 title: 列表生成式
-icon: list
-time: 2020-6-7
+date: 2020-06-07
 category: Python
 tag: Python
 ---

@@ -1,8 +1,7 @@
 ---
-icon: keyboard
 category: VS Code
 tag: VS Code
-time: 2020-6-1
+date: 2020-06-01
 ---
 
 # VSCode 快捷键说明
@@ -134,7 +133,6 @@ time: 2020-6-1
 ::: tip
 更多请见
 
-- [Windows 快捷键介绍](../../windows/shortCutKey.md)
 - [VScode 快捷键介绍](https://nenuyouth.com/Res/doc/private/software/vscode/vscodeKeyboardShortcutsWindows.pdf)
 
 :::

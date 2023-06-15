@@ -1,8 +1,7 @@
 ---
-icon: vscode
 category: VS Code
 tag: VS Code
-time: 2020-6-1
+date: 2020-06-01
 ---
 
 # VSCode

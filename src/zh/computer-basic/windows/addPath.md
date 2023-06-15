@@ -1,9 +1,8 @@
 ---
 title: 环境变量的添加
-icon: addPath
 category: Windows
 tag: Windows
-time: 2020-6-1
+date: 2020-06-01
 ---
 
 以 Windows10 系统为例，直接在左下角搜索栏中输入“系统变量”

@@ -1,8 +1,8 @@
 ---
-icon: Github
-time: 2020-6-5
 category: GitHub
-tags: GitHub
+tag:
+  - GitHub
+date: 2020-06-05
 ---
 
 # Github Pages

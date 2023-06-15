@@ -1,5 +1,0 @@
----
-icon: info
----
-
-# About me

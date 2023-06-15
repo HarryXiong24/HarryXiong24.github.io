@@ -1,9 +1,8 @@
 ---
-icon: install
 category: Git
-tags:
+tag:
   - Git
-time: 2020-6-5
+date: 2020-06-05
 ---
 
 # Git 安装与配置

@@ -1,13 +1,11 @@
 ---
-icon: infofill
-time: 2020-6-24
-category: Web后台
+date: 2020-06-24
+category: Web 后台
 tags: 
   - Servlet
   - MVC
   - JSP
   - JDBC
-footer: 放不下梦想的执着
 ---
 
 # Servlet & JSP

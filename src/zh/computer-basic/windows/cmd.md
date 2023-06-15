@@ -1,9 +1,8 @@
 ---
 title: 打开命令行
-icon: addPath
 category: Windows
 tag: Windows
-time: 2020-6-1
+date: 2020-06-01
 ---
 
 打开命令行 (命令提示符) 有多种方式。

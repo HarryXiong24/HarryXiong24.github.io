@@ -1,10 +1,8 @@
 ---
-icon: flower
 category: 诗集
-time: 2020-6-10
-tags: 
+date: 2020-06-10
+tag: 
   - 生命之歌
-footer: 生命之歌
 ---
 
 # 生命之歌

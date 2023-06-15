@@ -4,6 +4,7 @@
   "description": "Harry Blog",
   "type": "module",
   "scripts": {
+    "build": "vuepress-vite build src",
     "build:vite": "vuepress-vite build src",
     "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build src",
     "build:webpack": "vuepress-webpack build src",

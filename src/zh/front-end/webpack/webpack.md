@@ -1,9 +1,8 @@
 ---
 icon: Webpack
-category: Web前端
+category: Web 前端
 tag: Webpack
-time: 2020-6-9
-footer: 要拿执着, 将命运的锁打破
+date: 2020-06-09
 ---
 
 # Webpack

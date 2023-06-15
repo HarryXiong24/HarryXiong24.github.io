@@ -1,9 +1,8 @@
 ---
 icon: js
-category: Web前端
-tag: JS进阶教程
-time: 2021-8-1
-footer: 一切都是最好的安排
+category: Web 前端
+tag: JS 进阶教程
+date: 2021-08-01
 title: 7.Object
 ---
 

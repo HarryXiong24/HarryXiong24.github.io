@@ -3,6 +3,13 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbarConfig = navbar([
   "/",
   {
+    text: "About Me",
+    children: [
+      { text: "About Me", icon: "info", link: "/zh/about-me/info" },
+      { text: "Contact Me", icon: "community", link: "/zh/about-me/contact" },
+    ],
+  },
+  {
     text: "随笔",
     icon: "article",
     children: [
@@ -13,9 +20,8 @@ export const zhNavbarConfig = navbar([
       },
       {
         text: "诗集",
-        children: [
-          { text: "生命之歌", link: "/zh/poem/life", icon: "likefill" },
-        ],
+        icon: "flower",
+        children: [{ text: "生命之歌", link: "/zh/poem/life" }],
       },
     ],
   },
@@ -34,13 +40,6 @@ export const zhNavbarConfig = navbar([
       },
       { text: "Git", link: "/zh/git", icon: "git" },
       { text: "VSCode", link: "/zh/vscode", icon: "vscode" },
-    ],
-  },
-  {
-    text: "About me",
-    children: [
-      { text: "About me", icon: "info", link: "/zh/about-me/info" },
-      { text: "Contact me", icon: "community", link: "/zh/about-me/contact" },
     ],
   },
 ]);

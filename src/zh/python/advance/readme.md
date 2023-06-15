@@ -1,7 +1,6 @@
 ---
 title: Python 高级语法
-icon: advance
-time: 2020-6-7
+date: 2020-06-07
 category: Python
 tag: Python
 ---

@@ -1,9 +1,9 @@
 ---
 title: 计算机编码介绍
 icon: number
-time: 2020-6-10
+date: 2020-06-10
 category: 计算机基础
-tags: 
+tag: 
   - 计算机基础
   - 文件编码
   - 操作系统

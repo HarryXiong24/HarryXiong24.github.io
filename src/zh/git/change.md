@@ -1,9 +1,8 @@
 ---
-icon: change
 category: Git
-tags:
+tag:
   - Git
-time: 2020-6-5
+date: 2020-06-05
 ---
 
 # 修改管理

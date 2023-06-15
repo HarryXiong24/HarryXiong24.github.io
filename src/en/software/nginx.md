@@ -1,6 +1,0 @@
----
-icon: nginx
----
-
-# Nginx
-

@@ -1,14 +1,13 @@
 ---
 icon: vue
-category: Web前端
-tags:
+category: Web 前端
+tag: 
   - Vue
   - MVVM
   - Vuex
   - Vue-router
-  - Vue源码分析
-time: 2020-6-18
-footer: How easy to do
+  - Vue 源码分析
+date: 2020-06-18
 title: 16.对象数组更新
 ---
 

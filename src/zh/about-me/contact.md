@@ -1,7 +1,8 @@
 ---
 icon: community
-time: 2020.6.1
-footer: 所有苦难与背负尽头, 都是行云流水般的此世光阴
+date: 2020-06-01
+tag: About Me
+article: true
 ---
 
 # 联系Harry

@@ -1,9 +1,8 @@
 ---
 title: 常用快捷键
-icon: keyboard
 category: Windows
 tag: Windows
-time: 2020-6-1
+date: 2020-06-01
 ---
 
 熟练掌握各种 Windows 快捷键，能够更加高效的使用 Windows。
