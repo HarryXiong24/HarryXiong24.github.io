@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["pnpm", "vite", "Xiong"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true
+}

@@ -1,0 +1,36 @@
+import { arraySidebar } from "vuepress-theme-hope";
+
+export const js = arraySidebar([
+  {
+    text: "JavaScript",
+    icon: "javascript",
+    collapsible: false,
+    children: [
+      "",
+      "js1",
+      "js2",
+      "js3",
+      "js4",
+      "js5",
+      "js6",
+      "js7",
+      "js8",
+      "js9",
+      "js10",
+      "js11",
+      "js12",
+      "js13",
+      "js14",
+      "js15",
+      "js16",
+      "js17",
+      "js18",
+      "js19",
+      "js20",
+      "js21",
+      "js22",
+      "js23",
+      "js24",
+    ],
+  },
+]);

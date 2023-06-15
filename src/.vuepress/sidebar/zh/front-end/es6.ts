@@ -1,0 +1,38 @@
+import { arraySidebar } from "vuepress-theme-hope";
+
+export const es6 = arraySidebar([
+  {
+    text: "ES6",
+    icon: "es6",
+    collapsible: false,
+    children: [
+      "",
+      "intro",
+      "let",
+      "destructuring",
+      "string",
+      "regex",
+      "number",
+      "function",
+      "array",
+      "object",
+      "symbol",
+      "set-map",
+      "proxy",
+      "reflect",
+      "promise",
+      "iterator",
+      "generator",
+      "generator-async",
+      "async",
+      "class",
+      "class-extends",
+      "decorator",
+      "module",
+      "module-loader",
+      "style",
+      "spec",
+      "arraybuffer",
+    ],
+  },
+]);

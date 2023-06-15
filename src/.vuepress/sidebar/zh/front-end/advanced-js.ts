@@ -1,0 +1,37 @@
+import { arraySidebar } from "vuepress-theme-hope";
+
+export const advanced_js = arraySidebar([
+  {
+    text: "JS & ES进阶教程",
+    icon: "js",
+    collapsible: false,
+    children: [
+      "",
+      "jses2",
+      "jses3",
+      "jses4",
+      "jses5",
+      "jses6",
+      "jses7",
+      "jses8",
+      "jses9",
+      "jses10",
+      "jses11",
+      "jses12",
+      "jses13",
+      "jses14",
+      "jses15",
+      "jses16",
+      "jses17",
+      "jses18",
+      "jses19",
+      "jses20",
+      "jses21",
+      "jses22",
+      "jses23",
+      "jses24",
+      "jses25",
+      "jses26",
+    ],
+  },
+]);
