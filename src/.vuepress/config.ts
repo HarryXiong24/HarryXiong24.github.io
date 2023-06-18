@@ -25,13 +25,12 @@ export default defineUserConfig({
 
   locales: {
     "/": {
-      lang: "zh-CN",
+      lang: "en-US",
       title: "Harry Xiong",
       description: "A piano player playing on the keyboard",
     },
-
-    "/en/": {
-      lang: "en-US",
+    "/zh/": {
+      lang: "zh-CN",
       title: "Harry Xiong",
       description: "A piano player playing on the keyboard",
     },
@@ -47,11 +46,12 @@ export default defineUserConfig({
 
   plugins: [
     docsearchPlugin({
-      appId: "LDBQGQC8Q9",
-      apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
-      indexName: "mrhope",
+      appId: "1T57N30S39",
+      apiKey: "cce98222e2efeec7499f410ec6b50eb5",
+      indexName: "my_first_index",
       locales: {
-        "/": {
+        "/en/": {},
+        "/zh/": {
           placeholder: "搜索",
           translations: {
             button: {

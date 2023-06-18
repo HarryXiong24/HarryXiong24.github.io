@@ -24,32 +24,16 @@ export default hopeTheme(
     navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
-      end: ["Search", "Language", "Outlook", "Repo"],
+      end: [
+        // "Search",
+        "Language",
+        "Outlook",
+        "Repo",
+      ],
     },
 
     locales: {
       "/": {
-        navbar: zhNavbarConfig,
-        sidebar: zhSidebarConfig,
-
-        footer: "",
-        copyright: "",
-
-        blog: {
-          description: "A piano player playing on the keyboard",
-          intro: "/zh/about-me/info",
-          medias: {
-            GitHub: "https://github.com/HarryXiong24",
-            Gmail: "mailto:harryxiong24@gmail.com",
-            Instagram: "https://www.instagram.com/harryxiong24",
-            Twitter: "https://twitter.com/HarryXiong24",
-            Weibo: "https://weibo.com/harryxiong24",
-            BiliBili: "https://space.bilibili.com/381730331",
-          },
-        },
-      },
-
-      "/en/": {
         navbar: enNavbarConfig,
         sidebar: enSidebarConfig,
 
@@ -66,6 +50,29 @@ export default hopeTheme(
             Twitter: "https://twitter.com/HarryXiong24",
             Weibo: "https://weibo.com/harryxiong24",
             BiliBili: "https://space.bilibili.com/381730331",
+            Linkedin: "https://www.linkedin.com/in/haowei-xiong-5a418827b/",
+          },
+        },
+      },
+
+      "/zh/": {
+        navbar: zhNavbarConfig,
+        sidebar: zhSidebarConfig,
+
+        footer: "",
+        copyright: "",
+
+        blog: {
+          description: "A piano player playing on the keyboard",
+          intro: "/zh/about-me/info",
+          medias: {
+            GitHub: "https://github.com/HarryXiong24",
+            Gmail: "mailto:harryxiong24@gmail.com",
+            Instagram: "https://www.instagram.com/harryxiong24",
+            Twitter: "https://twitter.com/HarryXiong24",
+            Weibo: "https://weibo.com/harryxiong24",
+            BiliBili: "https://space.bilibili.com/381730331",
+            Linkedin: "https://www.linkedin.com/in/haowei-xiong-5a418827b/",
           },
         },
       },
