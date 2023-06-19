@@ -1,21 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://harryxiong24.github.io/rss.xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://harryxiong24.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Harry Xiong</title>
     <link>https://harryxiong24.github.io/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Sun, 18 Jun 2023 02:42:22 GMT</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2023 02:42:22 GMT</lastBuildDate>
+    <pubDate>Mon, 19 Jun 2023 09:17:35 GMT</pubDate>
+    <lastBuildDate>Mon, 19 Jun 2023 09:17:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
-      <title>Intro</title>
-      <link>https://harryxiong24.github.io/en/about-me/</link>
-      <guid>https://harryxiong24.github.io/en/about-me/</guid>
-      <source url="https://harryxiong24.github.io/rss.xml">Intro</source>
-      <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+      <title>Contact Me</title>
+      <link>https://harryxiong24.github.io/en/about-me/contact.html</link>
+      <guid>https://harryxiong24.github.io/en/about-me/contact.html</guid>
+      <source url="https://harryxiong24.github.io/rss.xml">Contact Me</source>
+      <description>I am looking forward to contacting you! App Name My Account :--: :--------- GitHub (https://github.com/HarryXiong24) Gmail (mailto:harryxiong24@gmail.com) Instagram (https://www...</description>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Contact Me</h1>
+<div class="hint-container tip">
+<p class="hint-container-title">I am looking forward to contacting you!</p>
+</div>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">App Name</th>
+<th style="text-align:left">My Account</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://github.com/HarryXiong24" target="_blank" rel="noopener noreferrer">GitHub</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="mailto:harryxiong24@gmail.com">Gmail</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://www.instagram.com/harryxiong24" target="_blank" rel="noopener noreferrer">Instagram</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://twitter.com/HarryXiong24" target="_blank" rel="noopener noreferrer">Twitter</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://weibo.com/harryxiong24" target="_blank" rel="noopener noreferrer">Weibo</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://space.bilibili.com/381730331" target="_blank" rel="noopener noreferrer">BiliBili</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://www.linkedin.com/in/haowei-xiong-5a418827b/" target="_blank" rel="noopener noreferrer">Linkedin</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left"><a href="https://juejin.cn/user/1319894200641784" target="_blank" rel="noopener noreferrer">Jue Jing</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">HarryXiong24</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">1291192015</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://harryxiong24.github.io/en/about-me/intro.html</link>
+      <guid>https://harryxiong24.github.io/en/about-me/intro.html</guid>
+      <source url="https://harryxiong24.github.io/rss.xml">About Me</source>
+      <description>Welcome 👋 Hello buddies! Welcome to my Blog! 🤟 Briefly Intro I am a coder with strong interests in software development, especially in the field of Web applications developmen...</description>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> About Me</h1>
+<div class="hint-container tip">
+<p class="hint-container-title">Welcome 👋</p>
+<p>Hello buddies! Welcome to my Blog!</p>
+</div>
+<h3> 🤟 Briefly Intro</h3>
+<p>I am a coder with strong interests in software development, especially in the field of Web applications development and implementation. I have a good foundation in Typescript and JavaScript. And I used to work at Bytedance and Tencent as a Web Frontend Engineer. In addition, I am not a boy who only gets addicted to coding. I have a lot of hobbies and I believe that enjoying our lives is one of the happiest things in the world!</p>
+<h3> 🌟 Motto</h3>
+<p>Nothing is impossible for a willing heart.</p>
+<h3> 🌱 Hobby</h3>
+<p>Coding &amp; Piano &amp; Reading &amp; 🏀 &amp;  🏊‍♂️ &amp; 🏸 &amp; 🚴‍♂️ &amp; 🎤 &amp; etc.</p>
+<h3> 📫 How to reach me</h3>
+<p><a href="/en/about-me/contact">Contact Me</a></p>
+<h3> Plus</h3>
+<p><a href="/zh/about-me/intro">Move to Chinese Version</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Notice</title>
+      <link>https://harryxiong24.github.io/en/about-me/notice.html</link>
+      <guid>https://harryxiong24.github.io/en/about-me/notice.html</guid>
+      <source url="https://harryxiong24.github.io/rss.xml">Notice</source>
+      <description>::: info 6/19/2023 The English version of the blog was only recently built. All my articles and study notes were recorded in Chinese, so there is currently no English version of...</description>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Notice</h1>
+<div class="hint-container info">
+<p class="hint-container-title">6/19/2023</p>
+<p>The English version of the blog was only recently built. All my articles and study notes were recorded in Chinese, so there is currently no English version of the historical blog.</p>
+<p>But it's a milestone! From now on, I will write in bilingual and update simultaneously!</p>
+<p>If you want to view my historical articles now, welcome to the <a href="/zh/" target="blank">Chinese version</a>!</p>
+</div>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
