@@ -1,5 +1,5 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebarConfig = sidebar({
-  "/en/about/": [""],
+  "/en/about-me/": ["intro", "contact", "notice"],
 });

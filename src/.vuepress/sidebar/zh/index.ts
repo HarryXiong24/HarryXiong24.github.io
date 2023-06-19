@@ -8,7 +8,7 @@ import { python } from "./python.js";
 import { vscode } from "./vscode.js";
 
 export const zhSidebarConfig = sidebar({
-  "/zh/profile/": ["info", "contact"],
+  "/zh/about-me/": ["intro", "contact"],
   "/zh/poem/": poem,
   ...frontend,
   ...backend,
