@@ -8,6 +8,13 @@ import { python } from "./python.js";
 import { vscode } from "./vscode.js";
 
 export const zhSidebarConfig = sidebar({
+  "/zh/article/": [
+    "react-function-component",
+    "mobx",
+    "webpack-hot-fresh",
+    "js-traversal",
+    "error-modal",
+  ],
   "/zh/about-me/": ["intro", "contact"],
   "/zh/poem/": poem,
   ...frontend,

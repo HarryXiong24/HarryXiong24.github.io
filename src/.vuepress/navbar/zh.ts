@@ -3,16 +3,34 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbarConfig = navbar([
   "/zh/",
   {
-    text: "关于我",
-    icon: "profile",
+    text: "文章",
+    icon: "article",
     children: [
-      { text: "About Me", icon: "info", link: "/zh/about-me/intro" },
-      { text: "联系我", icon: "community", link: "/zh/about-me/contact" },
+      {
+        text: "React 函数式组件 vs 类组件",
+        link: "/zh/article/react-function-component",
+      },
+      {
+        text: "上手 Mobx",
+        link: "/zh/article/mobx",
+      },
+      {
+        text: "一文搞懂 Webpack 热更新原理",
+        link: "/zh/article/webpack-hot-fresh",
+      },
+      {
+        text: "一文总结 Javascript 中的遍历方式",
+        link: "/zh/article/js-traversal",
+      },
+      {
+        text: "给你的库或框架设计一个通用错误处理模型",
+        link: "/zh/article/error-modal",
+      },
     ],
   },
   {
     text: "随笔",
-    icon: "article",
+    icon: "exercise",
     children: [
       {
         text: "写在前面",
@@ -41,6 +59,14 @@ export const zhNavbarConfig = navbar([
       },
       { text: "Git", link: "/zh/git", icon: "git" },
       { text: "VSCode", link: "/zh/vscode", icon: "vscode" },
+    ],
+  },
+  {
+    text: "关于我",
+    icon: "profile",
+    children: [
+      { text: "About Me", icon: "info", link: "/zh/about-me/intro" },
+      { text: "联系我", icon: "community", link: "/zh/about-me/contact" },
     ],
   },
 ]);
