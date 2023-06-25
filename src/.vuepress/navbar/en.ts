@@ -3,6 +3,16 @@ import { navbar } from "vuepress-theme-hope";
 export const enNavbarConfig = navbar([
   "/",
   {
+    text: "Article",
+    icon: "article",
+    children: [
+      {
+        text: "Recursion and Binary Tree",
+        link: "/en/article/recursion",
+      },
+    ],
+  },
+  {
     text: "About Me",
     icon: "profile",
     children: [
