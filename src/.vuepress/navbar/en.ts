@@ -7,7 +7,7 @@ export const enNavbarConfig = navbar([
     icon: "article",
     children: [
       {
-        text: "Recursion and Binary Tree",
+        text: "Recursion",
         link: "/en/article/recursion",
       },
     ],

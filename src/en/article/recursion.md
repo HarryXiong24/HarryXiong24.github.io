@@ -8,7 +8,7 @@ tag:
 date: 2023-06-26
 ---
 
-# Recursion and Binary Tree
+# Recursion
 
 ## Preface
 
@@ -206,3 +206,337 @@ function fib(n: number): number {
 
 ### Series of reverse problem
 
+This section I want to share a particular question set - reverse problem.
+
+We can find examples at Leetcode such as:
+
+- 24. Swap Nodes in Pairs
+- 206. Reverse Linked List
+- 344. Reverse String
+
+Let's use Reverse Linked List as our example:
+
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+``` ts
+// Example 1:
+// Input: head = [1,2,3,4,5]
+// Output: [5,4,3,2,1]
+
+// Example 2:
+// Input: head = [1,2]
+// Output: [2,1]
+
+// Example 3:
+// Input: head = []
+// Output: []
+
+function reverseList(head: ListNode | null): ListNode | null {
+
+}
+```
+
+1. Now, first step is **Clear what you want to do in the recursive function**.
+
+Well, my recursive function will swap current node and it's next node.
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+
+  }
+}
+```
+
+2. Second, find out the terminal conditions.
+
+We can know that there is no node need to reverse when at the end, so at that time we need to return itself.
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+    if (!node || !node.next) {
+      return node
+    }
+  }
+}
+```
+
+3. Third, Find out the recursive logic.
+
+So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is that what we should do in one of cases! 
+
+So suppose that the program is execute here:
+
+```
+          null
+           ^
+           |
+ 1 -> 2 -> 3
+           ^
+           |
+           4
+```
+
+At this time, 1->2->3->4 turn to the picture above. And we need change to:
+
+```
+          null
+           ^
+           |
+      1 -> 2
+           ^
+           |
+           3
+           ^
+           |
+           4
+```
+
+At this scene，it is easy to think out:
+
+```ts
+const temp = node.next;
+temp.next = node;
+node.next = null;
+```
+
+And then, put recursive in the code:
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+    if (!node || !node.next) {
+      return node
+    }
+    const newLink = recursive(node.next);
+    const temp = node.next;
+    temp.next = node;
+    node.next = null;
+    return newLink;
+  }
+}
+```
+
+And the recursive function is completed! We just give the params into it, then it works!
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+    if (!node || !node.next) {
+      return node
+    }
+    const newLink = recursive(node.next);
+    const temp = node.next;
+    temp.next = node;
+    node.next = null;
+    return newLink;
+  }
+  return recursive(head);
+}
+```
+
+## Bottom Up and Top Down
+
+In the previous section, we use a example:
+
+```
+1. f(6)
+2. => 6 * f(5)
+3. => 6 * (5 * f(4))
+4. => 6 * (5 * (4 * f(3)))
+5. => 6 * (5 * (4 * (3 * f(2))))
+6. => 6 * (5 * (4 * (3 * (2 * f(1))))) 
+7. => 6 * (5 * (4 * (3 * (2 * 1)))) 
+8. => 6 * (5 * (4 * (3 * 2))) 
+9. => 6 * (5 * (4 * 6)) 
+10 => 6 * (5 * 24)
+11. => 6 * 120 => 720
+```
+
+We have two phases: go-in, come-out. Like this example, steps 1-6 represent going in, and steps 7- 11 represent coming out.
+
+This is important because we can use our recursion function in these two phases.
+
+During the go-in phase, we can use Top-Down method to do something, and during the come-out phase we can use Bottom-up to do something.
+
+Let's see a example:
+
+Given the root of a binary tree, return its maximum depth.
+
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+``` ts
+// 104. Maximum Depth of Binary Tree
+
+// Example 1:
+// Input: root = [3,9,20,null,null,15,7]
+// Output: 3
+
+// Example 2:
+// Input: root = [1,null,2]
+// Output: 2
+
+// Definition for a binary tree node.
+class TreeNode {
+  val: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
+}
+```
+
+Next, we will cope this problem based on these two methods.
+
+### Bottom Up
+
+"Bottom-up" is a recursive solution.
+
+In each recursive call, we will firstly call the function recursively for all the children nodes and then come up with the answer according to the returned values and the value of the current node itself. 
+
+This process can be regarded as a kind of postorder traversal. 
+
+Typically, a "bottom-up" recursive function bottom_up(root) will be something like this:
+
+```
+1. return specific value for null node
+2. left_ans = bottom_up(root.left)      // call function recursively for left child
+3. right_ans = bottom_up(root.right)    // call function recursively for right child
+4. return answers                       // answer <-- left_ans, right_ans, root.val
+```
+
+Then, let's see this Maximum Depth of Binary Tree.
+
+1. Now, first step is **Clear what you want to do in the recursive function**.
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+
+  }
+}
+```
+
+2. Second, find out the terminal conditions.
+
+It is easy to know that if current node is null, the length will be 0 at this time.
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+    if (!node) {
+      return 0;
+    }
+  }
+}
+```
+
+3. Third, find out the recursive logic.
+
+Suppose in one node, what should we do? Get left_len and right_len, and pick up the max one, and plus 1 length currently, and then return this value to next top node.
+
+```ts
+// Recursion Bottom-Up
+function maxDepth_Recursion_Bottom_Up(root: TreeNode | null): number {
+  const recursive = (node: TreeNode | null): number => {
+    if (!node) {
+      return 0;
+    }
+    const left_len = recursive(node.left);
+    const right_len = recursive(node.right);
+    return Math.max(left_len, right_len) + 1;
+  };
+
+  return recursive(root);
+}
+```
+
+#### Summary
+
+So in this process, we don't handle something during the go-in phase, we just let the code enter go-in phase and finish it, then at come-out phase, we do Math.max(left_len, right_len) + 1.
+
+That's Bottom-Up.
+
+And in the previous sections(Fibonacci Number and Reverse Linked List), we can find that we all use Bottom-Up, which means that we often call recursive function firstly and do something in the come-out phase.
+
+### Top-Down
+
+Top-down means that in each recursive call, we will visit the node first to come up with some values, and pass these values to its children when calling the function recursively. 
+
+So the "top-down" solution can be considered as a kind of preorder traversal. 
+
+To be specific, the recursive function top_down(root, params) works like this:
+
+```
+1. return specific value for null node
+2. update the answer if needed                      // answer <-- params
+3. left_ans = top_down(root.left, left_params)      // left_params <-- root.val, params
+4. right_ans = top_down(root.right, right_params)   // right_params <-- root.val, params
+5. return the answer if needed                      // answer <-- left_ans, right_ans
+```
+
+Then, let's see this Maximum Depth of Binary Tree.
+
+1. Now, first step is **Clear what you want to do in the recursive function**.
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  const recursive = (node: ListNode | null): ListNode | null => {
+
+  }
+}
+```
+
+2. Second, find out the terminal conditions.
+
+It is easy to know that if current node is null, the length will be 0 at this time.
+
+```ts
+function reverseList(head: ListNode | null): ListNode | null {
+  if (!root) {
+    return 0;
+  }
+  let result = 1;
+  const recursive = (node: TreeNode | null, depth: number): number => {
+    if (!node.left && !node.right) {
+      result = Math.max(result, depth);
+      return;
+    }
+
+  };
+}
+```
+
+3. Third, find out the recursive logic.
+
+```ts
+// Recursion Bottom-Up
+function maxDepth_Recursion_Bottom_Up(root: TreeNode | null): number {
+  if (!root) {
+    return 0;
+  }
+  let result = 1;
+  const recursive = (node: TreeNode | null, depth: number): number => {
+    if (!node.left && !node.right) {
+      result = Math.max(result, depth);
+      return;
+    }
+    recursive(node.left, depth + 1);
+    recursive(node.right, depth + 1);
+  };
+
+  return result;
+}
+```
+
+#### Summary
+
+As we see, we do nothing during the come-out phase, and the value of depth is determined when during the go-in.
+
+That's Top-Up.
+
+And Top-Up is often used to the scene that we can use a other flag to get the result instead of calling recursive function itself to get the result. Because in the go-in phase, recursive function cannot store status permanently, so we need to use other variable to remember it.
