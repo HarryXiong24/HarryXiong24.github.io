@@ -15,7 +15,7 @@
 
 👤 **Harry Xiong**
 
-- Website: <https://www.harryxiong24.com>
+- Website: <https://harryxiong24.github.io>
 - Github: [@harryxiong24](https://github.com/harryxiong24)
 
 ## Show your support
