@@ -46,7 +46,7 @@ And we need to obtain the f(6).
 
 As we see, we don't know the value of f(6), but we can transform it as 6 *f(5); We don't know the value of f(5), but we can transform it as 5 * f(4)...
 
-Until when we reach the terminal condition f(1) = 1, and then we start to go back.
+Until we reach the terminal condition f(1) = 1, we start to go back.
 
 **So, for any recursion, we have two phases: go-in, come-out. Like this example, steps 1-6 represent going in, and steps 7- 11 represent coming out.**
 
@@ -68,7 +68,7 @@ Thus, it is almost impossible for our brains to think through the entire process
 
 To put it simply, first of all, we must learn to forget the recursive process, trust the computer, and not try to simulate every step with the human brain to verify whether our solution is correct.
 
-And the only thing we should care about is what we should do in one of the cases. Like in f(6) example, we just care about what we need to do when we in f(5) cases. And then believe your computer, believe it can solve other sub-question successfully based on your f(5) solving logic.
+And the only thing we should care about is what we should do in one of the cases. Like in f(6) example, we just care about what we need to do when we are in f(5) cases. And then believe your computer, believe it can solve other sub-question successfully based on your f(5) solving logic.
 
 ::: tip Hint
 This is important, please remember it!
@@ -204,9 +204,9 @@ function fib(n: number): number {
 }
 ```
 
-### Series of reversing problem
+### Series of reverse problems
 
-This section I want to share a particular question set - reverse problem.
+This section I want to share a particular question set - reverse problems.
 
 We can find examples at Leetcode such as:
 

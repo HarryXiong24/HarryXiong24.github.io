@@ -10,6 +10,10 @@ export const enNavbarConfig = navbar([
         text: "Recursion",
         link: "/en/article/recursion",
       },
+      {
+        text: "Sort Algorithm",
+        link: "/en/article/sort-algorithm",
+      },
     ],
   },
   {
