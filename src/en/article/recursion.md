@@ -12,7 +12,7 @@ date: 2023-06-26
 
 ## Preface
 
-In this article, I would like to summarize recursion from my own perspective. For a long time, I don't have a clear thinking to solve recursion problem. I think it is abstract and hard to find a template in some degree.
+In this article, I would like to summarize recursion from my own perspective. For a long time, I haven't had a clear idea to solve recursion problems. I think it is abstract and hard to find a template in some degree.
 
 Now, due to practicing recursive problems over and over again, I think I have some good experience and can extract some methods to solve the recursion problem.
 
@@ -22,15 +22,15 @@ Here is the definition of recursion from Wikipedia:
 
 Recursion is the process a procedure goes through when one of the steps of the procedure involves invoking the procedure itself. A procedure that goes through recursion is said to be 'recursive'.
 
-Obviously, it is obscure. And it is not the point I want tell you.
+Obviously, it is obscure. And it is not the point I want to tell you.
 
-Let see a example to understand recursion:
+Let's see an example to understand recursion:
 
-We assume f(x) is a function, and define f(x) = x * f(x-1), f(1) = 1.
+We assume f(x) is a function and define f(x) = x * f(x-1), f(1) = 1.
 
 And we need to obtain the f(6).
 
-```
+``` text
 1. f(6)
 2. => 6 * f(5)
 3. => 6 * (5 * f(4))
@@ -44,48 +44,48 @@ And we need to obtain the f(6).
 11. => 6 * 120 => 720
 ```
 
-As we see, we don't know the value of f(6), but we can transform it as 6 *f(5); We don't know the value of f(5), but we can transform it as 5* f(4)...
+As we see, we don't know the value of f(6), but we can transform it as 6 *f(5); We don't know the value of f(5), but we can transform it as 5 * f(4)...
 
 Until when we reach the terminal condition f(1) = 1, and then we start to go back.
 
-**So for any recursion, we have two phases: go-in, come-out. Like this example, steps 1-6 represent going in, and steps 7- 11 represent coming out.**
+**So, for any recursion, we have two phases: go-in, come-out. Like this example, steps 1-6 represent going in, and steps 7- 11 represent coming out.**
 
-This is the key of recursion. In fact, these are the essence of the computer handling recursive problem.
+This is the key to recursion. In fact, these are the essence of the computer handling recursive problems.
 
 ![Recursive](https://pic4.zhimg.com/v2-117b94f64bcff561bd230e03a49dbf37_b.webp)
 
 ## How to look at recursion from the perspective of the human brain?
 
-Although we have figured out the every steps of recursion in the previous section, we can't always do this when we face recursive problem every time.
+Although we have figured out every step of recursion in the previous section, we can't always do this when we face recursive problems every time.
 
-The reason is that we are not computer.
+The reason is that we are not computers.
 
-What we usually call understanding code is to simulate the result of computer execution to a certain step in the brain. For iterative algorithms, this is fine. But when comes to the recursive algorithm, if you understand it in this way, you will enter a misunderstanding and you will find it is hard to figure out the whole process like f(6).
+What we usually call understanding code is to simulate the result of computer execution to a certain step in the brain. For iterative algorithms, this is fine. But when comes to the recursive algorithm, if you understand it in this way, you will enter a misunderstanding and you will find that it is hard to figure out the whole process like f(6).
 
-This is why we need computer to resolve recursive problem. Computer only cares about input and execution, and they don't need to understand the context or describe the process.
+This is why we need computers to resolve recursive problems. The Computer only cares about input and execution, and they don't need to understand the context or describe the process.
 
 Thus, it is almost impossible for our brains to think through the entire process of recursion and recursion step by step, so don't try to use the human brain to decompose each step of recursion.
 
-To put it simply, first of all, we must learn to forget the recursive process, trust the computer, and don't try to simulate every step with the human brain to verify whether our solution is correct.
+To put it simply, first of all, we must learn to forget the recursive process, trust the computer, and not try to simulate every step with the human brain to verify whether our solution is correct.
 
-And the only thing we should care about is that what we should do in one of cases. Like in f(6) example, we just care about what we need to do when we in f(5) cases. And then believe your computer, believe it can solve other sub question successfully base on your f(5) solving logic.
+And the only thing we should care about is what we should do in one of the cases. Like in f(6) example, we just care about what we need to do when we in f(5) cases. And then believe your computer, believe it can solve other sub-question successfully based on your f(5) solving logic.
 
 ::: tip Hint
 This is important, please remember it!
 :::
 
-## The key elements to solve recursive problem
+## The key element is to solve recursive problems
 
 There are 3 key elements I summarized.
 
 ### Clear what you want to do in the recursive function
 
-For recursion, one important thing is: what is the function of this function, and what kind of thing does it want to accomplish.
+For recursion, one important thing is: what is the function of this function, and what kind of thing does it want to accomplish?
 
 And this is up to us to define. We don't care what the code in the function is, but we must first understand what this function is used for.
 
 ::: tip Hint
-This point, you may think it is nonsense. Don't jump to conclusions, the three elements of recursion are indispensable and  important respectively.
+This point, you may think it is nonsense. Don't jump to conclusions, the three elements of recursion are indispensable and important respectively.
 :::
 
 ### Find out the terminal conditions
@@ -94,7 +94,7 @@ Find out the terminal conditions. Terminal conditions refer to a condition where
 
 ### Find out the recursive logic
 
-Find the recursive logic, that is, the equivalence relation of the function. And it is the hardest step in three elements. And I think it don't have a particular summary. Different examples reflect differently.
+Find the recursive logic, that is, the equivalence relation of the function. And it is the hardest step in three elements. And I think it doesn't have a particular summary. Different examples reflect differently.
 
 ## Case Study
 
@@ -135,7 +135,7 @@ const res = fib(10);
 console.log(res);
 ```
 
-1. Now, first step is **Clear what you want to do in the recursive function**.
+1. Now, the first step is **Clear what you want to do in the recursive function**.
 
 Well, my recursive function will get the current F(n) Fibonacci number.
 
@@ -166,11 +166,11 @@ function fib(n: number): number {
 
 3. Third, Find out the recursive logic.
 
-So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is that what we should do in one of cases! 
+So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is what we should do in one of the cases! 
 
-So assume that we need to obtain fib(5), so in this case, fib(5) = fib(4) + fib(3). And don't think about fib(4) or fib(3), because they belong to other sub cases, and we just need to know when execute here, fib(3) and fib(4) has accurate results.
+So assume that we need to obtain fib(5), so in this case, fib(5) = fib(4) + fib(3). And don't think about fib(4) or fib(3), because they belong to other sub-cases, and we just need to know when to execute here, fib(3) and fib(4) has accurate results.
 
-So according to this case, we know fib(n) = fib(n-1) + fib(n-2), that's it!
+So according to this case, we know fib(n) = fib(n-1) + fib(n-2), and that's it!
 
 ```ts
 function fib(n: number): number {
@@ -204,7 +204,7 @@ function fib(n: number): number {
 }
 ```
 
-### Series of reverse problem
+### Series of reversing problem
 
 This section I want to share a particular question set - reverse problem.
 
@@ -236,9 +236,9 @@ function reverseList(head: ListNode | null): ListNode | null {
 }
 ```
 
-1. Now, first step is **Clear what you want to do in the recursive function**.
+1. Now, the first step is **Clear what you want to do in the recursive function**.
 
-Well, my recursive function will swap current node and it's next node.
+Well, my recursive function will swap current nodes.
 
 ```ts
 function reverseList(head: ListNode | null): ListNode | null {
@@ -264,9 +264,9 @@ function reverseList(head: ListNode | null): ListNode | null {
 
 3. Third, Find out the recursive logic.
 
-So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is that what we should do in one of cases! 
+So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is what we should do in one of the cases! 
 
-So suppose that the program is execute here:
+So suppose that the program is executing here:
 
 ```
           null
@@ -278,7 +278,7 @@ So suppose that the program is execute here:
            4
 ```
 
-At this time, 1->2->3->4 turn to the picture above. And we need change to:
+At this time, 1->2->3->4 turn to the picture above. And we need to change to:
 
 ```
           null
@@ -293,7 +293,7 @@ At this time, 1->2->3->4 turn to the picture above. And we need change to:
            4
 ```
 
-At this scene，it is easy to think out:
+In this scene, it is easy to think out:
 
 ```ts
 const temp = node.next;
@@ -338,9 +338,9 @@ function reverseList(head: ListNode | null): ListNode | null {
 
 ## Bottom Up and Top Down
 
-In the previous section, we use a example:
+In the previous section, we use an example:
 
-```
+``` text
 1. f(6)
 2. => 6 * f(5)
 3. => 6 * (5 * f(4))
@@ -358,9 +358,9 @@ We have two phases: go-in, come-out. Like this example, steps 1-6 represent goin
 
 This is important because we can use our recursion function in these two phases.
 
-During the go-in phase, we can use Top-Down method to do something, and during the come-out phase we can use Bottom-up to do something.
+During the go-in phase, we can use Top-Down method to do something, and during the come-out phase, we can use Bottom-up to do something.
 
-Let's see a example:
+Let's see an example:
 
 Given the root of a binary tree, return its maximum depth.
 
@@ -390,13 +390,13 @@ class TreeNode {
 }
 ```
 
-Next, we will cope this problem based on these two methods.
+Next, we will cope with this problem based on these two methods.
 
 ### Bottom Up
 
 "Bottom-up" is a recursive solution.
 
-In each recursive call, we will firstly call the function recursively for all the children nodes and then come up with the answer according to the returned values and the value of the current node itself. 
+In each recursive call, firstly we will call the function recursively for all the children nodes and then come up with the answer according to the returned values and the value of the current node itself. 
 
 This process can be regarded as a kind of postorder traversal. 
 
@@ -411,7 +411,7 @@ Typically, a "bottom-up" recursive function bottom_up(root) will be something li
 
 Then, let's see this Maximum Depth of Binary Tree.
 
-1. Now, first step is **Clear what you want to do in the recursive function**.
+1. Now, the first step is **Clear what you want to do in the recursive function**.
 
 ```ts
 function reverseList(head: ListNode | null): ListNode | null {
@@ -423,7 +423,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
 2. Second, find out the terminal conditions.
 
-It is easy to know that if current node is null, the length will be 0 at this time.
+It is easy to know that if the current node is null, the length will be 0 at this time.
 
 ```ts
 function reverseList(head: ListNode | null): ListNode | null {
@@ -437,7 +437,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
 3. Third, find out the recursive logic.
 
-Suppose in one node, what should we do? Get left_len and right_len, and pick up the max one, and plus 1 length currently, and then return this value to next top node.
+Suppose in one node, what should we do? Get left_len and right_len, and pick up the max one, and plus 1 length currently, and then return this value to the next top node.
 
 ```ts
 // Recursion Bottom-Up
@@ -461,11 +461,11 @@ So in this process, we don't handle something during the go-in phase, we just le
 
 That's Bottom-Up.
 
-And in the previous sections(Fibonacci Number and Reverse Linked List), we can find that we all use Bottom-Up, which means that we often call recursive function firstly and do something in the come-out phase.
+And in the previous sections(Fibonacci Number and Reverse Linked List), we can find that we all use Bottom-Up, which means that we often call recursive function first and do something in the come-out phase.
 
 ### Top-Down
 
-Top-down means that in each recursive call, we will visit the node first to come up with some values, and pass these values to its children when calling the function recursively. 
+Top-down means that in each recursive call, we will visit the node first to come up with some values and pass these values to its children when calling the function recursively. 
 
 So the "top-down" solution can be considered as a kind of preorder traversal. 
 
@@ -481,7 +481,7 @@ To be specific, the recursive function top_down(root, params) works like this:
 
 Then, let's see this Maximum Depth of Binary Tree.
 
-1. Now, first step is **Clear what you want to do in the recursive function**.
+1. Now, the first step is **Clear what you want to do in the recursive function**.
 
 ```ts
 function reverseList(head: ListNode | null): ListNode | null {
@@ -493,7 +493,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
 2. Second, find out the terminal conditions.
 
-It is easy to know that if current node is null, the length will be 0 at this time.
+It is easy to know that if the current node is null, the length will be 0 at this time.
 
 ```ts
 function reverseList(head: ListNode | null): ListNode | null {
@@ -539,4 +539,4 @@ As we see, we do nothing during the come-out phase, and the value of depth is de
 
 That's Top-Up.
 
-And Top-Up is often used to the scene that we can use a other flag to get the result instead of calling recursive function itself to get the result. Because in the go-in phase, recursive function cannot store status permanently, so we need to use other variable to remember it.
+And Top-Up is often used in the scene where we can use other flags to get the result instead of calling the recursive function itself to get the result. Because in the go-in phase, the recursive function cannot store status permanently, so we need to use other variables to remember it.

@@ -16,7 +16,7 @@ Hello buddies! Welcome to my Blog!
 
 ### 🤟 Briefly Intro
 
-I am a coder with strong interests in software development, especially in the field of Web applications development and implementation. I have a good foundation in Typescript and JavaScript. And I used to work at Bytedance and Tencent as a Web Frontend Engineer. In addition, I am not a boy who only gets addicted to coding. I have a lot of hobbies and I believe that enjoying our lives is one of the happiest things in the world!
+I am a coder with a strong interest in software development, especially in the field of Web applications development and implementation. I have a good foundation in Typescript and JavaScript. And I used to work at Bytedance and Tencent as a Web Frontend Engineer. In addition, I am not a boy who only gets addicted to coding. I have a lot of hobbies and I believe that enjoying our lives is one of the happiest things in the world!
 
 ### 🌟 Motto
 
@@ -32,4 +32,4 @@ Coding & Piano & Reading & 🏀 &  🏊‍♂️ & 🏸 & 🚴‍♂️ & 🎤 &
 
 ### Plus
 
-[Move to Chinese Version](/zh/about-me/intro)
+[Move to the Chinese Version](/zh/about-me/intro)
