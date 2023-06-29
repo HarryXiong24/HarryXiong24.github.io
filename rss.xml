@@ -6,11 +6,207 @@
     <link>https://harryxiong24.github.io/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Thu, 29 Jun 2023 08:29:35 GMT</pubDate>
-    <lastBuildDate>Thu, 29 Jun 2023 08:29:35 GMT</lastBuildDate>
+    <pubDate>Thu, 29 Jun 2023 11:46:29 GMT</pubDate>
+    <lastBuildDate>Thu, 29 Jun 2023 11:46:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>article</category>
+    <item>
+      <title>Sort Algorithm</title>
+      <link>https://harryxiong24.github.io/en/article/sort-algorithm.html</link>
+      <guid>https://harryxiong24.github.io/en/article/sort-algorithm.html</guid>
+      <source url="https://harryxiong24.github.io/rss.xml">Sort Algorithm</source>
+      <description>Preface In this chapter, I want to summarize the sort algorithm. As we all know, there are 10 common sort algorithms. And I don&amp;apos;t want to do too much foreshadowing. Let&amp;apos;s see a ...</description>
+      <category>article</category>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Sort Algorithm</h1>
+<h2> Preface</h2>
+<p>In this chapter, I want to summarize the sort algorithm. As we all know, there are 10 common sort algorithms. And I don't want to do too much foreshadowing. Let's see a picture straight.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Sort Algorithm</strong></th>
+<th><strong>Time Complexity</strong></th>
+<th><strong>Space Complexity</strong></th>
+<th><strong>Stability</strong></th>
+<th><strong>Sorting Method</strong></th>
+<th><strong>Best Case</strong></th>
+<th><strong>Worst Case</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Insertion Sort</strong></td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+<td>Stable</td>
+<td>In-place</td>
+<td>O(n)</td>
+<td>O(n^2)</td>
+</tr>
+<tr>
+<td><strong>Bubble Sort</strong></td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+<td>Stable</td>
+<td>In-place</td>
+<td>O(n)</td>
+<td>O(n^2)</td>
+</tr>
+<tr>
+<td><strong>Selection Sort</strong></td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+<td>Unstable</td>
+<td>In-place</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+</tr>
+<tr>
+<td>****</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Counting Sort</strong></td>
+<td>O(n+k)</td>
+<td>O(k)</td>
+<td>Stable</td>
+<td>Out-place</td>
+<td>O(n+k)</td>
+<td>O(n+k)</td>
+</tr>
+<tr>
+<td><strong>Bucket Sort</strong></td>
+<td>O(n+k)</td>
+<td>O(n+k)</td>
+<td>Stable</td>
+<td>Out-place</td>
+<td>O(n+k)</td>
+<td>O(n^2)</td>
+</tr>
+<tr>
+<td><strong>Radix Sort</strong></td>
+<td>O(w*(n+k))</td>
+<td>O(n+k)</td>
+<td>Stable</td>
+<td>Out-place</td>
+<td>O(w*(n+k))</td>
+<td>O(w*(n+k))</td>
+</tr>
+<tr>
+<td>****</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Quick Sort</strong></td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+<td>Unstable</td>
+<td>In-place</td>
+<td>O(n*logn)</td>
+<td>O(n^2)</td>
+</tr>
+<tr>
+<td><strong>Merge Sort</strong></td>
+<td>O(n*logn)</td>
+<td>O(n)</td>
+<td>Unstable</td>
+<td>Out-place</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+</tr>
+<tr>
+<td><strong>Shell Sort</strong></td>
+<td>O(n*logn)</td>
+<td>O(1)</td>
+<td>Unstable</td>
+<td>In-place</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+</tr>
+<tr>
+<td>****</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Heap Sort</strong></td>
+<td>O(n*logn)</td>
+<td>O(1)</td>
+<td>Unstable</td>
+<td>In-place</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+</tr>
+</tbody>
+</table>
+<p>In the next sections, I will talk about them respectively.</p>
+<h2> 10 Common Sort Algorithms</h2>
+<h3> Insertion Sort</h3>
+<p>This is an intuitive algorithm.</p>
+<p>Given a collection of integers, you can sort the list by proceeding from the start of the list.</p>
+<p>In every round, you will encounter an element that is out of order, and you can continuously swap places with previous elements until it is inserted in its correct relative location based on what you’ve processed thus far.</p>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://cdn.staticaly.com/gh/xustudyxu/image-hosting1@master/20221119/insertionSort.lre9a3i98xs.gif" alt="Insertion Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>It is a stable algorithm because the sequence of other elements doesn't change during the period of each sorting round.</p>
+<p>Obviously, the time complexity is O(n^2). And it's an in-place algorithm, so the space complexity is O(1).</p>
+<h3> Bubble Sort</h3>
+<p>Bubble Sort, a really interesting name, is another common sort algorithm. And it is easy to remember because of its name.</p>
+<p>Given a collection of integers.</p>
+<p>In every round, each adjacent element, from beginning to end sequentially, will compare their value and swap if they are out of order.</p>
+<p>The core idea of bubble sort is it will repeat this process until no more swaps are made in a single pass, which means the list is sorted.</p>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://cdn.staticaly.com/gh/xustudyxu/image-hosting1@master/20221129/bubbleSort.60l6mgy53080.gif" alt="Bubble Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>It is a stable algorithm because the sequence of other elements doesn't change during the period of each sorting round.</p>
+<p>Obviously, the time complexity is O(n^2). And it's an in-place algorithm, so the space complexity is O(1).</p>
+<h3> Selection Sort</h3>
+<p>It is another intuitive algorithm and it is easy to realize.</p>
+<p>Given a collection of integers.</p>
+<p>In every round, find the minimum element in that list and move it to the front of the list through a swap. That's it!</p>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://img-blog.csdnimg.cn/2020070819571632.gif" alt="Selection Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>It is not a stable algorithm because the sequence of other elements is broken during the period of each sorting round.</p>
+<p>Obviously, the time complexity is O(n^2). And it's an in-place algorithm, so the space complexity is O(1).</p>
+<h3> Counting Sort</h3>
+<p>These 3 sorting methods above are simple and intuitive. And now we start to learn some advanced sort algorithms.</p>
+<p>Counting Sort is clever.</p>
+<p>Consider we have a collection of integers. We can record the number of each integer. And then, we get a count array so that we can calculate the sorted index of this collection of integers. It's awesome!</p>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://pic4.zhimg.com/v2-3c7ddb59df2d21b287e42a7b908409cb_b.webp" alt="Counting Sort" loading="lazy"></p>
+<div class="hint-container tip">
+<p class="hint-container-title">Hint</p>
+<p>However, a key assumption of counting sort is that the minimum possible value in the array is 0 (no negative numbers) and the maximum value is some positive integer K.</p>
+<p>So if your array includes some negative numbers, please remember to do a map that keeps all numbers are positive.</p>
+<p>For example, an array with values between -5 and 10 can be mapped to values between 0 and 15, perform counting sort, and then remap to the original -5 to 10 range.</p>
+<p>This is important!</p>
+</div>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>It is a stable sorting algorithm. Because we make a new space and do not break the original array.</p>
+<p>Time Complexity: O(N + K), where N is the size of the input array and K is the maximum value in the array.</p>
+<p>Space Complexity: O(N + K), since we have to initialize a new array of size N and a counts array of size K+1.</p>
+<p>O(N+K) is a linear time complexity, we may think it is perfect. But notice one thing: if the maximum number in the array is too big, we need to create a space as big as this number. And it is a waste of space. Like array [0, 1, 100001, 2].</p>
+<p>So the Counting Sort is not as perfect as we thought.</p>
+<h2> Continue writing...</h2>
+]]></content:encoded>
+      <enclosure url="https://cdn.staticaly.com/gh/xustudyxu/image-hosting1@master/20221119/insertionSort.lre9a3i98xs.gif" type="image/gif"/>
+    </item>
     <item>
       <title>Recursion</title>
       <link>https://harryxiong24.github.io/en/article/recursion.html</link>
@@ -31,7 +227,7 @@
 <p>We assume f(x) is a function and define f(x) = x * f(x-1), f(1) = 1.</p>
 <p>And we need to obtain the f(6).</p>
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>As we see, we don't know the value of f(6), but we can transform it as 6 *f(5); We don't know the value of f(5), but we can transform it as 5 * f(4)...</p>
-<p>Until when we reach the terminal condition f(1) = 1, and then we start to go back.</p>
+<p>Until we reach the terminal condition f(1) = 1, we start to go back.</p>
 <p><strong>So, for any recursion, we have two phases: go-in, come-out. Like this example, steps 1-6 represent going in, and steps 7- 11 represent coming out.</strong></p>
 <p>This is the key to recursion. In fact, these are the essence of the computer handling recursive problems.</p>
 <p><img src="https://pic4.zhimg.com/v2-117b94f64bcff561bd230e03a49dbf37_b.webp" alt="Recursive" loading="lazy"></p>
@@ -42,7 +238,7 @@
 <p>This is why we need computers to resolve recursive problems. The Computer only cares about input and execution, and they don't need to understand the context or describe the process.</p>
 <p>Thus, it is almost impossible for our brains to think through the entire process of recursion and recursion step by step, so don't try to use the human brain to decompose each step of recursion.</p>
 <p>To put it simply, first of all, we must learn to forget the recursive process, trust the computer, and not try to simulate every step with the human brain to verify whether our solution is correct.</p>
-<p>And the only thing we should care about is what we should do in one of the cases. Like in f(6) example, we just care about what we need to do when we in f(5) cases. And then believe your computer, believe it can solve other sub-question successfully based on your f(5) solving logic.</p>
+<p>And the only thing we should care about is what we should do in one of the cases. Like in f(6) example, we just care about what we need to do when we are in f(5) cases. And then believe your computer, believe it can solve other sub-question successfully based on your f(5) solving logic.</p>
 <div class="hint-container tip">
 <p class="hint-container-title">Hint</p>
 <p>This is important, please remember it!</p>
@@ -78,8 +274,8 @@
 <p>So assume that we need to obtain fib(5), so in this case, fib(5) = fib(4) + fib(3). And don't think about fib(4) or fib(3), because they belong to other sub-cases, and we just need to know when to execute here, fib(3) and fib(4) has accurate results.</p>
 <p>So according to this case, we know fib(n) = fib(n-1) + fib(n-2), and that's it!</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>And the recursive function is completed! We just give the params into it, then it works!</p>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Series of reversing problem</h3>
-<p>This section I want to share a particular question set - reverse problem.</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Series of reverse problems</h3>
+<p>This section I want to share a particular question set - reverse problems.</p>
 <p>We can find examples at Leetcode such as:</p>
 <ul>
 <li>
