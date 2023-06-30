@@ -1,7 +1,8 @@
 ---
 article: true
-sticky: 900
-star: 900
+isOriginal: true
+sticky: 801
+star: 801
 category: article
 tag:
   - Sort
@@ -21,8 +22,8 @@ In this chapter, I want to summarize the sort algorithm. As we all know, there a
 | **Selection Sort** | O(n^2)              | O(1)                 | Unstable      | In-place           | O(n^2)        | O(n^2)         |
 | ****               |                     |                      |               |                    |               |                |
 | **Counting Sort**  | O(n+k)              | O(k)                 | Stable        | Out-place          | O(n+k)        | O(n+k)         |
-| **Bucket Sort**    | O(n+k)              | O(n+k)               | Stable        | Out-place          | O(n+k)        | O(n^2)         |
 | **Radix Sort**     | O(w*(n+k))          | O(n+k)               | Stable        | Out-place          | O(w*(n+k))    | O(w*(n+k))     |
+| **Bucket Sort**    | O(n+k)              | O(n+k)               | Stable        | Out-place          | O(n+k)        | O(n^2)         |
 | ****               |                     |                      |               |                    |               |                |
 | **Quick Sort**     | O(n*logn)           | O(n*logn)            | Unstable      | In-place           | O(n*logn)     | O(n^2)         |
 | **Merge Sort**     | O(n*logn)           | O(n)                 | Unstable      | Out-place          | O(n*logn)     | O(n*logn)      |
@@ -167,7 +168,7 @@ Here is the dynamic proceeding:
 ::: tip Hint
 However, a key assumption of counting sort is that the minimum possible value in the array is 0 (no negative numbers) and the maximum value is some positive integer K.
 
-So if your array includes some negative numbers, please remember to do a map that keeps all numbers are positive.
+So if your array includes some negative numbers, please remember to do a map to keep all numbers positive.
 
 For example, an array with values between -5 and 10 can be mapped to values between 0 and 15, perform counting sort, and then remap to the original -5 to 10 range.
 
@@ -236,5 +237,184 @@ Space Complexity: O(N + K), since we have to initialize a new array of size N an
 O(N+K) is a linear time complexity, we may think it is perfect. But notice one thing: if the maximum number in the array is too big, we need to create a space as big as this number. And it is a waste of space. Like array [0, 1, 100001, 2].
 
 So the Counting Sort is not as perfect as we thought.
+
+Plus, Counting Sort also can’t easily handle strings where the alphabet size could be unconstrained.
+
+### Radix Sort
+
+We just discuss the limitation of Counting Sort above. Now We introduce an optimizing sort algorithm based on Counting Sort.
+
+Radix Sort Algorithm has these basic steps:
+
+1. Give a collection of integers, and find out the maximum number in the collection. Let it be W.
+2. For each integer, loop through digits from 1 to W in right-to-left order(the least significant to the most significant digit). And in each group of digits, we use Count Sort to sort integers.
+
+Also, remember that if your array includes some negative numbers, do a map to keep all numbers positive.
+
+For example, an array with values between -5 and 10 can be mapped to values between 0 and 15, perform counting sort, and then remap to the original -5 to 10 range.
+
+Here is the dynamic proceeding: 
+
+![Radix Sort](https://pic3.zhimg.com/v2-3a6f1e5059386523ed941f0d6c3a136e_b.webp)
+
+Here is the code:
+
+``` ts
+function customizedCountingSort(nums: number[], digit: number, count_volume = 10): void {
+  // we just need 0-9 space in counter volume
+  const countArray = new Array(count_volume).fill(0);
+
+  for (const item of nums) {
+    const current_digit = Math.floor(item / digit) % 10;
+    countArray[current_digit]++;
+  }
+
+  // calculate the deviation of index in sorted array
+  let sum = 0;
+  let temp = 0;
+  for (let i = 0; i < countArray.length; i++) {
+    sum = sum + temp;
+    temp = countArray[i];
+    countArray[i] = sum;
+  }
+
+  const sortedArray = new Array(nums.length).fill(0);
+  for (let i = 0; i < nums.length; i++) {
+    // here is important and notice the mapping relationship between current_digit and nums[i]
+    const current_digit = Math.floor(nums[i] / digit) % 10;
+    const index = countArray[current_digit];
+    const value = nums[i];
+    sortedArray[index] = value;
+    countArray[current_digit]++;
+  }
+
+  for (let i = 0; i < nums.length; i++) {
+    nums[i] = sortedArray[i];
+  }
+}
+
+function radixSort(nums: number[]) {
+  // mapping
+  const min = Math.min(...nums);
+  const mapper = min < 0 ? Math.abs(0 - min) : 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    nums[i] = nums[i] + mapper;
+  }
+
+  let digit = 1;
+  const max = Math.max(...nums);
+  // represents use Counting Sort in every digital number round
+  while (digit <= max) {
+    customizedCountingSort(nums, digit, 10);
+    digit = digit * 10;
+  }
+
+  // remapping
+  for (let i = 0; i < nums.length; i++) {
+    nums[i] = nums[i] - mapper;
+  }
+}
+
+// test
+const array = [831, 443, 256, 336, 736, 907, 3, 21323, 54];
+radixSort(array);
+console.log(array);
+```
+
+Let's analyze the complexity of Radix Sort.
+
+Let W be the maximum digit length within the list of integers.
+Let N be the size of the original array.
+And because we use Counting Sort every round, let K be the size of the counting array(it is usually 10).
+
+So the Time Complexity is O(W * (N + K));
+
+Space Complexity is O(N + K)
+
+It is a stable sorting algorithm because we create new extra space to sort instead of in-place sorting.
+
+### Bucket Sort
+
+Bucket Sort is another non-comparison-based sorting algorithm.
+
+The steps of bucket sort can be broken down into four distinct parts. 
+
+Given an array A:
+
+1. Create an initial array of K empty buckets
+2. Distribute each element of the array into its respective bucket. A common way to map values to buckets is via the following function: floor(K * A[i] / max(A)).
+3. Sort each bucket by using insertion sort or some other sorting algorithm.
+4. Concatenate the sorted buckets in order to create the sorted list.
+
+Also, remember that if your array includes some negative numbers, do a map to keep all numbers positive.
+
+For example, an array with values between -5 and 10 can be mapped to values between 0 and 15, perform counting sort, and then remap to the original -5 to 10 range.
+
+Here is the dynamic proceeding:
+
+![Bucket Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f41ad1d7225c4900aa71fea2a0bd8d18~tplv-k3u1fbpfcp-zoom-1.image)
+
+Here is the code:
+
+``` ts
+function bucketSort(nums: number[], bucket_number: number): void {
+  // mapping
+  const min = Math.min(...nums);
+  const mapper = min < 0 ? Math.abs(0 - min) : 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    nums[i] = nums[i] + mapper;
+  }
+
+  // create bucket
+  const max = Math.max(...nums);
+  const buckets: number[][] = new Array(bucket_number).fill(null).map(() => []);
+  const bucketSize = Math.floor((max - min) / bucket_number);
+
+  // put elements into buckets
+  for (const item of nums) {
+    const index = Math.floor((item - min) / bucketSize);
+
+    if (index >= bucket_number) {
+      // handle boundary condition
+      buckets[bucket_number - 1].push(item);
+    } else {
+      buckets[index].push(item);
+    }
+  }
+
+  // sort for elements in every bucket
+  // and you can use any of the sorting methods
+  for (const bucket of buckets) {
+    bucket.sort((a, b) => a - b);
+  }
+
+  // Concatenate the sorted buckets in order to create the sorted list.
+  const sortedArray = buckets.flat();
+
+  // remapping
+  for (let i = 0; i < nums.length; i++) {
+    nums[i] = sortedArray[i] - mapper;
+  }
+}
+
+// test
+const array = [831, 443, 256, 336, 736, 907, 3, 21323, 54];
+bucketSort(array, 5);
+console.log(array);
+```
+
+Let's discuss the complexity of Bucket Sort.
+
+Obviously, the complexity is based on the sort algorithm used in each bucket.
+
+Let W be the number of buckets.
+
+If we choose Insertion Sort, Time Complexity will be O(W * (n^2)), Space Complexity will be O(W);
+
+If we choose Counting Sort, Time Complexity will be O(W * (N + K)), Space Complexity will be O(W * O (N + K));
+
+It is a stable sorting algorithm because we create new extra space to sort instead of in-place sorting.
 
 ## Continue writing...

@@ -15,5 +15,5 @@ The English version of the blog was only recently built. All my articles and stu
 
 But it's a milestone! From now on, I will write in bilingual and update simultaneously!
 
-If you want to view my historical articles now, welcome to the [Chinese version](/zh/)! 
+If you want to view my historical articles now, welcome to the [Chinese version](/zh/)!
 :::

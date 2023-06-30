@@ -1,5 +1,4 @@
 ---
-sticky: 1
 star: 1
 tag:
   - About Me

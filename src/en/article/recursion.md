@@ -1,7 +1,8 @@
 ---
 article: true
-sticky: 900
-star: 900
+isOriginal: true
+sticky: 800
+star: 800
 category: article
 tag:
   - Recursion
