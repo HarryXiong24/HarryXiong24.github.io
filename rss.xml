@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Sun, 02 Jul 2023 08:06:33 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Jul 2023 08:06:33 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Jul 2023 10:17:37 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Jul 2023 10:17:37 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>article</category>
@@ -180,7 +180,7 @@
 <p>Given a collection of integers.</p>
 <p>In every round, find the minimum element in that list and move it to the front of the list through a swap. That's it!</p>
 <p>Here is the dynamic proceeding:</p>
-<p><img src="https://img-blog.csdnimg.cn/2020070819571632.gif" alt="Selection Sort" loading="lazy"></p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f3b2294b88a4cf8954edf0b567c7fc6~tplv-k3u1fbpfcp-zoom-1.image" alt="Selection Sort" loading="lazy"></p>
 <p>Here is the code:</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>It is not a stable algorithm because the sequence of other elements is broken during the period of each sorting round.</p>
 <p>Obviously, the time complexity is O(n^2). And it's an in-place algorithm, so the space complexity is O(1).</p>
@@ -244,6 +244,107 @@ And because we use Counting Sort every round, let K be the size of the counting 
 <p>If we choose Insertion Sort, Time Complexity will be O(W * (n^2)), Space Complexity will be O(W);</p>
 <p>If we choose Counting Sort, Time Complexity will be O(W * (N + K)), Space Complexity will be O(W * O (N + K));</p>
 <p>It is a stable sorting algorithm because we create new extra space to sort instead of in-place sorting.</p>
+<h3> Quick Sort</h3>
+<p>Quick Sort is a category of swap sort.</p>
+<p>Quick sort uses the recursive method.</p>
+<p>It selects an element in the array as the "pivot" element. And put the elements smaller than the pivot into one array and the elements larger than the pivot into the other array. Then, recursively sort the two arrays and combine them with the pivot to get the final sorted array.</p>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30b2e02a13064f24a645aae7345a21d3~tplv-k3u1fbpfcp-zoom-1.image" alt="Quick Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>And Quick Sort is easy to write via using recursion.</p>
+<p>Its time complexity is O(n * log n), and its space complexity is O(log n).</p>
+<p>It is not a stable sorting algorithm because we break the original order in every round.</p>
+<h3> Merge Sort</h3>
+<p>Merge Sort is another sorting method that can use recursion to solve.</p>
+<p>Merge sort is an efficient sorting algorithm based on the merge operation.</p>
+<p>This algorithm is a typical application of Divide and Conquer. Combine the ordered subsequences to obtain a completely ordered sequence; that is, first make each subsequence in order, and then make the subsequence segments in order.</p>
+<p>And given a collection of integers:</p>
+<ol>
+<li>Divide a sequence of length n array into two subsequences of length n/2</li>
+<li>Use merge sort for the two subsequences respectively</li>
+<li>Merges two sorted subsequences into a final sorted sequence.</li>
+</ol>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fef227f4fb3f4f5383ae609aca57848c~tplv-k3u1fbpfcp-zoom-1.image" alt="Merge Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>For Merge Sort, the time complexity is O(n * log n) and the space complexity is O(n).</p>
+<p>It is a stable sorting algorithm.</p>
+<h3> Shell Sort</h3>
+<p>Shell Sort is a category of Insertion Sort.</p>
+<p>Firstly, we divide the entire record sequence to be sorted into several subsequences for direct insertion sorting respectively.</p>
+<p>The specific algorithm description:</p>
+<ol>
+<li>Choose an incremental sequence t1, t2, ..., tk, where ti&gt;tj, tk=1;</li>
+<li>According to the incremental sequence number k, sort the sequence k times;</li>
+<li>For each sorting, according to the corresponding increment ti, the column to be sorted is divided into several subsequences of length m, and direct insertion sorting is performed on each sub-list respectively.</li>
+<li>Only when the increment factor is 1, the entire sequence is treated as a table, and the length of the table is the length of the entire sequence.</li>
+</ol>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02585fdfd7da4c2287066c1acfac6a87~tplv-k3u1fbpfcp-zoom-1.image" alt="Shell Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>For Shell Sort, the time complexity is O(n * log n) and the Space Complexity is O(1).</p>
+<p>It is a not stable sorting algorithm.</p>
+<h3> Heap Sort</h3>
+<p>The core concept of the Heap Sort involves constructing a heap from our input and repeatedly removing the minimum/maximum element to sort the array.</p>
+<p>A naive approach to Heap Sort would start with creating a new array and adding elements one by one into the new array. But this sorting algorithm can also be performed in place, so no extra memory is used in terms of space complexity.</p>
+<p>The key idea for in-place Heap Sort involves a balance of two central ideas:</p>
+<ol>
+<li>Building a heap from an unsorted array through a “bottom-up heapification” process</li>
+<li>Using the heap to sort the input array.</li>
+</ol>
+<p>Heap Sort traditionally uses a max-heap to sort the array, although a min-heap also works, its implementation is a little less elegant.</p>
+<p>Algorithm for “bottom-up heapification” of input into max-heap.</p>
+<p>Given an input array, we can represent it as a binary tree.</p>
+<p>If the parent node is stored at index i, the left child will be stored at index 2i + 1 and the right child at index 2i + 2 (assuming the indexing starts at 0).</p>
+<p>To convert it to a max-heap, we proceed with the following steps:</p>
+<ol>
+<li>Start from the end of the array (bottom of the binary tree).</li>
+<li>There are two cases for a node
+<ul>
+<li>It is greater than its left child and right child (if any).
+<ul>
+<li>In this case, proceed to the next node (one index before the current array index)</li>
+</ul>
+</li>
+<li>There exists a child node that is greater than the current node
+<ul>
+<li>In this case, swap the current node with the child node. This fixes a violation of the max-heap property</li>
+<li>Repeat the process with the node until the max-heap property is no longer violated</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Repeat step 2 on every node in the binary tree from bottom-up.</li>
+</ol>
+<p>A key property of this method is that by processing the nodes from the bottom-up, once we are at a specific node in our heap, it is guaranteed that all child nodes are also heaps.</p>
+<p>Once we have “heapified” the input, we can begin using the max-heap to sort the list. To do so, we will:</p>
+<ol>
+<li>Take the maximum element at index 0 (we know this is the maximum element because of the max-heap property) and swap it with the last element in the array (this element's proper place).</li>
+<li>We now have sorted an element (the last element). We can now ignore this element and decrease heap size by 1, thereby omitting the max element from the heap while keeping it in the array.</li>
+<li>Treat the remaining elements as a new heap. There are two cases:
+<ul>
+<li>The root element violates the max-heap property
+<ul>
+<li>Sink this node into the heap until it no longer violates the max-heap property. Here the concept of "sinking" a node refers to swapping the node with one its children until the heap property is no longer violated.</li>
+</ul>
+</li>
+<li>The root element does not violate the max-heap property
+<ul>
+<li>Proceed to step (4)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Repeat step 1 on the remaining unsorted elements. Continue until all elements are sorted.</li>
+</ol>
+<p>Here is the dynamic proceeding:</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2399d39bc13f407d8a5ffacb2b1d5fb0~tplv-k3u1fbpfcp-zoom-1.image" alt="Heap Sort" loading="lazy"></p>
+<p>Here is the code:</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The key aspect that makes Heap Sort better than selection sort is the running time of the algorithm is now O(NlogN).</p>
+<p>This is a result of the fact that removing the max element from the heap, which is the central operation in the sort is an O(logN) operation, which has to be performed in the worst case N−1 times.</p>
+<p>Note that in-place heapification is an O(N) operation, so it has no impact on the worst-case time complexity of Heap Sort.</p>
+<p>In terms of space complexity, since we are treating the input array as a heap and creating no extra space (all operations are in-place), Heap Sort is  O(1).</p>
+<p>And it is not a stable sort.</p>
 <h2> Continue writing...</h2>
 ]]></content:encoded>
       <enclosure url="https://cdn.staticaly.com/gh/xustudyxu/image-hosting1@master/20221119/insertionSort.lre9a3i98xs.gif" type="image/gif"/>
