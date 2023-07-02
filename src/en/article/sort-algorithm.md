@@ -124,7 +124,7 @@ In every round, find the minimum element in that list and move it to the front o
 
 Here is the dynamic proceeding:
 
-![Selection Sort](https://img-blog.csdnimg.cn/2020070819571632.gif)
+![Selection Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f3b2294b88a4cf8954edf0b567c7fc6~tplv-k3u1fbpfcp-zoom-1.image)
 
 Here is the code:
 
@@ -416,5 +416,265 @@ If we choose Insertion Sort, Time Complexity will be O(W * (n^2)), Space Complex
 If we choose Counting Sort, Time Complexity will be O(W * (N + K)), Space Complexity will be O(W * O (N + K));
 
 It is a stable sorting algorithm because we create new extra space to sort instead of in-place sorting.
+
+### Quick Sort
+
+Quick Sort is a category of swap sort.
+
+Quick sort uses the recursive method.
+
+It selects an element in the array as the "pivot" element. And put the elements smaller than the pivot into one array and the elements larger than the pivot into the other array. Then, recursively sort the two arrays and combine them with the pivot to get the final sorted array.
+
+Here is the dynamic proceeding:
+
+![Quick Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30b2e02a13064f24a645aae7345a21d3~tplv-k3u1fbpfcp-zoom-1.image)
+
+Here is the code:
+
+``` ts
+function quickSort(nums: number[]): number[] {
+  // handle boundary
+  if (nums.length <= 1) {
+    return nums;
+  }
+
+  const pivot: number = Math.floor(nums.length / 2);
+  const left: number[] = [];
+  const right: number[] = [];
+
+  for (let i = 0; i < nums.length; i++) {
+    if (i === pivot) {
+      continue;
+    } else if (nums[i] < nums[pivot]) {
+      left.push(nums[i]);
+    } else {
+      right.push(nums[i]);
+    }
+  }
+
+  return [...quickSort(left), nums[pivot], ...quickSort(right)];
+}
+
+// test
+const array = [2, 0, 2, 1, 1, 0, -3, -4];
+const res = quickSort(array);
+console.log(res);
+```
+
+And Quick Sort is easy to write via using recursion.
+
+Its time complexity is O(n * log n), and its space complexity is O(log n).
+
+It is not a stable sorting algorithm because we break the original order in every round.
+
+### Merge Sort
+
+Merge Sort is another sorting method that can use recursion to solve.
+
+Merge sort is an efficient sorting algorithm based on the merge operation. 
+
+This algorithm is a typical application of Divide and Conquer. Combine the ordered subsequences to obtain a completely ordered sequence; that is, first make each subsequence in order, and then make the subsequence segments in order.
+
+And given a collection of integers:
+
+1. Divide a sequence of length n array into two subsequences of length n/2
+2. Use merge sort for the two subsequences respectively
+3. Merges two sorted subsequences into a final sorted sequence.
+
+Here is the dynamic proceeding:
+
+![Merge Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fef227f4fb3f4f5383ae609aca57848c~tplv-k3u1fbpfcp-zoom-1.image)
+
+Here is the code:
+
+``` ts
+function merge(left: number[], right: number[]): number[] {
+  const result: number[] = [];
+  // merge ordered left array and right array together
+  while (left.length > 0 && right.length > 0) {
+    if (left[0] < right[0]) {
+      result.push(left.shift()!);
+    } else {
+      result.push(right.shift()!);
+    }
+  }
+  return result.concat(left, right);
+}
+
+function mergeSort(nums: number[]): number[] {
+  // handle boundary condition
+  if (nums.length <= 1) {
+    return nums;
+  }
+
+  // divide array into two parts
+  const middle: number = Math.floor(nums.length / 2);
+  const left: number[] = nums.slice(0, middle);
+  const right: number[] = nums.slice(middle);
+
+  // recursive
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+// test
+const res = mergeSort([10, 1, 3, 2, 9, 1, 5, 6]);
+console.log(res);
+```
+
+For Merge Sort, the time complexity is O(n * log n) and the space complexity is O(n).
+
+It is a stable sorting algorithm.
+
+### Shell Sort
+
+Shell Sort is a category of Insertion Sort.
+
+Firstly, we divide the entire record sequence to be sorted into several subsequences for direct insertion sorting respectively.
+
+The specific algorithm description:
+
+1. Choose an incremental sequence t1, t2, ..., tk, where ti>tj, tk=1;
+2. According to the incremental sequence number k, sort the sequence k times;
+3. For each sorting, according to the corresponding increment ti, the column to be sorted is divided into several subsequences of length m, and direct insertion sorting is performed on each sub-list respectively.
+4. Only when the increment factor is 1, the entire sequence is treated as a table, and the length of the table is the length of the entire sequence.
+
+Here is the dynamic proceeding:
+
+![Shell Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02585fdfd7da4c2287066c1acfac6a87~tplv-k3u1fbpfcp-zoom-1.image)
+
+Here is the code:
+
+``` ts
+function shellSort(nums: number[]): number[] {
+  let gap = Math.floor(nums.length / 2);
+
+  while (gap > 0) {
+    for (let i = gap; i < nums.length; i++) {
+      const temp = nums[i];
+      let j = i;
+      while (j >= gap && nums[j - gap] > temp) {
+        nums[j] = nums[j - gap];
+        j -= gap;
+      }
+      nums[j] = temp;
+    }
+    gap = Math.floor(gap / 2);
+  }
+
+  return nums;
+}
+
+// test
+const res = shellSort([10, 1, 3, 2, 9, 1, 5, 6]);
+console.log(res);
+```
+
+For Shell Sort, the time complexity is O(n * log n) and the Space Complexity is O(1).
+ 
+It is a not stable sorting algorithm.
+
+### Heap Sort
+
+The core concept of the Heap Sort involves constructing a heap from our input and repeatedly removing the minimum/maximum element to sort the array.
+
+A naive approach to Heap Sort would start with creating a new array and adding elements one by one into the new array. But this sorting algorithm can also be performed in place, so no extra memory is used in terms of space complexity.
+
+The key idea for in-place Heap Sort involves a balance of two central ideas:
+
+1. Building a heap from an unsorted array through a “bottom-up heapification” process
+2. Using the heap to sort the input array.
+
+Heap Sort traditionally uses a max-heap to sort the array, although a min-heap also works, its implementation is a little less elegant.
+
+Algorithm for “bottom-up heapification” of input into max-heap.
+
+Given an input array, we can represent it as a binary tree. 
+
+If the parent node is stored at index i, the left child will be stored at index 2i + 1 and the right child at index 2i + 2 (assuming the indexing starts at 0).
+
+To convert it to a max-heap, we proceed with the following steps:
+
+1. Start from the end of the array (bottom of the binary tree).
+2. There are two cases for a node
+    * It is greater than its left child and right child (if any).
+        * In this case, proceed to the next node (one index before the current array index)
+    * There exists a child node that is greater than the current node
+        * In this case, swap the current node with the child node. This fixes a violation of the max-heap property
+        * Repeat the process with the node until the max-heap property is no longer violated
+3. Repeat step 2 on every node in the binary tree from bottom-up.
+
+A key property of this method is that by processing the nodes from the bottom-up, once we are at a specific node in our heap, it is guaranteed that all child nodes are also heaps.
+
+Once we have “heapified” the input, we can begin using the max-heap to sort the list. To do so, we will:
+
+1. Take the maximum element at index 0 (we know this is the maximum element because of the max-heap property) and swap it with the last element in the array (this element's proper place).
+2. We now have sorted an element (the last element). We can now ignore this element and decrease heap size by 1, thereby omitting the max element from the heap while keeping it in the array.
+3. Treat the remaining elements as a new heap. There are two cases:
+    * The root element violates the max-heap property
+        * Sink this node into the heap until it no longer violates the max-heap property. Here the concept of "sinking" a node refers to swapping the node with one its children until the heap property is no longer violated.
+    * The root element does not violate the max-heap property
+        * Proceed to step (4)
+4. Repeat step 1 on the remaining unsorted elements. Continue until all elements are sorted.
+
+Here is the dynamic proceeding: 
+
+![Heap Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2399d39bc13f407d8a5ffacb2b1d5fb0~tplv-k3u1fbpfcp-zoom-1.image)
+
+Here is the code:
+
+``` ts
+function heapify(nums: number[], length: number, current_index: number) {
+  // represents the largest index of node value in this round
+  let largest_index = current_index;
+  // the index of left child value
+  const left = 2 * current_index + 1;
+  // the index of right child value
+  const right = 2 * current_index + 2;
+
+  // find the largest index of node value in this round
+  if (left < length && nums[left] > nums[largest_index]) {
+    largest_index = left;
+  }
+  if (right < length && nums[right] > nums[largest_index]) {
+    largest_index = right;
+  }
+
+  // if the maximum index is not the root node, swap the root node and maximum node, and recursively call the heap function
+  if (largest_index !== current_index) {
+    const temp = nums[current_index];
+    nums[current_index] = nums[largest_index];
+    nums[largest_index] = temp;
+    heapify(nums, length, largest_index);
+  }
+}
+
+function heapSort(nums: number[]) {
+  for (let i = Math.floor(nums.length / 2) - 1; i >= 0; i--) {
+    heapify(nums, nums.length, i);
+  }
+
+  for (let i = nums.length - 1; i >= 0; i--) {
+    const temp = nums[i];
+    nums[i] = nums[0];
+    nums[0] = temp;
+    heapify(nums, i, 0);
+  }
+}
+
+// test
+const array = [2, 0, 2, 1, 1, 0, -3, -4];
+heapSort(array);
+console.log(array);
+```
+
+The key aspect that makes Heap Sort better than selection sort is the running time of the algorithm is now O(NlogN).
+
+This is a result of the fact that removing the max element from the heap, which is the central operation in the sort is an O(logN) operation, which has to be performed in the worst case N−1 times.
+
+Note that in-place heapification is an O(N) operation, so it has no impact on the worst-case time complexity of Heap Sort.
+
+In terms of space complexity, since we are treating the input array as a heap and creating no extra space (all operations are in-place), Heap Sort is  O(1).
+
+And it is not a stable sort.
 
 ## Continue writing...
