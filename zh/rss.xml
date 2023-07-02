@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/zh/</link>
     <description>A piano player playing on the keyboard</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 30 Jun 2023 07:46:42 GMT</pubDate>
-    <lastBuildDate>Fri, 30 Jun 2023 07:46:42 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Jul 2023 08:06:33 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Jul 2023 08:06:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Web Development</category>
@@ -27,7 +27,6 @@
     <category>Linux</category>
     <category>Windows</category>
     <category>Web 前端</category>
-    <category>Web前端</category>
     <item>
       <title>给你的库或框架设计一个通用错误处理模型</title>
       <link>https://harryxiong24.github.io/zh/article/error-modal.html</link>
@@ -13495,8 +13494,8 @@ st2=&gt;subroutine: Unicode 编码</p>
       <guid>https://harryxiong24.github.io/zh/front-end/ajax/ajax.html</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">Ajax</source>
       <description>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式 AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Aj...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Ajax</h1>
 <p><strong>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式</strong></p>
 <p>AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Ajax 的网页如果需要更新内容,必需重载整个网页面。</p>
@@ -13788,8 +13787,8 @@ header： 响应头的 key（字符串类型）
       <guid>https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">Data Storage</source>
       <description>[[toc]] 1. Cookie cookie 用于存储数据,当用户访问了某个网站(网页)的时候,可以通过 cookie 来访问客户端上存储的数据 注意: 不同的浏览器存放的 cookie 位置不一样，也是不能通用的; cookie 的存储是以域名形式进行区分的; cookie 的数据可以设置名字的; 一个域名下存放的 cookie 的个数是有限制的...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Data Storage</h1>
 
 <h2> 1. Cookie</h2>
@@ -13894,8 +13893,8 @@ header： 响应头的 key（字符串类型）
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">1.节点</source>
       <description>节点 Node(节点)是构成HTML5的基本单元,DOM节点主要分为四类 文档节点:整个HTML文档; 元素节点:HTML文档中的HTML标签; 属性节点:元素的属性; 文本节点:HTML标签中的文本内容; 节点 nodeName(节点名) nodeType(节点类型) nodeValue(节点值) -------- ---------------- ...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 节点</h2>
 <p><strong>Node(节点)是构成HTML5的基本单元</strong>,DOM节点主要分为四类</p>
 <ul>
@@ -13969,13 +13968,13 @@ header： 响应头的 key（字符串类型）
 ]]></content:encoded>
     </item>
     <item>
-      <title>10.拖拽事件</title>
+      <title>10. 拖拽事件</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">10.拖拽事件</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">10. 拖拽事件</source>
       <description>拖拽事件 当我们拖拽一个网页中的内容时，浏览器会默认去搜索引擎中搜索内容，此时会导致拖拽功能的异常，这个是浏览器提供的默认行为,如果不希望发生这个行为，可以通过return false来取消默认行为，但是对IE8及以下浏览器不起作用(并不是说IE8不支持使用return false来取消默认效果，只是不支持在拖拽时取消默认效果) 注意: 使用addEv...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 拖拽事件</h2>
 <p>当我们拖拽一个网页中的内容时，浏览器会默认去搜索引擎中搜索内容，此时会导致拖拽功能的异常，这个是浏览器提供的默认行为,如果不希望发生这个行为，可以通过return false来取消默认行为，但是对IE8及以下浏览器不起作用(并不是说IE8不支持使用return false来取消默认效果，只是不支持在拖拽时取消默认效果)</p>
 <p><strong>注意:</strong></p>
@@ -14001,13 +14000,13 @@ header： 响应头的 key（字符串类型）
 ]]></content:encoded>
     </item>
     <item>
-      <title>11.滚轮事件</title>
+      <title>11. 滚轮事件</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">11.滚轮事件</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">11. 滚轮事件</source>
       <description>滚轮事件 onscroll事件为元素添加滚动(注意不是滚轮,滚动是滚动条发生变化)事件,该事件是滚动条变化就发生事件,所以一次鼠标滚动可能会发生很多次该事件; onwheel鼠标滚动事件,会在鼠标滚动时触发,推荐使用该事件; onmousewheel鼠标滚轮事件，会在滚轮滚动时触发，但是火狐不支持该属性，在火狐中需要使用DOMMouseScroll来绑...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 滚轮事件</h2>
 <ul>
 <li>
@@ -14034,13 +14033,13 @@ header： 响应头的 key（字符串类型）
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>12.键盘事件</title>
+      <title>12. 键盘事件</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">12.键盘事件</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">12. 键盘事件</source>
       <description>键盘事件 12.1 事件触发 onkeydown事件触发表明键盘按键被按下,如果一直按着某个按键不松手，则事件会一直触发; 注意:当onkeydown事件连续触发时，第一次和第二次之间会间隔稍微长一点，其他的会非常快，这种设计是为了防止误操作事故的发生,如果不想要这种效果请使用定时器 onkeyup事件触发表明键盘按键被松开; 注:键盘事件有一般都会绑...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 键盘事件</h2>
 <h3> 12.1 事件触发</h3>
 <ul>
@@ -14071,13 +14070,13 @@ header： 响应头的 key（字符串类型）
 <div class="language-javascript" data-ext="js"></div>]]></content:encoded>
     </item>
     <item>
-      <title>13.BOM</title>
+      <title>13. BOM</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">13.BOM</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">13. BOM</source>
       <description>BOM BOM全称Browser Object Model(浏览器对象模型),是用于描述这种对象与对象之间层次关系的模型，浏览器对象模型提供了独立于内容的、可以与浏览器窗口进行互动的对象结构，BOM可以使我们通过JS来操作浏览器 BOM由多个对象组成，其中代表浏览器窗口的Window对象是BOM的顶层对象，其他对象都是该对象的子对象 Window-代表...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> BOM</h2>
 <p>**BOM全称Browser Object Model(浏览器对象模型),**是用于描述这种对象与对象之间层次关系的模型，浏览器对象模型提供了独立于内容的、可以与浏览器窗口进行互动的对象结构，BOM可以使我们通过JS来操作浏览器</p>
 <p><strong>BOM由多个对象组成，其中代表浏览器窗口的Window对象是BOM的顶层对象，其他对象都是该对象的子对象</strong></p>
@@ -14240,13 +14239,13 @@ header： 响应头的 key（字符串类型）
 ]]></content:encoded>
     </item>
     <item>
-      <title>2.DOM事件</title>
+      <title>2. DOM事件</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">2.DOM事件</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">2. DOM事件</source>
       <description>DOM事件 事件是用户和浏览器之间的交互行为 2.1 鼠标事件 属性 描述 ------------- ------------------------------------------------------------ onclick 当用户点击某个对象时调用的事件句柄。单击鼠标左键或者按下回车键时触发,意味着onclick事件处理程序既可以通过...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> DOM事件</h2>
 <p><strong>事件是用户和浏览器之间的交互行为</strong></p>
 <h3> 2.1 鼠标事件</h3>
@@ -14701,13 +14700,13 @@ header： 响应头的 key（字符串类型）
 ]]></content:encoded>
     </item>
     <item>
-      <title>3.DOM查询</title>
+      <title>3. DOM查询</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">3.DOM查询</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">3. DOM查询</source>
       <description>DOM查询 3.1 获取DOM节点 3.1.1 获取元素节点 getElementById()通过ID获取元素节点,返回一个普通对象; 注意:ID其实可以不用获取而直接使用,因为ID是具有唯一性的,但是不推荐不获取就直接使用ID，因为以后会很难区分这个变量是哪里来的 getElementsByTagName()方法通过标签名获取元素节点,返回一个类数组...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> DOM查询</h2>
 <h3> 3.1 获取DOM节点</h3>
 <h4> 3.1.1 获取元素节点</h4>
@@ -14977,13 +14976,13 @@ header： 响应头的 key（字符串类型）
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>4.元素样式</title>
+      <title>4. 元素样式</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db4.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db4.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">4.元素样式</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">4. 元素样式</source>
       <description>元素样式 4.1 修改元素CSS样式 4.1.1 通过style属性修改元素样式 通过 元素.style.样式名=&amp;quot;样式值&amp;quot; 的方式设置修改CSS样式 注意: 如果CSS的样式名中含有-(也就是减号)，这种名称在JS中是不合法的，比如background-color,需要将这种样式名修改为驼峰命名法，去掉-，然后将-后的字母大写，如:backgroun...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 元素样式</h2>
 <h3> 4.1 修改元素CSS样式</h3>
 <h4> 4.1.1 通过style属性修改元素样式</h4>
@@ -15136,13 +15135,13 @@ header： 响应头的 key（字符串类型）
 ]]></content:encoded>
     </item>
     <item>
-      <title>5.事件对象</title>
+      <title>5. 事件对象</title>
       <link>https://harryxiong24.github.io/zh/front-end/dom-bom/db5.html</link>
       <guid>https://harryxiong24.github.io/zh/front-end/dom-bom/db5.html</guid>
-      <source url="https://harryxiong24.github.io/zh/rss.xml">5.事件对象</source>
+      <source url="https://harryxiong24.github.io/zh/rss.xml">5. 事件对象</source>
       <description>事件对象 当事件的响应函数被触发时，浏览器每次都会将一个事件对象作为默认实参(如果没有传入参数位置为arguments[0])传递进响应函数，在事件对象中封装了当前事件相关的一些信息，比如:鼠标的坐标，键盘哪个按键被按下 ，鼠标滚轮滚动的方向 注: 一般都会把形参写在事件对象的形参里,虽然不写也不会报错,但是获取方式会相对麻烦; 在IE中,event事...</description>
-      <category>Web前端</category>
-      <pubDate>Thu, 15 Jun 2023 10:30:18 GMT</pubDate>
+      <category>Web 前端</category>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 事件对象</h2>
 <p>当事件的响应函数被触发时，浏览器每次都会将一个事件对象作为默认实参(如果没有传入参数位置为arguments[0])传递进响应函数，在事件对象中封装了当前事件相关的一些信息，比如:鼠标的坐标，键盘哪个按键被按下 ，鼠标滚轮滚动的方向</p>
 <p><strong>注:</strong></p>

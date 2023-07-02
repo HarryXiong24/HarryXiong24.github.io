@@ -4,7 +4,7 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-06-30T07:46:42.861Z</updated>
+  <updated>2023-07-02T08:06:33.985Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/zh/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/zh/"/>
@@ -25,7 +25,6 @@
   <category term="Linux"/>
   <category term="Windows"/>
   <category term="Web 前端"/>
-  <category term="Web前端"/>
   <entry>
     <title type="text">给你的库或框架设计一个通用错误处理模型</title>
     <id>https://harryxiong24.github.io/zh/article/error-modal.html</id>
@@ -3363,7 +3362,7 @@ app.listen(3000);
     <title type="text">Servlet &amp; JSP</title>
     <id>https://harryxiong24.github.io/zh/back-end/servlet/</id>
     <link href="https://harryxiong24.github.io/zh/back-end/servlet/"/>
-    <updated>2023-06-15T14:05:05.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h1> Servlet &amp; JSP</h1>
 <p>Servlet（Server Applet）是Java Servlet的简称，称为小服务程序或服务连接器，用Java编写的服务器端程序，具有独立于平台和协议的特性，主要功能在于交互式地浏览和生成数据，生成动态Web内容。</p>
 <p>狭义的Servlet是指Java语言实现的一个接口，广义的Servlet是指任何实现了这个Servlet接口的类，一般情况下，人们将Servlet理解为后者。Servlet运行于支持Java的应用服务器中。从原理上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。</p>]]></summary>
@@ -14874,7 +14873,7 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
     <title type="text">Ajax</title>
     <id>https://harryxiong24.github.io/zh/front-end/ajax/ajax.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/ajax/ajax.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h1> Ajax</h1>
 <p><strong>Ajax 全称 Asynchronous JavaScript and XML(异步的 JavaScript 和 XML),既是一个对象,也是一种方法模式</strong></p>
 <p>AJAX 是一种用于创建快速动态网页的技术,通过在后台与服务器进行少量数据交换,Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新,传统的不使用 Ajax 的网页如果需要更新内容,必需重载整个网页面。</p>
@@ -15166,14 +15165,14 @@ header： 响应头的 key（字符串类型）
 4）fetch 没有办法原生监测请求的进度，而 XHR 可以</li>
 </ol>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-01T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Data Storage</title>
     <id>https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/data-storage/data-storage.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h1> Data Storage</h1>
 
 <h2> 1. Cookie</h2>
@@ -15293,14 +15292,14 @@ header： 响应头的 key（字符串类型）
 </li>
 </ul>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-09T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">1.节点</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> 节点</h2>
 <p><strong>Node(节点)是构成HTML5的基本单元</strong>,DOM节点主要分为四类</p>
 <ul>
@@ -15424,14 +15423,14 @@ header： 响应头的 key（字符串类型）
 </li>
 </ul>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">10.拖拽事件</title>
+    <title type="text">10. 拖拽事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> 拖拽事件</h2>
 <p>当我们拖拽一个网页中的内容时，浏览器会默认去搜索引擎中搜索内容，此时会导致拖拽功能的异常，这个是浏览器提供的默认行为,如果不希望发生这个行为，可以通过return false来取消默认行为，但是对IE8及以下浏览器不起作用(并不是说IE8不支持使用return false来取消默认效果，只是不支持在拖拽时取消默认效果)</p>
 <p><strong>注意:</strong></p>
@@ -15466,14 +15465,14 @@ header： 响应头的 key（字符串类型）
 </li>
 </ul>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">11.滚轮事件</title>
+    <title type="text">11. 滚轮事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> 滚轮事件</h2>
 <ul>
 <li>
@@ -15510,14 +15509,14 @@ header： 响应头的 key（字符串类型）
 </ul>
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>兼容写法(包括控制滚动的方向)</strong></p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">12.键盘事件</title>
+    <title type="text">12. 键盘事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> 键盘事件</h2>
 <h3> 12.1 事件触发</h3>
 <ul>
@@ -15558,14 +15557,14 @@ header： 响应头的 key（字符串类型）
 </ul>
 <div class="language-javascript" data-ext="js"></div><p><strong>注意:在文本框中输入内容，属于onkeydown的默认行为，如果在onkeydown中取消了默认行为return false，则输入的内容不会出现在文本框中</strong></p>
 <div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">13.BOM</title>
+    <title type="text">13. BOM</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> BOM</h2>
 <p>**BOM全称Browser Object Model(浏览器对象模型),**是用于描述这种对象与对象之间层次关系的模型，浏览器对象模型提供了独立于内容的、可以与浏览器窗口进行互动的对象结构，BOM可以使我们通过JS来操作浏览器</p>
 <p><strong>BOM由多个对象组成，其中代表浏览器窗口的Window对象是BOM的顶层对象，其他对象都是该对象的子对象</strong></p>
@@ -15746,14 +15745,14 @@ header： 响应头的 key（字符串类型）
 </li>
 </ul>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">2.DOM事件</title>
+    <title type="text">2. DOM事件</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> DOM事件</h2>
 <p><strong>事件是用户和浏览器之间的交互行为</strong></p>
 <h3> 2.1 鼠标事件</h3>
@@ -16259,14 +16258,14 @@ header： 响应头的 key（字符串类型）
 </tbody>
 </table>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">3.DOM查询</title>
+    <title type="text">3. DOM查询</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> DOM查询</h2>
 <h3> 3.1 获取DOM节点</h3>
 <h4> 3.1.1 获取元素节点</h4>
@@ -16560,14 +16559,14 @@ header： 响应头的 key（字符串类型）
 <p>通过 <strong>子节点.parentNode.removeChild(子节点)</strong> 的方法就可以删除</p>
 <h3> 3.4 遍历DOM元素</h3>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">4.元素样式</title>
+    <title type="text">4. 元素样式</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db4.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db4.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> 元素样式</h2>
 <h3> 4.1 修改元素CSS样式</h3>
 <h4> 4.1.1 通过style属性修改元素样式</h4>
@@ -16737,14 +16736,14 @@ header： 响应头的 key（字符串类型）
 </li>
 </ul>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">5.事件对象</title>
+    <title type="text">5. 事件对象</title>
     <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db5.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db5.html"/>
-    <updated>2023-06-15T10:30:18.000Z</updated>
+    <updated>2023-07-02T08:03:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> 事件对象</h2>
 <p>当事件的响应函数被触发时，浏览器每次都会将一个事件对象作为默认实参(如果没有传入参数位置为arguments[0])传递进响应函数，在事件对象中封装了当前事件相关的一些信息，比如:鼠标的坐标，键盘哪个按键被按下 ，鼠标滚轮滚动的方向</p>
 <p><strong>注:</strong></p>
@@ -17011,7 +17010,7 @@ header： 响应头的 key（字符串类型）
 </tbody>
 </table>
 ]]></content>
-    <category term="Web前端"/>
-    <published>2023-06-15T10:30:18.000Z</published>
+    <category term="Web 前端"/>
+    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
 </feed>
