@@ -1,9 +1,7 @@
 ---
-icon: infofill
-category: Web前端
 tag: Less
-time: 2020-6-3
-footer: It's CSS, with just a little more.
+category: Web 前端
+date: 2020-06-03
 ---
 
 # Less

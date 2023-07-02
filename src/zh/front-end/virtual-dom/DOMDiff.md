@@ -1,12 +1,11 @@
 ---
 icon: tree
-time: 2020-6-16
-category: Web前端
-tags:
-  - 虚拟DOM
-  - Diff算法
+date: 2020-06-16
+category: Web 前端
+tag:
+  - 虚拟 DOM
+  - Diff 算法
   - 性能优化
-footer: 为何表情, 要让着世界安排
 ---
 
 # DOM Diff 算法

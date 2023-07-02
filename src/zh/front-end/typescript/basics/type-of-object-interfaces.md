@@ -1,10 +1,9 @@
 ---
 title: 对象的类型——接口
-icon: api
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 在 TypeScript 中，我们使用接口(Interfaces)来定义对象的类型。

@@ -1,11 +1,10 @@
 ---
-icon: advance
-category: Web前端
 tag: 
   - CSS
   - Less
   - Scss
-time: 2020-6-4
+category: Web 前端
+date: 2020-06-03
 ---
 
 # 写在后面-对 css 预处理的补充

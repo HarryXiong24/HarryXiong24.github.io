@@ -1,10 +1,8 @@
 ---
 title: Generator 异步应用
-icon: asynchronous
-time: 2020-6-8
-category: Web前端
+date: 2020-08-23
+category: Web 前端
 tag: ECMA Script6
-footer: 天空海阔, 要做最坚强的泡沫
 ---
 
 异步编程对 JavaScript 语言太重要。Javascript 语言的执行环境是“单线程”的，如果没有异步编程，根本没法用，非卡死不可。本章主要介绍 Generator 函数如何完成异步操作。

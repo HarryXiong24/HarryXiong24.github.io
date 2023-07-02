@@ -1,10 +1,8 @@
 ---
 title: 字符串的扩展
-icon: string
-time: 2020-6-8
-category: Web前端
+date: 2020-08-23
+category: Web 前端
 tag: ECMA Script6
-footer: 天空海阔, 要做最坚强的泡沫
 ---
 
 ES6 加强了对 Unicode 的支持，并且扩展了字符串对象。

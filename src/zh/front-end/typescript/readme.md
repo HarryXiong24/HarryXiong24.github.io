@@ -1,10 +1,9 @@
 ---
 title: TypeScript 教程
 icon: typescript
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 TypeScript 是一种由微软开发的自由和开源的编程语言，它是 JavaScript 的一个超集，扩展了 JavaScript 的语法。

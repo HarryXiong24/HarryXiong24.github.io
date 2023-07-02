@@ -1,10 +1,9 @@
 ---
 title: 声明合并
-icon: merge
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 如果定义了两个相同名字的函数、接口或类，那么它们会合并成一个类型:

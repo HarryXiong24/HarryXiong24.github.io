@@ -1,10 +1,9 @@
 ---
 title: 原始数据类型
-icon: type
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 JavaScript 的类型分为两种: 原始数据类型([Primitive data types][])和对象类型(Object types)。

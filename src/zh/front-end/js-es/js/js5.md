@@ -1,14 +1,13 @@
 ---
 icon: js
-category: Web前端
-tags: 
+category: Web 前端
+tag: 
   - JavaScript
-  - Promise对象
-  - JS异步
-  - async与await
-time: 2020-6-10
-footer: 生命的广阔不经历磨难怎能达到
-title: 5.逻辑语句
+  - Promise 对象
+  - JS 异步
+  - async 与 await
+date: 2020-06-06
+title: 5. 逻辑语句
 ---
 
 ## 逻辑语句

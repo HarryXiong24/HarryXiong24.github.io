@@ -1,10 +1,9 @@
 ---
 title: 类与接口
-icon: api
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 [之前学习过](../basics/type-of-object-interfaces.md)，接口(Interfaces)可以用于对「对象的形状(Shape)」进行描述。

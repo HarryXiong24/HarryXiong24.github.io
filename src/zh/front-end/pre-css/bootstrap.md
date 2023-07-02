@@ -1,9 +1,7 @@
 ---
-icon: infofill
-category: Web前端
+category: Web 前端
 tag: Bootstrap
-time: 2020-6-3
-footer: Build fast, responsive sites with Bootstrap
+date: 2020-06-03
 ---
 
 # Bootstrap 之栅格系统

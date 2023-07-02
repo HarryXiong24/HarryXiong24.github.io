@@ -1,10 +1,9 @@
 ---
 title: 枚举
-icon: enum
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 枚举(Enum)类型用于取值被限定在一定范围内的场景，比如一周只能有七天，颜色限定为红绿蓝等。

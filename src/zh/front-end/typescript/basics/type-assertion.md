@@ -1,10 +1,9 @@
 ---
 title: 类型断言
-icon: boolean
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 类型断言(Type Assertion)可以用来手动指定一个值的类型。

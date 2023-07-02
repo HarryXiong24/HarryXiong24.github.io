@@ -1,8 +1,8 @@
 ---
 icon: chrome
-time: 2020-6-6
-category: Web前端
-tags:
+date: 2020-06-06
+category: Web 前端
+tag:
   - 浏览器渲染原理
   - 性能优化
   - 函数防抖与函数节流

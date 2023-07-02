@@ -1,10 +1,9 @@
 ---
 title: 内置对象
-icon: object
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 JavaScript 中有很多[内置对象][]，它们可以直接在 TypeScript 中当做定义好了的类型。

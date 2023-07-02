@@ -1,12 +1,10 @@
 ---
-icon: infofill
-category: Web前端
-tags:
+category: Web 前端
+tag:
     - DOM
     - BOM
-time: 2020-6-11
-footer: 我和我最后的倔强，握紧双手绝对不放
-title: 7.事件的委派
+date: 2020-06-11
+title: 7. 事件的委派
 ---
 
 ## 事件的委派

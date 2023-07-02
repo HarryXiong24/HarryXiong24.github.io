@@ -1,10 +1,9 @@
 ---
 title: 联合类型
-icon: structure
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 联合类型(Union Types)表示取值可以为多种类型中的一种。

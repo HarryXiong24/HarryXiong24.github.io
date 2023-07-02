@@ -1,10 +1,8 @@
 ---
 title: ES6 简介
-icon: info
-time: 2020-6-8
-category: Web前端
+date: 2020-08-23
+category: Web 前端
 tag: ECMA Script6
-footer: 天空海阔, 要做最坚强的泡沫
 ---
 
 ECMAScript 6.0(以下简称 ES6)是 JavaScript 语言的下一代标准，已经在 2015 年 6 月正式发布了。它的目标，是使得 JavaScript 语言可以用来编写复杂的大型应用程序，成为企业级开发语言。

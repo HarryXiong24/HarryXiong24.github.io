@@ -1,9 +1,8 @@
 ---
 icon: html
-category: Web前端
+category: Web 前端
 tag: HTML
-time: 2020-6-1
-footer: 因为看见, 所以相信
+date: 2020-06-01
 ---
 
 # HTML

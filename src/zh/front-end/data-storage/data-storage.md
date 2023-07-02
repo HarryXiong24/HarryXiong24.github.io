@@ -1,12 +1,11 @@
 ---
-icon: storage
-category: Web前端
-tags:
+category: Web 前端
+tag:
   - Cookie
   - localStorage
   - SessionStorage
   - 浏览器的本地存储
-time: 2020-6-9
+date: 2020-06-09
 ---
 
 # Data Storage

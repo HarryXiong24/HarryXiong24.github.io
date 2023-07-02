@@ -1,8 +1,7 @@
 ---
 title: 操作 DOM
-icon: writefill
-time: 2020-6-9
-category: Web前端
+date: 2020-06-20
+category: Web 前端
 tag: jQuery
 ---
 

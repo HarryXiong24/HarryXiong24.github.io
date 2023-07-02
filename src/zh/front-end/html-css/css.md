@@ -1,9 +1,9 @@
 ---
 icon: css
-category: Web前端
-tag: CSS
-time: 2020-6-1
-footer: 靡不有初, 鲜克有终
+category: Web 前端
+tag: 
+  - CSS
+date: 2020-06-08
 ---
 
 # CSS

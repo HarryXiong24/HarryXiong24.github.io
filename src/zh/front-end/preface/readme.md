@@ -1,8 +1,6 @@
 ---
-icon: infofill
-category: Web前端
-time: 2020-6-3
-footer: 大前端学习路线
+category: Web 前端
+date: 2020-6-3
 ---
 
 # 大前端学习路线

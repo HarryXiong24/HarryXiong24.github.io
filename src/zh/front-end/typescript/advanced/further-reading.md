@@ -1,10 +1,9 @@
 ---
 title: 扩展阅读
-icon: reference
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 此处记录了[官方手册](http://www.typescriptlang.org/docs/handbook/basic-types.html)([中文版](https://zhongsp.gitbooks.io/typescript-handbook/content/))中包含，但是本书未涉及的概念。

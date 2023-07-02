@@ -1,10 +1,9 @@
 ---
 title: 代码检查
-icon: style
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 TypeScript 的代码检查应当使用 ESLint + `typescript-eslint-parser`。

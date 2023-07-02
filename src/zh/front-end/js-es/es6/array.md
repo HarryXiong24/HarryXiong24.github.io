@@ -1,11 +1,10 @@
 ---
-title: 数组的扩展
-icon: array
-time: 2020-6-8
-category: Web前端
+date: 2020-08-23
+category: Web 前端
 tag: ECMA Script6
-footer: 天空海阔, 要做最坚强的泡沫
 ---
+
+# 数组的扩展
 
 ## 扩展运算符
 

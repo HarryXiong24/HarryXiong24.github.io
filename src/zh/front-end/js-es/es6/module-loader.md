@@ -1,10 +1,8 @@
 ---
 title: Module 的加载实现
-icon: load
-time: 2020-6-8
-category: Web前端
+date: 2020-08-23
+category: Web 前端
 tag: ECMA Script6
-footer: 天空海阔, 要做最坚强的泡沫
 ---
 
 上一章介绍了模块的语法，本章介绍如何在浏览器和 Node 之中加载 ES6 模块，以及实际开发中经常遇到的一些问题(比如循环加载)。

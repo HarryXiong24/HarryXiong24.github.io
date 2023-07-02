@@ -1,9 +1,7 @@
 ---
-icon: ajax
-category: Web前端
+category: Web 前端
 tag: Ajax
-time: 2020-6-1
-footer: 学会在雨中翩翩起舞
+date: 2020-06-01
 ---
 
 # Ajax

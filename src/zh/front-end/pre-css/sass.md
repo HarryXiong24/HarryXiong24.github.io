@@ -1,9 +1,7 @@
 ---
-icon: infofill
-category: Web前端
 tag: Sass
-time: 2020-6-3
-footer: CSS with superpowers
+category: Web 前端
+date: 2020-06-03
 ---
 
 # Sass

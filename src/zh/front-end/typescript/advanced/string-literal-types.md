@@ -1,10 +1,9 @@
 ---
 title: 字符串字面量类型
-icon: string
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 字符串字面量类型用来约束取值只能是某几个字符串中的一个。

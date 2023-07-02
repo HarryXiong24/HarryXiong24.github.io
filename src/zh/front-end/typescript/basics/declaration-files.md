@@ -1,10 +1,9 @@
 ---
 title: 声明文件
-icon: notice
-time: 2020-6-9
-category: Web前端
-tags: TypeScript
-footer: 给我再去相信的勇气, 越过谎言去拥抱你
+icon: typescript
+date: 2020-07-16
+category: Web 前端
+tag: TypeScript
 ---
 
 当使用第三方库时，我们需要引用它的声明文件，才能获得对应的代码补全、接口提示等功能。

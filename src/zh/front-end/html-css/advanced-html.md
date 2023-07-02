@@ -1,12 +1,12 @@
 ---
 icon: html
-category: Web前端
-tags: 
-  - HTML进阶
+category: Web 前端
+tag: 
+  - HTML 进阶
   - SVG
   - Canvas
   - 布局适配
-time: 2020-6-9
+date: 2020-06-08
 ---
 
 # HTML进阶
