@@ -4,7 +4,7 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-07-02T10:17:37.713Z</updated>
+  <updated>2023-07-03T03:26:42.476Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/"/>
@@ -13,7 +13,7 @@
     <title type="text">Sort Algorithm</title>
     <id>https://harryxiong24.github.io/en/article/sort-algorithm.html</id>
     <link href="https://harryxiong24.github.io/en/article/sort-algorithm.html"/>
-    <updated>2023-07-02T10:14:05.000Z</updated>
+    <updated>2023-07-03T03:23:29.000Z</updated>
     <summary type="html"><![CDATA[<h1> Sort Algorithm</h1>
 <h2> Preface</h2>
 <p>In this chapter, I want to summarize the sort algorithm. As we all know, there are 10 common sort algorithms. And I don't want to do too much foreshadowing. Let's see a picture straight.</p>
@@ -471,14 +471,51 @@ And because we use Counting Sort every round, let K be the size of the counting 
 <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2399d39bc13f407d8a5ffacb2b1d5fb0~tplv-k3u1fbpfcp-zoom-1.image" alt="Heap Sort" loading="lazy"></p>
 <p>Here is the code:</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The key aspect that makes Heap Sort better than selection sort is the running time of the algorithm is now O(NlogN).</p>
-<p>This is a result of the fact that removing the max element from the heap, which is the central operation in the sort is an O(logN) operation, which has to be performed in the worst case N−1 times.</p>
+<p>This is a result of the fact that removing the max element from the heap, which is the central operation in the sort is an O(log N) operation, which has to be performed in the worst case N−1 times.</p>
 <p>Note that in-place heapification is an O(N) operation, so it has no impact on the worst-case time complexity of Heap Sort.</p>
 <p>In terms of space complexity, since we are treating the input array as a heap and creating no extra space (all operations are in-place), Heap Sort is  O(1).</p>
 <p>And it is not a stable sort.</p>
-<h2> Continue writing...</h2>
+<h2> Summary</h2>
+<p>Now, we have introduced the 10 common sort methods. Let's make a summary.</p>
+<p>First, these 10 common sort methods can be divided into two categories: Comparable Sort and Non-comparable Sort.</p>
+<ol>
+<li>
+<p>Comparable Sort</p>
+<ul>
+<li>Insertion Sort
+<ul>
+<li>Direct Insertion Sort</li>
+<li>Shell Sort</li>
+</ul>
+</li>
+<li>Swap Sort
+<ul>
+<li>Bubble Sort</li>
+<li>Quick Sort</li>
+</ul>
+</li>
+<li>Selection Sort
+<ul>
+<li>Direct Selection Sort</li>
+<li>Heap Sort</li>
+</ul>
+</li>
+<li>Merge Sort</li>
+</ul>
+</li>
+<li>
+<p>Non-comparable Sort</p>
+<ul>
+<li>Counting Sort</li>
+<li>Radix Sort</li>
+<li>Bucket Sort</li>
+</ul>
+</li>
+</ol>
+<p>Among them, Heap Sort and Merge Sort have the best average efficiency. And Non-comparable Sort performs well in the case of relatively small open spaces though it has linear time complexity. And Direct Insertion Sort, Direct Selection Sort, Bubble Sort are more intuitive in human thought.</p>
 ]]></content>
     <category term="article"/>
-    <published>2023-06-30T00:00:00.000Z</published>
+    <published>2023-07-03T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Recursion</title>
