@@ -6,7 +6,7 @@ star: 801
 category: article
 tag:
   - Sort
-date: 2023-06-30
+date: 2023-07-03
 ---
 
 # Sort Algorithm
@@ -669,7 +669,7 @@ console.log(array);
 
 The key aspect that makes Heap Sort better than selection sort is the running time of the algorithm is now O(NlogN).
 
-This is a result of the fact that removing the max element from the heap, which is the central operation in the sort is an O(logN) operation, which has to be performed in the worst case N−1 times.
+This is a result of the fact that removing the max element from the heap, which is the central operation in the sort is an O(log N) operation, which has to be performed in the worst case N−1 times.
 
 Note that in-place heapification is an O(N) operation, so it has no impact on the worst-case time complexity of Heap Sort.
 
@@ -677,4 +677,27 @@ In terms of space complexity, since we are treating the input array as a heap an
 
 And it is not a stable sort.
 
-## Continue writing...
+## Summary
+
+Now, we have introduced the 10 common sort methods. Let's make a summary.
+
+First, these 10 common sort methods can be divided into two categories: Comparable Sort and Non-comparable Sort.
+
+1. Comparable Sort
+    * Insertion Sort
+        * Direct Insertion Sort
+        * Shell Sort
+    * Swap Sort
+        * Bubble Sort
+        * Quick Sort
+    * Selection Sort
+        * Direct Selection Sort
+        * Heap Sort
+    * Merge Sort
+
+2. Non-comparable Sort
+    * Counting Sort
+    * Radix Sort
+    * Bucket Sort
+
+Among them, Heap Sort and Merge Sort have the best average efficiency. And Non-comparable Sort performs well in the case of relatively small open spaces though it has linear time complexity. And Direct Insertion Sort, Direct Selection Sort, Bubble Sort are more intuitive in human thought.
