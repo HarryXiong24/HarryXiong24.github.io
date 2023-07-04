@@ -14,6 +14,10 @@ export const enNavbarConfig = navbar([
         text: "Sort Algorithm",
         link: "/en/article/sort-algorithm",
       },
+      {
+        text: "DFS and BFS",
+        link: "/en/article/dfs-and-bfs",
+      },
     ],
   },
   {
