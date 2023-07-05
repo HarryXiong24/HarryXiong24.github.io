@@ -5,12 +5,14 @@ sticky: 802
 star: 802
 category: article
 tag:
+  - Stack
+  - Queue
   - DFS
   - BFS
 date: 2023-07-06
 ---
 
-# DFS and BFS
+# Stack and Queue & DFS and BFS
 
 ## Preface
 
@@ -362,4 +364,306 @@ export class MyStack {
 }
 ```
 
-## Continue Writing...
+## DFS and BFS
+
+### BFS
+
+Breadth-first search (BFS) is an algorithm to traverse or search in data structures like a tree or a graph.
+
+As we mentioned, we can use BFS to do level-order traversal in a tree.
+
+We can also use BFS to traverse a graph. For example, we can use BFS to find a path, especially the shortest path, from a start node to a target node.
+
+We can use BFS, in even more abstract scenarios, to traverse all the possible statuses. 
+
+Here is the proceeding of BFS:
+
+![BFS](https://zinglix.xyz/img/in-post/DFS&BFS/BFS-Ex.gif)
+
+In the first round, we process the root node. In the second round, we process the nodes next to the root node; in the third round, we process the nodes which are two steps from the root node; so on and so forth. Similar to the tree's level-order traversal, the nodes closer to the root node will be traversed earlier.
+
+And we usually apply Queue to realize BFS:
+
+``` ts
+interface Node {
+  value: any;
+  neighbors: Node[];
+}
+
+function BFS(root: Node, target: Node): void {
+  if (!root) {
+    return;
+  }
+  // store all nodes which are waiting to be processed
+  const queue: Node[] = [root];
+  let layer = 0;
+  // BFS
+  while (queue.length) {
+    // iterate the nodes which are already in the queue
+    const size = queue.length;
+    for (let i = 0; i < size; ++i) {
+      const current = queue[0];
+      console.log(current.value);
+      for (const next of current.neighbors) {
+        queue.push(next);
+      }
+      queue.shift();
+    }
+    layer = layer + 1;
+  }
+}
+```
+
+### DFS
+
+Similar to BFS, depth-first search (DFS) is another important algorithm to traverse/search in a tree/graph. And also it can be used in more abstract scenarios.
+
+As mentioned in tree traversal, we can use DFS to do pre-order, in-order and post-order traversal.
+
+There is a common feature among these three traversal orders: we never trace back unless we reach the deepest node.
+
+That is also the largest difference between DFS and BFS: BFS never goes deeper unless it has already visited all nodes at the current level.
+
+Typically, we implement DFS using recursion. Stack plays an important role in recursion. We will explain the role of the stack when doing recursion in this chapter. We will also show you what's the drawback of recursion and provide another implementation of DFS without recursion.
+
+Here is the proceeding of DFS:
+
+![DFS](https://zinglix.xyz/img/in-post/DFS&BFS/DFS-Ex.gif)
+
+And for BFS, we usually have two methods to realize it.
+
+One is Recursion:
+
+``` ts
+interface Node {
+  value: any;
+  neighbors: Node[];
+}
+
+function DFS_Recursion(root: Node | null): void {
+  if (!root) {
+    return;
+  }
+  const recursive = (node: Node | null) => {
+    if (!node) {
+      return;
+    }
+    console.log(node.value);
+
+    for (const next of node.neighbors) {
+      recursive(next);
+    }
+  };
+}
+```
+
+The other is applying Stack:
+
+``` ts
+interface Node {
+  value: any;
+  neighbors: Node[];
+}
+
+function DFS_Stack(root: Node | null): void {
+  if (!root) {
+    return;
+  }
+  const stack: Node[] = [root];
+  while (stack.length) {
+    const current = stack.pop()!;
+    console.log(current.value);
+    for (const next of current.neighbors) {
+      stack.push(next);
+    }
+  }
+}
+```
+
+### Summary
+
+BFS is often used to find a single shortest route. Its characteristic is that it must be the optimal solution when it is found.
+
+While DFS is used to find all solutions. It has high space efficiency, but what it finds is not necessarily the optimal solution, it must be recorded and completed the entire search.
+
+## An Example of DFS and BFS
+
+### Question
+
+The example's original link is [Flood Fill](https://leetcode.com/problems/flood-fill)
+
+An image is represented by an m x n integer grid image where image[i][j] represents the pixel value of the image.
+
+You are also given three integers sr, sc, and color. You should perform a flood fill on the image starting from the pixel image[sr][sc].
+
+To perform a flood fill, consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels with color.
+
+Return the modified image after performing the flood fill.
+
+Example 1:
+
+![Example1](https://assets.leetcode.com/uploads/2021/06/01/flood1-grid.jpg)
+
+``` text
+Input: image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2
+Output: [[2,2,2],[2,2,0],[2,0,1]]
+Explanation: From the center of the image with position (sr, sc) = (1, 1) (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color.
+Note the bottom corner is not colored 2, because it is not 4-directionally connected to the starting pixel.
+```
+
+Example 2:
+
+``` text
+Input: image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, color = 0
+Output: [[0,0,0],[0,0,0]]
+Explanation: The starting pixel is already colored 0, so no changes are made to the image.
+```
+
+### Solution by BFS
+
+``` ts
+// BFS
+// Time Complexity: O(N)
+// Space Complexity: O(N)
+function floodFill_BFS(image: number[][], sr: number, sc: number, color: number): number[][] {
+  const start = image[sr][sc];
+  const reconcile = [
+    [1, 0],
+    [-1, 0],
+    [0, 1],
+    [0, -1],
+  ];
+  const queue: number[][] = [];
+  queue.push([sr, sc]);
+
+  if (start === color) {
+    return image;
+  }
+
+  while (queue.length) {
+    const size = queue.length;
+    for (let i = 0; i < size; i++) {
+      const current = queue.shift()!;
+      image[current[0]][current[1]] = color;
+      for (const round of reconcile) {
+        let m = current[0] + round[0];
+        let n = current[1] + round[1];
+        if (m < 0 || m >= image.length || n < 0 || n >= image[0].length || image[m][n] !== start) {
+          continue;
+        }
+        queue.push([m, n]);
+      }
+    }
+  }
+
+  return image;
+}
+
+// test
+const res = floodFill_BFS(
+  [
+    [1, 1, 1],
+    [1, 1, 0],
+    [1, 0, 1],
+  ],
+  1,
+  1,
+  2
+);
+console.log(res);
+```
+
+### Solution by DFS Recursion
+
+```ts
+// DFS Recursion
+// Time Complexity: O(N)
+// Space Complexity: O(N)
+function floodFill_DFS(image: number[][], sr: number, sc: number, color: number): number[][] {
+  const start = image[sr][sc];
+
+  if (start === color) {
+    return image;
+  }
+
+  const dfs = (x: number, y: number) => {
+    if (x < 0 || x >= image.length || y < 0 || y >= image[0].length || image[x][y] !== start) {
+      return;
+    } else {
+      image[x][y] = color;
+      dfs(x + 1, y);
+      dfs(x - 1, y);
+      dfs(x, y + 1);
+      dfs(x, y - 1);
+    }
+  };
+
+  dfs(sr, sc);
+
+  return image;
+}
+
+// test
+const res = floodFill_DFS(
+  [
+    [1, 1, 1],
+    [1, 1, 0],
+    [1, 0, 1],
+  ],
+  1,
+  1,
+  2
+);
+console.log(res)
+```
+
+### Solution by DFS Stack
+
+``` ts
+// DFS Stack
+// Time Complexity: O(N)
+// Space Complexity: O(N)
+function floodFill_DFS_Stack(image: number[][], sr: number, sc: number, color: number): number[][] {
+  const start = image[sr][sc];
+  const reconcile = [
+    [1, 0],
+    [-1, 0],
+    [0, 1],
+    [0, -1],
+  ];
+  const stack: number[][] = [];
+  stack.push([sr, sc]);
+
+  if (start === color) {
+    return image;
+  }
+
+  while (stack.length) {
+    const current = stack.pop()!;
+    image[current[0]][current[1]] = color;
+    for (const round of reconcile) {
+      let m = current[0] + round[0];
+      let n = current[1] + round[1];
+      if (m < 0 || m >= image.length || n < 0 || n >= image[0].length || image[m][n] !== start) {
+        continue;
+      }
+      stack.push([m, n]);
+    }
+  }
+
+  return image;
+}
+
+// test
+const res = floodFill_DFS_Stack(
+  [
+    [1, 1, 1],
+    [1, 1, 0],
+    [1, 0, 1],
+  ],
+  1,
+  1,
+  2
+);
+console.log(res)
+```

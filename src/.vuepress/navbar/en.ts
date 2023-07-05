@@ -15,7 +15,7 @@ export const enNavbarConfig = navbar([
         link: "/en/article/sort-algorithm",
       },
       {
-        text: "DFS and BFS",
+        text: "Stack and Queue & DFS and BFS",
         link: "/en/article/dfs-and-bfs",
       },
     ],
