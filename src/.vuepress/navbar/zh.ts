@@ -57,6 +57,16 @@ export const zhNavbarConfig = navbar([
         link: "/zh/markdown/markdown",
         icon: "markdown",
       },
+      {
+        text: "JSON",
+        link: "/zh/json/json",
+        icon: "json",
+      },
+      {
+        text: "YAML",
+        link: "/zh/yaml/yaml",
+        icon: "yaml",
+      },
       { text: "Git", link: "/zh/git", icon: "git" },
       { text: "VSCode", link: "/zh/vscode", icon: "vscode" },
     ],
