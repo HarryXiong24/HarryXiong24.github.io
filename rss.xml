@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Thu, 06 Jul 2023 07:27:59 GMT</pubDate>
-    <lastBuildDate>Thu, 06 Jul 2023 07:27:59 GMT</lastBuildDate>
+    <pubDate>Fri, 07 Jul 2023 02:46:51 GMT</pubDate>
+    <lastBuildDate>Fri, 07 Jul 2023 02:46:51 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>article</category>
@@ -618,6 +618,8 @@ And because we use Counting Sort every round, let K be the size of the counting 
 <p>As we see, we do nothing during the come-out phase, and the value of depth is determined when during the go-in.</p>
 <p>That's Top-Up.</p>
 <p>And Top-Up is often used in the scene where we can use other flags to get the result instead of calling the recursive function itself to get the result. Because in the go-in phase, the recursive function cannot store status permanently, so we need to use other variables to remember it.</p>
+<h2> Summary</h2>
+<p>Recursion is an easy and complicated method. Easy because if you figure out the key of the question you will easy to write out the code. Complicated because sometimes it is difficult to find out the key, and some recursive solutions are not so intuitive.</p>
 ]]></content:encoded>
       <enclosure url="https://pic4.zhimg.com/v2-117b94f64bcff561bd230e03a49dbf37_b.webp" type="image/webp"/>
     </item>

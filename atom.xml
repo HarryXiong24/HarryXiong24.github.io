@@ -4,7 +4,7 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-07-06T07:27:59.536Z</updated>
+  <updated>2023-07-07T02:46:51.003Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/"/>
@@ -601,7 +601,7 @@ And because we use Counting Sort every round, let K be the size of the counting 
     <title type="text">Recursion</title>
     <id>https://harryxiong24.github.io/en/article/recursion.html</id>
     <link href="https://harryxiong24.github.io/en/article/recursion.html"/>
-    <updated>2023-06-30T07:42:58.000Z</updated>
+    <updated>2023-07-07T02:43:11.000Z</updated>
     <summary type="html"><![CDATA[<h1> Recursion</h1>
 <h2> Preface</h2>
 <p>In this article, I would like to summarize recursion from my own perspective. For a long time, I haven't had a clear idea to solve recursion problems. I think it is abstract and hard to find a template in some degree.</p>
@@ -753,6 +753,8 @@ And because we use Counting Sort every round, let K be the size of the counting 
 <p>As we see, we do nothing during the come-out phase, and the value of depth is determined when during the go-in.</p>
 <p>That's Top-Up.</p>
 <p>And Top-Up is often used in the scene where we can use other flags to get the result instead of calling the recursive function itself to get the result. Because in the go-in phase, the recursive function cannot store status permanently, so we need to use other variables to remember it.</p>
+<h2> Summary</h2>
+<p>Recursion is an easy and complicated method. Easy because if you figure out the key of the question you will easy to write out the code. Complicated because sometimes it is difficult to find out the key, and some recursive solutions are not so intuitive.</p>
 ]]></content>
     <category term="article"/>
     <published>2023-06-26T00:00:00.000Z</published>
