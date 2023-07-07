@@ -541,3 +541,7 @@ As we see, we do nothing during the come-out phase, and the value of depth is de
 That's Top-Up.
 
 And Top-Up is often used in the scene where we can use other flags to get the result instead of calling the recursive function itself to get the result. Because in the go-in phase, the recursive function cannot store status permanently, so we need to use other variables to remember it.
+
+## Summary 
+
+Recursion is an easy and complicated method. Easy because if you figure out the key of the question you will easy to write out the code. Complicated because sometimes it is difficult to find out the key, and some recursive solutions are not so intuitive.
