@@ -16,7 +16,7 @@ date: 2020-06-01
 
 安装过程中，请务必钩上以下选项:
 
-![安装 VSCode](./image/install.png)
+![安装 VSCode](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/install.png?raw=true)
 
 勾选 **添加到目录上下文菜单**、**添加到文件上下文菜单**、**将 code 注册为受支持的文件编辑器**、**添加到 path**。
 
@@ -32,11 +32,11 @@ VS Code 每月发布一个具有新功能和重要错误修复的新版本。大
 
 先运行 Automator，选择“服务”:
 
-![automator-service](./image/automator-service.png)
+![automator-service](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/automator-service.png?raw=true)
 
 然后，执行以下操作:
 
-![automator](./image/automator.jpg)
+![automator](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/automator.jpg?raw=true)
 
 1. 在右侧面板选择 “服务” 收到选定的 “文件夹”，位于 “Finder.app“，该选项是为了从 Finder 中接收一个文件夹；
 
@@ -53,4 +53,4 @@ done
 
 保存为 “Open With VSCode” 后，打开 Finder，选中一个文件夹，点击右键，“服务”，就可以看到 “Open With VSCode” 菜单:
 
-![open-with-vscode](./image/open-with-vscode.png)
+![open-with-vscode](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/open-with-vscode.png?raw=true)

@@ -36,7 +36,7 @@ date: 2020-06-11
 
 效果如下：
 
-![image-20200308191149927](./img/image-20200308191149927.png)
+![image-20200308191149927](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/markdown/image-20200308191149927.png?raw=true)
 
 ## 2. 段落
 

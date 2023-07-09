@@ -9,6 +9,6 @@ date: 2020-06-05
 
 路漫漫其修远兮, 不要害怕
 
-![backEnd](../img/backEnd.png)
+![backEnd](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/backEnd.png?raw=true)
 
-!![backEnd](../img/operation.png)
+!![backEnd](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/operation.png?raw=true)

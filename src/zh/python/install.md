@@ -33,7 +33,7 @@ tag: Python
 
 情况一:
 
-![示意图](./assets/cmd.png)
+![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/python/cmd.png?raw=true)
 
 看到上面的画面，就说明 Python 安装成功！
 

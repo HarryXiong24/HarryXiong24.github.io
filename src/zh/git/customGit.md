@@ -187,7 +187,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 来看看`git lg`的效果:
 
-![示例图](./image/git16.png)
+![示例图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git16.png?raw=true)
 
 为什么不早点告诉我？别激动，咱不是为了多记几个英文单词嘛！
 

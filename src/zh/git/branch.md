@@ -13,7 +13,7 @@ date: 2020-06-05
 
 如果两个平行宇宙互不干扰，那对现在的您也没啥影响。不过，在某个时间点，两个平行宇宙合并了，结果，您既学会了 Git 又学会了 SVN！
 
-![learn-branches](./image/git5.png)
+![learn-branches](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git5.png?raw=true)
 
 分支在实际中有什么用呢？假设您准备开发一个新功能，但是需要两周才能完成，第一周您写了 50% 的代码，如果立刻提交，由于代码还没写完，不完整的代码库会导致别人不能干活了。如果等代码全部写完再一次提交，又存在丢失每天进度的巨大风险。
 
@@ -31,29 +31,29 @@ date: 2020-06-05
 
 一开始的时候，`master` 分支是一条线，Git 用 `master` 指向最新的提交，再用 `HEAD` 指向 `master`，就能确定当前分支，以及当前分支的提交点:
 
-![示意图](./image/git6.png)
+![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git6.png?raw=true)
 
 每次提交，`master` 分支都会向前移动一步，这样，随着您不断提交，`master` 分支的线也越来越长:
 
 当我们创建新的分支，例如 dev 时，Git 新建了一个指针叫 `dev`，指向 `master` 相同的提交，再把 `HEAD` 指向 `dev`，就表示当前分支在 dev 上:
 
-![示意图](./image/git7.png)
+![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git7.png?raw=true)
 
 您看，Git 创建一个分支很快，因为除了增加一个 `dev` 指针，改改 `HEAD` 的指向，工作区的文件都没有任何变化！
 
 不过，从现在开始，对工作区的修改和提交就是针对 dev 分支了，比如新提交一次后，`dev` 指针往前移动一步，而 `master` 指针不变:
 
-![示意图](./image/git8.png)
+![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git8.png?raw=true)
 
 假如我们在 dev 上的工作完成了，就可以把 dev 合并到 master 上。Git 怎么合并呢？最简单的方法，就是直接把 master 指向 dev 的当前提交，就完成了合并:
 
-![示意图](./image/git9.png)
+![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git9.png?raw=true)
 
 所以 Git 合并分支也很快！就改改指针，工作区内容也不变！
 
 合并完分支后，甚至可以删除 dev 分支。删除 dev 分支就是把 dev 指针给删掉，删掉后，我们就剩下了一条 master 分支:
 
-![示意图](./image/git10.png)
+![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git10.png?raw=true)
 
 下面开始实战。首先，我们创建 dev 分支，然后切换到 dev 分支:
 
@@ -106,7 +106,7 @@ Switched to branch 'master'
 
 切换回 master 分支后，再查看一个 `readme.txt` 文件，刚才添加的内容不见了！因为那个提交是在 dev 分支上，而 master 分支此刻的提交点并没有变:
 
-![示例图](./image/git11.png)
+![示例图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git11.png?raw=true)
 
 现在，我们把 dev 分支的工作成果合并到 master 分支上:
 
@@ -207,7 +207,7 @@ $ git commit -m "& simple"
 
 现在，`master` 分支和 `feature1` 分支各自都分别有新的提交，变成了这样:
 
-![示例图](./image/git12.png)
+![示例图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git12.png?raw=true)
 
 这种情况下，Git 无法执行“快速合并”，只能试图把各自的修改合并起来，但这种合并就可能会有冲突，我们试试看:
 
@@ -269,7 +269,7 @@ $ git commit -m "conflict fixed"
 
 现在，`master` 分支和 `feature1` 分支变成了下图所示:
 
-![示例图](./image/git13.png)
+![示例图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git13.png?raw=true)
 
 用带参数的 `git log` 也可以看到分支的合并情况:
 
@@ -360,7 +360,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 可以看到，不使用 `Fast forward` 模式，`merge` 后就像这样:
 
-![示例图](./image/git14.png)
+![示例图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git14.png?raw=true)
 
 ### 分支管理惯例
 
@@ -374,7 +374,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 所以，团队合作的分支看起来就像这样:
 
-![示例图](./image/git15.png)
+![示例图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git15.png?raw=true)
 
 ### 分支管理小结
 

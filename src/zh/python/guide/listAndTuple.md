@@ -202,11 +202,11 @@ Python 在显示只有 1 个元素的 tuple 时，也会加一个逗号 `,`，�
 
 别急，我们先看看定义的时候 tuple 包含的 3 个元素:
 
-![tuple 示意图](../assets/tuple0.png)
+![tuple 示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/python/tuple0.png?raw=true)
 
 当我们把 list 的元素`'A'` 和 `'B'` 修改为 `'X'` 和 `'Y'` 后，tuple 变为:
 
-![tuple 示意图](../assets/tuple1.png)
+![tuple 示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/python/tuple1.png?raw=true)
 
 表面上看，tuple 的元素确实变了，但其实变的不是 tuple 的元素，而是 list 的元素。tuple 一开始指向的 list 并没有改成别的 list，所以，tuple 所谓的“不变”是说，tuple 的每个元素，指向永远不变。即指向 `'a'`，就不能改成指向 `'b'`，指向一个 list，就不能改成指向其他对象，但指向的这个 list 本身是可变的！
 

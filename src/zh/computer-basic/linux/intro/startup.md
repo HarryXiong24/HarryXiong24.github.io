@@ -35,7 +35,7 @@ init 程序的类型:
 
 操作系统接管硬件以后，首先读入 `/boot` 目录下的内核文件。
 
-![boot](../assets/boot.png)
+![boot](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/linux/boot.png?raw=true)
 
 ## 运行 init
 
@@ -43,7 +43,7 @@ init 进程是系统所有进程的起点，您可以把它比拟成系统所有
 
 init 程序首先是需要读取配置文件 `/etc/inittab`。
 
-![init](../assets/init.png)
+![init](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/linux/init.png?raw=true)
 
 ### 运行级别
 
@@ -55,7 +55,7 @@ init 进程的一大任务，就是去运行这些开机启动的程序。
 
 Linux 允许为不同的场合，分配不同的开机启动程序，这就叫做"运行级别"(runlevel)。也就是说，启动时根据"运行级别"，确定要运行哪些程序。
 
-![runlevel](../assets/runlevel.png)
+![runlevel](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/linux/runlevel.png?raw=true)
 
 Linux 系统有 7 个运行级别(runlevel):
 

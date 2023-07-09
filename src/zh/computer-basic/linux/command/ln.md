@@ -28,7 +28,7 @@ hard
 
 但是这里源文件和硬链接文件的 inode 号居然是一样的，那我们在查找文件的时候，到底找到的是哪一个文件呢？我们来画一张示意图，如图 2 所示。
 
-![Hardlink](../assets/hardlink.jpg)
+![Hardlink](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/linux/hardlink.jpg?raw=true)
 
 在 inode 信息中，是不会记录文件名称的，而是把文件名记录在上级目录的 block 中。也就是说，目录的 block 中记录的是这个目录下所有一级子文件和子目录的文件名及 inode 的对应；而文件的 block 中记录的才是文件实际的数据。
 
@@ -81,7 +81,7 @@ hard
 
 如果您比较细心，则应该已经发现软链接和源文件的 inode 号是不一致的，我们也画一张示意图来看看软链接的原理，如图 3 所示。
 
-![软链接示意图](../assets/softlink.jpg)
+![软链接示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/linux/softlink.jpg?raw=true)
 
 软链接和硬链接在原理上最主要的不同在于:  硬链接不会建立自己的 inode 索引和 block(数据块)，而是直接指向源文件的 inode 信息和 block，所以硬链接和源文件的 inode 号是一致的；而软链接会真正建立自己的 inode 索引和 block，所以软链接和源文件的 inode 号是不一致的，而且在软链接的 block 中，写的不是真正的数据，而仅仅是源文件的文件名及 inode 号。
 

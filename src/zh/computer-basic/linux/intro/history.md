@@ -94,7 +94,7 @@ Linux 是一个类似 Unix 的操作系统，Unix 要早于 Linux，Linux 的初
 
 UNIX/Linux 系统可以粗糙地抽象为 3 个层次(所谓粗糙，就是不够细致、精准，但是便于初学者抓住重点理解)，如图 3 所示。底层是 UNIX/Linux 操作系统，即系统内核(Kernel)；中间层是 Shell 层，即命令解释层；高层则是应用层。
 
-![Structrure](../assets/structure.jpg)
+![Structrure](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/linux/structure.jpg?raw=true)
 
 1. 内核层
 
