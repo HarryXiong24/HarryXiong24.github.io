@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/zh/</link>
     <description>A piano player playing on the keyboard</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 09 Jul 2023 03:16:07 GMT</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2023 03:16:07 GMT</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2023 03:59:59 GMT</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2023 03:59:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>JSON</category>
@@ -647,43 +647,43 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/github.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://github.com/HarryXiong24" target="_blank" rel="noopener noreferrer">GitHub</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/gmail.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="mailto:harryxiong24@gmail.com">Gmail</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/instagram.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://www.instagram.com/harryxiong24" target="_blank" rel="noopener noreferrer">Instagram</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/twitter.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://twitter.com/HarryXiong24" target="_blank" rel="noopener noreferrer">Twitter</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/weibo.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://weibo.com/harryxiong24" target="_blank" rel="noopener noreferrer">Weibo</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/bilibili.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://space.bilibili.com/381730331" target="_blank" rel="noopener noreferrer">BiliBili</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/Linkedin.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://www.linkedin.com/in/haowei-xiong-5a418827b/" target="_blank" rel="noopener noreferrer">Linkedin</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/juejing.svg" width="30" height="30"></td>
 <td style="text-align:left"><a href="https://juejin.cn/user/1319894200641784" target="_blank" rel="noopener noreferrer">Jue Jing</a></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/wechat.svg" width="30" height="30"></td>
 <td style="text-align:left">HarryXiong24</td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center"><img src="https://raw.githubusercontent.com/HarryXiong24/HarryXiong24.github.io/2dad74f509e1edd06dce527ada759d8ae7d20a52/public/global/soical-media/QQ.svg" width="30" height="30"></td>
 <td style="text-align:left">1291192015</td>
 </tr>
 </tbody>
@@ -792,7 +792,7 @@
 <p>如果嫌输出信息太多，看得眼花缭乱的，可以试试加上 <code>--pretty=oneline</code> 参数:</p>
 <div class="language-bash" data-ext="sh"></div><p>一大串类似 <code>1094adb...</code> 的是 <code>commit id</code> (版本号)，和 SVN 不一样，Git 的 commit id 不是 1，2，3…… 递增的数字，而是一个 SHA1 计算出来的一个非常大的数字，用十六进制表示，为什么 commit id 需要用这么一大串数字表示呢？因为 Git 是分布式的版本控制系统，多人在同一个版本库里工作，如果大家都用 1，2，3…… 作为版本号，那肯定就冲突了。</p>
 <p>每提交一个新版本，实际上 Git 就会把它们自动串成一条时间线。如果使用可视化工具查看 Git 历史，就可以更清楚地看到提交历史的时间线:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/timeline.jpg?raw=true" alt="Git 时间线" loading="lazy"></p>
 <h2> 回退版本</h2>
 <p>好了，现在准备把 readme.txt 回退到上一个版本，也就是 <code>add distributed</code> 的那个版本，怎么做呢？</p>
 <p>首先，Git 必须知道当前版本是哪个版本，在 Git 中，用<code>HEAD</code>表示当前版本，也就是最新的提交 <code>1094adb...</code> (注意我的提交 ID 和您的肯定不一样)，上一个版本就是 <code>HEAD^</code>，上上一个版本就是 <code>HEAD^^</code>，当然往上 100 个版本写 100 个 <code>^</code> 比较容易数不过来，所以写成 <code>HEAD~100</code>。</p>
@@ -806,9 +806,9 @@
 <p>再小心翼翼地看看 readme.txt 的内容:</p>
 <div class="language-bash" data-ext="sh"></div><p>果然，我胡汉三又回来了。</p>
 <p>Git 的版本回退速度非常快，因为 Git 在内部有个指向当前版本的 <code>HEAD</code> 指针，当您回退版本的时候，Git 仅仅是把 <code>HEAD</code> 从指向 append GPL:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git1.jpg?raw=true" alt="示例图4" loading="lazy"></p>
 <p>改为指向 <code>add distributed</code>:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git2.jpg?raw=true" alt="示例图5" loading="lazy"></p>
 <p>然后顺便把工作区的文件更新了。所以您让 <code>HEAD</code> 指向哪个版本号，您就把当前版本定位在哪。</p>
 <h2> 找回 commit id</h2>
 <p>如果回退到了某个版本找不到新版本的 <code>commit id</code>，在 Git 中，就无法用 <code>$ git reset --hard HEAD^</code> 回退。</p>
@@ -827,6 +827,7 @@
 </li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/timeline.jpg?raw=true" type="image/"/>
     </item>
     <item>
       <title>分支管理</title>
@@ -840,7 +841,7 @@
 <h2> 概述</h2>
 <p>分支就是科幻电影里面的平行宇宙，当您正在电脑前努力学习 Git 的时候，另一个您正在另一个平行宇宙里努力学习 SVN。</p>
 <p>如果两个平行宇宙互不干扰，那对现在的您也没啥影响。不过，在某个时间点，两个平行宇宙合并了，结果，您既学会了 Git 又学会了 SVN！</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git5.png?raw=true" alt="learn-branches" loading="lazy"></p>
 <p>分支在实际中有什么用呢？假设您准备开发一个新功能，但是需要两周才能完成，第一周您写了 50% 的代码，如果立刻提交，由于代码还没写完，不完整的代码库会导致别人不能干活了。如果等代码全部写完再一次提交，又存在丢失每天进度的巨大风险。</p>
 <p>现在有了分支，就不用怕了。您创建了一个属于您自己的分支，别人看不到，还继续在原来的分支上正常工作，而您在自己的分支上干活，想提交就提交，直到开发完毕后，再一次性合并到原来的分支上，这样，既安全，又不影响别人工作。</p>
 <p>其他版本控制系统如 SVN 等都有分支管理，但是用过之后您会发现，这些版本控制系统创建和切换分支比蜗牛还慢，简直让人无法忍受，结果分支功能成了摆设，大家都不去用。</p>
@@ -849,18 +850,18 @@
 <h2> 创建与合并分支</h2>
 <p>在版本回退里，您已经知道，每次提交，Git 都把它们串成一条时间线，这条时间线就是一个分支。截止到目前，只有一条时间线，在 Git 里，这个分支叫主分支，即 <code>master</code> 分支。<code>HEAD</code> 严格来说不是指向提交，而是指向 <code>master</code>，<code>master</code> 才是指向提交的，所以，<code>HEAD</code> 指向的就是当前分支。</p>
 <p>一开始的时候，<code>master</code> 分支是一条线，Git 用 <code>master</code> 指向最新的提交，再用 <code>HEAD</code> 指向 <code>master</code>，就能确定当前分支，以及当前分支的提交点:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git6.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>每次提交，<code>master</code> 分支都会向前移动一步，这样，随着您不断提交，<code>master</code> 分支的线也越来越长:</p>
 <p>当我们创建新的分支，例如 dev 时，Git 新建了一个指针叫 <code>dev</code>，指向 <code>master</code> 相同的提交，再把 <code>HEAD</code> 指向 <code>dev</code>，就表示当前分支在 dev 上:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git7.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>您看，Git 创建一个分支很快，因为除了增加一个 <code>dev</code> 指针，改改 <code>HEAD</code> 的指向，工作区的文件都没有任何变化！</p>
 <p>不过，从现在开始，对工作区的修改和提交就是针对 dev 分支了，比如新提交一次后，<code>dev</code> 指针往前移动一步，而 <code>master</code> 指针不变:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git8.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>假如我们在 dev 上的工作完成了，就可以把 dev 合并到 master 上。Git 怎么合并呢？最简单的方法，就是直接把 master 指向 dev 的当前提交，就完成了合并:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git9.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>所以 Git 合并分支也很快！就改改指针，工作区内容也不变！</p>
 <p>合并完分支后，甚至可以删除 dev 分支。删除 dev 分支就是把 dev 指针给删掉，删掉后，我们就剩下了一条 master 分支:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git10.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>下面开始实战。首先，我们创建 dev 分支，然后切换到 dev 分支:</p>
 <div class="language-bash" data-ext="sh"></div><p><code>git checkout</code> 命令加上 <code>-b</code> 参数表示创建并切换，相当于以下两条命令:</p>
 <div class="language-bash" data-ext="sh"></div><p>然后，用<code>git branch</code>命令查看当前分支:</p>
@@ -869,7 +870,7 @@
 <div class="language-markdown" data-ext="md"></div><p>然后提交:</p>
 <div class="language-bash" data-ext="sh"></div><p>现在，dev 分支的工作完成，我们就可以切换回 master 分支:</p>
 <div class="language-bash" data-ext="sh"></div><p>切换回 master 分支后，再查看一个 <code>readme.txt</code> 文件，刚才添加的内容不见了！因为那个提交是在 dev 分支上，而 master 分支此刻的提交点并没有变:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git11.png?raw=true" alt="示例图" loading="lazy"></p>
 <p>现在，我们把 dev 分支的工作成果合并到 master 分支上:</p>
 <div class="language-bash" data-ext="sh"></div><p><code>git merge</code> 命令用于合并指定分支到当前分支。合并后，再查看 readme.txt 的内容，就可以看到，和 dev 分支的最新提交是完全一样的。</p>
 <p>注意到上面的 <code>Fast-forward</code> 信息，Git 告诉我们，这次合并是 “快进模式”，也就是直接把 master 指向 dev 的当前提交，所以合并速度非常快。当然，也不是每次合并都能 <code>Fast-forward</code>。合并完成后，就可以放心地删除 dev 分支了:</p>
@@ -907,14 +908,14 @@
 <p>在 <code>master</code> 分支上把 readme.txt 文件的最后一行改为:</p>
 <div class="language-markdown" data-ext="md"></div><p>提交:</p>
 <div class="language-bash" data-ext="sh"></div><p>现在，<code>master</code> 分支和 <code>feature1</code> 分支各自都分别有新的提交，变成了这样:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git12.png?raw=true" alt="示例图" loading="lazy"></p>
 <p>这种情况下，Git 无法执行“快速合并”，只能试图把各自的修改合并起来，但这种合并就可能会有冲突，我们试试看:</p>
 <div class="language-bash" data-ext="sh"></div><p>果然冲突了！Git 告诉我们，<code>readme.txt</code> 文件存在冲突，必须手动解决冲突后再提交。<code>git status</code> 也可以告诉我们冲突的文件:</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>我们可以直接查看 readme.txt 的内容:</p>
 <div class="language-text" data-ext="text"></div><p>Git 用 <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>，<code>=======</code>，<code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> 标记出不同分支的内容，我们修改如下后保存:</p>
 <div class="language-markdown" data-ext="md"></div><p>再提交:</p>
 <div class="language-bash" data-ext="sh"></div><p>现在，<code>master</code> 分支和 <code>feature1</code> 分支变成了下图所示:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git13.png?raw=true" alt="示例图" loading="lazy"></p>
 <p>用带参数的 <code>git log</code> 也可以看到分支的合并情况:</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>最后，删除 feature1 分支:</p>
 <div class="language-bash" data-ext="sh"></div><h3> 冲突小结</h3>
@@ -937,14 +938,14 @@
 <div class="language-bash" data-ext="sh"></div><p>因为本次合并要创建一个新的 <code>commit</code>，所以加上 <code>-m</code> 参数，把 <code>commit</code> 描述写进去。</p>
 <p>合并后，我们用 <code>git log</code> 看看分支历史:</p>
 <div class="language-bash" data-ext="sh"></div><p>可以看到，不使用 <code>Fast forward</code> 模式，<code>merge</code> 后就像这样:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git14.png?raw=true" alt="示例图" loading="lazy"></p>
 <h3> 分支管理惯例</h3>
 <p>在实际开发中，我们应该按照几个基本原则进行分支管理:</p>
 <p>首先，<code>master</code> 分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；</p>
 <p>那在哪干活呢？干活都在 <code>dev</code> 分支上，也就是说，<code>dev</code> 分支是不稳定的，到某个时候，比如 <code>1.0</code> 版本发布时，再把 <code>dev</code> 分支合并到 <code>master</code> 上，在<code>master</code> 分支发布 <code>1.0</code> 版本；</p>
 <p>您和您的小伙伴们每个人都在 <code>dev</code> 分支上干活，每个人都有自己的分支，时不时地往 <code>dev</code> 分支上合并就可以了。</p>
 <p>所以，团队合作的分支看起来就像这样:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git15.png?raw=true" alt="示例图" loading="lazy"></p>
 <h3> 分支管理小结</h3>
 <ul>
 <li>
@@ -1094,6 +1095,7 @@
 </li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git5.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>修改管理</title>
@@ -1274,7 +1276,7 @@
 <div class="language-bash" data-ext="sh"></div><p>这样，用<code>git last</code>就能显示最近一次的提交:</p>
 <div class="language-bash" data-ext="sh"></div><p>甚至还有人丧心病狂地把<code>lg</code>配置成了:</p>
 <div class="language-bash" data-ext="sh"></div><p>来看看<code>git lg</code>的效果:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git16.png?raw=true" alt="示例图" loading="lazy"></p>
 <p>为什么不早点告诉我？别激动，咱不是为了多记几个英文单词嘛！</p>
 <h2> 配置文件</h2>
 <p>配置 Git 的时候，加上<code>--global</code>是针对当前用户起作用的，如果不加，那只针对当前的仓库起作用。</p>
@@ -1321,6 +1323,7 @@
 </li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git16.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>Git Large File Storage</title>
@@ -1363,39 +1366,39 @@
 <ol>
 <li>
 <p>点击 “next”。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install1.png?raw=true" alt="gitinstall1" loading="lazy"></p>
 </li>
 <li>
 <p>按照图示勾选。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install2.png?raw=true" alt="gitinstall2" loading="lazy"></p>
 </li>
 <li>
 <p>选择使用 VSCode 作为 git 的默认编辑器。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install3.png?raw=true" alt="gitinstall3" loading="lazy"></p>
 </li>
 <li>
 <p>选择第二项。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install4.png?raw=true" alt="gitinstall4" loading="lazy"></p>
 </li>
 <li>
 <p>选择默认选中的第一项。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install5.png?raw=true" alt="gitinstall5" loading="lazy"></p>
 </li>
 <li>
 <p>选择最后一项，直接检查与提交换行。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install6.png?raw=true" alt="gitinstall6" loading="lazy"></p>
 </li>
 <li>
 <p>选择第二项，使用 Windows 默认的控制台窗口。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install7.png?raw=true" alt="gitinstall7" loading="lazy"></p>
 </li>
 <li>
 <p>勾选全部特性，开始安装。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install8.png?raw=true" alt="gitinstall8" loading="lazy"></p>
 </li>
 </ol>
 <p>安装完成后，在开始菜单里找到 “Git” -&gt; “Git Bash” (Mac 上叫 Git Shell)，蹦出一个类似命令行窗口的东西，就说明 Git 安装成功！</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/shell.png?raw=true" alt="git终端图" loading="lazy"></p>
 <h2> Git 的初次配置</h2>
 <ol>
 <li>
@@ -1409,14 +1412,15 @@
 </li>
 <li>
 <p>打开 <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a> 并选择 "Sign in" 注册自己的账号。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/github.png?raw=true" alt="Github 界面简介" loading="lazy"></p>
 <p>登陆 Github 后，点击右上角头像，进入设置。</p>
 <p>进入 "安全设置" 下的 "SSH 公钥" 界面。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/githubSSH.png?raw=true" alt="Github 界面简介" loading="lazy"></p>
 <p>在标题中填写公钥的备注名称，把 id_rsa.pub 文件的内容粘贴到底下的输入框中，设置一个自己可以记起的备注。</p>
 </li>
 </ol>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/install1.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>远程仓库</title>
@@ -1650,17 +1654,18 @@
 <p>CVS 及 SVN 都是集中式的版本控制系统，而 Git 是分布式版本控制系统，集中式和分布式版本控制系统有什么区别呢？</p>
 <h3> 集中式版本控制系统</h3>
 <p>集中式版本控制系统版本库是集中存放在中央服务器的，而干活的时候，用的都是自己的电脑，所以要先从中央服务器取得最新的版本，然后开始干活，干完活了，再把自己的活推送给中央服务器。中央服务器就好比是一个图书馆，您要改一本书，必须先从图书馆借出来，然后回到家自己改，改完了，再放回图书馆。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/intro.jpg?raw=true" alt="Git示例图" loading="lazy"></p>
 <p>集中式版本控制系统最大的毛病就是必须联网才能工作，如果在局域网内还好，带宽够大，速度够快，可如果在互联网上，遇到网速慢的话，可能提交一个 10M 的文件就需要 5 分钟，这还不得把人给憋死啊。</p>
 <h3> 分布式版本控制系统</h3>
 <p>分布式版本控制系统根本没有“中央服务器”，每个人的电脑上都是一个完整的版本库，这样，您工作的时候，就不需要联网了，因为版本库就在您自己的电脑上。既然每个人电脑上都有一个完整的版本库，那多个人如何协作呢？比方说您在自己电脑上改了文件 A，您的同事也在他的电脑上改了文件 A，这时，您们俩之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。</p>
 <h3> 分布式系统的优势</h3>
 <p>和集中式版本控制系统相比，分布式版本控制系统的安全性要高很多，因为每个人电脑里都有完整的版本库，某一个人的电脑坏掉了不要紧，随便从其他人那里复制一个就可以了。而集中式版本控制系统的中央服务器要是出了问题，所有人都没法干活了。</p>
 <p>在实际使用分布式版本控制系统的时候，其实很少在两人之间的电脑上推送版本库的修改，因为可能您们俩不在一个局域网内，两台电脑互相访问不了，也可能今天您的同事病了，他的电脑压根没有开机。因此，分布式版本控制系统通常也有一台充当“中央服务器”的电脑，但这个服务器的作用仅仅是用来方便“交换”大家的修改，没有它大家也一样干活，只是交换修改不方便而已。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/advantage.jpg?raw=true" alt="git优势" loading="lazy"></p>
 <p>当然，Git 的优势不单是不必联网这么简单，后面介绍的 Git 极其强大的分支管理，把 SVN 等远远抛在了后面。</p>
 <p>CVS 作为最早的开源而且免费的集中式版本控制系统，直到现在还有不少人在用。由于 CVS 自身设计的问题，会造成提交文件不完整，版本库莫名其妙损坏的情况。同样是开源而且免费的 SVN 修正了 CVS 的一些稳定性问题，是目前用得最多的集中式版本库控制系统。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/intro.jpg?raw=true" type="image/"/>
     </item>
     <item>
       <title>工作区和暂存区</title>
@@ -1677,7 +1682,7 @@
 <h2> 版本库(Repository)</h2>
 <p>工作区有一个隐藏目录.git，这个不算工作区，而是 Git 的版本库。</p>
 <p>Git 的版本库里存了很多东西，其中最重要的就是称为 stage(或者叫 index)的暂存区，还有 Git 为我们自动创建的第一个分支 <code>master</code>，以及指向 master 的一个指针叫 <code>HEAD</code>。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git3.jpg?raw=true" alt="版本库图例" loading="lazy"></p>
 <p>前面讲了我们把文件往 Git 版本库里添加的时候，提交更改，实际上就是把暂存区的所有内容提交到当前分支。我们创建 Git 版本库时，Git 自动为我们创建了唯一一个 <code>master</code> 分支，所以，现在，<code>git commit</code> 就是往 master 分支上提交更改。</p>
 <p>您可以简单理解为，需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。</p>
 <p>先对 readme.txt 做个修改，比如加上一行内容:</p>
@@ -1686,10 +1691,11 @@
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Git 非常清楚地告诉我们，readme.txt 被修改了，而 LICENSE 还从来没有被添加过，所以它的状态是 <code>Untracked</code>。</p>
 <p>现在，使用两次命令 <code>git add</code>，把 readme.txt 和 LICENSE 都添加后，用 <code>git status</code> 再查看一下:</p>
 <div class="language-bash" data-ext="sh"></div><p>现在，暂存区的状态就变成这样了:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git4.jpg?raw=true" alt="示例图6" loading="lazy"></p>
 <p>所以，<code>git add</code> 命令实际上就是把要提交的所有修改放到暂存区(Stage)，然后，执行 <code>git commit</code> 就可以一次性把暂存区的所有修改提交到分支。</p>
 <div class="language-bash" data-ext="sh"></div><p>一旦提交后，如果您又没有对工作区做任何修改，那么工作区就是“干净”的:</p>
 <div class="language-bash" data-ext="sh"></div>]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/git3.jpg?raw=true" type="image/"/>
     </item>
     <item>
       <title>Markdown 基本语法</title>
@@ -1706,7 +1712,7 @@
 <h3> 1.1 使用#号标记</h3>
 <div class="language-text" data-ext="text"></div><h3> 1.2 使用=和-号标记一级和二级标题</h3>
 <div class="language-text" data-ext="text"></div><p>效果如下：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/markdown/image-20200308191149927.png?raw=true" alt="image-20200308191149927" loading="lazy"></p>
 <h2> 2. 段落</h2>
 <h3> 2.1 字体</h3>
 <div class="language-chinese" data-ext="chinese"></div><p>效果如下：</p>
@@ -1862,6 +1868,7 @@ GOOGLE.COM
 </ol>
 </section>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/markdown/image-20200308191149927.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>写在前面</title>
@@ -1897,7 +1904,7 @@ GOOGLE.COM
 <h2> 运行 Python</h2>
 <p>安装成功后，打开命令提示符窗口，敲入 <code>python</code> 后，会出现两种情况:</p>
 <p>情况一:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/python/cmd.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>看到上面的画面，就说明 Python 安装成功！</p>
 <p>您看到提示符 <code>&gt;&gt;&gt;</code> 就表示我们已经在 Python 交互式环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果。现在，输入 <code>exit()</code> 并回车，就可以退出 Python 交互式环境(直接关掉命令行窗口也可以)。</p>
 <p>情况二:</p>
@@ -1916,6 +1923,7 @@ GOOGLE.COM
 </ul>
 </div>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/python/cmd.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>Python 解释器</title>
@@ -2089,7 +2097,7 @@ GOOGLE.COM
 <h2> 安装</h2>
 <p>双击安装包打开同意用户协议。</p>
 <p>安装过程中，请务必钩上以下选项:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/install.png?raw=true" alt="安装 VSCode" loading="lazy"></p>
 <p>勾选 <strong>添加到目录上下文菜单</strong>、<strong>添加到文件上下文菜单</strong>、<strong>将 code 注册为受支持的文件编辑器</strong>、<strong>添加到 path</strong>。</p>
 <p>在 VSCode 初次启动后，若未提前安装 Git 可能会提示未找到 Git 软件，忽略即可；推荐立即执行简体中文扩展安装以保证界面语言为简体中文。</p>
 <h2> 更新频率</h2>
@@ -2097,9 +2105,9 @@ GOOGLE.COM
 <h2> Mac 添加 “通过 Code 打开”</h2>
 <p>在 Mac 系统上，Finder 选中一个目录，右键菜单并没有 “通过 Code 打开” 这个操作。不过我们可以通过 Automator 自己添加这个操作。</p>
 <p>先运行 Automator，选择“服务”:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/automator-service.png?raw=true" alt="automator-service" loading="lazy"></p>
 <p>然后，执行以下操作:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/automator.jpg?raw=true" alt="automator" loading="lazy"></p>
 <ol>
 <li>
 <p>在右侧面板选择 “服务” 收到选定的 “文件夹”，位于 “Finder.app“，该选项是为了从 Finder 中接收一个文件夹；</p>
@@ -2112,8 +2120,9 @@ GOOGLE.COM
 </li>
 </ol>
 <div class="language-bash" data-ext="sh"></div><p>保存为 “Open With VSCode” 后，打开 Finder，选中一个文件夹，点击右键，“服务”，就可以看到 “Open With VSCode” 菜单:</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/open-with-vscode.png?raw=true" alt="open-with-vscode" loading="lazy"></p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/vscode/install.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>VSCode</title>
@@ -2817,15 +2826,16 @@ GOOGLE.COM
       <link>https://harryxiong24.github.io/zh/back-end/preface/</link>
       <guid>https://harryxiong24.github.io/zh/back-end/preface/</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">大后端学习路线</source>
-      <description>展示一下大后端学习路线 路漫漫其修远兮, 不要害怕 backEnd !!backEnd (../img/operation.png)</description>
+      <description>展示一下大后端学习路线 路漫漫其修远兮, 不要害怕 backEnd !!backEnd (https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/operation.png?raw=true)</description>
       <category>Web 后台</category>
       <pubDate>Fri, 05 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 大后端学习路线</h1>
 <p>展示一下大后端学习路线</p>
 <p>路漫漫其修远兮, 不要害怕</p>
-<p></p>
-<p>!</p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/backEnd.png?raw=true" alt="backEnd" loading="lazy"></p>
+<p>!<img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/operation.png?raw=true" alt="backEnd" loading="lazy"></p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/backEnd.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>Servlet &amp; JSP</title>
@@ -2871,8 +2881,9 @@ GOOGLE.COM
 <li>发送隐式的 HTTP 响应到客户端（浏览器）。这包括告诉浏览器或其他客户端被返回的文档类型（例如 HTML），设置 cookies 和缓存参数，以及其他类似的任务。</li>
 </ul>
 <h3> 1.3 Servlet架构</h3>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/1.jpg?raw=true" alt="Servlet" loading="lazy"></p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/1.jpg?raw=true" type="image/"/>
     </item>
     <item>
       <title>10.JSP</title>
@@ -2906,7 +2917,7 @@ GOOGLE.COM
 </li>
 </ul>
 <p>很明显，JSP生命周期的四个主要阶段和servlet生命周期非常相似，下面给出图示：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/7.jpg?raw=true" alt="img" loading="lazy"></p>
 <h4> 10.1.1 JSP编译</h4>
 <p>当浏览器请求JSP页面时，JSP引擎会首先去检查是否需要编译这个文件。如果这个文件没有被编译过，或者在上次编译后被更改过，则编译这个JSP文件。</p>
 <p>编译的过程包括三个步骤：</p>
@@ -3359,25 +3370,26 @@ GOOGLE.COM
 <p>要在页面中输出，则可用${}</p>
 <p>{“Hello World”}</p>
 <h4> 10.5.2 EL隐含对象</h4>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/8.png?raw=true" alt="image-20200407211445131" loading="lazy"></p>
 <h3> 10.6 JSTL</h3>
 <h4> 10.6.1 引入</h4>
 <div class="language-jsp" data-ext="jsp"></div><h4> 10.6.2 常用标签</h4>
-<p><code>&lt;c:out&gt;</code>	用于在JSP中显示数据，就像&lt;%= ... &gt;
-<code>&lt;c:set&gt;</code>	用于保存数据
-<code>&lt;c:remove&gt;</code>	用于删除数据
-<code>&lt;c:catch&gt;</code>	用来处理产生错误的异常状况，并且将错误信息储存起来
-<code>&lt;c:if&gt;</code>	与我们在一般程序中用的if一样
-<code>&lt;c:choose&gt;</code>	本身只当做<code>&lt;c:when&gt;</code>和<code>&lt;c:otherwise&gt;</code>的父标签
-<code>&lt;c:when&gt;</code>	<code>&lt;c:choose&gt;</code>的子标签，用来判断条件是否成立
-<code>&lt;c:otherwise&gt;</code>	<code>&lt;c:choose&gt;</code>的子标签，接在<code>&lt;c:when&gt;</code>标签后，当<code>&lt;c:when&gt;</code>标签判断为false时被执行
-<code>&lt;c:import&gt;</code>	检索一个绝对或相对 URL，然后将其内容暴露给页面
-<code>&lt;c:forEach&gt;</code>	基础迭代标签，接受多种集合类型
-<code>&lt;c:forTokens&gt;</code>	根据指定的分隔符来分隔内容并迭代输出
-<code>&lt;c:param&gt;</code>	用来给包含或重定向的页面传递参数
-<code>&lt;c:redirect&gt;</code>	重定向至一个新的URL.
-<code>&lt;c:url&gt;</code>	使用可选的查询参数来创造一个URL</p>
+<p><code>&lt;c:out&gt;</code> 用于在JSP中显示数据，就像&lt;%= ... &gt;
+<code>&lt;c:set&gt;</code> 用于保存数据
+<code>&lt;c:remove&gt;</code> 用于删除数据
+<code>&lt;c:catch&gt;</code> 用来处理产生错误的异常状况，并且将错误信息储存起来
+<code>&lt;c:if&gt;</code> 与我们在一般程序中用的if一样
+<code>&lt;c:choose&gt;</code> 本身只当做<code>&lt;c:when&gt;</code>和<code>&lt;c:otherwise&gt;</code>的父标签
+<code>&lt;c:when&gt;</code> <code>&lt;c:choose&gt;</code>的子标签，用来判断条件是否成立
+<code>&lt;c:otherwise&gt;</code> <code>&lt;c:choose&gt;</code>的子标签，接在<code>&lt;c:when&gt;</code>标签后，当<code>&lt;c:when&gt;</code>标签判断为false时被执行
+<code>&lt;c:import&gt;</code> 检索一个绝对或相对 URL，然后将其内容暴露给页面
+<code>&lt;c:forEach&gt;</code> 基础迭代标签，接受多种集合类型
+<code>&lt;c:forTokens&gt;</code> 根据指定的分隔符来分隔内容并迭代输出
+<code>&lt;c:param&gt;</code> 用来给包含或重定向的页面传递参数
+<code>&lt;c:redirect&gt;</code> 重定向至一个新的URL.
+<code>&lt;c:url&gt;</code> 使用可选的查询参数来创造一个URL</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/7.jpg?raw=true" type="image/"/>
     </item>
     <item>
       <title>11.JDBC</title>
@@ -3446,7 +3458,7 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <li>Servlet 容器在调用 service() 方法之前加载 Servlet。</li>
 <li>然后 Servlet 容器处理由多个线程产生的多个请求，每个线程执行一个单一的 Servlet 实例的 service() 方法。</li>
 </ul>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/2.jpg?raw=true" alt="Servlet 生命周期" loading="lazy"></p>
 <h3> 2.2 init() 方法</h3>
 <p>init 方法被设计成只调用一次。它在第一次创建 Servlet 时被调用，在后续每次用户请求时不再调用。因此，它是用于一次性初始化，就像 Applet 的 init 方法一样。</p>
 <p>Servlet 创建于用户第一次调用对应于该 Servlet 的 URL 时，但是您也可以指定 Servlet 在服务器第一次启动时被加载。</p>
@@ -3468,6 +3480,7 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <p>destroy() 方法可以让您的 Servlet 关闭数据库连接、停止后台线程、把 Cookie 列表或点击计数器写入到磁盘，并执行其他类似的清理活动。</p>
 <p>在调用 destroy() 方法之后，servlet 对象被标记为垃圾回收。destroy 方法定义如下所示：</p>
 <div class="language-java" data-ext="java"></div>]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/2.jpg?raw=true" type="image/"/>
     </item>
     <item>
       <title>3.表单提交数据</title>
@@ -3484,19 +3497,19 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <p><strong>method：处理的方法名</strong></p>
 <p><strong>name：对应表单组件的名字，用来Servlet识别</strong></p>
 <p>保存这个 HTML 到 hello.htm 文件中。当您访问 <code>http://localhost:8080/Hello.html</code> 时，下面是上面表单的实际输出。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/3.png?raw=true" alt="img" loading="lazy"></p>
 <p>尝试输入名字和姓氏，然后点击"提交"按钮，在您本机上查看输出结果。基于所提供的输入，它会产生与上一个实例类似的结果。</p>
 <h3> 3.2 使用表单的 POST 方法实例</h3>
 <p>让我们对上面的 Servlet 做小小的修改，以便它可以处理 GET 和 POST 方法。下面的 <strong>HelloForm.java</strong> Servlet 程序使用 GET 和 POST 方法处理由 Web 浏览器给出的输入。</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>现在，编译部署上述的 Servlet，并使用带有 POST 方法的 Hello.htm 进行测试，如下所示：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>下面是上面表单的实际输出，尝试输入名字和姓氏，然后点击"提交"按钮，在您本机上查看输出结果。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/4.png?raw=true" alt="img" loading="lazy"></p>
 <p>基于所提供的输入，它会产生与上一个实例类似的结果。</p>
 <h3> 3.3 将复选框数据传递到 Servlet 程序</h3>
 <p>当需要选择一个以上的选项时，则使用复选框。</p>
 <p>下面是一个 HTML 代码实例 CheckBox.htm，一个带有两个复选框的表单。</p>
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这段代码的结果是下面的表单：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/5.png?raw=true" alt="img" loading="lazy"></p>
 <p>下面是 CheckBox.java Servlet 程序，处理 Web 浏览器给出的复选框输入。</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面的实例将显示下面的结果：</p>
 <p>读取复选框数据**数学标识：<strong>on</strong>物理标识：<strong>null</strong>化学标识：**on</p>
@@ -3526,6 +3539,7 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </table>
 <p>您可以尝试使用上面的 Servlet 来读取其他的表单数据，比如文本框、单选按钮或下拉框等。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/3.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>4.请求与响应</title>
@@ -3537,7 +3551,7 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
       <pubDate>Wed, 24 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 请求与响应</h2>
 <h3> 4.1 理解</h3>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/6.png?raw=true" alt="img" loading="lazy"></p>
 <h3> 4.2 Request</h3>
 <p>HttpServletRequest对象方法</p>
 <table>
@@ -4020,6 +4034,7 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>现在，调用上面的 Servlet 将显示以下结果：</p>
 <p>HTTP Status 407 - Need authentication!!!<strong>type</strong> Status report<strong>message</strong> Need authentication!!!<strong>description</strong> The client must first authenticate itself with the proxy (Need authentication!!!).Apache Tomcat/5.5.29</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/back-end/servlet/6.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>5.文件上传</title>
@@ -4477,9 +4492,10 @@ url具有相对固定的格式，获取后将返回Connection对象</p>
 </li>
 </ol>
 <p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/basic/OS.gif?raw=true" alt="操作系统结构示意图" loading="lazy"></p>
 <p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/basic/OS.gif?raw=true" type="image/"/>
     </item>
     <item>
       <title>计算机编码介绍</title>
@@ -4656,7 +4672,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p><strong>ISMS 建设</strong>：定义信息安全策略、定义 NISMS 范围、进行信息安全风险评估、信息安全风险管理、确定管制目标和选择管制措施、准备信息安全适用性说明</p>
 <h2> 2. 密码学基本原理</h2>
 <p><strong>密码体系结构</strong></p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/information-security/1.png?raw=true" alt="img" loading="lazy"></p>
 <p>即一个密码体制通常由五部分组成:</p>
 <p>(1)明文空间P:全体明文的集合;</p>
 <p>(2)密文空间C:全体密文的集合;</p>
@@ -4682,9 +4698,9 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p>**密钥加密密钥：**用于对会话密钥或下层密钥进行保护</p>
 <p>**主密钥：**主要用于对密钥加密密钥、会话密钥或其他下层密钥的保护，主密钥是用户选定或系统分配给用户的，分发基于物理渠道或其他可靠的方法</p>
 <p>**集中式密钥分配方案：**由一个可信赖的联机服务器作为密钥分配中心或密钥传递中心</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/information-security/2.png?raw=true" alt="2-10" loading="lazy"></p>
 <p>**分布式密钥分配方案：**网络通信中各个通信方具有相同的地位，他们之间的密钥分配取决于它们之间的协商</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/information-security/3.png?raw=true" alt="2-11" loading="lazy"></p>
 <p><strong>密钥管理系统涉及到密钥管理的哪些方面</strong></p>
 <p>密钥的生成、密钥的储存、密钥的保护、密钥的备份与恢复、密钥的销毁、密钥分配与密钥协定</p>
 <h2> 4. 数字签名和认证技术</h2>
@@ -4900,6 +4916,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <h2> 11. 安全审计</h2>
 <p><strong>安全审计概念</strong>：安全审计是指按照一定的安全策略，利用记录系统活动和用户活动等信息，检查、审查和检验操作事件的环境及活动，从而发现漏洞、入侵行为或者改善系统性能的过程。审计是记录与审查用户操作计算机及网络系统活动的过程，是提高系统安全性的重要举措。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/information-security/1.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>WSL</title>
@@ -5072,14 +5089,15 @@ st2=&gt;subroutine: Unicode 编码</p>
       <category>Windows</category>
       <pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>以 Windows10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/pathSearch.png?raw=true" alt="搜索" loading="lazy"></p>
 <p>在弹出的框中点击环境变量</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/path.png?raw=true" alt="系统变量" loading="lazy"></p>
 <p>在弹出的新窗口中找到 path，选中并点击编辑</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/pathDetail.png?raw=true" alt="系统变量" loading="lazy"></p>
 <p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/pathAdd.png?raw=true" alt="系统变量" loading="lazy"></p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/pathSearch.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>打开命令行</title>
@@ -5097,9 +5115,10 @@ st2=&gt;subroutine: Unicode 编码</p>
 </ol>
 <p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
 <!-- more -->
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/cmd.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>这样就会快速打开一个路径为当前文件夹的命令提示符窗口。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/cmd.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>基础知识</title>
