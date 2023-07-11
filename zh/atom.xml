@@ -4,7 +4,7 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-07-09T03:59:59.243Z</updated>
+  <updated>2023-07-11T07:04:43.776Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/zh/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/zh/"/>
@@ -1587,7 +1587,7 @@ Git tracks changes.
     <title type="text">Git 安装与配置</title>
     <id>https://harryxiong24.github.io/zh/git/install.html</id>
     <link href="https://harryxiong24.github.io/zh/git/install.html"/>
-    <updated>2023-07-09T03:55:24.000Z</updated>
+    <updated>2023-07-11T06:59:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> Git 安装与配置</h1>
 <h2> Git 下载</h2>
 <p>由于官网在国外，网速较慢，可以查看功能部群文件找到安装包下载安装。在安装 Git 前推荐安装好 VSCode。</p>
@@ -1671,7 +1671,6 @@ Git tracks changes.
 </li>
 </ol>
 <p>安装完成后，在开始菜单里找到 “Git” -&gt; “Git Bash” (Mac 上叫 Git Shell)，蹦出一个类似命令行窗口的东西，就说明 Git 安装成功！</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/shell.png?raw=true" alt="git终端图" loading="lazy"></p>
 <h2> Git 的初次配置</h2>
 <ol>
 <li>
@@ -1685,10 +1684,8 @@ Git tracks changes.
 </li>
 <li>
 <p>打开 <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a> 并选择 "Sign in" 注册自己的账号。</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/github.png?raw=true" alt="Github 界面简介" loading="lazy"></p>
 <p>登陆 Github 后，点击右上角头像，进入设置。</p>
 <p>进入 "安全设置" 下的 "SSH 公钥" 界面。</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/githubSSH.png?raw=true" alt="Github 界面简介" loading="lazy"></p>
 <p>在标题中填写公钥的备注名称，把 id_rsa.pub 文件的内容粘贴到底下的输入框中，设置一个自己可以记起的备注。</p>
 </li>
 </ol>
@@ -6249,7 +6246,7 @@ st2=&gt;subroutine: Unicode 编码</p>
     <title type="text">打开命令行</title>
     <id>https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html</id>
     <link href="https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html"/>
-    <updated>2023-07-09T03:55:24.000Z</updated>
+    <updated>2023-07-11T06:59:35.000Z</updated>
     <summary type="html"><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
 <ol>
 <li>运行 - cmd: <code>Win + R</code> 打开运行，然后敲入 <code>cmd</code> 后回车。</li>
@@ -6257,6 +6254,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <li>开始菜单 - Windows 系统 - 命令提示符。</li>
 </ol>
 <p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
+<p>这样就会快速打开一个路径为当前文件夹的命令提示符窗口。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
 <ol>
@@ -6265,8 +6263,6 @@ st2=&gt;subroutine: Unicode 编码</p>
 <li>开始菜单 - Windows 系统 - 命令提示符。</li>
 </ol>
 <p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
-<!-- more -->
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/cmd.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>这样就会快速打开一个路径为当前文件夹的命令提示符窗口。</p>
 ]]></content>
     <category term="Windows"/>
@@ -6828,7 +6824,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
     <title type="text">12.异步编程</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses12.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses12.html"/>
-    <updated>2023-06-15T14:05:05.000Z</updated>
+    <updated>2023-07-11T06:59:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> 异步编程</h1>
 <h2> 异步编程存在的意义</h2>
 <h3> JS是单线程模型</h3>
@@ -6869,7 +6865,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <p>它们的区别在于，宏任务追加到下一轮事件循环，微任务追加到本轮事件循环。这意味着，微任务的执行时间一定早于正常任务。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码的输出结果是<code>321</code>。这说明<code>then</code>的回调函数的执行时间，早于<code>setTimeout(fn, 0)</code>。因为<code>then</code>是本轮事件循环执行，<code>setTimeout(fn, 0)</code>在下一轮事件循环开始时执行。</p>
 <h4> Event Loop 全过程图解</h4>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/EventLoop.gif?raw=true" alt="Event Loop" loading="lazy"></p>
 <h2> 控制异步操作的本质</h2>
 <p>要想深入的理解Promise、Generator、async对于异步操作的封装，我们就有必要来了解一下异步操作模式的本质。</p>
 <p>我们通常有以下几种控制异步操作的方法(也可以理解成控制异步操作的原理)：</p>
@@ -13997,7 +13993,7 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
     <title type="text">7.Object</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses7.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses7.html"/>
-    <updated>2023-06-15T14:05:05.000Z</updated>
+    <updated>2023-07-11T06:59:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> Object</h1>
 <h2> 几个基础关注点</h2>
 <h3> 表达式还是语句？</h3>
@@ -14290,7 +14286,7 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <p>JavaScript 规定，所有对象都有自己的原型对象（prototype）。一方面，任何一个对象，都可以充当其他对象的原型；另一方面，由于原型对象也是对象，所以它也有自己的原型。因此，就会形成一个“原型链”（prototype chain）：对象到原型，再到原型的原型……</p>
 <p>如果一层层地上溯，所有对象的原型最终都可以上溯到<code>Object.prototype</code>，即<code>Object</code>构造函数的<code>prototype</code>属性。也就是说，所有对象都继承了<code>Object.prototype</code>的属性。这就是所有对象都有<code>valueOf</code>和<code>toString</code>方法的原因，因为这是从<code>Object.prototype</code>继承的。</p>
 <p>用一张图表示关系：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/JSPrototype.png?raw=true" alt="JS Prototype" loading="lazy"></p>
 <p>那么，<code>Object.prototype</code>对象有没有它的原型呢？回答是<code>Object.prototype</code>的原型是<code>null</code>。<code>null</code>没有任何属性和方法，也没有自己的原型。因此，原型链的尽头就是<code>null</code>。</p>
 <div class="language-javascript" data-ext="js"></div><p>上面代码表示，<code>Object.prototype</code>对象的原型是<code>null</code>，由于<code>null</code>没有任何属性，所以原型链到此为止。<code>Object.getPrototypeOf</code>方法返回参数对象的原型，具体介绍请看后文。</p>
 <p>读取对象的某个属性时，JavaScript 引擎先寻找对象本身的属性，如果找不到，就到它的原型去找，如果还是找不到，就到原型的原型去找。如果直到最顶层的<code>Object.prototype</code>还是找不到，则返回<code>undefined</code>。如果对象自身和它的原型，都定义了一个同名属性，那么优先读取对象自身的属性，这叫做“覆盖”（overriding）。</p>
@@ -14621,7 +14617,7 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
     <title type="text">8.Class</title>
     <id>https://harryxiong24.github.io/zh/front-end/advanced-js/jses8.html</id>
     <link href="https://harryxiong24.github.io/zh/front-end/advanced-js/jses8.html"/>
-    <updated>2023-06-15T14:05:05.000Z</updated>
+    <updated>2023-07-11T06:59:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> Class</h1>
 <h2> Class 的由来</h2>
 <p>JavaScript 语言中，生成实例对象的传统方法是通过构造函数。下面是一个例子。</p>
@@ -14857,7 +14853,7 @@ s<span class="token punctuation">[</span><span class="token number">4</span><spa
 <p>因此，通过子类实例的<code>__proto__.__proto__</code>属性，可以修改父类实例的行为。</p>
 <div class="language-javascript" data-ext="js"></div><p>上面代码在<code>ColorPoint</code>的实例<code>p2</code>上向<code>Point</code>类添加方法，结果影响到了<code>Point</code>的实例<code>p1</code>。</p>
 <p>下面用一张图进行总结：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/ES6Prototype.png?raw=true" alt="ES6 Prototype" loading="lazy"></p>
 <h2> 继承原生构造函数</h2>
 <p>原生构造函数是指语言内置的构造函数，通常用来生成数据结构。ECMAScript 的原生构造函数大致有下面这些。</p>
 <ul>

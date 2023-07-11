@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/zh/</link>
     <description>A piano player playing on the keyboard</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 09 Jul 2023 03:59:59 GMT</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2023 03:59:59 GMT</lastBuildDate>
+    <pubDate>Tue, 11 Jul 2023 07:04:43 GMT</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2023 07:04:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>JSON</category>
@@ -1398,7 +1398,6 @@
 </li>
 </ol>
 <p>安装完成后，在开始菜单里找到 “Git” -&gt; “Git Bash” (Mac 上叫 Git Shell)，蹦出一个类似命令行窗口的东西，就说明 Git 安装成功！</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/shell.png?raw=true" alt="git终端图" loading="lazy"></p>
 <h2> Git 的初次配置</h2>
 <ol>
 <li>
@@ -1412,10 +1411,8 @@
 </li>
 <li>
 <p>打开 <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a> 并选择 "Sign in" 注册自己的账号。</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/github.png?raw=true" alt="Github 界面简介" loading="lazy"></p>
 <p>登陆 Github 后，点击右上角头像，进入设置。</p>
 <p>进入 "安全设置" 下的 "SSH 公钥" 界面。</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/githubSSH.png?raw=true" alt="Github 界面简介" loading="lazy"></p>
 <p>在标题中填写公钥的备注名称，把 id_rsa.pub 文件的内容粘贴到底下的输入框中，设置一个自己可以记起的备注。</p>
 </li>
 </ol>
@@ -5104,7 +5101,7 @@ st2=&gt;subroutine: Unicode 编码</p>
       <link>https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html</link>
       <guid>https://harryxiong24.github.io/zh/computer-basic/windows/cmd.html</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">打开命令行</source>
-      <description>打开命令行 (命令提示符) 有多种方式。 运行 - cmd: Win + R 打开运行，然后敲入 cmd 后回车。 搜索 - cmd: 点击左下角搜索，输入 cmd，然后单击命令提示符。 开始菜单 - Windows 系统 - 命令提示符。 如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 cmd 并回车。</description>
+      <description>打开命令行 (命令提示符) 有多种方式。 1. 运行 - cmd: Win + R 打开运行，然后敲入 cmd 后回车。 1. 搜索 - cmd: 点击左下角搜索，输入 cmd，然后单击命令提示符。 1. 开始菜单 - Windows 系统 - 命令提示符。 如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 cmd 并回车。 这...</description>
       <category>Windows</category>
       <pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>打开命令行 (命令提示符) 有多种方式。</p>
@@ -5114,11 +5111,8 @@ st2=&gt;subroutine: Unicode 编码</p>
 <li>开始菜单 - Windows 系统 - 命令提示符。</li>
 </ol>
 <p>如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 <code>cmd</code> 并回车。</p>
-<!-- more -->
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/cmd.png?raw=true" alt="示意图" loading="lazy"></p>
 <p>这样就会快速打开一个路径为当前文件夹的命令提示符窗口。</p>
 ]]></content:encoded>
-      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/cmd.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>基础知识</title>
@@ -5661,7 +5655,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p>它们的区别在于，宏任务追加到下一轮事件循环，微任务追加到本轮事件循环。这意味着，微任务的执行时间一定早于正常任务。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码的输出结果是<code>321</code>。这说明<code>then</code>的回调函数的执行时间，早于<code>setTimeout(fn, 0)</code>。因为<code>then</code>是本轮事件循环执行，<code>setTimeout(fn, 0)</code>在下一轮事件循环开始时执行。</p>
 <h4> Event Loop 全过程图解</h4>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/EventLoop.gif?raw=true" alt="Event Loop" loading="lazy"></p>
 <h2> 控制异步操作的本质</h2>
 <p>要想深入的理解Promise、Generator、async对于异步操作的封装，我们就有必要来了解一下异步操作模式的本质。</p>
 <p>我们通常有以下几种控制异步操作的方法(也可以理解成控制异步操作的原理)：</p>
@@ -6359,6 +6353,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码有三个模块，最后的<code>z.js</code>加载<code>x.js</code>和<code>y.js</code>，打印结果是<code>X1</code>、<code>Y</code>、<code>X2</code>、<code>Z</code>。这说明，<code>z.js</code>并没有等待<code>x.js</code>加载完成，再去加载<code>y.js</code>。</p>
 <p>顶层的<code>await</code>命令有点像，交出代码的执行权给其他的模块加载，等异步操作完成后，再拿回执行权，继续向下执行。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/EventLoop.gif?raw=true" type="image/"/>
     </item>
     <item>
       <title>13.Set</title>
@@ -12923,7 +12918,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p>JavaScript 规定，所有对象都有自己的原型对象（prototype）。一方面，任何一个对象，都可以充当其他对象的原型；另一方面，由于原型对象也是对象，所以它也有自己的原型。因此，就会形成一个“原型链”（prototype chain）：对象到原型，再到原型的原型……</p>
 <p>如果一层层地上溯，所有对象的原型最终都可以上溯到<code>Object.prototype</code>，即<code>Object</code>构造函数的<code>prototype</code>属性。也就是说，所有对象都继承了<code>Object.prototype</code>的属性。这就是所有对象都有<code>valueOf</code>和<code>toString</code>方法的原因，因为这是从<code>Object.prototype</code>继承的。</p>
 <p>用一张图表示关系：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/JSPrototype.png?raw=true" alt="JS Prototype" loading="lazy"></p>
 <p>那么，<code>Object.prototype</code>对象有没有它的原型呢？回答是<code>Object.prototype</code>的原型是<code>null</code>。<code>null</code>没有任何属性和方法，也没有自己的原型。因此，原型链的尽头就是<code>null</code>。</p>
 <div class="language-javascript" data-ext="js"></div><p>上面代码表示，<code>Object.prototype</code>对象的原型是<code>null</code>，由于<code>null</code>没有任何属性，所以原型链到此为止。<code>Object.getPrototypeOf</code>方法返回参数对象的原型，具体介绍请看后文。</p>
 <p>读取对象的某个属性时，JavaScript 引擎先寻找对象本身的属性，如果找不到，就到它的原型去找，如果还是找不到，就到原型的原型去找。如果直到最顶层的<code>Object.prototype</code>还是找不到，则返回<code>undefined</code>。如果对象自身和它的原型，都定义了一个同名属性，那么优先读取对象自身的属性，这叫做“覆盖”（overriding）。</p>
@@ -13247,6 +13242,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 </ul>
 <div class="language-javascript" data-ext="js"></div><p>上面代码中，<code>Reflect.ownKeys</code>方法返回一个数组，包含了参数对象的所有属性。这个数组的属性次序是这样的，首先是数值属性<code>2</code>和<code>10</code>，其次是字符串属性<code>b</code>和<code>a</code>，最后是 Symbol 属性。</p>
 ]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/JSPrototype.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>8.Class</title>
@@ -13477,7 +13473,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p>因此，通过子类实例的<code>__proto__.__proto__</code>属性，可以修改父类实例的行为。</p>
 <div class="language-javascript" data-ext="js"></div><p>上面代码在<code>ColorPoint</code>的实例<code>p2</code>上向<code>Point</code>类添加方法，结果影响到了<code>Point</code>的实例<code>p1</code>。</p>
 <p>下面用一张图进行总结：</p>
-<p></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/ES6Prototype.png?raw=true" alt="ES6 Prototype" loading="lazy"></p>
 <h2> 继承原生构造函数</h2>
 <p>原生构造函数是指语言内置的构造函数，通常用来生成数据结构。ECMAScript 的原生构造函数大致有下面这些。</p>
 <ul>
@@ -13512,6 +13508,7 @@ st2=&gt;subroutine: Unicode 编码</p>
 <p>下面是一个更完备的实现，将多个类的接口“混入”（mix in）另一个类。</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码的<code>mix</code>函数，可以将多个对象合成为一个类。使用的时候，只要继承这个类即可。</p>
 <div class="language-javascript" data-ext="js"></div>]]></content:encoded>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/ES6Prototype.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>9.Symbol</title>
