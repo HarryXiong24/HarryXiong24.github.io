@@ -13,8 +13,4 @@ date: 2020-06-01
 
 如果想要快速打开特定路径的 cmd，请打开对应的文件夹，在地址栏直接输入 `cmd` 并回车。
 
-<!-- more -->
-
-![示意图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/computer-basic/windows/cmd.png?raw=true)
-
 这样就会快速打开一个路径为当前文件夹的命令提示符窗口。

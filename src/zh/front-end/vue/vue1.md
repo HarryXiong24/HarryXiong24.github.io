@@ -27,7 +27,7 @@ title: 1.Vue简介
 
 ### 1.2 Vue 知识框架
 
-![1](./img/1.png)
+![1](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/1.png?raw=true)
 
 ### 1.3 开发准备
 
@@ -39,7 +39,7 @@ title: 1.Vue简介
 
 因为 npm 是国外的,在国内用会特别慢,所以需要先用淘宝的 cnpm 代替 npm
 
-在命令行窗口输入 npm install -g cnpm --registry=https://registry.npm.taobao.org 配置淘宝镜像
+在命令行窗口输入 npm install -g cnpm --registry=<https://registry.npm.taobao.org> 配置淘宝镜像
 
 #### 1.3.3 vue-cli 脚手架
 
@@ -87,7 +87,7 @@ npm run build --report 生成打包视图，可视化显示所有包在项目中
 
 2. 它定义了很多特定的规则, 一旦你的代码违背了某一规则,eslint 会作出非常有用的提示
 
-3. 官网:http://eslint.org/
+3. 官网:<http://eslint.org/>
 
 4. 基本已替代以前的 JSLint
 
@@ -129,4 +129,4 @@ ESLint 提供以下几种校验：
 
 2. 在 js/vue 文件中修改局部规则 /_eslint-disableno-new_/ newVue({ el:'body', components:{App} })
 
-3. eslintignore: 指令检查忽略的文件 _.js _.vue
+3. eslintignore: 指令检查忽略的文件 _.js_.vue

@@ -31,7 +31,7 @@ a. 将数据以及操作数据的行为都定义在父组件
 
 b. 将数据以及操作数据的行为传递给需要的各个子组件(有可能需要多级传递)
 
-4.  vuex 就是用来解决这个问题的
+4. vuex 就是用来解决这个问题的
 
 **状态自管理应用**
 
@@ -45,11 +45,11 @@ b. 将数据以及操作数据的行为传递给需要的各个子组件(有可�
 
 以下是一个表示“单向数据流”理念的简单示意：
 
-![img](./img/5.png)
+![img](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/5.png?raw=true)
 
 **Vuex 的结构模型**
 
-![vuex](./img/6.png)
+![vuex](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/6.png?raw=true)
 
 ### 15.2 核心概念
 
@@ -69,9 +69,9 @@ b. 将数据以及操作数据的行为传递给需要的各个子组件(有可�
 
 ```js
  const mutations = {
-	方法名 (state, {data1}) {
-		xxxxx                      // 更新 state 某个属性的操作
-	}
+ 方法名 (state, {data1}) {
+  xxxxx                      // 更新 state 某个属性的操作
+ }
 }
 参数：
 可选：{
@@ -101,9 +101,9 @@ data 为参数
 
 ```js
 const actions = {
-	action 名称 ({commit, state}, data) {
-		commit('对应mutations的名字', {data})
-	}
+ action 名称 ({commit, state}, data) {
+  commit('对应mutations的名字', {data})
+ }
  }
 第一个参数：
 可选：{
@@ -429,4 +429,4 @@ export default {
 
 ### 15.6 总结
 
-![image-20200617155816787](./img/7.png)
+![image-20200617155816787](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/7.png?raw=true)

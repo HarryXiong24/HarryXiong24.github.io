@@ -15,7 +15,7 @@ title: 8.Vue的生命周期
 
 ### 8.1 生命周期
 
-![2](./img/2.png)
+![2](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/2.png?raw=true)
 
 ### 8.2 Vue 实例创建阶段
 
@@ -136,7 +136,7 @@ title: 8.Vue的生命周期
 
 ### 8.6 总结
 
-![3](./img/3.png)
+![3](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/3.png?raw=true)
 
 ```html
 <!DOCTYPE html>
@@ -218,4 +218,4 @@ title: 8.Vue的生命周期
 </html>
 ```
 
-![4](./img/4.png)
+![4](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/4.png?raw=true)

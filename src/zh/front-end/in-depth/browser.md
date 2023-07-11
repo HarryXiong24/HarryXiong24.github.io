@@ -17,7 +17,7 @@ tag:
 
 ## 1. Web 前后端整体示意图
 
-![01_web前后端整体图示](./img/01.png)
+![01_web前后端整体图示](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/in-depth/img/01.png?raw=true)
 
 ## 2. 浏览器功能与组成
 
@@ -65,22 +65,22 @@ tag:
     IE---------->Trident
 
     Safari------>WebKit
-    	WebKit本身主要是由两个引擎构成的，
-    		一个正是渲染引擎“WebCore”，
-    		另一个则是javascript解释引擎“JSCore”，
-    		它们均是从KDE的渲染引擎KHTML及javascript解释引擎KJS衍生而来。
+     WebKit本身主要是由两个引擎构成的，
+      一个正是渲染引擎“WebCore”，
+      另一个则是javascript解释引擎“JSCore”，
+      它们均是从KDE的渲染引擎KHTML及javascript解释引擎KJS衍生而来。
 
     Chrome------>WebKit的分支引擎----->Blink
-    	 在13年发布的Chrome 28.0.1469.0版本开始，Chrome放弃Chromium引擎转
-    	 而使用最新的Blink引擎（基于WebKit2——苹果公司于2010年推出的新的WebKit引擎），
-    	 Blink对比上一代的引擎精简了代码、改善了DOM框架，也提升了安全性。
+      在13年发布的Chrome 28.0.1469.0版本开始，Chrome放弃Chromium引擎转
+      而使用最新的Blink引擎（基于WebKit2——苹果公司于2010年推出的新的WebKit引擎），
+      Blink对比上一代的引擎精简了代码、改善了DOM框架，也提升了安全性。
 
     Opera
-    	旧版Opera 4至6版本 :Elektra排版引擎
-    	Opera7.0	:Presto渲染引擎
-    	Opera在2013年2月宣布放弃Presto:
-    				采用Chromium引擎;
-    				又转为Blink引擎;
+     旧版Opera 4至6版本 :Elektra排版引擎
+     Opera7.0 :Presto渲染引擎
+     Opera在2013年2月宣布放弃Presto:
+        采用Chromium引擎;
+        又转为Blink引擎;
 
     Firefox------>Gecko
 
@@ -186,9 +186,9 @@ CPU 的工作方式不是先来先处理(这样你使用一个程序，另一个
 
 ### 4.3 渲染过程
 
-![02_浏览器渲染过程](./img/02.png)
+![02_浏览器渲染过程](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/in-depth/img/02.png?raw=true)
 
-![browserRendering](./img/browserRendering.png)
+![browserRendering](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/in-depth/img/browserRendering.png?raw=true)
 
 浏览器收到 html 文档后，开始逐行解析，其中遇到 style、img 等需要引入外部资源的时候，有以下规则：
 
@@ -225,7 +225,7 @@ JS 调用栈采用的是后进先出的规则，当函数执行的时候，会�
 
 `Javascript`单线程任务被分为**同步任务**和**异步任务**，同步任务会在调用栈中按照顺序等待主线程依次执行，异步任务会在异步任务有了结果后，将注册的回调函数放入任务队列中等待主线程空闲的时候（调用栈被清空），被读取到栈内等待主线程的执行。
 
-![v](./img/v.gif)
+![v](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/in-depth/img/v.gif?raw=true)
 
 ## 5. 阻塞渲染
 
@@ -321,7 +321,7 @@ JS 调用栈采用的是后进先出的规则，当函数执行的时候，会�
 5. 图层作为纹理上传至 GPU
 6. 组合多个图层到页面上生成最终屏幕图像 （Composite Layers--图层重组）
 
-![03_图层举例](./img/03.jpg)
+![03_图层举例](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/in-depth/img/03.jpg?raw=true)
 
 ### 6.2 图层创建的条件
 
@@ -359,25 +359,25 @@ CSS3 的动画也是一样（好在绝大部分情况浏览器自己会为 CSS3 
 ### 6.5 触发重绘的属性
 
 ```
-    * color								* background									* outline-color
-    * border-style						* background-image								* outline
-    * border-radius						* background-position							* outline-style
-    * visibility						* background-repeat								* outline-width
-    * text-decoration					* background-size								* box-shadow
+    * color        * background         * outline-color
+    * border-style      * background-image        * outline
+    * border-radius      * background-position       * outline-style
+    * visibility      * background-repeat        * outline-width
+    * text-decoration     * background-size        * box-shadow
 ```
 
 ### 6.6 触发重排(回流)的属性
 
 ```
-盒子模型相关属性会触发重布局			定位属性及浮动也会触发重布局：				改变节点内部文字结构也会触发重布局：
-		* width							* top											* text-align
-		* height						* bottom										* overflow-y
-		* padding						* left											* font-weight
-		* margin						* right											* overflow
-		* display						* position										* font-family
-		* border-width					* float											* line-height
-		* border							* clear											* vertival-align
-		* min-height																		* white-space
+盒子模型相关属性会触发重布局   定位属性及浮动也会触发重布局：    改变节点内部文字结构也会触发重布局：
+  * width       * top           * text-align
+  * height      * bottom          * overflow-y
+  * padding      * left           * font-weight
+  * margin      * right           * overflow
+  * display      * position          * font-family
+  * border-width     * float           * line-height
+  * border       * clear           * vertival-align
+  * min-height                  * white-space
 ```
 
 ### 6.7 常见的触发重排的操作
@@ -881,7 +881,7 @@ xxxxxStorage.clear()
 
 ### 10.4 浏览器储存量的支持
 
-参考：http://dev-test.nemikor.com/web-storage/support-test/
+参考：<http://dev-test.nemikor.com/web-storage/support-test/>
 
 ​
 
@@ -929,7 +929,7 @@ xxxxxStorage.clear()
 
 ### 11.3 缓存使用示意图
 
-![](./img/04.png)
+![](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/in-depth/img/04.png?raw=true)
 
 ### 11.4 缓存中的 header 参数
 
@@ -961,16 +961,16 @@ xxxxxStorage.clear()
 
 - Last-Modified/If-Modified-Since:二者的值都是 GMT 格式的时间字符串
 
-  1.  浏览器第一次跟服务器请求一个资源，服务器在返回这个资源的同时，在 respone 的 header 加上 Last-Modified 的 header，这个 header 表示这个资源在服务器上的最后修改时间
-  2.  浏览器再次跟服务器请求这个资源时，在 request 的 header 上加上 If-Modified-Since 的 header，这个 header 的值就是上一次请求时返回的 Last-Modified 的值
-  3.  服务器再次收到资源请求时，根据浏览器传过来 If-Modified-Since 和资源在服务器上的最后修改时间判断资源是否有变化，如果没有变化则返回 304 Not Modified，但是不会返回资源内容；如果有变化，就正常返回资源内容。当服务器返回 304 Not Modified 的响应时，response header 中不会再添加 Last-Modified 的 header，因为既然资源没有变化，那么 Last-Modified 也就不会改变，这是服务器返回 304 时的 response header
-  4.  浏览器收到 304 的响应后，就会从缓存中加载资源
-  5.  如果协商缓存没有命中，浏览器直接从服务器加载资源时，Last-Modified 的 Header 在重新加载的时候会被更新，下次请求时，If-Modified-Since 会启用上次返回的 Last-Modified 值
+  1. 浏览器第一次跟服务器请求一个资源，服务器在返回这个资源的同时，在 respone 的 header 加上 Last-Modified 的 header，这个 header 表示这个资源在服务器上的最后修改时间
+  2. 浏览器再次跟服务器请求这个资源时，在 request 的 header 上加上 If-Modified-Since 的 header，这个 header 的值就是上一次请求时返回的 Last-Modified 的值
+  3. 服务器再次收到资源请求时，根据浏览器传过来 If-Modified-Since 和资源在服务器上的最后修改时间判断资源是否有变化，如果没有变化则返回 304 Not Modified，但是不会返回资源内容；如果有变化，就正常返回资源内容。当服务器返回 304 Not Modified 的响应时，response header 中不会再添加 Last-Modified 的 header，因为既然资源没有变化，那么 Last-Modified 也就不会改变，这是服务器返回 304 时的 response header
+  4. 浏览器收到 304 的响应后，就会从缓存中加载资源
+  5. 如果协商缓存没有命中，浏览器直接从服务器加载资源时，Last-Modified 的 Header 在重新加载的时候会被更新，下次请求时，If-Modified-Since 会启用上次返回的 Last-Modified 值
 
 - Etag/If-None-Match
 
-  1.  这两个值是由服务器生成的每个资源的唯一标识字符串，只要资源有变化就这个值就会改变
-  2.  其判断过程与 Last-Modified/If-Modified-Since 类似
+  1. 这两个值是由服务器生成的每个资源的唯一标识字符串，只要资源有变化就这个值就会改变
+  2. 其判断过程与 Last-Modified/If-Modified-Since 类似
 
 - 既生 Last-Modified 何生 Etag
 
@@ -989,7 +989,7 @@ xxxxxStorage.clear()
 
 - 通过更新页面中引用的资源路径，让浏览器主动放弃加载缓存去加载新的资源
 
-- 示例：https://www.baidu.com/s?t=7aec0h3KB3Ba8lAbuyPg0AC0eDa59IvtDSmtMQBc6eW
+- 示例：<https://www.baidu.com/s?t=7aec0h3KB3Ba8lAbuyPg0AC0eDa59IvtDSmtMQBc6eW>
 
   给原本请求的链接，加上一些无关的参数，这样让浏览器以为是新的请求
 

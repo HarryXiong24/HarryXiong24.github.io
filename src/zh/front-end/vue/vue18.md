@@ -77,7 +77,7 @@ c. getter/setter 内部去操作 data
 
 3. 将属性值设置为文本节点的 textContent
 
-####18.3.3 事件指令解析
+#### 18.3.3 事件指令解析
 
 1. 从指令名中取出事件名
 
@@ -93,7 +93,7 @@ c. getter/setter 内部去操作 data
 
 2. 从 data 中根据表达式得到对应的值
 
-3. 根据指令名确定需要操作元素节点的什么属性 _ v-text---textContent 属性 _ v-html---innerHTML 属性 \* v-class--className 属性
+3. 根据指令名确定需要操作元素节点的什么属性 _v-text---textContent 属性_ v-html---innerHTML 属性 \* v-class--className 属性
 
 4. 将得到的表达式的值设置到对应的属性上
 
@@ -105,7 +105,7 @@ c. getter/setter 内部去操作 data
 
 一旦更新了 data 中的某个属性数据, 所有界面上直接使用或间接使用了此属性的节点都会 更新
 
-####18.4.2 数据劫持
+#### 18.4.2 数据劫持
 
 1. 数据劫持是 vue 中用来实现数据绑定的一种技术
 
@@ -603,9 +603,9 @@ console.log(myObject.a); // 2
 - set：属性的赋值函数。如果为 **undefined** 则直接将赋值运算符右侧的值保存为属性值
   **注：**
 
-- - 一旦同时使用了`get`和`set`，需要一个中间变量存储真正的值。
+  - - 一旦同时使用了`get`和`set`，需要一个中间变量存储真正的值。
 
-- - `set`和`writable:false`是不能共存的。
+  - - `set`和`writable:false`是不能共存的。
 
 - configurable：如果为
 
@@ -1463,4 +1463,4 @@ Flow 是一个静态的检测工具，语法与 TypeScript 类似，在 Vue 2.x 
 
 ### 18.10 Vue 的 MVVM 模式
 
-![image-20200617161846845](./img/8.png)
+![image-20200617161846845](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/vue/8.png?raw=true)

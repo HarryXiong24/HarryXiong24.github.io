@@ -212,7 +212,7 @@ VS Code 中的 ESLint 插件默认是不会检查 `.ts` 后缀的，需要在「
 
 这时再打开一个 `.ts` 文件，将鼠标移到红色提示处，即可看到这样的报错信息了:
 
-![VS Code ESLint 错误信息](../assets/vscode-eslint-error.png)
+![VS Code ESLint 错误信息](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/typescript/vscode-eslint-error.png?raw=true)
 
 ### 使用 AlloyTeam 的 ESLint 配置
 
@@ -312,7 +312,7 @@ npm install --save-dev eslint-plugin-react
 
 如果以上步骤都不奏效，则可以在「文件 => 首选项 => 设置」中配置 `"eslint.trace.server": "messages"`，按 `Ctrl`+`Shift`+`U` 打开输出面板，然后选择 ESLint 输出，查看具体错误。
 
-![VS Code 的 ESLint 输出](../assets/vscode-output-eslint.png)
+![VS Code 的 ESLint 输出](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/typescript/vscode-output-eslint.png?raw=true)
 
 ### 为什么 ESLint 无法检查出使用了未定义的变量(`no-undef` 规则为什么被关闭了)
 
@@ -342,7 +342,3 @@ npm install --save-dev eslint-plugin-react
 因为 TSLint 依赖 `tsconfig.json` 获得了类型信息，而 [vscode 里的 TSLint 暂不支持获取类型信息](https://github.com/Microsoft/vscode-tslint/tree/master/tslint#the-tslint-no-unused-variable-rule-doesnt-report-warnings-any-more)，所以 `no-unused-variable` 就失效了。
 
 不仅 `no-unused-variables` 失效了，[TSLint rules](https://palantir.github.io/tslint/rules/) 里面所有标有 `Requires Type Info` 的规则都失效了。
-
-[tslint]: https://palantir.github.io/tslint/
-[eslint]: https://eslint.org/
-[`typescript-eslint-parser`]: https://github.com/eslint/typescript-eslint-parser

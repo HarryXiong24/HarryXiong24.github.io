@@ -8,8 +8,6 @@ title: 8.Class
 
 # Class
 
-
-
 ## Class 的由来
 
 JavaScript 语言中，生成实例对象的传统方法是通过构造函数。下面是一个例子。
@@ -76,11 +74,9 @@ const b = new Bar();
 b.doStuff() // "stuff"
 ```
 
-
-
 ## Class 的本质
 
-###  与JS类的转化
+### 与JS类的转化
 
 ES6 的类，完全可以看作构造函数的另一种写法。
 
@@ -207,8 +203,6 @@ Object.getOwnPropertyNames(Point.prototype)
 ```
 
 上面代码采用 ES5 的写法，`toString()`方法就是可枚举的。
-
-
 
 ## 基本语法
 
@@ -564,8 +558,6 @@ function selfish (target) {
 const logger = selfish(new Logger());
 ```
 
-
-
 ## 类的实例
 
 生成类的实例的写法，与 ES5 完全一样，也是使用`new`命令。前面说过，如果忘记加上`new`，像函数那样调用`Class`，将会报错。
@@ -641,8 +633,6 @@ p3.printName() // "Oops"
 ```
 
 上面代码在`p1`的原型上添加了一个`printName()`方法，由于`p1`的原型就是`p2`的原型，因此`p2`也可以调用这个方法。而且，此后新建的实例`p3`也可以调用这个方法。这意味着，使用实例的`__proto__`属性改写原型，必须相当谨慎，不推荐使用，因为这会改变“类”的原始定义，影响到所有实例。
-
-
 
 ## 静态方法
 
@@ -725,8 +715,6 @@ class Bar extends Foo {
 Bar.classMethod() // "hello, too"
 ```
 
-
-
 ## 静态属性
 
 静态属性指的是 Class 本身的属性，即`Class.propName`，而不是定义在实例对象（`this`）上的属性。
@@ -769,8 +757,6 @@ class Foo {
 ```
 
 上面代码中，老写法的静态属性定义在类的外部。整个类生成以后，再生成静态属性。这样让人很容易忽略这个静态属性，也不符合相关代码应该放在一起的代码组织原则。另外，新写法是显式声明（declarative），而不是赋值处理，语义更好。
-
-
 
 ## new.target 属性
 
@@ -864,8 +850,6 @@ var y = new Rectangle(3, 4);  // 正确
 上面代码中，`Shape`类不能被实例化，只能用于继承。
 
 注意，在函数外部，使用`new.target`会报错。
-
-
 
 ## 私有方法和私有属性
 
@@ -1190,8 +1174,6 @@ A.test(o2.__proto__) // true
 
 上面示例中，对于修改原型链形成的继承，子类都取不到父类的私有属性，所以`in`运算符无效。
 
-
-
 ## 继承的实现
 
 ### 基本使用
@@ -1317,8 +1299,6 @@ Object.getPrototypeOf(ColorPoint) === Point
 ```
 
 因此，可以使用这个方法判断，一个类是否继承了另一个类。
-
-
 
 ## super 关键字
 
@@ -1588,8 +1568,6 @@ var obj = {
 obj.toString(); // MyObject: [object Object]
 ```
 
-
-
 ## ES6 继承机制
 
 ### 基本概述
@@ -1695,7 +1673,7 @@ A.prototype.__proto__ === Object.prototype // true
 
 **这种情况下，`A`作为一个基类（即不存在任何继承），就是一个普通函数，所以直接继承`Function.prototype`。但是，`A`调用后返回一个空对象（即`Object`实例），所以`A.prototype.__proto__`指向构造函数（`Object`）的`prototype`属性。**
 
-### 实例的 __proto__ 属性
+### 实例的 **proto** 属性
 
 子类实例的`__proto__`属性的`__proto__`属性，指向父类实例的`__proto__`属性。也就是说，子类的原型的原型，是父类的原型。
 
@@ -1723,7 +1701,7 @@ p1.printName() // "Ha"
 
 下面用一张图进行总结：
 
-![ES6 Prototype](./img/ES6Prototype.png)
+![ES6 Prototype](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/ES6Prototype.png?raw=true)
 
 ## 继承原生构造函数
 
@@ -1942,4 +1920,3 @@ class DistributedEdit extends mix(Loggable, Serializable) {
   // ...
 }
 ```
-

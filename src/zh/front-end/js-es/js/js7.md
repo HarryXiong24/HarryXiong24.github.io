@@ -127,9 +127,9 @@ console.log(obj); //在这里obj中有值会打印出Object{name:"孙悟空",gen
 
   注意:
 
-- - 如果[]中是一个变量就不要加引号,否则会认为是一个字符串
+  - - 如果[]中是一个变量就不要加引号,否则会认为是一个字符串
 
-- - []里面除了字符串必须加引号，其他的可以不加引号，和基本数据类型相似
+  - - []里面除了字符串必须加引号，其他的可以不加引号，和基本数据类型相似
 
 - **属性值**
 
@@ -188,9 +188,9 @@ var obj = {
 for…in 语句与 for...of 语句能够枚举对象中的属性，对象中有几个属性，循环体就会执行几次
 **注:**
 
-- - for...of 语句只能遍历数组,不能遍历 JSON 对象
+  - - for...of 语句只能遍历数组,不能遍历 JSON 对象
 
-- - for...in 的性能很差,因为会遍历对象的原型对象
+  - - for...in 的性能很差,因为会遍历对象的原型对象
 
 ```js
 /*
@@ -239,7 +239,7 @@ Student.prototype.hello = function() {
 
 以及 Student 的原型链:
 
-![js-proto](./assets/js-proto.png)
+![js-proto](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/js-es/js-proto.png?raw=true)
 
 现在，我们要基于 `Student` 扩展出 `PrimaryStudent`，可以先定义出 `PrimaryStudent`:
 
@@ -326,7 +326,7 @@ xiaoming instanceof Student; // true
 
 用一张图来表示新的原型链:
 
-![js-proto-extend](./assets/js-proto-extend.png)
+![js-proto-extend](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/js-es/js-proto-extend.png?raw=true)
 
 注意，函数 `F` 仅用于桥接，我们仅创建了一个 `new F()` 实例，而且，没有改变原有的 `Student` 定义的原型链。
 
@@ -405,7 +405,7 @@ alert(p.name);
 
 Person.prototype.sex="男";
 Person.prototype.work=function(){
-	alert(xx)
+ alert(xx)
 }
 var p = new Person();
 p.work();
@@ -425,7 +425,7 @@ Person.getInfo = function() {};
   // 要实现Web类 继承 Person类 原型链+对象冒充的组合继承模式
 
   function Person(){
-	this.name = "张三";
+ this.name = "张三";
     this.age=20;
     this.run = function()){
       alert(this.name+"在运动");
@@ -722,7 +722,7 @@ JS 为我们提供了一个工具类对象 JSON,这个对象可以帮助我们�
 
   注意:
 
-- - 如果只是让 obj2=null，obj 并不会变化，因为这是让 obj2 的地址改变，而不是改变地址里面的值
+  - - 如果只是让 obj2=null，obj 并不会变化，因为这是让 obj2 的地址改变，而不是改变地址里面的值
 
-- - 当比较两个基本数据类型的值时,就是比较值,而比较两个引用数据类型时,比较的是对象的地址,如果两个对
+  - - 当比较两个基本数据类型的值时,就是比较值,而比较两个引用数据类型时,比较的是对象的地址,如果两个对
     象是一模一样的，但是地址不同，也会返回 false

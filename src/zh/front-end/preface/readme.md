@@ -9,4 +9,4 @@ date: 2020-6-3
 
 路漫漫其修远兮, 不要害怕
 
-![frontEnd](../img/frontEnd.png)
+![frontEnd](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/frontEnd.png?raw=true)

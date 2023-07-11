@@ -8,8 +8,6 @@ title: 7.Object
 
 # Object
 
-
-
 ## 几个基础关注点
 
 ### 表达式还是语句？
@@ -493,8 +491,6 @@ var temp = obj1.obj2.obj3;
 console.log(temp.p1 + temp.p2);
 ```
 
-
-
 ## Object 构造函数
 
 `Object`不仅可以当作工具函数使用，还可以当作构造函数使用，即前面可以使用`new`命令。
@@ -519,8 +515,6 @@ obj instanceof Number // true
 ```
 
 **虽然用法相似，但是`Object(value)`与`new Object(value)`两者的语义是不同的，`Object(value)`表示将`value`转成一个对象，`new Object(value)`则表示新生成一个对象，它的值是`value`。**
-
-
 
 ## 元属性
 
@@ -855,8 +849,6 @@ obj.next = 5;
 ```
 
 上面代码中，`next`属性的存值函数和取值函数，都依赖于内部属性`$n`。
-
-
 
 ## this 关键字
 
@@ -1774,8 +1766,6 @@ bind(f, o)() // 123
 
 上面代码的含义就是，将`Function.prototype.bind`方法绑定在`Function.prototype.call`上面，所以`bind`方法就可以直接使用，不需要在函数实例上使用。
 
-
-
 ## super 关键字
 
 我们知道，`this`关键字总是指向函数所在的当前对象，ES6 又新增了另一个类似的关键字`super`，**指向当前对象的原型对象**。
@@ -1844,8 +1834,6 @@ obj.foo() // "world"
 ```
 
 上面代码中，`super.foo`指向原型对象`proto`的`foo`方法，但是绑定的`this`却还是当前对象`obj`，因此输出的就是`world`。
-
-
 
 ## 对象的继承
 
@@ -1962,7 +1950,7 @@ JavaScript 规定，所有对象都有自己的原型对象（prototype）。一
 
 用一张图表示关系：
 
-![JS Prototype](./img/JSPrototype.png)
+![JS Prototype](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/JSPrototype.png?raw=true)
 
 那么，`Object.prototype`对象有没有它的原型呢？回答是`Object.prototype`的原型是`null`。`null`没有任何属性和方法，也没有自己的原型。因此，原型链的尽头就是`null`。
 
@@ -2364,8 +2352,6 @@ s.world // 'world'
 
 上面代码中，子类`S`同时继承了父类`M1`和`M2`。这种模式又称为 Mixin（混入）。
 
-
-
 ## Object 的静态方法
 
 ### Object.is()
@@ -2441,7 +2427,7 @@ Object.getOwnPropertyDescriptor(obj, 'toString')
 
 上面代码中，`toString`是`obj`对象继承的属性`Object.getOwnPropertyDescriptor()`无法获取。
 
-### Object.getOwnPropertyDescriptors() 
+### Object.getOwnPropertyDescriptors()
 
 ES5 的`Object.getOwnPropertyDescriptor()`方法会返回某个对象属性的描述对象（descriptor）。
 
@@ -3631,8 +3617,6 @@ obj.bar // ["a", "b", "c"]
 
 上面代码中，`obj.bar`属性指向一个数组，`obj`对象被冻结以后，这个指向无法改变，即无法指向其他值，但是所指向的数组是可以改变的。
 
-
-
 ## Object 的实例方法
 
 ### Object.prototype.valueOf()
@@ -3809,8 +3793,6 @@ obj.propertyIsEnumerable('toString') // false
 
 上面代码中，`obj.p`是可遍历的，而`obj.toString`是继承的属性。
 
-
-
 ## 属性的可枚举性和遍历
 
 ### 可枚举性
@@ -3965,4 +3947,3 @@ Reflect.ownKeys({ [Symbol()]:0, b:0, 10:0, 2:0, a:0 })
 ```
 
 上面代码中，`Reflect.ownKeys`方法返回一个数组，包含了参数对象的所有属性。这个数组的属性次序是这样的，首先是数值属性`2`和`10`，其次是字符串属性`b`和`a`，最后是 Symbol 属性。
-

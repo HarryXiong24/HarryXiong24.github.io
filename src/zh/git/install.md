@@ -49,8 +49,6 @@ date: 2020-06-05
 
 安装完成后，在开始菜单里找到 “Git” -> “Git Bash” (Mac 上叫 Git Shell)，蹦出一个类似命令行窗口的东西，就说明 Git 安装成功！
 
-![git终端图](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/shell.png?raw=true)
-
 ## Git 的初次配置
 
 1. 为配置配置用户名和密码。
@@ -74,12 +72,8 @@ date: 2020-06-05
 
 3. 打开 [Github](https://github.com) 并选择 "Sign in" 注册自己的账号。
 
-   ![Github 界面简介](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/github.png?raw=true)
-
    登陆 Github 后，点击右上角头像，进入设置。
 
    进入 "安全设置" 下的 "SSH 公钥" 界面。
-
-   ![Github 界面简介](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/git/githubSSH.png?raw=true)
 
    在标题中填写公钥的备注名称，把 id_rsa.pub 文件的内容粘贴到底下的输入框中，设置一个自己可以记起的备注。

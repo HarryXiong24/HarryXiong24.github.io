@@ -12,7 +12,7 @@ tag:
 
 ## 1. 总述
 
-![1](./img/1.jpg)
+![1](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/virtual-dom/1.jpg?raw=true)
 
 DIFF 算法在执行时有三个维度，分别是 Tree DIFF、Component DIFF 和 Element DIFF，执行时按顺序依次执行，它们的差异仅仅因为 DIFF 粒度不同、执行先后顺序不同。
 
@@ -20,15 +20,15 @@ DIFF 算法在执行时有三个维度，分别是 Tree DIFF、Component DIFF �
 
 Tree DIFF 是对树的每一层进行遍历，如果某组件不存在了，则会直接销毁。如图所示，左边是旧属，右边是新属，第一层是 R 组件，一模一样，不会发生变化；第二层进入 Component DIFF，同一类型组件继续比较下去，发现 A 组件没有，所以直接删掉 A、B、C 组件；继续第三层，重新创建 A、B、C 组件。
 
-![2](./img/2.jpg)
+![2](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/virtual-dom/2.jpg?raw=trueg)
 
 如图所示，第一层遍历完，进行第二层遍历时，D 和 G 组件是不同类型的组件，不同类型组件直接进行替换，将 D 删掉，再将 G 重建。
 
-![3](./img/3.jpg)
+![3](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/virtual-dom/3.jpg?raw=true)
 
 Element DIFF 紧接着以上统一类型组件继续比较下去，常见类型就是列表。同一个列表由旧变新有三种行为，插入、移动和删除，它的比较策略是对于每一个列表指定 key，先将所有列表遍历一遍，确定要新增和删除的，再确定需要移动的。如图所示，第一步将 D 删掉，第二步增加 E，再次执行时 A 和 B 只需要移动位置即可。
 
-![4](./img/4.jpg)
+![4](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/virtual-dom/4.jpg?raw=true)
 
 ## 3. 实现
 

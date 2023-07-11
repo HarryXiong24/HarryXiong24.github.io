@@ -8,8 +8,6 @@ title: 12.异步编程
 
 # 异步编程
 
-
-
 ## 异步编程存在的意义
 
 ### JS是单线程模型
@@ -91,7 +89,7 @@ console.log(3);
 
 #### Event Loop 全过程图解
 
-![Event Loop](./img/EventLoop.gif)
+![Event Loop](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/zh/front-end/advanced-js/EventLoop.gif?raw=true)
 
 ## 控制异步操作的本质
 
@@ -344,8 +342,6 @@ launcher();
 上面代码中，最多只能同时运行两个异步任务。变量`running`记录当前正在运行的任务数，只要低于门槛值，就再启动一个新的任务，如果等于`0`，就表示所有任务都执行完了，这时就执行`final`函数。
 
 这段代码需要三秒完成整个脚本，处在串行执行和并行执行之间。通过调节`limit`变量，达到效率和资源的最佳平衡。
-
-
 
 ## Promise 对象
 
@@ -1519,8 +1515,6 @@ Promise 的优点在于，让回调函数变成了规范的链式写法，程序
 
 Promise 的缺点是，编写的难度比传统写法高，而且阅读代码也不是一眼可以看懂。你只会看到一堆`then`，必须自己在`then`的回调函数里面理清逻辑。
 
-
-
 ## Generator 函数
 
 ### 概念
@@ -2650,7 +2644,7 @@ result
 // ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ```
 
-###  Generator 函数作为对象属性
+### Generator 函数作为对象属性
 
 如果一个对象的属性是 Generator 函数，可以简写成下面的形式。
 
@@ -3476,7 +3470,7 @@ ft(1)(console.log) // 1
 首先是安装。
 
 ```js
-$ npm install thunkify
+npm install thunkify
 ```
 
 使用方式如下。
@@ -3910,8 +3904,6 @@ co(function*() {
 ```
 
 上面代码采用 Stream 模式读取《悲惨世界》的文本文件，对于每个数据块都使用`stream.once`方法，在`data`、`end`、`error`三个事件上添加一次性回调函数。变量`res`只有在`data`事件发生时才有值，然后累加每个数据块之中`valjean`这个词出现的次数。
-
-
 
 ## async 函数
 
@@ -4718,4 +4710,3 @@ console.log("Z");
 上面代码有三个模块，最后的`z.js`加载`x.js`和`y.js`，打印结果是`X1`、`Y`、`X2`、`Z`。这说明，`z.js`并没有等待`x.js`加载完成，再去加载`y.js`。
 
 顶层的`await`命令有点像，交出代码的执行权给其他的模块加载，等异步操作完成后，再拿回执行权，继续向下执行。
-
