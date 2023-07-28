@@ -39,13 +39,13 @@ In the next sections, I will talk about them respectively.
 
 This is an intuitive algorithm.
 
-Given a collection of integers, you can sort the list by proceeding from the start of the list. 
+Given a collection of integers, you can sort the list by proceeding from the start of the list.
 
 In every round, you will encounter an element that is out of order, and you can continuously swap places with previous elements until it is inserted in its correct relative location based on what you’ve processed thus far.
 
 Here is the dynamic proceeding:
 
-![Insertion Sort](https://cdn.staticaly.com/gh/xustudyxu/image-hosting1@master/20221119/insertionSort.lre9a3i98xs.gif)
+![Insertion Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/insertion-sort.gif?raw=true)
 
 Here is the code:
 
@@ -84,7 +84,7 @@ The core idea of bubble sort is it will repeat this process until no more swaps 
 
 Here is the dynamic proceeding:
 
-![Bubble Sort](https://cdn.staticaly.com/gh/xustudyxu/image-hosting1@master/20221129/bubbleSort.60l6mgy53080.gif)
+![Bubble Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/bubble-sort.gif?raw=true)
 
 Here is the code:
 
@@ -124,7 +124,7 @@ In every round, find the minimum element in that list and move it to the front o
 
 Here is the dynamic proceeding:
 
-![Selection Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f3b2294b88a4cf8954edf0b567c7fc6~tplv-k3u1fbpfcp-zoom-1.image)
+![Selection Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/select-sort.gif?raw=true)
 
 Here is the code:
 
@@ -157,13 +157,13 @@ Obviously, the time complexity is O(n^2). And it's an in-place algorithm, so the
 
 These 3 sorting methods above are simple and intuitive. And now we start to learn some advanced sort algorithms.
 
-Counting Sort is clever. 
+Counting Sort is clever.
 
 Consider we have a collection of integers. We can record the number of each integer. And then, we get a count array so that we can calculate the sorted index of this collection of integers. It's awesome!
 
 Here is the dynamic proceeding:
 
-![Counting Sort](https://pic4.zhimg.com/v2-3c7ddb59df2d21b287e42a7b908409cb_b.webp)
+![Counting Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/counting-sort.gif?raw=true)
 
 ::: tip Hint
 However, a key assumption of counting sort is that the minimum possible value in the array is 0 (no negative numbers) and the maximum value is some positive integer K.
@@ -253,9 +253,9 @@ Also, remember that if your array includes some negative numbers, do a map to ke
 
 For example, an array with values between -5 and 10 can be mapped to values between 0 and 15, perform counting sort, and then remap to the original -5 to 10 range.
 
-Here is the dynamic proceeding: 
+Here is the dynamic proceeding:
 
-![Radix Sort](https://pic3.zhimg.com/v2-3a6f1e5059386523ed941f0d6c3a136e_b.webp)
+![Radix Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/radix-sort.gif?raw=true)
 
 Here is the code:
 
@@ -338,7 +338,7 @@ It is a stable sorting algorithm because we create new extra space to sort inste
 
 Bucket Sort is another non-comparison-based sorting algorithm.
 
-The steps of bucket sort can be broken down into four distinct parts. 
+The steps of bucket sort can be broken down into four distinct parts.
 
 Given an array A:
 
@@ -353,7 +353,7 @@ For example, an array with values between -5 and 10 can be mapped to values betw
 
 Here is the dynamic proceeding:
 
-![Bucket Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f41ad1d7225c4900aa71fea2a0bd8d18~tplv-k3u1fbpfcp-zoom-1.image)
+![Bucket Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/bucket-sort.gif?raw=true)
 
 Here is the code:
 
@@ -413,7 +413,7 @@ Let W be the number of buckets.
 
 If we choose Insertion Sort, Time Complexity will be O(W * (n^2)), Space Complexity will be O(W);
 
-If we choose Counting Sort, Time Complexity will be O(W * (N + K)), Space Complexity will be O(W * O (N + K));
+If we choose Counting Sort, Time Complexity will be O(W *(N + K)), Space Complexity will be O(W* O (N + K));
 
 It is a stable sorting algorithm because we create new extra space to sort instead of in-place sorting.
 
@@ -427,7 +427,7 @@ It selects an element in the array as the "pivot" element. And put the elements 
 
 Here is the dynamic proceeding:
 
-![Quick Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30b2e02a13064f24a645aae7345a21d3~tplv-k3u1fbpfcp-zoom-1.image)
+![Quick Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/quick-sort.gif?raw=true)
 
 Here is the code:
 
@@ -471,7 +471,7 @@ It is not a stable sorting algorithm because we break the original order in ever
 
 Merge Sort is another sorting method that can use recursion to solve.
 
-Merge sort is an efficient sorting algorithm based on the merge operation. 
+Merge sort is an efficient sorting algorithm based on the merge operation.
 
 This algorithm is a typical application of Divide and Conquer. Combine the ordered subsequences to obtain a completely ordered sequence; that is, first make each subsequence in order, and then make the subsequence segments in order.
 
@@ -483,7 +483,7 @@ And given a collection of integers:
 
 Here is the dynamic proceeding:
 
-![Merge Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fef227f4fb3f4f5383ae609aca57848c~tplv-k3u1fbpfcp-zoom-1.image)
+![Merge Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/merge-sort.gif?raw=true)
 
 Here is the code:
 
@@ -540,7 +540,7 @@ The specific algorithm description:
 
 Here is the dynamic proceeding:
 
-![Shell Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02585fdfd7da4c2287066c1acfac6a87~tplv-k3u1fbpfcp-zoom-1.image)
+![Shell Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/shell-sort.gif?raw=true)
 
 Here is the code:
 
@@ -570,7 +570,7 @@ console.log(res);
 ```
 
 For Shell Sort, the time complexity is O(n * log n) and the Space Complexity is O(1).
- 
+
 It is a not stable sorting algorithm.
 
 ### Heap Sort
@@ -588,7 +588,7 @@ Heap Sort traditionally uses a max-heap to sort the array, although a min-heap a
 
 Algorithm for “bottom-up heapification” of input into max-heap.
 
-Given an input array, we can represent it as a binary tree. 
+Given an input array, we can represent it as a binary tree.
 
 If the parent node is stored at index i, the left child will be stored at index 2i + 1 and the right child at index 2i + 2 (assuming the indexing starts at 0).
 
@@ -616,9 +616,9 @@ Once we have “heapified” the input, we can begin using the max-heap to sort 
         * Proceed to step (4)
 4. Repeat step 1 on the remaining unsorted elements. Continue until all elements are sorted.
 
-Here is the dynamic proceeding: 
+Here is the dynamic proceeding:
 
-![Heap Sort](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2399d39bc13f407d8a5ffacb2b1d5fb0~tplv-k3u1fbpfcp-zoom-1.image)
+![Heap Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/heap-sort.gif?raw=true)
 
 Here is the code:
 

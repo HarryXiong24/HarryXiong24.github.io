@@ -45,7 +45,7 @@ And we need to obtain the f(6).
 11. => 6 * 120 => 720
 ```
 
-As we see, we don't know the value of f(6), but we can transform it as 6 *f(5); We don't know the value of f(5), but we can transform it as 5 * f(4)...
+As we see, we don't know the value of f(6), but we can transform it as 6 *f(5); We don't know the value of f(5), but we can transform it as 5* f(4)...
 
 Until we reach the terminal condition f(1) = 1, we start to go back.
 
@@ -53,7 +53,7 @@ Until we reach the terminal condition f(1) = 1, we start to go back.
 
 This is the key to recursion. In fact, these are the essence of the computer handling recursive problems.
 
-![Recursive](https://pic4.zhimg.com/v2-117b94f64bcff561bd230e03a49dbf37_b.webp)
+![Recursive](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/recursion/recursive.gif?raw=true)
 
 ## How to look at recursion from the perspective of the human brain?
 
@@ -167,7 +167,7 @@ function fib(n: number): number {
 
 3. Third, Find out the recursive logic.
 
-So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is what we should do in one of the cases! 
+So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is what we should do in one of the cases!
 
 So assume that we need to obtain fib(5), so in this case, fib(5) = fib(4) + fib(3). And don't think about fib(4) or fib(3), because they belong to other sub-cases, and we just need to know when to execute here, fib(3) and fib(4) has accurate results.
 
@@ -265,7 +265,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
 3. Third, Find out the recursive logic.
 
-So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is what we should do in one of the cases! 
+So you should remind yourself: Don't try to simulate every step to verify whether our solution is correct. The only thing we should care about is what we should do in one of the cases!
 
 So suppose that the program is executing here:
 
@@ -397,9 +397,9 @@ Next, we will cope with this problem based on these two methods.
 
 "Bottom-up" is a recursive solution.
 
-In each recursive call, firstly we will call the function recursively for all the children nodes and then come up with the answer according to the returned values and the value of the current node itself. 
+In each recursive call, firstly we will call the function recursively for all the children nodes and then come up with the answer according to the returned values and the value of the current node itself.
 
-This process can be regarded as a kind of postorder traversal. 
+This process can be regarded as a kind of postorder traversal.
 
 Typically, a "bottom-up" recursive function bottom_up(root) will be something like this:
 
@@ -466,9 +466,9 @@ And in the previous sections(Fibonacci Number and Reverse Linked List), we can f
 
 ### Top-Down
 
-Top-down means that in each recursive call, we will visit the node first to come up with some values and pass these values to its children when calling the function recursively. 
+Top-down means that in each recursive call, we will visit the node first to come up with some values and pass these values to its children when calling the function recursively.
 
-So the "top-down" solution can be considered as a kind of preorder traversal. 
+So the "top-down" solution can be considered as a kind of preorder traversal.
 
 To be specific, the recursive function top_down(root, params) works like this:
 
@@ -542,6 +542,6 @@ That's Top-Up.
 
 And Top-Up is often used in the scene where we can use other flags to get the result instead of calling the recursive function itself to get the result. Because in the go-in phase, the recursive function cannot store status permanently, so we need to use other variables to remember it.
 
-## Summary 
+## Summary
 
 Recursion is an easy and complicated method. Easy because if you figure out the key of the question you will easy to write out the code. Complicated because sometimes it is difficult to find out the key, and some recursive solutions are not so intuitive.
