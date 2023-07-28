@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Fri, 28 Jul 2023 06:05:02 GMT</pubDate>
-    <lastBuildDate>Fri, 28 Jul 2023 06:05:02 GMT</lastBuildDate>
+    <pubDate>Fri, 28 Jul 2023 06:30:57 GMT</pubDate>
+    <lastBuildDate>Fri, 28 Jul 2023 06:30:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>article</category>
@@ -257,7 +257,7 @@
 <p>Given a collection of integers.</p>
 <p>In every round, find the minimum element in that list and move it to the front of the list through a swap. That's it!</p>
 <p>Here is the dynamic proceeding:</p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/select-sort.gif?raw=true" alt="Selection Sort" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/selection-sort.gif?raw=true" alt="Selection Sort" loading="lazy"></p>
 <p>Here is the code:</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>It is not a stable algorithm because the sequence of other elements is broken during the period of each sorting round.</p>
 <p>Obviously, the time complexity is O(n^2). And it's an in-place algorithm, so the space complexity is O(1).</p>
