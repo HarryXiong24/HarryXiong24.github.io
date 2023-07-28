@@ -124,7 +124,7 @@ In every round, find the minimum element in that list and move it to the front o
 
 Here is the dynamic proceeding:
 
-![Selection Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/select-sort.gif?raw=true)
+![Selection Sort](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/sort-algorithm/selection-sort.gif?raw=true)
 
 Here is the code:
 
