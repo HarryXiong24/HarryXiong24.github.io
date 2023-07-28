@@ -36,7 +36,7 @@ The Stack is a data structure that follows the last-in-first-out principle.
 
 Like this dynamic picture:
 
-![Stack](https://cdn.nlark.com/yuque/0/2020/gif/92791/1600683976688-66c3b99f-8a77-4313-866a-8adfa48c0a77.gif#align=left&display=inline&height=576&margin=%5Bobject%20Object%5D&name=stack-4.gif&originHeight=576&originWidth=1090&size=96969&status=done&style=none&width=1090)
+![Stack](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/dfs-and-bfs/stack.gif?raw=true)
 
 It's easy to understand.
 
@@ -102,7 +102,7 @@ The Queue is a data structure that follows the first-in-first-out principle.
 
 Like this dynamic picture:
 
-![Queue](https://img-blog.csdnimg.cn/5f74dee9f61e437799d0add897e39ea3.gif)
+![Queue](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/dfs-and-bfs/queue.gif?raw=true)
 
 It's easy to understand.
 
@@ -187,7 +187,7 @@ In the previous section, we have provided a straightforward but inefficient impl
 
 A more efficient way is to use a circular queue. Specifically, we may use a fixed-size array and two pointers to indicate the starting position and the ending position. And the goal is to reuse the wasted storage we mentioned previously.
 
-![Circular Queue](https://img-blog.csdnimg.cn/20191216214045423.gif)
+![Circular Queue](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/dfs-and-bfs/circular-queue.gif?raw=true)
 
 Here is the implementation:
 
@@ -374,11 +374,11 @@ As we mentioned, we can use BFS to do level-order traversal in a tree.
 
 We can also use BFS to traverse a graph. For example, we can use BFS to find a path, especially the shortest path, from a start node to a target node.
 
-We can use BFS, in even more abstract scenarios, to traverse all the possible statuses. 
+We can use BFS, in even more abstract scenarios, to traverse all the possible statuses.
 
 Here is the proceeding of BFS:
 
-![BFS](https://zinglix.xyz/img/in-post/DFS&BFS/BFS-Ex.gif)
+![BFS](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/dfs-and-bfs/bfs.gif?raw=true)
 
 In the first round, we process the root node. In the second round, we process the nodes next to the root node; in the third round, we process the nodes which are two steps from the root node; so on and so forth. Similar to the tree's level-order traversal, the nodes closer to the root node will be traversed earlier.
 
@@ -428,7 +428,7 @@ Typically, we implement DFS using recursion. Stack plays an important role in re
 
 Here is the proceeding of DFS:
 
-![DFS](https://zinglix.xyz/img/in-post/DFS&BFS/DFS-Ex.gif)
+![DFS](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/dfs-and-bfs/dfs.gif?raw=true)
 
 And for BFS, we usually have two methods to realize it.
 
@@ -502,7 +502,7 @@ Return the modified image after performing the flood fill.
 
 Example 1:
 
-![Example1](https://assets.leetcode.com/uploads/2021/06/01/flood1-grid.jpg)
+![Example1](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/dfs-and-bfs/flood1-grid.jpg?raw=true)
 
 ``` text
 Input: image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2
