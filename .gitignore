@@ -8,3 +8,5 @@ pnpm-lock.yaml
 docs/
 
 .markdownlint.json
+
+.DS_Store
