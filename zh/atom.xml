@@ -4,10 +4,12 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-12-01T06:06:49.454Z</updated>
+  <updated>2023-12-01T07:13:54.644Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/zh/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/zh/"/>
+  <category term="随笔"/>
+  <category term="诗集"/>
   <category term="JSON"/>
   <category term="YAML"/>
   <category term="Web Development"/>
@@ -16,7 +18,6 @@
   <category term="Webpack"/>
   <category term="Git"/>
   <category term="Markdown"/>
-  <category term="诗集"/>
   <category term="Python"/>
   <category term="VS Code"/>
   <category term="服务器"/>
@@ -27,6 +28,333 @@
   <category term="Linux"/>
   <category term="Windows"/>
   <category term="Web 前端"/>
+  <entry>
+    <title type="text">随笔</title>
+    <id>https://harryxiong24.github.io/zh/poem/essay/</id>
+    <link href="https://harryxiong24.github.io/zh/poem/essay/"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 随笔</h1>
+<p>本诗集收录了我的一些随笔</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 随笔</h1>
+<p>本诗集收录了我的一些随笔</p>
+]]></content>
+    <category term="随笔"/>
+    <published>2020-06-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">致毕业</title>
+    <id>https://harryxiong24.github.io/zh/poem/essay/%E8%87%B4%E6%AF%95%E4%B8%9A.html</id>
+    <link href="https://harryxiong24.github.io/zh/poem/essay/%E8%87%B4%E6%AF%95%E4%B8%9A.html"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 致毕业</h1>
+<p>“让软弱的我们懂得残忍，狠狠面对人生每次离分”，无意中听到这首老歌《忘忧草》，突然想写点什么，尽管我已经好几年没有写过小作文了。</p>
+<p>上一周我才强烈意识到我的大学生活是不是快要结束了，而此时此刻我的大学生活或许真的快要结束了，或者某种意义上来说已经结束了。是不是我们总是习惯了在快要结束的时候才会意识到它的存在？是不是身处抛物线顶点的时候往往是无意识的，等到反应过来，已经进入到下滑逝去的部分了？就好像曾经一点都不用担心某一天真的毕业了，还期盼早点放假，甚至快快毕业；等到这一天真的快要来临，还真有点手足无措，空荡荡的。</p>
+<p>大学的四年真的太快了，转瞬即逝。时常我都很恍惚，真有点舍不得，我好像并没有做好和大学告别的准备，一切就这么历历在目想放电影一样。这四年我过的很值，从带着满心不甘进入这里，现在的我已经可以与四年前的自己和解了，我拥有了独一无二的经历与故事。当然，这四年我也有不少的遗憾，有的让我无法忘怀，有的让我无法释怀。至今我好像没有学会很好的与遗憾和解，即使我挺乐观的，但这些也会让我时不时的 emo。我想遗憾最让人心酸之处就在于，留下它或放弃它，都难以做到。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 致毕业</h1>
+<p>“让软弱的我们懂得残忍，狠狠面对人生每次离分”，无意中听到这首老歌《忘忧草》，突然想写点什么，尽管我已经好几年没有写过小作文了。</p>
+<p>上一周我才强烈意识到我的大学生活是不是快要结束了，而此时此刻我的大学生活或许真的快要结束了，或者某种意义上来说已经结束了。是不是我们总是习惯了在快要结束的时候才会意识到它的存在？是不是身处抛物线顶点的时候往往是无意识的，等到反应过来，已经进入到下滑逝去的部分了？就好像曾经一点都不用担心某一天真的毕业了，还期盼早点放假，甚至快快毕业；等到这一天真的快要来临，还真有点手足无措，空荡荡的。</p>
+<p>大学的四年真的太快了，转瞬即逝。时常我都很恍惚，真有点舍不得，我好像并没有做好和大学告别的准备，一切就这么历历在目想放电影一样。这四年我过的很值，从带着满心不甘进入这里，现在的我已经可以与四年前的自己和解了，我拥有了独一无二的经历与故事。当然，这四年我也有不少的遗憾，有的让我无法忘怀，有的让我无法释怀。至今我好像没有学会很好的与遗憾和解，即使我挺乐观的，但这些也会让我时不时的 emo。我想遗憾最让人心酸之处就在于，留下它或放弃它，都难以做到。</p>
+<p>所以显然我的这四年是不完美的。完美完美，不完而美，我时常这么安慰自己。正如有恨才有爱，有遗憾才有期待与盼望。我当然希望我的遗憾有一天能不再是遗憾，但我也做好了让它永远留在心底的准备。毕竟人生碌碌，竞短争长，却不知枯荣有数，得失难量。</p>
+<p>我曾经很多次设想自己会用什么词句来总结我的大学生涯，现在才发现我给不出一个令自己满意的答案。人世间很多东西是没有答案的，很多东西是说不清所以然的。当我越想去分清，越想去说明，就能感受到拳头打在棉花上的那种无力感。不过人世间也有些东西是永恒的，有人说时间可以淡忘一切，但我坚定的相信，未来的某一瞬间，也许是在过马路的一刹那，也许是在上楼梯的某一刻，脑海中一定会浮现四年里的一些东西，也许是某一件事，也许是某一个人，也许是灵光乍现，也许会浮想联翩。总之，我不相信记忆是可以被时间抹去的，它只能被时间尘封罢了。所以既然回忆不能被抹去，我又何必可以去总结这四年的过往呢。</p>
+<p>至于未来，真的很难描述呢。就像一个正在画画的孩子，手握五彩缤纷的颜料却不知道如何下笔。我也一直都是个 dreamer，也是一个相信缘分的人，冥冥之中自有注定。我越来越相信拥抱变化的重要性，做事再怎么追求完美，只要尽了自己最大的努力，就理应心平气和的接受不完美的结果，同时保留那份初心与勇气。</p>
+<p>现在我只应该庆幸，还有十几天的时光。最后的时光里，即使坐在图书馆却不看书，站在食堂却不排队，手里拿着笔却在发呆，开着游戏却一动不动，待在隔壁寝室却不说话，也会十分美好。</p>
+<p>写了这么多，又好像什么都没有表达。《富士山下》里说：“为何不把复杂的情绪假设是自己虚构的呢？这些情绪根本不可能从试管里炼制出来“。所以又怎么能指望用文字去表达清楚呢？</p>
+<p>只愿纵有千古，横有八荒，前途似海，来日方长！只愿笑着说再见，就一定会再见！</p>
+]]></content>
+    <category term="随笔"/>
+    <published>2022-05-30T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">诗集</title>
+    <id>https://harryxiong24.github.io/zh/poem/my-poem/</id>
+    <link href="https://harryxiong24.github.io/zh/poem/my-poem/"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 诗集</h1>
+<p>本诗集收录了我对生命的感悟，对希望的敬畏，以及对自我的勉励</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 诗集</h1>
+<p>本诗集收录了我对生命的感悟，对希望的敬畏，以及对自我的勉励</p>
+]]></content>
+    <category term="诗集"/>
+    <published>2020-06-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">我十七</title>
+    <id>https://harryxiong24.github.io/zh/poem/my-poem/%E6%88%91%E5%8D%81%E4%B8%83.html</id>
+    <link href="https://harryxiong24.github.io/zh/poem/my-poem/%E6%88%91%E5%8D%81%E4%B8%83.html"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 我十七</h1>
+<p>——送给十七岁的自己</p>
+<hr>
+<p>我十七</p>
+<p>这十七过得并不容易</p>
+<p>翻山越岭</p>
+<p>却总是寻不到你</p>
+<p>人们常说努力能收获光明</p>
+<p>可我却换来风和雨</p>
+<hr>
+<p>我十七</p>
+<p>这梦想还未曾凋零的花季</p>
+<p>是不是内心有了伤痛</p>
+<p>才能看清最真实的自己</p>
+<p>常常幻想梦的颜色</p>
+<p>可它的彼岸在哪里？</p>
+<hr>
+<p>今年我十七</p>
+<p>十七经历的那些风和雨</p>
+<p>或许就是岁月最好的赠礼</p>
+<p>来吧风和雨</p>
+<p>往事纵然刻下再多痕迹</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 我十七</h1>
+<p>——送给十七岁的自己</p>
+<hr>
+<p>我十七</p>
+<p>这十七过得并不容易</p>
+<p>翻山越岭</p>
+<p>却总是寻不到你</p>
+<p>人们常说努力能收获光明</p>
+<p>可我却换来风和雨</p>
+<hr>
+<p>我十七</p>
+<p>这梦想还未曾凋零的花季</p>
+<p>是不是内心有了伤痛</p>
+<p>才能看清最真实的自己</p>
+<p>常常幻想梦的颜色</p>
+<p>可它的彼岸在哪里？</p>
+<hr>
+<p>今年我十七</p>
+<p>十七经历的那些风和雨</p>
+<p>或许就是岁月最好的赠礼</p>
+<p>来吧风和雨</p>
+<p>往事纵然刻下再多痕迹</p>
+<p>都将随风飘荡而去</p>
+<hr>
+<p>今年我十七</p>
+<p>是一生只有一次的十七</p>
+<p>不能学着说去放弃</p>
+<p>追寻光的影子</p>
+<p>所有的苦难与背负尽头</p>
+<p>都是行云流水般的此世光阴</p>
+<hr>
+<p>今年我十七</p>
+<p>还有很多轮回的十七</p>
+<p>星辰奔波数万夜</p>
+<p>不怨诉语</p>
+<p>愿时时能看见</p>
+<p>柳暗花明，日落潮汐</p>
+<p>把最好的十七</p>
+<p>托付给自己</p>
+<hr>
+<p>2017.2.21</p>
+]]></content>
+    <category term="诗集"/>
+    <published>2020-06-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">《喜帖街》普通话填词</title>
+    <id>https://harryxiong24.github.io/zh/poem/my-poem/%E6%94%B6%E5%BD%95%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%A1%AB%E8%AF%8D.html</id>
+    <link href="https://harryxiong24.github.io/zh/poem/my-poem/%E6%94%B6%E5%BD%95%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%A1%AB%E8%AF%8D.html"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 《喜帖街》普通话填词</h1>
+<p>拨开尘封的纱</p>
+<p>远望的刹那，想问她还好吗</p>
+<p>那一天，好似那大雨，也如此这般下</p>
+<p>大雨落，落在冰冷街，声像只乌鸦</p>
+<p>没想竟是最后一次对话，别不能自拔</p>
+<hr>
+<p>曾说遇见他</p>
+<p>每天是朝霞，非他则不嫁</p>
+<p>没想到，二层的见面，意味着结束啦</p>
+<p>不要许诺地久天长</p>
+<p>井蛙总往高处攀爬</p>
+<p>别害怕，在此年华分开呀</p>
+<p>何止一人唏嘘呐</p>
+<hr>
+<p>就此说告别吧</p>
+<p>当初的誓言在耳边挽回着她</p>
+<p>随泪忍不住唱着歌让一切不舍旧年华</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 《喜帖街》普通话填词</h1>
+<p>拨开尘封的纱</p>
+<p>远望的刹那，想问她还好吗</p>
+<p>那一天，好似那大雨，也如此这般下</p>
+<p>大雨落，落在冰冷街，声像只乌鸦</p>
+<p>没想竟是最后一次对话，别不能自拔</p>
+<hr>
+<p>曾说遇见他</p>
+<p>每天是朝霞，非他则不嫁</p>
+<p>没想到，二层的见面，意味着结束啦</p>
+<p>不要许诺地久天长</p>
+<p>井蛙总往高处攀爬</p>
+<p>别害怕，在此年华分开呀</p>
+<p>何止一人唏嘘呐</p>
+<hr>
+<p>就此说告别吧</p>
+<p>当初的誓言在耳边挽回着她</p>
+<p>随泪忍不住唱着歌让一切不舍旧年华</p>
+<p>明日就要抛下</p>
+<p>可还是不舍啊</p>
+<p>为何还是要坚定去抱他一下</p>
+<p>这样必会让他不情愿死心的作罢</p>
+<p>往事要随风去，懂吗</p>
+<hr>
+<p>最后雷鸣那霎</p>
+<p>她说不爱他，这算理由吗</p>
+<p>疑问注定伴他终生，永远学不会潇洒</p>
+<p>相爱不能当饭食下</p>
+<p>爱情害怕未来变化</p>
+<p>要知道，世间没有双全法</p>
+<p>分开好比饭后茶</p>
+<hr>
+<p>几年就过去啦</p>
+<p>分开的天桥他从不敢回去踏</p>
+<p>突然得知有人陪她看每天绚丽的晚霞</p>
+<p>明知还黯然傻</p>
+<p>应该学会放下</p>
+<p>不必想太多不然内心似刀扎</p>
+<p>努力珍惜缘分眼前人定会靠近他</p>
+<p>今生一定不会，孤寡</p>
+<p>亲爱的你会待在哪，等他</p>
+<hr>
+<p>2020.12.30夜</p>
+<p>2023.1.31 修改</p>
+]]></content>
+    <category term="诗集"/>
+    <published>2020-06-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">萤火</title>
+    <id>https://harryxiong24.github.io/zh/poem/my-poem/%E8%90%A4%E7%81%AB.html</id>
+    <link href="https://harryxiong24.github.io/zh/poem/my-poem/%E8%90%A4%E7%81%AB.html"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 萤火</h1>
+<p>满天落幕的银河，多精彩</p>
+<p>不会看见我的微光，不奇怪</p>
+<p>可你们都忘了，剩我一人喝彩</p>
+<p>空余恨，独自发呆</p>
+<p>不后悔没留住光芒，多姿多彩</p>
+<p>我也曾努力过，你们不会明白</p>
+<p>可你们都爱笑我，百无聊赖</p>
+<p>无所谓，就当自己的感慨</p>
+<p>光辉里，容不下，卑微的存在</p>
+<hr>
+<p>后来我错过这漫天星河，沉迷于独白</p>
+<p>后来我遗失在无知梦境，不愿意回来</p>
+<p>当我在黑暗中看到微光，向我表白</p>
+<p>当我醒来看见尘埃，渺小却又自在</p>
+<p>往事随风，何必在意过去的失败</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 萤火</h1>
+<p>满天落幕的银河，多精彩</p>
+<p>不会看见我的微光，不奇怪</p>
+<p>可你们都忘了，剩我一人喝彩</p>
+<p>空余恨，独自发呆</p>
+<p>不后悔没留住光芒，多姿多彩</p>
+<p>我也曾努力过，你们不会明白</p>
+<p>可你们都爱笑我，百无聊赖</p>
+<p>无所谓，就当自己的感慨</p>
+<p>光辉里，容不下，卑微的存在</p>
+<hr>
+<p>后来我错过这漫天星河，沉迷于独白</p>
+<p>后来我遗失在无知梦境，不愿意回来</p>
+<p>当我在黑暗中看到微光，向我表白</p>
+<p>当我醒来看见尘埃，渺小却又自在</p>
+<p>往事随风，何必在意过去的失败</p>
+<p>忘记吧，过去的不明不白</p>
+<hr>
+<p>点点莹白的灵动，好可爱</p>
+<p>有人发现我的微光，充满色彩</p>
+<p>虽然万千世界之大，仍是渺小的存在</p>
+<p>别担心，努力终会精彩</p>
+<p>微光里，并没有，对日月的膜拜</p>
+<hr>
+<p>就让我听着那旁言碎语，哭得坦率</p>
+<p>就让我带着那微微萤火，笑得开怀</p>
+<p>就让我一息微光，亦要挑战照亮苍穹的存在</p>
+<p>迎着那蹉跎命运，不去等待</p>
+<p>看着那日月争辉，静候花开</p>
+<hr>
+<p>5.16 夜</p>
+]]></content>
+    <category term="诗集"/>
+    <published>2020-06-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">蒲公</title>
+    <id>https://harryxiong24.github.io/zh/poem/my-poem/%E8%92%B2%E5%85%AC.html</id>
+    <link href="https://harryxiong24.github.io/zh/poem/my-poem/%E8%92%B2%E5%85%AC.html"/>
+    <updated>2023-12-01T07:10:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 蒲公</h1>
+<p>——致十九</p>
+<hr>
+<p>它把我吹散了</p>
+<p>丝丝漫漫的流向天边</p>
+<p>它笑着，我不舍</p>
+<p>时间被它吹的滴答滴答</p>
+<hr>
+<p>它会在意吗</p>
+<p>可是我疑惑啊</p>
+<p>明明聚合在一起了</p>
+<p>为什么要说散就散哪</p>
+<hr>
+<p>当不甘与愤怒交织</p>
+<p>当烈日灼心无法自拔</p>
+<p>越孤单我就越害怕</p>
+<p>心中的灯还能指引前进的路吗</p>
+<hr>
+<p>飞呀飞呀</p>
+<p>我偶尔也会想起它</p>
+<p>若不是飞过崇山峻岭的断崖</p>
+<p>梦见久违难得的火树银花</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 蒲公</h1>
+<p>——致十九</p>
+<hr>
+<p>它把我吹散了</p>
+<p>丝丝漫漫的流向天边</p>
+<p>它笑着，我不舍</p>
+<p>时间被它吹的滴答滴答</p>
+<hr>
+<p>它会在意吗</p>
+<p>可是我疑惑啊</p>
+<p>明明聚合在一起了</p>
+<p>为什么要说散就散哪</p>
+<hr>
+<p>当不甘与愤怒交织</p>
+<p>当烈日灼心无法自拔</p>
+<p>越孤单我就越害怕</p>
+<p>心中的灯还能指引前进的路吗</p>
+<hr>
+<p>飞呀飞呀</p>
+<p>我偶尔也会想起它</p>
+<p>若不是飞过崇山峻岭的断崖</p>
+<p>梦见久违难得的火树银花</p>
+<p>怎能勇敢的去</p>
+<p>天马行空恣意挥洒</p>
+<hr>
+<p>路遇一支落单的杏花</p>
+<p>笑看一路寂美的朝霞</p>
+<p>忘掉想过的它，重新出发</p>
+<p>原来没有经历所期望的旅程</p>
+<p>可以是另一种喜慕风华</p>
+<hr>
+<p>若说它是风</p>
+<p>那它一定爱拨弄我的头发</p>
+<p>拂过我的面颊</p>
+<p>在我耳边说悄悄话</p>
+<p>但它就是它</p>
+<p>层层叠叠厚厚</p>
+<p>是我依依不舍的希望啊</p>
+<hr>
+<p>飘啊飘啊</p>
+<p>它不舍，我笑着</p>
+<p>别担心，任凭时间滴答滴答</p>
+<p>终究我会回来的啦</p>
+<hr>
+<p>2019.2.19凌晨</p>
+<p>2020.12.19修改</p>
+]]></content>
+    <category term="诗集"/>
+    <published>2020-06-10T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">JSON</title>
     <id>https://harryxiong24.github.io/zh/json/json.html</id>
@@ -2173,10 +2501,12 @@ GOOGLE.COM
     <title type="text">写在前面</title>
     <id>https://harryxiong24.github.io/zh/poem/</id>
     <link href="https://harryxiong24.github.io/zh/poem/"/>
-    <updated>2023-06-15T14:05:05.000Z</updated>
+    <updated>2023-12-01T07:10:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 写在前面</h1>
+<p>一直有写诗的习惯，我不是什么创作达人，更不是什么文学大师。只是喜欢在高兴时、在悲伤处、在喜怒哀乐中用诗歌记录下我的所思所想，记录我的心路历程，聊以自慰。</p>
 ]]></summary>
     <content type="html"><![CDATA[<h1> 写在前面</h1>
+<p>一直有写诗的习惯，我不是什么创作达人，更不是什么文学大师。只是喜欢在高兴时、在悲伤处、在喜怒哀乐中用诗歌记录下我的所思所想，记录我的心路历程，聊以自慰。</p>
 ]]></content>
     <category term="诗集"/>
     <published>2023-06-15T10:30:18.000Z</published>
@@ -15456,1272 +15786,5 @@ header： 响应头的 key（字符串类型）
 ]]></content>
     <category term="Web 前端"/>
     <published>2020-06-09T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">1.节点</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db1.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> 节点</h2>
-<p><strong>Node(节点)是构成HTML5的基本单元</strong>,DOM节点主要分为四类</p>
-<ul>
-<li>
-<p><strong>文档节点</strong>:整个HTML文档</p>
-</li>
-<li>
-<p><strong>元素节点</strong>:HTML文档中的HTML标签</p>
-</li>
-<li>
-<p><strong>属性节点</strong>:元素的属性</p>
-</li>
-<li>
-<p><strong>文本节点</strong>:HTML标签中的文本内容</p>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>节点</th>
-<th>nodeName(节点名)</th>
-<th>nodeType(节点类型)</th>
-<th>nodeValue(节点值)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>文档节点</td>
-<td>#document</td>
-<td>9</td>
-<td>null</td>
-</tr>
-<tr>
-<td>元素节点</td>
-<td>标签名</td>
-<td>1</td>
-<td>null</td>
-</tr>
-<tr>
-<td>属性节点</td>
-<td>属性名</td>
-<td>2</td>
-<td>属性值</td>
-</tr>
-<tr>
-<td>文本节点</td>
-<td>#text</td>
-<td>3</td>
-<td>文本内容</td>
-</tr>
-</tbody>
-</table>]]></summary>
-    <content type="html"><![CDATA[<h2> 节点</h2>
-<p><strong>Node(节点)是构成HTML5的基本单元</strong>,DOM节点主要分为四类</p>
-<ul>
-<li>
-<p><strong>文档节点</strong>:整个HTML文档</p>
-</li>
-<li>
-<p><strong>元素节点</strong>:HTML文档中的HTML标签</p>
-</li>
-<li>
-<p><strong>属性节点</strong>:元素的属性</p>
-</li>
-<li>
-<p><strong>文本节点</strong>:HTML标签中的文本内容</p>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>节点</th>
-<th>nodeName(节点名)</th>
-<th>nodeType(节点类型)</th>
-<th>nodeValue(节点值)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>文档节点</td>
-<td>#document</td>
-<td>9</td>
-<td>null</td>
-</tr>
-<tr>
-<td>元素节点</td>
-<td>标签名</td>
-<td>1</td>
-<td>null</td>
-</tr>
-<tr>
-<td>属性节点</td>
-<td>属性名</td>
-<td>2</td>
-<td>属性值</td>
-</tr>
-<tr>
-<td>文本节点</td>
-<td>#text</td>
-<td>3</td>
-<td>文本内容</td>
-</tr>
-</tbody>
-</table>
-<p><strong>注:</strong></p>
-<ul>
-<li>
-<p>浏览器已经为我们提供了文档节点对象window,该对象可以在页面中直接使用,代表的是整个网页</p>
-</li>
-<li>
-<p>通过nodeType===1可以判断某节点是否是元素节点</p>
-</li>
-<li>
-<p>文本节点包含了在写代码时的回车换行符间产生的空白，但是IE8及以下的浏览器中不会将空白节点当作子节点，而其他浏览器会</p>
-</li>
-<li>
-<p>通过nodeName返回的标签名是全大写的</p>
-</li>
-<li>
-<p>元素节点的名字也可以通过专门的TagName属性获得</p>
-</li>
-</ul>
-]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">10. 拖拽事件</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db10.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> 拖拽事件</h2>
-<p>当我们拖拽一个网页中的内容时，浏览器会默认去搜索引擎中搜索内容，此时会导致拖拽功能的异常，这个是浏览器提供的默认行为,如果不希望发生这个行为，可以通过return false来取消默认行为，但是对IE8及以下浏览器不起作用(并不是说IE8不支持使用return false来取消默认效果，只是不支持在拖拽时取消默认效果)</p>
-<p><strong>注意:</strong></p>
-<ul>
-<li>
-<p><strong>使用addEventListener()方法绑定的响应函数，取消默认行为时不能使用return false,需要使用event事件对象通过event.preventDefault()方法来取消默认行为</strong>,但是IE8及以下浏览器不能支持该方法(包括addEventListener()方法)，使用该方法会报错，所以在调用的时候需要使用：<code>event.preventDefault&amp;&amp;:event.preventDefault();</code></p>
-</li>
-<li>
-<p>**IE8中有setCapture()这一对鼠标按下相关事件进行捕获的方法，**当一个调用一个元素的setCapture()方法以后，这个元素将会把下一次所有的鼠标按下相关的事件捕获到自己身上，其他鼠标触发都会由这个元素执行(包含在网页外面点击)，所以可以设置需要进行的行为对象在按下鼠标的时候捕获到所有的事件</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2> 拖拽事件</h2>
-<p>当我们拖拽一个网页中的内容时，浏览器会默认去搜索引擎中搜索内容，此时会导致拖拽功能的异常，这个是浏览器提供的默认行为,如果不希望发生这个行为，可以通过return false来取消默认行为，但是对IE8及以下浏览器不起作用(并不是说IE8不支持使用return false来取消默认效果，只是不支持在拖拽时取消默认效果)</p>
-<p><strong>注意:</strong></p>
-<ul>
-<li>
-<p><strong>使用addEventListener()方法绑定的响应函数，取消默认行为时不能使用return false,需要使用event事件对象通过event.preventDefault()方法来取消默认行为</strong>,但是IE8及以下浏览器不能支持该方法(包括addEventListener()方法)，使用该方法会报错，所以在调用的时候需要使用：<code>event.preventDefault&amp;&amp;:event.preventDefault();</code></p>
-</li>
-<li>
-<p>**IE8中有setCapture()这一对鼠标按下相关事件进行捕获的方法，**当一个调用一个元素的setCapture()方法以后，这个元素将会把下一次所有的鼠标按下相关的事件捕获到自己身上，其他鼠标触发都会由这个元素执行(包含在网页外面点击)，所以可以设置需要进行的行为对象在按下鼠标的时候捕获到所有的事件</p>
-</li>
-</ul>
-<p>当鼠标松开时，取消对事件的捕获，<strong>取消捕获用releaseCapture()方法</strong></p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注:</strong></p>
-<ul>
-<li>
-<p>setCapture()和releaseCapture()必须成对出现</p>
-</li>
-<li>
-<p>其它浏览器一样不支持该方法,所以在调用的时候用
-<code>Odiv.setCapture&amp;&amp;Odiv.setCapture()</code>和<code>Odiv.releaseCapture()&amp;&amp;Odiv.releaseCapture()</code></p>
-</li>
-</ul>
-]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">11. 滚轮事件</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db11.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> 滚轮事件</h2>
-<ul>
-<li>
-<p><strong>onscroll事件为元素添加滚动(注意不是滚轮,滚动是滚动条发生变化)事件,该事件是滚动条变化就发生事件,所以一次鼠标滚动可能会发生很多次该事件</strong></p>
-</li>
-<li>
-<p><strong>onwheel鼠标滚动事件,会在鼠标滚动时触发,推荐使用该事件</strong></p>
-</li>
-<li>
-<p>onmousewheel鼠标滚轮事件，会在滚轮滚动时触发，但是火狐不支持该属性，在火狐中需要使用DOMMouseScroll来绑定滚动事件，注意该事件需要通过<strong>addEventListener()方法</strong>来绑定</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2> 滚轮事件</h2>
-<ul>
-<li>
-<p><strong>onscroll事件为元素添加滚动(注意不是滚轮,滚动是滚动条发生变化)事件,该事件是滚动条变化就发生事件,所以一次鼠标滚动可能会发生很多次该事件</strong></p>
-</li>
-<li>
-<p><strong>onwheel鼠标滚动事件,会在鼠标滚动时触发,推荐使用该事件</strong></p>
-</li>
-<li>
-<p>onmousewheel鼠标滚轮事件，会在滚轮滚动时触发，但是火狐不支持该属性，在火狐中需要使用DOMMouseScroll来绑定滚动事件，注意该事件需要通过<strong>addEventListener()方法</strong>来绑定</p>
-</li>
-</ul>
-<p><strong>鼠标滚轮滚动方向</strong></p>
-<ul>
-<li>
-<p>通过事件对象event.wheelDelta可以获取鼠标滚轮滚动的方向，<strong>向上滚为正，向下滚为负,值为数值120的倍数(一般为120,滚动过快会为120的倍数)</strong>
-**注:**只看正负，不看大小</p>
-</li>
-<li>
-<p>在火狐中不支持event.wheelDelta属性,使用事件对象event.detail，<strong>向上滚为负，向下滚为正</strong>，与上方属性相反，<strong>并且每次滚动的数值为3的倍数(一般为3,滚动过快会为3的倍数)</strong></p>
-</li>
-</ul>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>兼容写法(包括控制滚动的方向)</strong></p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">12. 键盘事件</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db12.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> 键盘事件</h2>
-<h3> 12.1 事件触发</h3>
-<ul>
-<li>
-<p><strong>onkeydown事件触发表明键盘按键被按下,如果一直按着某个按键不松手，则事件会一直触发</strong>
-**注意:**当onkeydown事件连续触发时，第一次和第二次之间会间隔稍微长一点，其他的会非常快，这种设计是为了防止误操作事故的发生,如果不想要这种效果请使用定时器</p>
-</li>
-<li>
-<p><strong>onkeyup事件触发表明键盘按键被松开</strong></p>
-</li>
-</ul>
-<p>**注:**键盘事件有一般都会绑定给一些可以获取到焦点的对象或者是document，有焦点的对象就是可以让光标停留的地方，比如input标签</p>]]></summary>
-    <content type="html"><![CDATA[<h2> 键盘事件</h2>
-<h3> 12.1 事件触发</h3>
-<ul>
-<li>
-<p><strong>onkeydown事件触发表明键盘按键被按下,如果一直按着某个按键不松手，则事件会一直触发</strong>
-**注意:**当onkeydown事件连续触发时，第一次和第二次之间会间隔稍微长一点，其他的会非常快，这种设计是为了防止误操作事故的发生,如果不想要这种效果请使用定时器</p>
-</li>
-<li>
-<p><strong>onkeyup事件触发表明键盘按键被松开</strong></p>
-</li>
-</ul>
-<p>**注:**键盘事件有一般都会绑定给一些可以获取到焦点的对象或者是document，有焦点的对象就是可以让光标停留的地方，比如input标签</p>
-<div class="language-javascript" data-ext="js"></div><h3> 12.2 事件属性</h3>
-<p><strong>通过事件对象event的keyCode和key属性可以获取按键的编码和输入键的字符</strong>，可以判断哪个按键被按下</p>
-<div class="language-javascript" data-ext="js"></div><p><strong>事件对象中还提供了几个辅助属性</strong></p>
-<ul>
-<li>
-<p>altKey属性判断alt键是否被按下，如果按下则返回true，否则返回false</p>
-</li>
-<li>
-<p>ctrlKey属性判断ctrl键是否被按下，如果按下则返回true，否则返回false</p>
-</li>
-<li>
-<p>shiftKey属性判断shift键是否被按下，如果按下则返回true，否则返回false</p>
-</li>
-</ul>
-<div class="language-javascript" data-ext="js"></div><p><strong>注意:在文本框中输入内容，属于onkeydown的默认行为，如果在onkeydown中取消了默认行为return false，则输入的内容不会出现在文本框中</strong></p>
-<div class="language-javascript" data-ext="js"></div>]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">13. BOM</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db13.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> BOM</h2>
-<p>**BOM全称Browser Object Model(浏览器对象模型),**是用于描述这种对象与对象之间层次关系的模型，浏览器对象模型提供了独立于内容的、可以与浏览器窗口进行互动的对象结构，BOM可以使我们通过JS来操作浏览器</p>
-<p><strong>BOM由多个对象组成，其中代表浏览器窗口的Window对象是BOM的顶层对象，其他对象都是该对象的子对象</strong></p>
-<ul>
-<li>
-<p>Window-代表的是整个浏览器的窗口，同时window也是网页中的全局对象</p>
-</li>
-<li>
-<p>Navigator-代表当前浏览器的信息，通过该对象可以来识别不同的浏览器</p>
-</li>
-<li>
-<p>Location-代表当前浏览的地址栏信息，通过Location可以获取地址栏信息，或者操作浏览器跳转页面</p>
-</li>
-<li>
-<p>History-代表浏览器的历史记录，可以通过该对象来操作浏览器的历史记录，由于隐私原因，该对象不能获取到具体的历史记录，只能操作浏览器向前和向翻页，而且该操作只在当次访问时游戏</p>
-</li>
-<li>
-<p>Screen-代表用户的屏幕信息，通过该对象可以获取到用户的显示器的相关信息</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2> BOM</h2>
-<p>**BOM全称Browser Object Model(浏览器对象模型),**是用于描述这种对象与对象之间层次关系的模型，浏览器对象模型提供了独立于内容的、可以与浏览器窗口进行互动的对象结构，BOM可以使我们通过JS来操作浏览器</p>
-<p><strong>BOM由多个对象组成，其中代表浏览器窗口的Window对象是BOM的顶层对象，其他对象都是该对象的子对象</strong></p>
-<ul>
-<li>
-<p>Window-代表的是整个浏览器的窗口，同时window也是网页中的全局对象</p>
-</li>
-<li>
-<p>Navigator-代表当前浏览器的信息，通过该对象可以来识别不同的浏览器</p>
-</li>
-<li>
-<p>Location-代表当前浏览的地址栏信息，通过Location可以获取地址栏信息，或者操作浏览器跳转页面</p>
-</li>
-<li>
-<p>History-代表浏览器的历史记录，可以通过该对象来操作浏览器的历史记录，由于隐私原因，该对象不能获取到具体的历史记录，只能操作浏览器向前和向翻页，而且该操作只在当次访问时游戏</p>
-</li>
-<li>
-<p>Screen-代表用户的屏幕信息，通过该对象可以获取到用户的显示器的相关信息</p>
-</li>
-</ul>
-<p><strong>Window下方的BOM对象在浏览器中都是作为window对象的属性保存的，可以通过window对象来使用，也可以直接使用navigator location history screen</strong></p>
-<h3> 13.1 Navigator</h3>
-<p><strong>Navigator代表的当前浏览器的信息，通过该对象可以来识别不同的浏览器，由于历史原因，Navigator对象中的大部分属性已经不能帮助我们识别浏览器了</strong></p>
-<p>一般我们只会使用userAgent属性来判断浏览器的信息,userAgent是一个字符串，这个字符串包含有用来描述浏览器信息的内容，不同的浏览器会有不同的userAgent，usetAgent里面会有与浏览器相关的标识，但在IE11中已经将微软和IE相关的标识都已经取消了，所以我们基本已经不能通过UserAgent识别一个浏览器是否是IE浏览器</p>
-<div class="language-JS" data-ext="JS"></div><div class="language-JS" data-ext="JS"></div><p>如果通过userAgent属性不能判断，还可以通过一些浏览器中特有的对象，来判断浏览器的信息，比如：通过ActiveXObject属性判断是否为IE浏览器</p>
-<div class="language-javascript" data-ext="js"></div><h3> 13.2 History</h3>
-<p><strong>History对象可以用来操作浏览器向前或向后翻页</strong></p>
-<ul>
-<li>
-<p>length属性，可以获取到当次访问的链接数量</p>
-</li>
-<li>
-<p>back()方法可以用来退到上一个页面，作用和浏览器的回退按钮一样</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>forward()方法可以跳转下一个页面，作用和浏览器的前进按钮一样</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>go()方法可以用来跳转到指定页面，该方需要一个整数作为参数</p>
-<p>参数用法:</p>
-<p>1表示向前跳转一个页面，2表示向前跳转2个页面，-1表示向后跳转一个页面，-2表示向后跳转2个页面</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<h3> 13.3 Location</h3>
-<p><strong>Location对象中封装了浏览器的地址栏信息</strong></p>
-<ul>
-<li>
-<p>直接打印location对象可以获取到地址栏的信息(当前页面的完整路径)</p>
-</li>
-<li>
-<p>如果直接将location属性修改为一个完整的路径，或相对路径，则页面会自动跳转到该路径，并且会生成相应的历史记录</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<p><strong>Location对象的属性</strong></p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>hash</td>
-<td>返回一个URL的锚部分</td>
-</tr>
-<tr>
-<td>host</td>
-<td>返回一个URL的主机名和端口</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td>返回URL的主机名</td>
-</tr>
-<tr>
-<td>href</td>
-<td>返回完整的URL</td>
-</tr>
-<tr>
-<td>pathname</td>
-<td>返回的URL路径名。</td>
-</tr>
-<tr>
-<td>port</td>
-<td>返回一个URL服务器使用的端口号</td>
-</tr>
-<tr>
-<td>protocol</td>
-<td>返回一个URL协议</td>
-</tr>
-<tr>
-<td>search</td>
-<td>返回一个URL的查询部分</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Location对象的方法</strong></p>
-<ul>
-<li>
-<p>assign()方法用来跳转到其他页面，作用和直接修改location一样</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>reload()方法会重新加载当前页面，作用和刷新按钮一样，该方法可以接受一个布尔值参数,默认是flase,代表只刷新当前页面,不清除页面的缓存内容(一般的刷新都会有缓存留着input标签里面的文字),如果传入true则会强制清空页面缓存内容</p>
-<p>注意:</p>
-<p>如果要通过刷新按钮清空页面缓存,需要同时按住ctrl和F5</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>replace()方法可以使用一个新的页面替换当前页面，调用完毕也会跳转页面，不会生成历史记录，所以不能使用回退按钮回退</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<h3> 13.4 Window</h3>
-<ul>
-<li>
-<p>open()方法打开一个新的浏览器窗口或查找一个已命名的窗口,该方法的返回值是新窗口的window对象</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>close()方法关闭浏览器窗口</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p><strong>setInterval()方法按照指定的周期(以毫秒计)来调用函数或计算表达式</strong></p>
-</li>
-<li>
-<p><strong>setTimeout()方法在指定的毫秒数后调用函数偶计算表达式</strong></p>
-</li>
-<li>
-<p><strong>clearInterval()方法取消由setInterval()设置的定时器</strong></p>
-</li>
-<li>
-<p><strong>clearTimeout()方法取消由setTimeout()方法设置的定时器</strong></p>
-</li>
-<li>
-<p>scrollTo()方法把内容滚动到指定坐标</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p><strong>scrollBy()方法按照指定像素来滚动内容,不带px单位</strong>
-<strong>参数</strong></p>
-</li>
-<li>
-<ul>
-<li>xnum,把文档向右滚动的像素数</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>ynum,把文档向下滚动的像素数</li>
-</ul>
-</li>
-</ul>
-<div class="language-javascript" data-ext="js"></div><ul>
-<li>
-<p><strong>alert("内容")警告框</strong></p>
-</li>
-<li>
-<p><strong>confirm("文本")确认框</strong></p>
-</li>
-<li>
-<p><strong>prompt("文本","默认值")提示框</strong></p>
-</li>
-</ul>
-]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">2. DOM事件</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db2.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> DOM事件</h2>
-<p><strong>事件是用户和浏览器之间的交互行为</strong></p>
-<h3> 2.1 鼠标事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onclick</td>
-<td>当用户点击某个对象时调用的事件句柄。单击鼠标左键或者按下回车键时触发,意味着onclick事件处理程序既可以通过键盘也可以通过鼠标执行</td>
-</tr>
-<tr>
-<td>oncontextmenu</td>
-<td>在用户点击鼠标右键打开上下文菜单时触发。可以用做自定义菜单</td>
-</tr>
-<tr>
-<td>ondblclick</td>
-<td>当用户双击某个对象时调用的事件句柄。双击鼠标左键时触发</td>
-</tr>
-<tr>
-<td>onmousedown</td>
-<td>鼠标按钮被按下。</td>
-</tr>
-<tr>
-<td>onmouseenter</td>
-<td>当鼠标指针移动到元素上时触发。该事件不冒泡，即鼠标移到其后代元素上时不会触发。</td>
-</tr>
-<tr>
-<td>onmouseleave</td>
-<td>当鼠标指针移出元素时触发。该事件不冒泡，即鼠标移出其后代元素时不会触发。</td>
-</tr>
-<tr>
-<td>onmousemove</td>
-<td>鼠标被移动。</td>
-</tr>
-<tr>
-<td>onmouseover</td>
-<td>鼠标移到某元素之上。鼠标移到其后代元素上时会触发,意味着支持冒泡</td>
-</tr>
-<tr>
-<td>onmouseout</td>
-<td>鼠标从某元素移开。支持冒泡</td>
-</tr>
-<tr>
-<td>onmouseup</td>
-<td>鼠标按键被松开。</td>
-</tr>
-</tbody>
-</table>]]></summary>
-    <content type="html"><![CDATA[<h2> DOM事件</h2>
-<p><strong>事件是用户和浏览器之间的交互行为</strong></p>
-<h3> 2.1 鼠标事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onclick</td>
-<td>当用户点击某个对象时调用的事件句柄。单击鼠标左键或者按下回车键时触发,意味着onclick事件处理程序既可以通过键盘也可以通过鼠标执行</td>
-</tr>
-<tr>
-<td>oncontextmenu</td>
-<td>在用户点击鼠标右键打开上下文菜单时触发。可以用做自定义菜单</td>
-</tr>
-<tr>
-<td>ondblclick</td>
-<td>当用户双击某个对象时调用的事件句柄。双击鼠标左键时触发</td>
-</tr>
-<tr>
-<td>onmousedown</td>
-<td>鼠标按钮被按下。</td>
-</tr>
-<tr>
-<td>onmouseenter</td>
-<td>当鼠标指针移动到元素上时触发。该事件不冒泡，即鼠标移到其后代元素上时不会触发。</td>
-</tr>
-<tr>
-<td>onmouseleave</td>
-<td>当鼠标指针移出元素时触发。该事件不冒泡，即鼠标移出其后代元素时不会触发。</td>
-</tr>
-<tr>
-<td>onmousemove</td>
-<td>鼠标被移动。</td>
-</tr>
-<tr>
-<td>onmouseover</td>
-<td>鼠标移到某元素之上。鼠标移到其后代元素上时会触发,意味着支持冒泡</td>
-</tr>
-<tr>
-<td>onmouseout</td>
-<td>鼠标从某元素移开。支持冒泡</td>
-</tr>
-<tr>
-<td>onmouseup</td>
-<td>鼠标按键被松开。</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.2 键盘事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onkeydown</td>
-<td>某个键盘按键被按下。</td>
-</tr>
-<tr>
-<td>onkeypress</td>
-<td>某个键盘按键被按下并松开。</td>
-</tr>
-<tr>
-<td>onkeyup</td>
-<td>某个键盘按键被松开。</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.3 框架/对象事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onabort</td>
-<td>图像的加载被中断。 ( <code>&lt;object&gt;</code>)</td>
-</tr>
-<tr>
-<td>onbeforeunload</td>
-<td>该事件在即将离开页面（刷新或关闭）时触发</td>
-</tr>
-<tr>
-<td>onerror</td>
-<td>在加载文档或图像时发生错误。 ( <code>&lt;object&gt;</code>, <code>&lt;body&gt;</code>和 <code>&lt;frameset&gt;</code>)</td>
-</tr>
-<tr>
-<td>onhashchange</td>
-<td>该事件在当前 URL 的锚部分发生修改时触发。</td>
-</tr>
-<tr>
-<td>onload</td>
-<td>一张页面或一幅图像完成加载。</td>
-</tr>
-<tr>
-<td>onpageshow</td>
-<td>该事件在用户访问页面时触发</td>
-</tr>
-<tr>
-<td>onpagehide</td>
-<td>该事件在用户离开当前网页跳转到另外一个页面时触发</td>
-</tr>
-<tr>
-<td>onresize</td>
-<td>窗口或框架被重新调整大小。由window调用</td>
-</tr>
-<tr>
-<td>onscroll</td>
-<td>当文档被滚动时发生的事件。</td>
-</tr>
-<tr>
-<td>onunload</td>
-<td>用户退出页面。 ( <code>&lt;body&gt;</code> 和 <code>&lt;frameset&gt;</code>)</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.4 表单事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onblur</td>
-<td>元素失去焦点时触发</td>
-</tr>
-<tr>
-<td>onchange</td>
-<td>该事件在表单元素的内容改变时触发( <code>&lt;input&gt;</code>, <code>&lt;keygen&gt;</code>, <code>&lt;select&gt;</code>, 和 <code>&lt;textarea&gt;</code>)</td>
-</tr>
-<tr>
-<td>onfocus</td>
-<td>元素获取焦点时触发</td>
-</tr>
-<tr>
-<td>onfocusin</td>
-<td>元素即将获取焦点时触发</td>
-</tr>
-<tr>
-<td>onfocusout</td>
-<td>元素即将失去焦点时触发</td>
-</tr>
-<tr>
-<td>oninput</td>
-<td>元素获取用户输入时触发</td>
-</tr>
-<tr>
-<td>onreset</td>
-<td>表单重置时触发</td>
-</tr>
-<tr>
-<td>onsearch</td>
-<td>用户向搜索域输入文本时触发 ( ·&lt;input="search"&gt;)</td>
-</tr>
-<tr>
-<td>onselect</td>
-<td>用户选取文本时触发 ( <code>&lt;input&gt; </code>和<code> &lt;textarea&gt;</code>)</td>
-</tr>
-<tr>
-<td>onsubmit</td>
-<td>表单提交时触发</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.5 剪贴板事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>oncopy</td>
-<td>该事件在用户拷贝元素内容时触发</td>
-</tr>
-<tr>
-<td>oncut</td>
-<td>该事件在用户剪切元素内容时触发</td>
-</tr>
-<tr>
-<td>onpaste</td>
-<td>该事件在用户粘贴元素内容时触发</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.6 打印事件</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onafterprint</td>
-<td>该事件在页面已经开始打印，或者打印窗口已经关闭时触发</td>
-</tr>
-<tr>
-<td>onbeforeprint</td>
-<td>该事件在页面即将开始打印时触发</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.7 拖动事件</h3>
-<table>
-<thead>
-<tr>
-<th>事件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ondrag</td>
-<td>该事件在元素正在拖动时触发</td>
-</tr>
-<tr>
-<td>ondragend</td>
-<td>该事件在用户完成元素的拖动时触发</td>
-</tr>
-<tr>
-<td>ondragenter</td>
-<td>该事件在拖动的元素进入放置目标时触发</td>
-</tr>
-<tr>
-<td>ondragleave</td>
-<td>该事件在拖动元素离开放置目标时触发</td>
-</tr>
-<tr>
-<td>ondragover</td>
-<td>该事件在拖动元素在放置目标上时触发</td>
-</tr>
-<tr>
-<td>ondragstart</td>
-<td>该事件在用户开始拖动元素时触发</td>
-</tr>
-<tr>
-<td>ondrop</td>
-<td>该事件在拖动元素放置在目标区域时触发</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.8 多媒体事件</h3>
-<table>
-<thead>
-<tr>
-<th>事件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onabort</td>
-<td>事件在视频/音频（audio/video）终止加载时触发。</td>
-</tr>
-<tr>
-<td>oncanplay</td>
-<td>事件在用户可以开始播放视频/音频（audio/video）时触发。</td>
-</tr>
-<tr>
-<td>oncanplaythrough</td>
-<td>事件在视频/音频（audio/video）可以正常播放且无需停顿和缓冲时触发。</td>
-</tr>
-<tr>
-<td>ondurationchange</td>
-<td>事件在视频/音频（audio/video）的时长发生变化时触发。</td>
-</tr>
-<tr>
-<td>onemptied</td>
-<td>当期播放列表为空时触发</td>
-</tr>
-<tr>
-<td>onended</td>
-<td>事件在视频/音频（audio/video）播放结束时触发。</td>
-</tr>
-<tr>
-<td>onerror</td>
-<td>事件在视频/音频（audio/video）数据加载期间发生错误时触发。</td>
-</tr>
-<tr>
-<td>onloadeddata</td>
-<td>事件在浏览器加载视频/音频（audio/video）当前帧时触发触发。</td>
-</tr>
-<tr>
-<td>onloadedmetadata</td>
-<td>事件在指定视频/音频（audio/video）的元数据加载后触发。</td>
-</tr>
-<tr>
-<td>onloadstart</td>
-<td>事件在浏览器开始寻找指定视频/音频（audio/video）触发。</td>
-</tr>
-<tr>
-<td>onpause</td>
-<td>事件在视频/音频（audio/video）暂停时触发。</td>
-</tr>
-<tr>
-<td>onplay</td>
-<td>事件在视频/音频（audio/video）开始播放时触发。</td>
-</tr>
-<tr>
-<td>onplaying</td>
-<td>事件在视频/音频（audio/video）暂停或者在缓冲后准备重新开始播放时触发。</td>
-</tr>
-<tr>
-<td>onprogress</td>
-<td>事件在浏览器下载指定的视频/音频（audio/video）时触发。</td>
-</tr>
-<tr>
-<td>onratechange</td>
-<td>事件在视频/音频（audio/video）的播放速度发送改变时触发。</td>
-</tr>
-<tr>
-<td>onseeked</td>
-<td>事件在用户重新定位视频/音频（audio/video）的播放位置后触发。</td>
-</tr>
-<tr>
-<td>onseeking</td>
-<td>事件在用户开始重新定位视频/音频（audio/video）时触发。</td>
-</tr>
-<tr>
-<td>onstalled</td>
-<td>事件在浏览器获取媒体数据，但媒体数据不可用时触发。</td>
-</tr>
-<tr>
-<td>onsuspend</td>
-<td>事件在浏览器读取媒体数据中止时触发。</td>
-</tr>
-<tr>
-<td>ontimeupdate</td>
-<td>事件在当前的播放位置发送改变时触发。</td>
-</tr>
-<tr>
-<td>onvolumechange</td>
-<td>事件在音量发生改变时触发。</td>
-</tr>
-<tr>
-<td>onwaiting</td>
-<td>事件在视频由于要播放下一帧而需要缓冲时触发。</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.9 动画事件</h3>
-<table>
-<thead>
-<tr>
-<th>事件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>animationend</td>
-<td>该事件在 CSS 动画结束播放时触发</td>
-</tr>
-<tr>
-<td>animationiteration</td>
-<td>该事件在 CSS 动画重复播放时触发</td>
-</tr>
-<tr>
-<td>animationstart</td>
-<td>该事件在 CSS 动画开始播放时触发</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.10 过渡事件</h3>
-<table>
-<thead>
-<tr>
-<th>事件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>transitionend</td>
-<td>该事件在 CSS 完成过渡后触发。</td>
-</tr>
-</tbody>
-</table>
-<h3> 2.11 其他事件</h3>
-<table>
-<thead>
-<tr>
-<th>事件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>onmessage</td>
-<td>该事件通过或者从对象(WebSocket, Web Worker, Event Source 或者子 frame 或父窗口)接收到消息时触发</td>
-</tr>
-<tr>
-<td>onmousewheel</td>
-<td>已废弃。 使用 onwheel事件替代</td>
-</tr>
-<tr>
-<td>ononline</td>
-<td>该事件在浏览器开始在线工作时触发。</td>
-</tr>
-<tr>
-<td>onoffline</td>
-<td>该事件在浏览器开始离线工作时触发。</td>
-</tr>
-<tr>
-<td>onpopstate</td>
-<td>该事件在窗口的浏览历史（history 对象）发生改变时触发。</td>
-</tr>
-<tr>
-<td>onshow</td>
-<td>该事件当 <code>&lt;menu&gt;</code> 元素在上下文菜单显示时触发</td>
-</tr>
-<tr>
-<td>onstorage</td>
-<td>该事件在 Web Storage(HTML 5 Web 存储)更新时触发</td>
-</tr>
-<tr>
-<td>ontoggle</td>
-<td>该事件在用户打开或关闭 <code>&lt;details&gt; </code>元素时触发</td>
-</tr>
-<tr>
-<td>onwheel</td>
-<td>该事件在鼠标滚轮在元素上下滚动时触发</td>
-</tr>
-<tr>
-<td>DOMMouseScroll</td>
-<td>火狐(firefox)支持的绑定鼠标滚轮的事件，并且该事件必须要通过addEventListener()函数来绑定事件</td>
-</tr>
-<tr>
-<td>DOMContentLoaded</td>
-<td>监听文档DOM元素的内容是否加载完成，比onload事件要监听的东西更少，DOM元素加载完毕后就会执行该事件,通过addEventListener()函数来绑定事件</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">3. DOM查询</title>
-    <id>https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html</id>
-    <link href="https://harryxiong24.github.io/zh/front-end/dom-bom/db3.html"/>
-    <updated>2023-07-02T08:03:04.000Z</updated>
-    <summary type="html"><![CDATA[<h2> DOM查询</h2>
-<h3> 3.1 获取DOM节点</h3>
-<h4> 3.1.1 获取元素节点</h4>
-<ul>
-<li>
-<p><strong>getElementById()通过ID获取元素节点</strong>,返回一个普通对象
-**注意:**ID其实可以不用获取而直接使用,因为ID是具有唯一性的,但是不推荐不获取就直接使用ID，因为以后会很难区分这个变量是哪里来的</p>
-</li>
-<li>
-<p><strong>getElementsByTagName()方法通过标签名获取元素节点</strong>,返回一个类数组对象</p>
-</li>
-<li>
-<p><strong>getElementsByClassName()方法通过类名获取元素节点(IE8及以下版本不支持)</strong>,返回一个类数组对象</p>
-</li>
-<li>
-<p>**getElementsByName()方法通过name属性获取元素节点,**这个方法主要是获取表单项,返回一个类数组对象</p>
-</li>
-<li>
-<p>**quertSelector()方法需要一个选择器的字符串作为参数,可以根据一个CSS选择器来查询一个元素节点对象，**语法和CSS语法一样，可以多个选择器一起使用,该方法在IE8也可用
-**注意:**使用该方法总会返回唯一的一个元素，如果满足条件的元素有多个，也只会返回第一个找到的</p>
-</li>
-<li>
-<p><strong>quertSelectorAll()方法用法同quertSelector()方法相同</strong>
-**注意:**使用该方法就返回一个类数组对象，类数组对象里包含的所有符号要求的元素对象,即使符合条件的元素只有一个，也会返回类数组</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2> DOM查询</h2>
-<h3> 3.1 获取DOM节点</h3>
-<h4> 3.1.1 获取元素节点</h4>
-<ul>
-<li>
-<p><strong>getElementById()通过ID获取元素节点</strong>,返回一个普通对象
-**注意:**ID其实可以不用获取而直接使用,因为ID是具有唯一性的,但是不推荐不获取就直接使用ID，因为以后会很难区分这个变量是哪里来的</p>
-</li>
-<li>
-<p><strong>getElementsByTagName()方法通过标签名获取元素节点</strong>,返回一个类数组对象</p>
-</li>
-<li>
-<p><strong>getElementsByClassName()方法通过类名获取元素节点(IE8及以下版本不支持)</strong>,返回一个类数组对象</p>
-</li>
-<li>
-<p>**getElementsByName()方法通过name属性获取元素节点,**这个方法主要是获取表单项,返回一个类数组对象</p>
-</li>
-<li>
-<p>**quertSelector()方法需要一个选择器的字符串作为参数,可以根据一个CSS选择器来查询一个元素节点对象，**语法和CSS语法一样，可以多个选择器一起使用,该方法在IE8也可用
-**注意:**使用该方法总会返回唯一的一个元素，如果满足条件的元素有多个，也只会返回第一个找到的</p>
-</li>
-<li>
-<p><strong>quertSelectorAll()方法用法同quertSelector()方法相同</strong>
-**注意:**使用该方法就返回一个类数组对象，类数组对象里包含的所有符号要求的元素对象,即使符合条件的元素只有一个，也会返回类数组</p>
-</li>
-</ul>
-<p><strong>注意:querySelector()和quertSlectorAll()方法尽量少用,这两种对元素节点的查找效率很低</strong></p>
-<p><strong>静态获取与动态获取元素节点</strong></p>
-<ul>
-<li>
-<p>通过ID查找元素节点和以query开头的查找的元素节点是静态获取元素节点,这时无论元素怎么改变已经获取的元素节点所赋值后的变量永远指向该被查找到的元素节点</p>
-<div class="language-javascript" data-ext="js"></div><div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>通过集合进行获取元素节点的方式为动态获取,这时每次使用集合都会获取集合的最新状态,此时通过集合赋值的变量的值也会发生相应变化</p>
-<div class="language-javascript" data-ext="js"></div><p>注意:</p>
-<p>如果选中了集合中的单个元素,这时获取的元素节点是静态获取</p>
-</li>
-</ul>
-<h4> 3.1.2 获取属性节点</h4>
-<ul>
-<li>
-<p>读取元素的属性节点,使用 <strong>元素.属性名</strong> 或 <strong>元素[属性名]</strong></p>
-</li>
-<li>
-<p>修改元素的属性节点,使用 <strong>元素.属性名=新值</strong> 或 <strong>元素[属性名]=新值</strong></p>
-</li>
-</ul>
-<p><strong>注意:读取元素的class属性时必须用className来代替class关键字</strong></p>
-<p><strong>获取、设立、删除标签属性节点</strong></p>
-<p>如果JS中的自定义属性与标签属性重复时,直接获取会得到自定义属性的值,所以需要特定的值获取标签属性的方法</p>
-<ul>
-<li>
-<p>通过getAttribute()方法获取标签属性节点</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>通过setAttribute()方法设立或改变一个标签属性节点</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>通过removeAttribute()方法删除一个标签属性节点</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<h4> 3.1.3 获取文本节点</h4>
-<ul>
-<li>
-<p><strong>innerHTML属性可以获取双标签元素内部的html代码，包括子标签,这个属性对于单标签元素(如表单标签)没有意义</strong>,返回一个字符串</p>
-</li>
-<li>
-<p><strong>InnerText属性可以获取双标签元素内部的文本内容，它和InnerHTML属性类似，但会自动将HTML标签去除</strong>,返回一个字符串</p>
-</li>
-<li>
-<p>**value属性可以获取单标签元素(如表单标签)内部的内容,**同时要向单标签元素写入内容也必须使用value属性,返回一个字符串</p>
-</li>
-<li>
-<p><strong>nodeValue属性通过获取标签内的文本节点的内容来获取元素内部的文本内容</strong>(因为文本节点实际是一个标签的子节点,所以需要先找到文本节点)</p>
-<p>,返回一个字符串</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ul>
-<h4> 3.1.4 获取元素子节点</h4>
-<p><strong>元素子节点的有同父节点一样获取子节点的方法或属性</strong></p>
-<ul>
-<li>
-<p><strong>childNodes属性获取元素子节点</strong>，该属性会获取包括文本节点的所有子节点，返回一个类数组对象</p>
-</li>
-<li>
-<p><strong>children属性可以获取当前元素的所有子元素</strong>，推荐用这个属性，返回一个类数组对象,而且是动态获取</p>
-</li>
-<li>
-<p><strong>firstChild属性表示当前节点的第一个子节点</strong>，也包括空白文本，返回一个普通对象</p>
-</li>
-<li>
-<p><strong>firstElementChild属性获取第一个子元素</strong></p>
-<p>返回一个普通对象，但是不兼容IE8，不推荐使用</p>
-<p>兼容代码</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>**lastChild属性表示当前节点的最后一个子节点，**也包括空白文本，返回一个普通对象</p>
-</li>
-<li>
-<p>**lastElementChld属性获取最后一个子元素，**返回一个普通对象，但是不兼容IE8，不推荐使用</p>
-</li>
-<li>
-<p><strong>childElementCount属性元素子节点个数,不兼容IE8</strong></p>
-</li>
-</ul>
-<h4> 3.1.5 获取父和兄弟节点</h4>
-<ul>
-<li>
-<p><strong>parentElement属性获取当前节点的父元素(只在IE中可用)</strong></p>
-</li>
-<li>
-<p>**parentNode属性获取当前节点的父节点,**这是W3C标准的,推荐使用</p>
-</li>
-<li>
-<p><strong>offsetParent属性获取到离当前元素最近的开启了定位(除去默认的static)的祖先元素</strong>，如果所以的祖先元素都没有开启定位，则会返回body</p>
-</li>
-<li>
-<p><strong>previousSibling属性获取当前节点的前一个兄弟节点</strong>
-**注意:**可能获取空白文本，如果两个元素中间有空白就会获取空白</p>
-</li>
-<li>
-<p>**previosElementSibling属性获取前一个元素，**IE8不支持</p>
-</li>
-<li>
-<p><strong>nextSibiling属性表示当前节点的后一个兄弟节点</strong></p>
-</li>
-<li>
-<p>**nextElementSibling获取后一个元素，**IE8不支持</p>
-</li>
-</ul>
-<h4> 3.1.6 获取特殊元素节点</h4>
-<ul>
-<li>
-<p>在document元素中有一个body属性,它保存的是对body元素的引用</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>在document元素中有一个documentElement属性,它保存html标签的引用</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>在document元素中有一个all属性,该属性代表页面中所有元素(不建议使用)</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<p><strong>表格的简便操作</strong></p>
-<ul>
-<li>
-<p>getElementsByTagName("tbody")[0]与tBodies[0]相同</p>
-</li>
-<li>
-<p>getElementsByTagName("thead")[0]与tHead相同</p>
-</li>
-<li>
-<p>getElementsByTagName("tfoot")[0]与tFoot相同</p>
-</li>
-<li>
-<p>getElementsByTagName("tr")[0]与rows[0]相同</p>
-</li>
-<li>
-<p>getElementsByTagName("td")[0]与cells[0]相同</p>
-</li>
-</ul>
-<h3> 3.2 创建或添加元素节点</h3>
-<ul>
-<li>
-<p>createElement()方法可以创建一个元素节点对象</p>
-<p>它需要一个标签名作为参数，将会根据该标签名创建元素节点对象，并将创建好的对象作为返回值返回</p>
-<p>注意:</p>
-<p>该方法由document使用</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>createTextNote()方法可以创建一个文本节点对象</p>
-<p>需要一个文本内容作为参数，将会根据该内容创建文本节点，并将新节点返回</p>
-<p>注意:</p>
-<p>该方法由document创建</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p><strong>createElementFragment()方法</strong>创建一个文档片段,</p>
-<p>可以向这个文档片段中添加一个个节点,然后直接将该文档片段加到要添加到的父元素中,该方法可以实现同时给页面加多个节点而只用渲染一次页面,所以如果要添加多个同级节点时最好使用这个来添加</p>
-<p>注意:</p>
-<p>放入文档片段的节点一定要是同级的片段</p>
-<div class="language-javascript" data-ext="js"></div></li>
-<li>
-<p>cloneNode()方法可以传入一个参数，克隆一个DOM节点，如果传入true则是把元素中的所有内容也一起克隆，如果传入的是false则会只克隆这一个DOM节点，不会将里面的内容也克隆</p>
-<p>(不传入参数默认为flase)</p>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>appendChild()向父节点中添加一个新的子节点</strong>，可以逐层添加子节点
-<strong>注意:</strong></p>
-</li>
-<li>
-<ul>
-<li>该方法由父节点调用</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<p>要添加子节点之前必须要先有这个子节点，没有就要先创建，并且新加的子节点会自动添加到所有子节点的最后面</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-</li>
-<li>
-<ul>
-<li>如果子节点不是新创建而是从原有父级节点上调用的,那么在用appenChild()方法时会先将原有父级节点上的该子节点删除</li>
-</ul>
-</li>
-</ul>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li>
-<p><strong>insertBefore()方法在指定的子节点前面插入子节点</strong>
-<strong>注意:</strong></p>
-</li>
-<li>
-<ul>
-<li>该方法由父节点调用,传入两个参数(新节点和旧节点),第一个参数必填,第二个参数可选</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>要添加子节点之前必须要先有这个子节点，没有就要先创建，并且<strong>如果没有传入第二个参数</strong>会自动添加到所有子节点的最后面</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>如果子节点不是新创建而是从原有父级节点上调用的,那么在用insertBefore()方法时会先将原有父级节点上的该子节点删除</li>
-</ul>
-</li>
-</ul>
-<div class="language-javascript" data-ext="js"></div><ul>
-<li>
-<p>使用innerHTML属性也可以完成DOM的增删改等操作</p>
-<p>可以给innerHTML属性赋值带有HTML标签的字符串实现操作,</p>
-<p>一般我们会将DOM查询和innerHTML属性两种方法同时使用</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<h3> 3.3 替换或删除元素节点</h3>
-<ul>
-<li>
-<p><strong>replaceChild()方法可以使用指定的子节点替换已有的子节点</strong>
-<strong>注意:</strong></p>
-</li>
-<li>
-<ul>
-<li>该方法由父节点调用</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>要替换子节点之前必须要先有这个新的子节点，没有就要先创建</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>如果子节点不是新创建而是从原有父级节点上调用的,那么在用replace()方法时会先将原有父级节点上的该子节点删除</li>
-</ul>
-</li>
-</ul>
-<div class="language-javascript" data-ext="js"></div><ul>
-<li>
-<p><strong>removeChild()方法可以用作删除一个子节点</strong></p>
-<p>注意:</p>
-<p>该方法由父节点调用</p>
-<div class="language-javascript" data-ext="js"></div></li>
-</ul>
-<p><strong>注:上述的DOM查询方法可以混合搭配使用</strong></p>
-<p>**如:**在不知道一个子节点的父节点的情况下删除该子节点</p>
-<p>通过 <strong>子节点.parentNode.removeChild(子节点)</strong> 的方法就可以删除</p>
-<h3> 3.4 遍历DOM元素</h3>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="Web 前端"/>
-    <published>2020-06-11T00:00:00.000Z</published>
   </entry>
 </feed>
