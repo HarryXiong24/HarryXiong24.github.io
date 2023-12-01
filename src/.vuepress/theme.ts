@@ -87,10 +87,7 @@ export default hopeTheme(
         excerptLength: 0,
       },
 
-      comment: {
-        provider: "Waline",
-        serverURL: "https://comment.mrhope.site",
-      },
+      comment: {},
 
       feed: {
         atom: true,
