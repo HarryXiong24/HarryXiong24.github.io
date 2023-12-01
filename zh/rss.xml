@@ -6,11 +6,11 @@
     <link>https://harryxiong24.github.io/zh/</link>
     <description>A piano player playing on the keyboard</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 01 Dec 2023 07:13:54 GMT</pubDate>
-    <lastBuildDate>Fri, 01 Dec 2023 07:13:54 GMT</lastBuildDate>
+    <pubDate>Fri, 01 Dec 2023 07:31:55 GMT</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2023 07:31:55 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>随笔</category>
+    <category>随写</category>
     <category>诗集</category>
     <category>JSON</category>
     <category>YAML</category>
@@ -36,7 +36,7 @@
       <guid>https://harryxiong24.github.io/zh/poem/essay/</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">随笔</source>
       <description>本诗集收录了我的一些随笔</description>
-      <category>随笔</category>
+      <category>随写</category>
       <pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 随笔</h1>
 <p>本诗集收录了我的一些随笔</p>
@@ -48,7 +48,7 @@
       <guid>https://harryxiong24.github.io/zh/poem/essay/%E8%87%B4%E6%AF%95%E4%B8%9A.html</guid>
       <source url="https://harryxiong24.github.io/zh/rss.xml">致毕业</source>
       <description>“让软弱的我们懂得残忍，狠狠面对人生每次离分”，无意中听到这首老歌《忘忧草》，突然想写点什么，尽管我已经好几年没有写过小作文了。 上一周我才强烈意识到我的大学生活是不是快要结束了，而此时此刻我的大学生活或许真的快要结束了，或者某种意义上来说已经结束了。是不是我们总是习惯了在快要结束的时候才会意识到它的存在？是不是身处抛物线顶点的时候往往是无意识的，等到...</description>
-      <category>随笔</category>
+      <category>随写</category>
       <pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 致毕业</h1>
 <p>“让软弱的我们懂得残忍，狠狠面对人生每次离分”，无意中听到这首老歌《忘忧草》，突然想写点什么，尽管我已经好几年没有写过小作文了。</p>

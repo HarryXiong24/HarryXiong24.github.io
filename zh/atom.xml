@@ -4,11 +4,11 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-12-01T07:13:54.644Z</updated>
+  <updated>2023-12-01T07:31:55.861Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/zh/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/zh/"/>
-  <category term="随笔"/>
+  <category term="随写"/>
   <category term="诗集"/>
   <category term="JSON"/>
   <category term="YAML"/>
@@ -39,7 +39,7 @@
     <content type="html"><![CDATA[<h1> 随笔</h1>
 <p>本诗集收录了我的一些随笔</p>
 ]]></content>
-    <category term="随笔"/>
+    <category term="随写"/>
     <published>2020-06-10T00:00:00.000Z</published>
   </entry>
   <entry>
@@ -62,7 +62,7 @@
 <p>写了这么多，又好像什么都没有表达。《富士山下》里说：“为何不把复杂的情绪假设是自己虚构的呢？这些情绪根本不可能从试管里炼制出来“。所以又怎么能指望用文字去表达清楚呢？</p>
 <p>只愿纵有千古，横有八荒，前途似海，来日方长！只愿笑着说再见，就一定会再见！</p>
 ]]></content>
-    <category term="随笔"/>
+    <category term="随写"/>
     <published>2022-05-30T00:00:00.000Z</published>
   </entry>
   <entry>
