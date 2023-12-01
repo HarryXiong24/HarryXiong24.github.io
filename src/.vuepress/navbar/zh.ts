@@ -39,8 +39,11 @@ export const zhNavbarConfig = navbar([
       },
       {
         text: "诗集",
-        icon: "flower",
-        children: [{ text: "生命之歌", link: "/zh/poem/life" }],
+        link: "/zh/poem/my-poem",
+      },
+      {
+        text: "随写",
+        link: "/zh/poem/essay",
       },
     ],
   },
