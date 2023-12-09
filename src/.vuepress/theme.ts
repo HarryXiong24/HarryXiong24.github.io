@@ -42,7 +42,7 @@ export default hopeTheme(
 
         blog: {
           description: "A piano player playing on the keyboard",
-          intro: "/en/about-me/info",
+          intro: "/en/about-me/intro",
           medias: {
             GitHub: "https://github.com/HarryXiong24",
             Gmail: "mailto:harryxiong24@gmail.com",
@@ -64,7 +64,7 @@ export default hopeTheme(
 
         blog: {
           description: "A piano player playing on the keyboard",
-          intro: "/zh/about-me/info",
+          intro: "/zh/about-me/intro",
           medias: {
             GitHub: "https://github.com/HarryXiong24",
             Gmail: "mailto:harryxiong24@gmail.com",

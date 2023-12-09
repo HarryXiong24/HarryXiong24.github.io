@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-# heroImage: /logo.png
+heroImage: /logo.png
 heroText: Harry Xiong
 tagline: A piano player playing on the keyboard
 bgImage: https://file.mo7.cc/api/public/bz
