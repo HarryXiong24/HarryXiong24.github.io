@@ -123,7 +123,7 @@ console.log(unionFind.connected(6, 7));
 
 ### Unweighted Graph
 
-![image-20231202232200612](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png)
+![graph1](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png?raw=true)
 
 ```ts
 const graph = {
@@ -136,13 +136,13 @@ const graph = {
 };
 ```
 
-![image-20231202232341725](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph2.png)
+![graph2](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph2.png?raw=true)
 
-![image-20231202232352940](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph3.png)
+![graph3](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph3.png?raw=true)
 
 ### Weighted Graph
 
-![image-20231206095540427](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph4.png)
+![graph4](https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph4.png?raw=true)
 
 ## DFS
 
