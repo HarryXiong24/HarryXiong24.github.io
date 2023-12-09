@@ -18,6 +18,10 @@ export const enNavbarConfig = navbar([
         text: "Stack and Queue & DFS and BFS",
         link: "/en/article/dfs-and-bfs",
       },
+      {
+        text: "Graph",
+        link: "/en/article/graph",
+      },
     ],
   },
   {
