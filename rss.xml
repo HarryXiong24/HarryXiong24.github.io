@@ -6,8 +6,8 @@
     <link>https://harryxiong24.github.io/</link>
     <description>A piano player playing on the keyboard</description>
     <language>en-US</language>
-    <pubDate>Sat, 09 Dec 2023 04:35:11 GMT</pubDate>
-    <lastBuildDate>Sat, 09 Dec 2023 04:35:11 GMT</lastBuildDate>
+    <pubDate>Sat, 09 Dec 2023 04:45:58 GMT</pubDate>
+    <lastBuildDate>Sat, 09 Dec 2023 04:45:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>article</category>
@@ -27,11 +27,11 @@
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Optimize by rank:</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> The methods to represent Graph</h2>
 <h3> Unweighted Graph</h3>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png" alt="image-20231202232200612" loading="lazy"></p>
-<div class="language-typescript" data-ext="ts"></div><p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph2.png" alt="image-20231202232341725" loading="lazy"></p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph3.png" alt="image-20231202232352940" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png?raw=true" alt="graph1" loading="lazy"></p>
+<div class="language-typescript" data-ext="ts"></div><p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph2.png?raw=true" alt="graph2" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph3.png?raw=true" alt="graph3" loading="lazy"></p>
 <h3> Weighted Graph</h3>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph4.png" alt="image-20231206095540427" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph4.png?raw=true" alt="graph4" loading="lazy"></p>
 <h2> DFS</h2>
 <h3> Traversing all Vertices</h3>
 <p>Stack Version</p>
@@ -74,7 +74,7 @@
 <h2> Single Source Shortest Path</h2>
 <h3> Dijkstra</h3>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png" type="image/png"/>
+      <enclosure url="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png?raw=true" type="image/"/>
     </item>
     <item>
       <title>Stack and Queue &amp; DFS and BFS</title>

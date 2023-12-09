@@ -4,7 +4,7 @@
   <title>Harry Xiong</title>
   <subtitle>A piano player playing on the keyboard</subtitle>
   <icon>https://harryxiong24.github.io/favicon.ico</icon>
-  <updated>2023-12-09T04:35:11.165Z</updated>
+  <updated>2023-12-09T04:45:58.440Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://harryxiong24.github.io/atom.xml"/>
   <link rel="alternate" href="https://harryxiong24.github.io/"/>
@@ -13,7 +13,7 @@
     <title type="text">Graph</title>
     <id>https://harryxiong24.github.io/en/article/graph.html</id>
     <link href="https://harryxiong24.github.io/en/article/graph.html"/>
-    <updated>2023-12-09T04:32:04.000Z</updated>
+    <updated>2023-12-09T04:42:14.000Z</updated>
     <summary type="html"><![CDATA[<h1> Graph</h1>
 <h2> Disjoint Set</h2>
 <h3> Main idea</h3>
@@ -26,11 +26,11 @@
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Optimize by rank:</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> The methods to represent Graph</h2>
 <h3> Unweighted Graph</h3>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png" alt="image-20231202232200612" loading="lazy"></p>
-<div class="language-typescript" data-ext="ts"></div><p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph2.png" alt="image-20231202232341725" loading="lazy"></p>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph3.png" alt="image-20231202232352940" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph1.png?raw=true" alt="graph1" loading="lazy"></p>
+<div class="language-typescript" data-ext="ts"></div><p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph2.png?raw=true" alt="graph2" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph3.png?raw=true" alt="graph3" loading="lazy"></p>
 <h3> Weighted Graph</h3>
-<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph4.png" alt="image-20231206095540427" loading="lazy"></p>
+<p><img src="https://github.com/HarryXiong24/HarryXiong24.github.io/blob/main/public/en/article/graph/graph4.png?raw=true" alt="graph4" loading="lazy"></p>
 <h2> DFS</h2>
 <h3> Traversing all Vertices</h3>
 <p>Stack Version</p>
